@@ -49,22 +49,23 @@ def normalize_checkpoint_state_dict(state_dict):
     """
     Normalize checkpoint state dict to work with uncompiled models.
     Strips '_orig_mod.' prefix if present (from compiled model checkpoints).
+    Also filters out unused keys like inv_freq (from old rotary embedding code).
     """
-    # Check if any keys have '_orig_mod.' prefix
-    has_orig_mod = any(k.startswith('_orig_mod.') for k in state_dict.keys())
+    normalized = {}
+    for k, v in state_dict.items():
+        # Strip '_orig_mod.' prefix if present
+        if k.startswith('_orig_mod.'):
+            key = k[len('_orig_mod.'):]
+        else:
+            key = k
+        
+        # Filter out unused keys (like inv_freq from old rotary embedding code)
+        if 'inv_freq' in key:
+            continue
+        
+        normalized[key] = v
     
-    if has_orig_mod:
-        # Strip '_orig_mod.' prefix from all keys
-        normalized = {}
-        for k, v in state_dict.items():
-            if k.startswith('_orig_mod.'):
-                normalized[k[len('_orig_mod.'):]] = v
-            else:
-                normalized[k] = v
-        return normalized
-    else:
-        # Already normalized, return as-is
-        return state_dict
+    return normalized
 
 def get_input_files(inputs_dir='inputs'):
     if not os.path.exists(inputs_dir):
@@ -526,8 +527,8 @@ class GPTLanguageModel(nn.Module):
         with torch.inference_mode():
             for i in range(max_new_tokens):
                 # Only use last block_size tokens (model can't see beyond this)
-            idx_cond = idx[:, -block_size:]
-            logits, loss = self(idx_cond)
+                idx_cond = idx[:, -block_size:]
+                logits, loss = self(idx_cond)
                 logits = logits[:, -1, :]  # Only last position (B, C)
                 
                 # Temperature: >1 = more random, <1 = more deterministic
