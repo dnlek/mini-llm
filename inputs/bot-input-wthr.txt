@@ -1,0 +1,1800 @@
+Weather today
+T:wthr
+
+wether today
+T:wthr
+
+wheather today
+T:wthr
+
+yeah Weather today
+T:wthr
+
+Yeah Weather today
+T:wthr
+
+yep Weather today
+T:wthr
+
+What's weather like
+T:wthr
+
+what's wether like
+T:wthr
+
+what's wheather like
+T:wthr
+
+yep What's weather like
+T:wthr
+
+Yep What's weather like
+T:wthr
+
+oh What's weather like
+T:wthr
+
+Weather forecast
+T:wthr
+
+wether forecast
+T:wthr
+
+wheather forecast
+T:wthr
+
+yup Weather forecast
+T:wthr
+
+Yup Weather forecast
+T:wthr
+
+oh Weather forecast
+T:wthr
+
+Check weather
+T:wthr
+
+check wether
+T:wthr
+
+check wheather
+T:wthr
+
+yup Check weather
+T:wthr
+
+Yup Check weather
+T:wthr
+
+yeah Check weather
+T:wthr
+
+How's the weather
+T:wthr
+
+how's teh weather
+T:wthr
+
+how's da weather
+T:wthr
+
+yep How's the weather
+T:wthr
+
+Yep How's the weather
+T:wthr
+
+ah How's the weather
+T:wthr
+
+Weather
+T:wthr
+
+wether
+T:wthr
+
+wheather
+T:wthr
+
+yeah Weather
+T:wthr
+
+Yeah Weather
+T:wthr
+
+yup Weather
+T:wthr
+
+Weather today
+T:wthr
+
+wether today
+T:wthr
+
+wheather today
+T:wthr
+
+yep Weather today
+T:wthr
+
+Yep Weather today
+T:wthr
+
+ah Weather today
+T:wthr
+
+What's weather like
+T:wthr
+
+what's wether like
+T:wthr
+
+what's wheather like
+T:wthr
+
+oh What's weather like
+T:wthr
+
+Oh What's weather like
+T:wthr
+
+yeah What's weather like
+T:wthr
+
+Weather forecast
+T:wthr
+
+wether forecast
+T:wthr
+
+wheather forecast
+T:wthr
+
+ah Weather forecast
+T:wthr
+
+Ah Weather forecast
+T:wthr
+
+oh Weather forecast
+T:wthr
+
+Check weather
+T:wthr
+
+check wether
+T:wthr
+
+check wheather
+T:wthr
+
+yup Check weather
+T:wthr
+
+Yup Check weather
+T:wthr
+
+ah Check weather
+T:wthr
+
+How's the weather
+T:wthr
+
+how's teh weather
+T:wthr
+
+how's da weather
+T:wthr
+
+yeah How's the weather
+T:wthr
+
+Yeah How's the weather
+T:wthr
+
+ah How's the weather
+T:wthr
+
+Weather
+T:wthr
+
+wether
+T:wthr
+
+wheather
+T:wthr
+
+yep Weather
+T:wthr
+
+Yep Weather
+T:wthr
+
+yeah Weather
+T:wthr
+
+Weather today
+T:wthr
+
+wether today
+T:wthr
+
+wheather today
+T:wthr
+
+yup Weather today
+T:wthr
+
+Yup Weather today
+T:wthr
+
+yep Weather today
+T:wthr
+
+What's weather like
+T:wthr
+
+what's wether like
+T:wthr
+
+what's wheather like
+T:wthr
+
+yeah What's weather like
+T:wthr
+
+Yeah What's weather like
+T:wthr
+
+ah What's weather like
+T:wthr
+
+Weather forecast
+T:wthr
+
+wether forecast
+T:wthr
+
+wheather forecast
+T:wthr
+
+oh Weather forecast
+T:wthr
+
+Oh Weather forecast
+T:wthr
+
+yup Weather forecast
+T:wthr
+
+Check weather
+T:wthr
+
+check wether
+T:wthr
+
+check wheather
+T:wthr
+
+yep Check weather
+T:wthr
+
+Yep Check weather
+T:wthr
+
+yup Check weather
+T:wthr
+
+How's the weather
+T:wthr
+
+how's teh weather
+T:wthr
+
+how's da weather
+T:wthr
+
+oh How's the weather
+T:wthr
+
+Oh How's the weather
+T:wthr
+
+yep How's the weather
+T:wthr
+
+Weather
+T:wthr
+
+wether
+T:wthr
+
+wheather
+T:wthr
+
+ah Weather
+T:wthr
+
+Ah Weather
+T:wthr
+
+oh Weather
+T:wthr
+
+Weather today
+T:wthr
+
+wether today
+T:wthr
+
+wheather today
+T:wthr
+
+yeah Weather today
+T:wthr
+
+Yeah Weather today
+T:wthr
+
+ah Weather today
+T:wthr
+
+What's weather like
+T:wthr
+
+what's wether like
+T:wthr
+
+what's wheather like
+T:wthr
+
+oh What's weather like
+T:wthr
+
+Oh What's weather like
+T:wthr
+
+yep What's weather like
+T:wthr
+
+Weather forecast
+T:wthr
+
+wether forecast
+T:wthr
+
+wheather forecast
+T:wthr
+
+yup Weather forecast
+T:wthr
+
+Yup Weather forecast
+T:wthr
+
+yeah Weather forecast
+T:wthr
+
+Check weather
+T:wthr
+
+check wether
+T:wthr
+
+check wheather
+T:wthr
+
+yep Check weather
+T:wthr
+
+Yep Check weather
+T:wthr
+
+yeah Check weather
+T:wthr
+
+How's the weather
+T:wthr
+
+how's teh weather
+T:wthr
+
+how's da weather
+T:wthr
+
+yup How's the weather
+T:wthr
+
+Yup How's the weather
+T:wthr
+
+yep How's the weather
+T:wthr
+
+Weather
+T:wthr
+
+wether
+T:wthr
+
+wheather
+T:wthr
+
+yeah Weather
+T:wthr
+
+Yeah Weather
+T:wthr
+
+yep Weather
+T:wthr
+
+Weather today
+T:wthr
+
+wether today
+T:wthr
+
+wheather today
+T:wthr
+
+ah Weather today
+T:wthr
+
+Ah Weather today
+T:wthr
+
+oh Weather today
+T:wthr
+
+What's weather like
+T:wthr
+
+what's wether like
+T:wthr
+
+what's wheather like
+T:wthr
+
+yeah What's weather like
+T:wthr
+
+Yeah What's weather like
+T:wthr
+
+yep What's weather like
+T:wthr
+
+Weather forecast
+T:wthr
+
+wether forecast
+T:wthr
+
+wheather forecast
+T:wthr
+
+yep Weather forecast
+T:wthr
+
+Yep Weather forecast
+T:wthr
+
+yeah Weather forecast
+T:wthr
+
+Check weather
+T:wthr
+
+check wether
+T:wthr
+
+check wheather
+T:wthr
+
+oh Check weather
+T:wthr
+
+Oh Check weather
+T:wthr
+
+yep Check weather
+T:wthr
+
+How's the weather
+T:wthr
+
+how's teh weather
+T:wthr
+
+how's da weather
+T:wthr
+
+oh How's the weather
+T:wthr
+
+Oh How's the weather
+T:wthr
+
+yup How's the weather
+T:wthr
+
+Weather
+T:wthr
+
+wether
+T:wthr
+
+wheather
+T:wthr
+
+yup Weather
+T:wthr
+
+Yup Weather
+T:wthr
+
+ah Weather
+T:wthr
+
+Weather tomorrow
+T:wthr,tomorrow
+
+wether tomorrow
+T:wthr,tomorrow
+
+wheather tomorrow
+T:wthr,tomorrow
+
+yup Weather tomorrow
+T:wthr,tomorrow
+
+Yup Weather tomorrow
+T:wthr,tomorrow
+
+yeah Weather tomorrow
+T:wthr,tomorrow
+
+Weather yesterday
+T:wthr,yesterday
+
+wether yesterday
+T:wthr,yesterday
+
+wheather yesterday
+T:wthr,yesterday
+
+oh Weather yesterday
+T:wthr,yesterday
+
+Oh Weather yesterday
+T:wthr,yesterday
+
+ah Weather yesterday
+T:wthr,yesterday
+
+What's weather tomorrow
+T:wthr,tomorrow
+
+what's wether tomorrow
+T:wthr,tomorrow
+
+what's wheather tomorrow
+T:wthr,tomorrow
+
+yeah What's weather tomorrow
+T:wthr,tomorrow
+
+Yeah What's weather tomorrow
+T:wthr,tomorrow
+
+yep What's weather tomorrow
+T:wthr,tomorrow
+
+Weather forecast tomorrow
+T:wthr,tomorrow
+
+wether forecast tomorrow
+T:wthr,tomorrow
+
+wheather forecast tomorrow
+T:wthr,tomorrow
+
+yup Weather forecast tomorrow
+T:wthr,tomorrow
+
+Yup Weather forecast tomorrow
+T:wthr,tomorrow
+
+yeah Weather forecast tomorrow
+T:wthr,tomorrow
+
+Check weather tomorrow
+T:wthr,tomorrow
+
+check wether tomorrow
+T:wthr,tomorrow
+
+check wheather tomorrow
+T:wthr,tomorrow
+
+ah Check weather tomorrow
+T:wthr,tomorrow
+
+Ah Check weather tomorrow
+T:wthr,tomorrow
+
+oh Check weather tomorrow
+T:wthr,tomorrow
+
+Weather for tomorrow
+T:wthr,tomorrow
+
+wether for tomorrow
+T:wthr,tomorrow
+
+wheather for tomorrow
+T:wthr,tomorrow
+
+yep Weather for tomorrow
+T:wthr,tomorrow
+
+Yep Weather for tomorrow
+T:wthr,tomorrow
+
+ah Weather for tomorrow
+T:wthr,tomorrow
+
+Tomorrow's weather
+T:wthr,tomorrow
+
+tomorrow's wether
+T:wthr,tomorrow
+
+tomorrow's wheather
+T:wthr,tomorrow
+
+oh Tomorrow's weather
+T:wthr,tomorrow
+
+Oh Tomorrow's weather
+T:wthr,tomorrow
+
+ah Tomorrow's weather
+T:wthr,tomorrow
+
+Weather yesterday
+T:wthr,yesterday
+
+wether yesterday
+T:wthr,yesterday
+
+wheather yesterday
+T:wthr,yesterday
+
+yep Weather yesterday
+T:wthr,yesterday
+
+Yep Weather yesterday
+T:wthr,yesterday
+
+yup Weather yesterday
+T:wthr,yesterday
+
+Yesterday's weather
+T:wthr,yesterday
+
+yesterday's wether
+T:wthr,yesterday
+
+yesterday's wheather
+T:wthr,yesterday
+
+yeah Yesterday's weather
+T:wthr,yesterday
+
+Yeah Yesterday's weather
+T:wthr,yesterday
+
+ah Yesterday's weather
+T:wthr,yesterday
+
+Weather for yesterday
+T:wthr,yesterday
+
+wether for yesterday
+T:wthr,yesterday
+
+wheather for yesterday
+T:wthr,yesterday
+
+yeah Weather for yesterday
+T:wthr,yesterday
+
+Yeah Weather for yesterday
+T:wthr,yesterday
+
+yep Weather for yesterday
+T:wthr,yesterday
+
+Weather tomorrow
+T:wthr,tomorrow
+
+wether tomorrow
+T:wthr,tomorrow
+
+wheather tomorrow
+T:wthr,tomorrow
+
+oh Weather tomorrow
+T:wthr,tomorrow
+
+Oh Weather tomorrow
+T:wthr,tomorrow
+
+ah Weather tomorrow
+T:wthr,tomorrow
+
+Weather yesterday
+T:wthr,yesterday
+
+wether yesterday
+T:wthr,yesterday
+
+wheather yesterday
+T:wthr,yesterday
+
+yeah Weather yesterday
+T:wthr,yesterday
+
+Yeah Weather yesterday
+T:wthr,yesterday
+
+oh Weather yesterday
+T:wthr,yesterday
+
+What's weather tomorrow
+T:wthr,tomorrow
+
+what's wether tomorrow
+T:wthr,tomorrow
+
+what's wheather tomorrow
+T:wthr,tomorrow
+
+yeah What's weather tomorrow
+T:wthr,tomorrow
+
+Yeah What's weather tomorrow
+T:wthr,tomorrow
+
+yep What's weather tomorrow
+T:wthr,tomorrow
+
+Weather forecast tomorrow
+T:wthr,tomorrow
+
+wether forecast tomorrow
+T:wthr,tomorrow
+
+wheather forecast tomorrow
+T:wthr,tomorrow
+
+oh Weather forecast tomorrow
+T:wthr,tomorrow
+
+Oh Weather forecast tomorrow
+T:wthr,tomorrow
+
+yeah Weather forecast tomorrow
+T:wthr,tomorrow
+
+Check weather tomorrow
+T:wthr,tomorrow
+
+check wether tomorrow
+T:wthr,tomorrow
+
+check wheather tomorrow
+T:wthr,tomorrow
+
+oh Check weather tomorrow
+T:wthr,tomorrow
+
+Oh Check weather tomorrow
+T:wthr,tomorrow
+
+yeah Check weather tomorrow
+T:wthr,tomorrow
+
+Weather for tomorrow
+T:wthr,tomorrow
+
+wether for tomorrow
+T:wthr,tomorrow
+
+wheather for tomorrow
+T:wthr,tomorrow
+
+yup Weather for tomorrow
+T:wthr,tomorrow
+
+Yup Weather for tomorrow
+T:wthr,tomorrow
+
+yep Weather for tomorrow
+T:wthr,tomorrow
+
+Tomorrow's weather
+T:wthr,tomorrow
+
+tomorrow's wether
+T:wthr,tomorrow
+
+tomorrow's wheather
+T:wthr,tomorrow
+
+ah Tomorrow's weather
+T:wthr,tomorrow
+
+Ah Tomorrow's weather
+T:wthr,tomorrow
+
+oh Tomorrow's weather
+T:wthr,tomorrow
+
+Weather yesterday
+T:wthr,yesterday
+
+wether yesterday
+T:wthr,yesterday
+
+wheather yesterday
+T:wthr,yesterday
+
+yeah Weather yesterday
+T:wthr,yesterday
+
+Yeah Weather yesterday
+T:wthr,yesterday
+
+oh Weather yesterday
+T:wthr,yesterday
+
+Yesterday's weather
+T:wthr,yesterday
+
+yesterday's wether
+T:wthr,yesterday
+
+yesterday's wheather
+T:wthr,yesterday
+
+yeah Yesterday's weather
+T:wthr,yesterday
+
+Yeah Yesterday's weather
+T:wthr,yesterday
+
+oh Yesterday's weather
+T:wthr,yesterday
+
+Weather for yesterday
+T:wthr,yesterday
+
+wether for yesterday
+T:wthr,yesterday
+
+wheather for yesterday
+T:wthr,yesterday
+
+yep Weather for yesterday
+T:wthr,yesterday
+
+Yep Weather for yesterday
+T:wthr,yesterday
+
+yeah Weather for yesterday
+T:wthr,yesterday
+
+Weather tomorrow
+T:wthr,tomorrow
+
+wether tomorrow
+T:wthr,tomorrow
+
+wheather tomorrow
+T:wthr,tomorrow
+
+ah Weather tomorrow
+T:wthr,tomorrow
+
+Ah Weather tomorrow
+T:wthr,tomorrow
+
+yup Weather tomorrow
+T:wthr,tomorrow
+
+Weather yesterday
+T:wthr,yesterday
+
+wether yesterday
+T:wthr,yesterday
+
+wheather yesterday
+T:wthr,yesterday
+
+oh Weather yesterday
+T:wthr,yesterday
+
+Oh Weather yesterday
+T:wthr,yesterday
+
+yup Weather yesterday
+T:wthr,yesterday
+
+What's weather tomorrow
+T:wthr,tomorrow
+
+what's wether tomorrow
+T:wthr,tomorrow
+
+what's wheather tomorrow
+T:wthr,tomorrow
+
+oh What's weather tomorrow
+T:wthr,tomorrow
+
+Oh What's weather tomorrow
+T:wthr,tomorrow
+
+yeah What's weather tomorrow
+T:wthr,tomorrow
+
+Weather forecast tomorrow
+T:wthr,tomorrow
+
+wether forecast tomorrow
+T:wthr,tomorrow
+
+wheather forecast tomorrow
+T:wthr,tomorrow
+
+ah Weather forecast tomorrow
+T:wthr,tomorrow
+
+Ah Weather forecast tomorrow
+T:wthr,tomorrow
+
+yep Weather forecast tomorrow
+T:wthr,tomorrow
+
+Check weather tomorrow
+T:wthr,tomorrow
+
+check wether tomorrow
+T:wthr,tomorrow
+
+check wheather tomorrow
+T:wthr,tomorrow
+
+yep Check weather tomorrow
+T:wthr,tomorrow
+
+Yep Check weather tomorrow
+T:wthr,tomorrow
+
+yup Check weather tomorrow
+T:wthr,tomorrow
+
+Weather for tomorrow
+T:wthr,tomorrow
+
+wether for tomorrow
+T:wthr,tomorrow
+
+wheather for tomorrow
+T:wthr,tomorrow
+
+yep Weather for tomorrow
+T:wthr,tomorrow
+
+Yep Weather for tomorrow
+T:wthr,tomorrow
+
+yup Weather for tomorrow
+T:wthr,tomorrow
+
+Tomorrow's weather
+T:wthr,tomorrow
+
+tomorrow's wether
+T:wthr,tomorrow
+
+tomorrow's wheather
+T:wthr,tomorrow
+
+yeah Tomorrow's weather
+T:wthr,tomorrow
+
+Yeah Tomorrow's weather
+T:wthr,tomorrow
+
+yup Tomorrow's weather
+T:wthr,tomorrow
+
+Weather yesterday
+T:wthr,yesterday
+
+wether yesterday
+T:wthr,yesterday
+
+wheather yesterday
+T:wthr,yesterday
+
+yeah Weather yesterday
+T:wthr,yesterday
+
+Yeah Weather yesterday
+T:wthr,yesterday
+
+yep Weather yesterday
+T:wthr,yesterday
+
+Yesterday's weather
+T:wthr,yesterday
+
+yesterday's wether
+T:wthr,yesterday
+
+yesterday's wheather
+T:wthr,yesterday
+
+yup Yesterday's weather
+T:wthr,yesterday
+
+Yup Yesterday's weather
+T:wthr,yesterday
+
+ah Yesterday's weather
+T:wthr,yesterday
+
+Weather for yesterday
+T:wthr,yesterday
+
+wether for yesterday
+T:wthr,yesterday
+
+wheather for yesterday
+T:wthr,yesterday
+
+ah Weather for yesterday
+T:wthr,yesterday
+
+Ah Weather for yesterday
+T:wthr,yesterday
+
+yeah Weather for yesterday
+T:wthr,yesterday
+
+Weather at home tomorrow
+T:wthr,home,tomorrow
+
+wether at home tomorrow
+T:wthr,home,tomorrow
+
+wheather at home tomorrow
+T:wthr,home,tomorrow
+
+yup Weather at home tomorrow
+T:wthr,home,tomorrow
+
+Yup Weather at home tomorrow
+T:wthr,home,tomorrow
+
+ah Weather at home tomorrow
+T:wthr,home,tomorrow
+
+Weather outside tomorrow
+T:wthr,outside,tomorrow
+
+wether outside tomorrow
+T:wthr,outside,tomorrow
+
+wheather outside tomorrow
+T:wthr,outside,tomorrow
+
+oh Weather outside tomorrow
+T:wthr,outside,tomorrow
+
+Oh Weather outside tomorrow
+T:wthr,outside,tomorrow
+
+ah Weather outside tomorrow
+T:wthr,outside,tomorrow
+
+Home weather tomorrow
+T:wthr,home,tomorrow
+
+home wether tomorrow
+T:wthr,home,tomorrow
+
+home wheather tomorrow
+T:wthr,home,tomorrow
+
+yeah Home weather tomorrow
+T:wthr,home,tomorrow
+
+Yeah Home weather tomorrow
+T:wthr,home,tomorrow
+
+oh Home weather tomorrow
+T:wthr,home,tomorrow
+
+Outside weather tomorrow
+T:wthr,outside,tomorrow
+
+outside wether tomorrow
+T:wthr,outside,tomorrow
+
+outside wheather tomorrow
+T:wthr,outside,tomorrow
+
+yep Outside weather tomorrow
+T:wthr,outside,tomorrow
+
+Yep Outside weather tomorrow
+T:wthr,outside,tomorrow
+
+ah Outside weather tomorrow
+T:wthr,outside,tomorrow
+
+Weather at home tomorrow
+T:wthr,home,tomorrow
+
+wether at home tomorrow
+T:wthr,home,tomorrow
+
+wheather at home tomorrow
+T:wthr,home,tomorrow
+
+yeah Weather at home tomorrow
+T:wthr,home,tomorrow
+
+Yeah Weather at home tomorrow
+T:wthr,home,tomorrow
+
+ah Weather at home tomorrow
+T:wthr,home,tomorrow
+
+Weather outside tomorrow
+T:wthr,outside,tomorrow
+
+wether outside tomorrow
+T:wthr,outside,tomorrow
+
+wheather outside tomorrow
+T:wthr,outside,tomorrow
+
+yup Weather outside tomorrow
+T:wthr,outside,tomorrow
+
+Yup Weather outside tomorrow
+T:wthr,outside,tomorrow
+
+ah Weather outside tomorrow
+T:wthr,outside,tomorrow
+
+Home weather tomorrow
+T:wthr,home,tomorrow
+
+home wether tomorrow
+T:wthr,home,tomorrow
+
+home wheather tomorrow
+T:wthr,home,tomorrow
+
+ah Home weather tomorrow
+T:wthr,home,tomorrow
+
+Ah Home weather tomorrow
+T:wthr,home,tomorrow
+
+yup Home weather tomorrow
+T:wthr,home,tomorrow
+
+Outside weather tomorrow
+T:wthr,outside,tomorrow
+
+outside wether tomorrow
+T:wthr,outside,tomorrow
+
+outside wheather tomorrow
+T:wthr,outside,tomorrow
+
+yeah Outside weather tomorrow
+T:wthr,outside,tomorrow
+
+Yeah Outside weather tomorrow
+T:wthr,outside,tomorrow
+
+yep Outside weather tomorrow
+T:wthr,outside,tomorrow
+
+Weather for tomorrow's date
+T:date,tomorrow;T:wthr,<date>
+
+wether for tomorrow's date
+T:date,tomorrow;T:wthr,<date>
+
+wheather for tomorrow's date
+T:date,tomorrow;T:wthr,<date>
+
+oh Weather for tomorrow's date
+T:date,tomorrow;T:wthr,<date>
+
+Oh Weather for tomorrow's date
+T:date,tomorrow;T:wthr,<date>
+
+ah Weather for tomorrow's date
+T:date,tomorrow;T:wthr,<date>
+
+What's weather on tomorrow
+T:date,tomorrow;T:wthr,<date>
+
+what's wether on tomorrow
+T:date,tomorrow;T:wthr,<date>
+
+what's wheather on tomorrow
+T:date,tomorrow;T:wthr,<date>
+
+oh What's weather on tomorrow
+T:date,tomorrow;T:wthr,<date>
+
+Oh What's weather on tomorrow
+T:date,tomorrow;T:wthr,<date>
+
+yeah What's weather on tomorrow
+T:date,tomorrow;T:wthr,<date>
+
+Weather forecast for tomorrow
+T:date,tomorrow;T:wthr,<date>
+
+wether forecast for tomorrow
+T:date,tomorrow;T:wthr,<date>
+
+wheather forecast for tomorrow
+T:date,tomorrow;T:wthr,<date>
+
+oh Weather forecast for tomorrow
+T:date,tomorrow;T:wthr,<date>
+
+Oh Weather forecast for tomorrow
+T:date,tomorrow;T:wthr,<date>
+
+yeah Weather forecast for tomorrow
+T:date,tomorrow;T:wthr,<date>
+
+Check weather tomorrow
+T:date,tomorrow;T:wthr,<date>
+
+check wether tomorrow
+T:date,tomorrow;T:wthr,<date>
+
+check wheather tomorrow
+T:date,tomorrow;T:wthr,<date>
+
+yup Check weather tomorrow
+T:date,tomorrow;T:wthr,<date>
+
+Yup Check weather tomorrow
+T:date,tomorrow;T:wthr,<date>
+
+yep Check weather tomorrow
+T:date,tomorrow;T:wthr,<date>
+
+Tomorrow weather
+T:date,tomorrow;T:wthr,<date>
+
+tomorow weather
+T:date,tomorrow;T:wthr,<date>
+
+tomoro weather
+T:date,tomorrow;T:wthr,<date>
+
+yeah Tomorrow weather
+T:date,tomorrow;T:wthr,<date>
+
+Yeah Tomorrow weather
+T:date,tomorrow;T:wthr,<date>
+
+oh Tomorrow weather
+T:date,tomorrow;T:wthr,<date>
+
+Weather yesterday
+T:date,yesterday;T:wthr,<date>
+
+wether yesterday
+T:date,yesterday;T:wthr,<date>
+
+wheather yesterday
+T:date,yesterday;T:wthr,<date>
+
+yeah Weather yesterday
+T:date,yesterday;T:wthr,<date>
+
+Yeah Weather yesterday
+T:date,yesterday;T:wthr,<date>
+
+yep Weather yesterday
+T:date,yesterday;T:wthr,<date>
+
+Yesterday weather
+T:date,yesterday;T:wthr,<date>
+
+yestaday weather
+T:date,yesterday;T:wthr,<date>
+
+yest weather
+T:date,yesterday;T:wthr,<date>
+
+ah Yesterday weather
+T:date,yesterday;T:wthr,<date>
+
+Ah Yesterday weather
+T:date,yesterday;T:wthr,<date>
+
+yup Yesterday weather
+T:date,yesterday;T:wthr,<date>
+
+Weather for yesterday
+T:date,yesterday;T:wthr,<date>
+
+wether for yesterday
+T:date,yesterday;T:wthr,<date>
+
+wheather for yesterday
+T:date,yesterday;T:wthr,<date>
+
+yep Weather for yesterday
+T:date,yesterday;T:wthr,<date>
+
+Yep Weather for yesterday
+T:date,yesterday;T:wthr,<date>
+
+ah Weather for yesterday
+T:date,yesterday;T:wthr,<date>
+
+Weather for tomorrow's date
+T:date,tomorrow;T:wthr,<date>
+
+wether for tomorrow's date
+T:date,tomorrow;T:wthr,<date>
+
+wheather for tomorrow's date
+T:date,tomorrow;T:wthr,<date>
+
+ah Weather for tomorrow's date
+T:date,tomorrow;T:wthr,<date>
+
+Ah Weather for tomorrow's date
+T:date,tomorrow;T:wthr,<date>
+
+yup Weather for tomorrow's date
+T:date,tomorrow;T:wthr,<date>
+
+What's weather on tomorrow
+T:date,tomorrow;T:wthr,<date>
+
+what's wether on tomorrow
+T:date,tomorrow;T:wthr,<date>
+
+what's wheather on tomorrow
+T:date,tomorrow;T:wthr,<date>
+
+oh What's weather on tomorrow
+T:date,tomorrow;T:wthr,<date>
+
+Oh What's weather on tomorrow
+T:date,tomorrow;T:wthr,<date>
+
+yup What's weather on tomorrow
+T:date,tomorrow;T:wthr,<date>
+
+Weather forecast for tomorrow
+T:date,tomorrow;T:wthr,<date>
+
+wether forecast for tomorrow
+T:date,tomorrow;T:wthr,<date>
+
+wheather forecast for tomorrow
+T:date,tomorrow;T:wthr,<date>
+
+oh Weather forecast for tomorrow
+T:date,tomorrow;T:wthr,<date>
+
+Oh Weather forecast for tomorrow
+T:date,tomorrow;T:wthr,<date>
+
+yeah Weather forecast for tomorrow
+T:date,tomorrow;T:wthr,<date>
+
+Check weather tomorrow
+T:date,tomorrow;T:wthr,<date>
+
+check wether tomorrow
+T:date,tomorrow;T:wthr,<date>
+
+check wheather tomorrow
+T:date,tomorrow;T:wthr,<date>
+
+yep Check weather tomorrow
+T:date,tomorrow;T:wthr,<date>
+
+Yep Check weather tomorrow
+T:date,tomorrow;T:wthr,<date>
+
+yeah Check weather tomorrow
+T:date,tomorrow;T:wthr,<date>
+
+Tomorrow weather
+T:date,tomorrow;T:wthr,<date>
+
+tomorow weather
+T:date,tomorrow;T:wthr,<date>
+
+tomoro weather
+T:date,tomorrow;T:wthr,<date>
+
+yeah Tomorrow weather
+T:date,tomorrow;T:wthr,<date>
+
+Yeah Tomorrow weather
+T:date,tomorrow;T:wthr,<date>
+
+yup Tomorrow weather
+T:date,tomorrow;T:wthr,<date>
+
+Weather yesterday
+T:date,yesterday;T:wthr,<date>
+
+wether yesterday
+T:date,yesterday;T:wthr,<date>
+
+wheather yesterday
+T:date,yesterday;T:wthr,<date>
+
+oh Weather yesterday
+T:date,yesterday;T:wthr,<date>
+
+Oh Weather yesterday
+T:date,yesterday;T:wthr,<date>
+
+ah Weather yesterday
+T:date,yesterday;T:wthr,<date>
+
+Yesterday weather
+T:date,yesterday;T:wthr,<date>
+
+yestaday weather
+T:date,yesterday;T:wthr,<date>
+
+yest weather
+T:date,yesterday;T:wthr,<date>
+
+yep Yesterday weather
+T:date,yesterday;T:wthr,<date>
+
+Yep Yesterday weather
+T:date,yesterday;T:wthr,<date>
+
+yeah Yesterday weather
+T:date,yesterday;T:wthr,<date>
+
+Weather for yesterday
+T:date,yesterday;T:wthr,<date>
+
+wether for yesterday
+T:date,yesterday;T:wthr,<date>
+
+wheather for yesterday
+T:date,yesterday;T:wthr,<date>
+
+yeah Weather for yesterday
+T:date,yesterday;T:wthr,<date>
+
+Yeah Weather for yesterday
+T:date,yesterday;T:wthr,<date>
+
+yup Weather for yesterday
+T:date,yesterday;T:wthr,<date>
+
+Weather on 2024-12-25
+T:wthr,2024-12-25
+
+wether on 2024-12-25
+T:wthr,2024-12-25
+
+wheather on 2024-12-25
+T:wthr,2024-12-25
+
+oh Weather on 2024-12-25
+T:wthr,2024-12-25
+
+Oh Weather on 2024-12-25
+T:wthr,2024-12-25
+
+ah Weather on 2024-12-25
+T:wthr,2024-12-25
+
+Weather for 2024-12-25
+T:wthr,2024-12-25
+
+wether for 2024-12-25
+T:wthr,2024-12-25
+
+wheather for 2024-12-25
+T:wthr,2024-12-25
+
+yeah Weather for 2024-12-25
+T:wthr,2024-12-25
+
+Yeah Weather for 2024-12-25
+T:wthr,2024-12-25
+
+yep Weather for 2024-12-25
+T:wthr,2024-12-25
+
+What's weather on 2024-12-25
+T:wthr,2024-12-25
+
+what's wether on 2024-12-25
+T:wthr,2024-12-25
+
+what's wheather on 2024-12-25
+T:wthr,2024-12-25
+
+yeah What's weather on 2024-12-25
+T:wthr,2024-12-25
+
+Yeah What's weather on 2024-12-25
+T:wthr,2024-12-25
+
+oh What's weather on 2024-12-25
+T:wthr,2024-12-25
+
+Weather forecast 2024-12-25
+T:wthr,2024-12-25
+
+wether forecast 2024-12-25
+T:wthr,2024-12-25
+
+wheather forecast 2024-12-25
+T:wthr,2024-12-25
+
+yep Weather forecast 2024-12-25
+T:wthr,2024-12-25
+
+Yep Weather forecast 2024-12-25
+T:wthr,2024-12-25
+
+yup Weather forecast 2024-12-25
+T:wthr,2024-12-25
+
+Weather on 2024-12-25
+T:wthr,2024-12-25
+
+wether on 2024-12-25
+T:wthr,2024-12-25
+
+wheather on 2024-12-25
+T:wthr,2024-12-25
+
+yup Weather on 2024-12-25
+T:wthr,2024-12-25
+
+Yup Weather on 2024-12-25
+T:wthr,2024-12-25
+
+yep Weather on 2024-12-25
+T:wthr,2024-12-25
+
+Weather for 2024-12-25
+T:wthr,2024-12-25
+
+wether for 2024-12-25
+T:wthr,2024-12-25
+
+wheather for 2024-12-25
+T:wthr,2024-12-25
+
+oh Weather for 2024-12-25
+T:wthr,2024-12-25
+
+Oh Weather for 2024-12-25
+T:wthr,2024-12-25
+
+yep Weather for 2024-12-25
+T:wthr,2024-12-25
+
+What's weather on 2024-12-25
+T:wthr,2024-12-25
+
+what's wether on 2024-12-25
+T:wthr,2024-12-25
+
+what's wheather on 2024-12-25
+T:wthr,2024-12-25
+
+ah What's weather on 2024-12-25
+T:wthr,2024-12-25
+
+Ah What's weather on 2024-12-25
+T:wthr,2024-12-25
+
+oh What's weather on 2024-12-25
+T:wthr,2024-12-25
+
+Weather forecast 2024-12-25
+T:wthr,2024-12-25
+
+wether forecast 2024-12-25
+T:wthr,2024-12-25
+
+wheather forecast 2024-12-25
+T:wthr,2024-12-25
+
+yup Weather forecast 2024-12-25
+T:wthr,2024-12-25
+
+Yup Weather forecast 2024-12-25
+T:wthr,2024-12-25
+
+yep Weather forecast 2024-12-25
+T:wthr,2024-12-25
+
+Weather in 2 days
+T:wthr,+2
+
+wether in 2 days
+T:wthr,+2
+
+wheather in 2 days
+T:wthr,+2
+
+yep Weather in 2 days
+T:wthr,+2
+
+Yep Weather in 2 days
+T:wthr,+2
+
+yeah Weather in 2 days
+T:wthr,+2
+
+Weather in 3 days
+T:wthr,+3
+
+wether in 3 days
+T:wthr,+3
+
+wheather in 3 days
+T:wthr,+3
+
+yup Weather in 3 days
+T:wthr,+3
+
+Yup Weather in 3 days
+T:wthr,+3
+
+oh Weather in 3 days
+T:wthr,+3
+
+Weather 1 day ago
+T:wthr,-1
+
+wether 1 day ago
+T:wthr,-1
+
+wheather 1 day ago
+T:wthr,-1
+
+yeah Weather 1 day ago
+T:wthr,-1
+
+Yeah Weather 1 day ago
+T:wthr,-1
+
+yep Weather 1 day ago
+T:wthr,-1
+
+Weather 2 days ago
+T:wthr,-2
+
+wether 2 days ago
+T:wthr,-2
+
+wheather 2 days ago
+T:wthr,-2
+
+yup Weather 2 days ago
+T:wthr,-2
+
+Yup Weather 2 days ago
+T:wthr,-2
+
+yeah Weather 2 days ago
+T:wthr,-2
+
+Weather in 2 days
+T:wthr,+2
+
+wether in 2 days
+T:wthr,+2
+
+wheather in 2 days
+T:wthr,+2
+
+yep Weather in 2 days
+T:wthr,+2
+
+Yep Weather in 2 days
+T:wthr,+2
+
+ah Weather in 2 days
+T:wthr,+2
+
+Weather in 3 days
+T:wthr,+3
+
+wether in 3 days
+T:wthr,+3
+
+wheather in 3 days
+T:wthr,+3
+
+yeah Weather in 3 days
+T:wthr,+3
+
+Yeah Weather in 3 days
+T:wthr,+3
+
+ah Weather in 3 days
+T:wthr,+3
+
+Weather 1 day ago
+T:wthr,-1
+
+wether 1 day ago
+T:wthr,-1
+
+wheather 1 day ago
+T:wthr,-1
+
+oh Weather 1 day ago
+T:wthr,-1
+
+Oh Weather 1 day ago
+T:wthr,-1
+
+yep Weather 1 day ago
+T:wthr,-1
+
+Weather 2 days ago
+T:wthr,-2
+
+wether 2 days ago
+T:wthr,-2
+
+wheather 2 days ago
+T:wthr,-2
+
+yeah Weather 2 days ago
+T:wthr,-2
+
+Yeah Weather 2 days ago
+T:wthr,-2
+
+yup Weather 2 days ago
+T:wthr,-2
+
