@@ -5,6 +5,7 @@ import os
 import math
 import argparse
 import random
+import sys
 from tokenizers import Tokenizer
 from tokenizers.models import BPE
 from tokenizers.trainers import BpeTrainer
@@ -18,11 +19,14 @@ torch.set_float32_matmul_precision('medium')  # PyTorch 2.0+
 
 
 # hyperparameters
-batch_size = 128 # how many independent sequences will we process in parallel?
-block_size = 256 # what is the maximum context length for predictions?
-max_iters = 5000
+batch_size = 256
+block_size = 256
+max_iters = 50000
 eval_interval = 500
 learning_rate = 1e-4
+min_learning_rate = 1e-6  # Minimum learning rate for decay
+warmup_iters = 1000  # Warmup iterations before decay starts
+decay_style = 'cosine'  # 'cosine' or 'linear'
 device = 'cpu'
 if torch.cuda.is_available():
     device = 'cuda'
@@ -38,7 +42,6 @@ n_embd = 384
 n_head = 6
 n_layer = 6
 dropout = 0.2
-# ------------
 
 torch.manual_seed(1337)
 
@@ -75,7 +78,7 @@ def get_input_files(inputs_dir='inputs'):
             filepath = os.path.join(inputs_dir, filename)
             txt_files.append(filepath)
     
-    txt_files.sort()  # Sort for consistent ordering
+    txt_files.sort()
     return txt_files
 
 def train_tokenizer(input_files=None, vocab_size=50000):
@@ -99,12 +102,10 @@ def train_tokenizer(input_files=None, vocab_size=50000):
         show_progress=True
     )
     
-    # Train on all text files
     tokenizer.train(input_files, trainer)
     tokenizer.decoder = ByteLevelDecoder()
     tokenizer.post_processor = ByteLevelProcessor(trim_offsets=True)
     
-    # Save tokenizer
     tokenizer_path = 'tokenizer_inputs.json'
     tokenizer.save(tokenizer_path)
     print(f"Tokenizer saved to {tokenizer_path}")
@@ -120,38 +121,30 @@ def load_or_train_tokenizer(inputs_dir='inputs', vocab_size=50000):
         tokenizer = train_tokenizer(input_files, vocab_size)
     return tokenizer
 
-# Load or train tokenizer
 tokenizer = load_or_train_tokenizer()
 
-# Create encode/decode functions using the tokenizer
 def encode(text):
     encoding = tokenizer.encode(text, add_special_tokens=False)
     return encoding.ids
 
-# def decode(token_ids):
-#     """Decode token IDs back to text"""
-#     return tokenizer.decode(token_ids, skip_special_tokens=True)
-
 def decode(token_ids):
-    # Convert to list if tensor
     if isinstance(token_ids, torch.Tensor):
         token_ids = token_ids.tolist()
     elif not isinstance(token_ids, list):
         token_ids = list(token_ids)
     
-    # Decode with proper handling
-    decoded = tokenizer.decode(token_ids, skip_special_tokens=True)
-    
-    # The decoder should handle Ġ and Ċ automatically, but if not:
-    # decoded = decoded.replace('Ġ', ' ').replace('Ċ', '\n')
-    
-    return decoded
+    return tokenizer.decode(token_ids, skip_special_tokens=True)
 
-# Get vocabulary size from tokenizer
 vocab_size = tokenizer.get_vocab_size()
-print(f"Vocabulary size: {vocab_size}")
+# Pad token ID: used for padding sequences to same length (not zero, as zero might be a valid token)
+try:
+    pad_token_id = tokenizer.token_to_id("<pad>")
+    if pad_token_id is None:
+        pad_token_id = 1  # Fallback to 1 if not found
+except:
+    pad_token_id = 1  # Fallback
+print(f"Vocabulary size: {vocab_size}, Pad token ID: {pad_token_id}")
 
-# Load all text files from inputs directory
 def load_all_input_files(inputs_dir='inputs'):
     """Load and parse question/answer pairs from input files"""
     input_files = get_input_files(inputs_dir)
@@ -171,129 +164,189 @@ def load_all_input_files(inputs_dir='inputs'):
         with open(filepath, 'r', encoding='utf-8') as f:
             lines = f.readlines()
         
-        # Parse question/answer pairs
         i = 0
         file_pairs = 0
         while i < len(lines):
             line = lines[i].strip()
-            # Check if this is a question (not empty, not starting with DSL prefixes)
+            # Question: not empty, not starting with DSL prefixes (S:, T:, C:, E:, CL)
             if line and not line.startswith(('S:', 'T:', 'C:', 'E:')) and line != 'CL':
                 question = line
-                # Next line should be the answer
                 if i + 1 < len(lines):
                     answer = lines[i + 1].strip()
-                    # Check if answer is valid DSL format
+                    # Answer must be valid DSL format
                     if answer.startswith(('S:', 'T:', 'C:', 'E:')) or answer == 'CL':
-                        # Valid pair: question -> answer
                         pair_text = f"{question}\n{answer}\n\n"
                         all_pairs.append(pair_text)
                         file_pairs += 1
-                        i += 2  # Skip both question and answer lines
+                        i += 2
                         continue
             i += 1
         
         print(f"    Loaded {file_pairs} question/answer pairs")
     
-    # Shuffle pairs (not tokens!) to randomize training order
+    # Shuffle pairs (not tokens!) to randomize training order - important for learning
     random.shuffle(all_pairs)
     
-    # Combine pairs into text for tokenization
     combined_text = ''.join(all_pairs)
     print(f"Total: {len(all_pairs)} pairs, {len(combined_text)} characters")
     return combined_text, all_pairs
 
-# Load all training data as pairs
-text, pairs = load_all_input_files()
+# Training data - loaded lazily only when needed for training (saves memory during inference)
+train_pairs = None
+val_pairs = None
 
-# Encode all pairs and store as list of sequences
-print("Encoding question/answer pairs...")
-encoded_pairs = []
-for pair in pairs:
-    tokens = encode(pair)
-    if len(tokens) > 0:  # Only add non-empty pairs
-        encoded_pairs.append(torch.tensor(tokens, dtype=torch.long))
-
-print(f"Encoded {len(encoded_pairs)} pairs")
-
-# Split pairs into train/val (shuffle already done in load_all_input_files)
-n = int(0.9 * len(encoded_pairs))
-train_pairs = encoded_pairs[:n]
-val_pairs = encoded_pairs[n:]
-print(f"Train: {len(train_pairs)} pairs, Val: {len(val_pairs)} pairs")
-
-# For backward compatibility, also create flat data tensor
-data = torch.tensor(encode(text), dtype=torch.long)
-train_data = data[:int(0.9*len(data))]
-val_data = data[int(0.9*len(data)):]
-
-def get_batch(split):
+def get_batch(split, debug=False):
     """Sample complete question/answer pairs, pad/truncate to block_size"""
+    if train_pairs is None or val_pairs is None:
+        raise RuntimeError("Training data not loaded. Call train_model() to load data.")
     pairs = train_pairs if split == 'train' else val_pairs
     
-    # Sample random pairs
     selected_pairs = random.sample(pairs, min(batch_size, len(pairs)))
     
-    # Pad or truncate each pair to block_size
     x_batch = []
     y_batch = []
+    pair_info = []
     
     for pair_tokens in selected_pairs:
-        # Truncate if too long
+        original_len = len(pair_tokens)
+        
         if len(pair_tokens) > block_size:
             pair_tokens = pair_tokens[:block_size]
+            truncated = True
+        else:
+            truncated = False
         
-        # Create input (all tokens) and target (shifted by 1)
+        # Language modeling: predict next token given previous tokens
+        # Input is all tokens except last, target is all tokens shifted by 1
         x_seq = pair_tokens[:-1] if len(pair_tokens) > 1 else pair_tokens
         y_seq = pair_tokens[1:] if len(pair_tokens) > 1 else pair_tokens
         
-        # Pad if too short
+        pad_count = 0
         if len(x_seq) < block_size:
             pad_length = block_size - len(x_seq)
-            # Pad with zeros (or use a padding token if you have one)
-            x_seq = torch.cat([x_seq, torch.zeros(pad_length, dtype=torch.long)])
-            y_seq = torch.cat([y_seq, torch.zeros(pad_length, dtype=torch.long)])
+            pad_count = pad_length
+            # Use pad_token_id (not zero) - zero might be a valid token ID
+            pad_tensor = torch.full((pad_length,), pad_token_id, dtype=torch.long)
+            x_seq = torch.cat([x_seq, pad_tensor])
+            y_seq = torch.cat([y_seq, pad_tensor])
         
         x_batch.append(x_seq)
         y_batch.append(y_seq)
+        
+        if debug:
+            decoded = decode(pair_tokens.tolist())
+            parts = decoded.split('\n', 1)
+            question = parts[0] if parts else ""
+            answer = parts[1].strip() if len(parts) > 1 else ""
+            pair_info.append({
+                'original_len': original_len,
+                'final_len': len(x_seq),
+                'pad_count': pad_count,
+                'truncated': truncated,
+                'question': question,
+                'answer': answer[:80] + '...' if len(answer) > 80 else answer
+            })
     
-    # Stack into batch tensors
     x = torch.stack(x_batch)
     y = torch.stack(y_batch)
     
+    if debug and pair_info:
+        print(f"\n[DEBUG] Batch sample ({split}):")
+        for i, info in enumerate(pair_info[:3]):  # Show first 3
+            print(f"  Pair {i+1}: len={info['original_len']}→{info['final_len']}, "
+                  f"pad={info['pad_count']}, trunc={info['truncated']}")
+            print(f"    Q: {repr(info['question'])}")
+            print(f"    A: {repr(info['answer'])}")
+    
     return x.to(device), y.to(device)
 
-# data loading
-# def get_batch(split):
-#     # generate a small batch of data of inputs x and targets y
-#     data = train_data if split == 'train' else val_data
-#     ix = torch.randint(len(data) - block_size, (batch_size,))
-#     x = torch.stack([data[i:i+block_size] for i in ix])
-#     y = torch.stack([data[i+1:i+block_size+1] for i in ix])
-#     x, y = x.to(device), y.to(device)
-#     return x, y
+class ProgressBar:
+    """Simple progress bar for training iterations"""
+    def __init__(self, total, desc="Training", width=50):
+        self.total = total
+        self.desc = desc
+        self.width = width
+        self.current = 0
+        self.last_update = 0
+        self.update_frequency = max(1, total // 50)  # Update ~50 times per epoch
+        
+    def update(self, current, loss=None, lr=None):
+        """Update progress bar to specific value"""
+        self.current = current
+        progress = min(self.current / self.total, 1.0) if self.total > 0 else 0.0
+        filled = int(self.width * progress)
+        bar = '█' * filled + '░' * (self.width - filled)
+        
+        # Update only periodically to reduce I/O overhead
+        if self.current - self.last_update >= self.update_frequency or self.current >= self.total:
+            info_parts = [f"{self.desc}: |{bar}| {self.current}/{self.total} ({100*progress:.1f}%)"]
+            if loss is not None:
+                info_parts.append(f"loss={loss:.4f}")
+            if lr is not None:
+                info_parts.append(f"lr={lr:.2e}")
+            info = " ".join(info_parts)
+            
+            # Use \r to overwrite same line (avoids scrolling, more efficient)
+            sys.stdout.write(f"\r{info}")
+            sys.stdout.flush()
+            self.last_update = self.current
+            
+    def close(self):
+        """Close progress bar and move to next line"""
+        sys.stdout.write("\n")
+        sys.stdout.flush()
+
+def get_lr(iter):
+    """
+    Get learning rate for current iteration with warmup and decay.
+    
+    Warmup: linearly increase from 0 to learning_rate (helps stabilize training)
+    Decay: smoothly decrease from learning_rate to min_learning_rate (helps fine-tuning)
+    """
+    if iter < warmup_iters:
+        # Warmup phase: gradually increase LR to prevent early instability
+        return learning_rate * (iter / warmup_iters)
+    
+    # Decay phase: reduce LR for fine-tuning
+    decay_iters = max_iters - warmup_iters
+    progress = (iter - warmup_iters) / decay_iters
+    
+    if decay_style == 'cosine':
+        # Cosine decay: smooth S-curve from max to min LR
+        lr = min_learning_rate + (learning_rate - min_learning_rate) * 0.5 * (1 + math.cos(math.pi * progress))
+    elif decay_style == 'linear':
+        # Linear decay: straight line from max to min LR
+        lr = learning_rate - (learning_rate - min_learning_rate) * progress
+    else:
+        lr = learning_rate
+    
+    return max(lr, min_learning_rate)
 
 @torch.no_grad()
 def estimate_loss(model):
+    """Estimate loss on train/val splits (averaged over eval_iters batches)"""
     out = {}
     model.eval()
     for split in ['train', 'val']:
         losses = torch.zeros(eval_iters, device=device)
+        non_pad_counts = []
         for k in range(eval_iters):
             X, Y = get_batch(split)
             logits, loss = model(X, Y)
             losses[k] = loss.item()
+            non_pad = (Y != pad_token_id).sum().item()
+            non_pad_counts.append(non_pad)
         out[split] = losses.mean()
+        avg_non_pad = sum(non_pad_counts) / len(non_pad_counts) if non_pad_counts else 0
+        out[f'{split}_non_pad_tokens'] = avg_non_pad
     model.train()
     return out
 
 def save_checkpoint(model, optimizer, tokenizer, iter, best_loss, model_path='model.pt', is_best=False):
-    # Get the underlying model's state dict (strip _orig_mod if compiled)
-    # Compiled models wrap the original model in _orig_mod
+    # Compiled models wrap the original model in _orig_mod - we need the unwrapped state dict
     if hasattr(model, '_orig_mod'):
-        # Model is compiled, get the original model's state dict
         model_state_dict = model._orig_mod.state_dict()
     else:
-        # Model is not compiled, use state_dict directly
         model_state_dict = model.state_dict()
     
     checkpoint = {
@@ -316,7 +369,7 @@ def save_checkpoint(model, optimizer, tokenizer, iter, best_loss, model_path='mo
         torch.save(checkpoint, 'best_model.pt')
         print(f"Best model saved (val loss: {best_loss:.4f})")
     
-    print(f"Checkpoint saved at iteration {iter} to {model_path}")
+    print(f"\nCheckpoint saved at iteration {iter} to {model_path}")
 
 def load_checkpoint(model_path='model.pt'):
     if not os.path.exists(model_path):
@@ -329,35 +382,33 @@ def load_checkpoint(model_path='model.pt'):
     return checkpoint
 
 class Head(nn.Module):
-    """ one head of self-attention """
+    """One head of self-attention - learns what to pay attention to"""
 
     def __init__(self, head_size):
         super().__init__()
         self.key = nn.Linear(n_embd, head_size, bias=False)
         self.query = nn.Linear(n_embd, head_size, bias=False)
         self.value = nn.Linear(n_embd, head_size, bias=False)
+        # Causal mask: lower triangular matrix prevents looking at future tokens
         self.register_buffer('tril', torch.tril(torch.ones(block_size, block_size)))
-
         self.dropout = nn.Dropout(dropout)
-        
-        # Precompute rotary frequencies
-        inv_freq = 1.0 / (10000 ** (torch.arange(0, head_size, 2).float() / head_size))
-        self.register_buffer('inv_freq', inv_freq)
 
     def forward(self, x):
-        # input of size (batch, time-step, channels)
-        # output of size (batch, time-step, head size)
-        B,T,C = x.shape
+        B, T, C = x.shape
         k = self.key(x)   # (B,T,hs)
         q = self.query(x) # (B,T,hs)
-        # compute attention scores ("affinities")
-        wei = q @ k.transpose(-2,-1) * k.shape[-1]**-0.5 # (B, T, hs) @ (B, hs, T) -> (B, T, T)
-        wei = wei.masked_fill(self.tril[:T, :T] == 0, float('-inf')) # (B, T, T)
-        wei = F.softmax(wei, dim=-1) # (B, T, T)
+        
+        # Attention scores: how much each token attends to each other token
+        # Scale by sqrt(head_size) to prevent softmax saturation
+        wei = q @ k.transpose(-2,-1) * k.shape[-1]**-0.5  # (B, T, T)
+        # Apply causal mask: set future positions to -inf (they become 0 after softmax)
+        wei = wei.masked_fill(self.tril[:T, :T] == 0, float('-inf'))
+        wei = F.softmax(wei, dim=-1)  # (B, T, T) - probabilities
         wei = self.dropout(wei)
-        # perform the weighted aggregation of the values
-        v = self.value(x) # (B,T,hs)
-        out = wei @ v # (B, T, T) @ (B, T, hs) -> (B, T, hs)
+        
+        # Weighted aggregation: combine values based on attention weights
+        v = self.value(x)  # (B,T,hs)
+        out = wei @ v  # (B, T, T) @ (B, T, hs) -> (B, T, hs)
         return out
 
 class MultiHeadAttention(nn.Module):
@@ -375,33 +426,20 @@ class MultiHeadAttention(nn.Module):
         return out
 
 class FeedForward(nn.Module):
+    """SwiGLU feedforward network: gate * up, then down projection"""
     def __init__(self, n_embd):
         super().__init__()
-        # SwiGLU: gate and up projections
         self.gate_proj = nn.Linear(n_embd, 4 * n_embd)
         self.up_proj = nn.Linear(n_embd, 4 * n_embd)
         self.down_proj = nn.Linear(4 * n_embd, n_embd)
         self.dropout = nn.Dropout(dropout)
     
     def forward(self, x):
-        gate = self.gate_proj(x)  # (B, T, 4*n_embd)
-        up = self.up_proj(x)      # (B, T, 4*n_embd)
-        # SwiGLU: silu(gate) * up
-        x = F.silu(gate) * up     # (B, T, 4*n_embd)
+        # SwiGLU: SiLU(gate) * up, then down project
+        gate = self.gate_proj(x)
+        up = self.up_proj(x)
+        x = F.silu(gate) * up
         return self.dropout(self.down_proj(x))
-
-# class FeedForward(nn.Module):
-#     def __init__(self, n_embd):
-#         super().__init__()
-#         self.net = nn.Sequential(
-#             nn.Linear(n_embd, 4 * n_embd),
-#             nn.ReLU(),
-#             nn.Linear(4 * n_embd, n_embd),
-#             nn.Dropout(dropout),
-#         )
-    
-#     def forward(self, x):
-#         return self.net(x)
 
 class RMSNorm(nn.Module):
     def __init__(self, dim, eps=1e-6):
@@ -414,71 +452,62 @@ class RMSNorm(nn.Module):
         return self.weight * x / (norm + self.eps)
 
 class Block(nn.Module):
-    """ Transformer block: communication followed by computation """
+    """Transformer block: self-attention (communication) + feedforward (computation)"""
 
     def __init__(self, n_embd, n_head):
-        # n_embd: embedding dimension, n_head: the number of heads we'd like
         super().__init__()
         head_size = n_embd // n_head
         self.sa = MultiHeadAttention(n_head, head_size)
         self.ffwd = FeedForward(n_embd)
-        # self.ln1 = nn.LayerNorm(n_embd)
-        # self.ln2 = nn.LayerNorm(n_embd)
-        self.ln1 = RMSNorm(n_embd)
+        self.ln1 = RMSNorm(n_embd)  # Pre-norm: normalize before attention/ffwd
         self.ln2 = RMSNorm(n_embd)
 
     def forward(self, x):
+        # Residual connections: allow gradients to flow through
         x = x + self.sa(self.ln1(x))
         x = x + self.ffwd(self.ln2(x))
         return x
-
-class SwiGLU(nn.Module):
-    def forward(self, x):
-        x1, x2 = x.chunk(2, dim=-1)
-        return F.silu(x1) * x2  # silu = swish
 
 class GPTLanguageModel(nn.Module):
 
     def __init__(self):
         super().__init__()
-        # each token directly reads off the logits for the next token from a lookup table
+        # Token embeddings: each token ID maps to a learned vector
         self.token_embedding_table = nn.Embedding(vocab_size, n_embd)
+        # Position embeddings: each position gets a learned vector (tells model token order)
         self.position_embedding_table = nn.Embedding(block_size, n_embd)
         self.blocks = nn.Sequential(*[Block(n_embd, n_head=n_head) for _ in range(n_layer)])
-        self.ln_f = RMSNorm(n_embd) # final layer norm
+        self.ln_f = RMSNorm(n_embd)
+        # Language model head: projects embeddings to vocabulary logits
         self.lm_head = nn.Linear(n_embd, vocab_size)
 
-        # better init, not covered in the original GPT video, but important, will cover in followup video
         self.apply(self._init_weights)
 
     def _init_weights(self, module):
-        """Improved weight initialization following GPT-2 and LLaMA practices"""
+        """Weight initialization: smaller weights prevent large initial activations"""
         if isinstance(module, nn.Linear):
-            # Calculate proper std based on fan-in with GPT-2 scaling
+            # Xavier-like init scaled down for transformer stability
             fan_in = module.weight.size(1)
-            std = (2.0 / fan_in) ** 0.5
-            std = std * 0.1  # GPT-2 scaling factor for transformer stability
+            std = (2.0 / fan_in) ** 0.5 * 0.1
             torch.nn.init.normal_(module.weight, mean=0.0, std=std)
             if module.bias is not None:
                 torch.nn.init.zeros_(module.bias)
         elif isinstance(module, nn.Embedding):
-            # Embeddings: standard initialization
             torch.nn.init.normal_(module.weight, mean=0.0, std=0.02)
         
-        # Output layer: smaller initialization to prevent large initial logits
+        # Output layer: even smaller init to prevent extreme logits
         if isinstance(module, nn.Linear) and module is self.lm_head:
             torch.nn.init.normal_(module.weight, mean=0.0, std=0.01)
 
     def forward(self, idx, targets=None):
         B, T = idx.shape
 
-        # idx and targets are both (B,T) tensor of integers
-        tok_emb = self.token_embedding_table(idx) # (B,T,C)
-        pos_emb = self.position_embedding_table(torch.arange(T, device=device)) # (T,C)
-        x = tok_emb + pos_emb # (B,T,C)
-        x = self.blocks(x) # (B,T,C)
-        x = self.ln_f(x) # (B,T,C)
-        logits = self.lm_head(x) # (B,T,vocab_size)
+        tok_emb = self.token_embedding_table(idx)  # (B,T,C)
+        pos_emb = self.position_embedding_table(torch.arange(T, device=device))  # (T,C)
+        x = tok_emb + pos_emb  # (B,T,C) - add token and position embeddings
+        x = self.blocks(x)  # (B,T,C) - process through transformer blocks
+        x = self.ln_f(x)  # (B,T,C) - final layer norm
+        logits = self.lm_head(x)  # (B,T,vocab_size) - project to vocabulary
 
         if targets is None:
             loss = None
@@ -486,167 +515,280 @@ class GPTLanguageModel(nn.Module):
             B, T, C = logits.shape
             logits = logits.view(B*T, C)
             targets = targets.view(B*T)
-            loss = F.cross_entropy(logits, targets)
+            # ignore_index: don't count padding tokens in loss (they're not real predictions)
+            loss = F.cross_entropy(logits, targets, ignore_index=pad_token_id)
 
         return logits, loss
 
-    def generate(self, idx, max_new_tokens):
-        # idx is (B, T) array of indices in the current context
+    def generate(self, idx, max_new_tokens, temperature=1.0, top_k=None):
+        """Generate tokens autoregressively: predict next token, append, repeat"""
         original_length = idx.shape[1]
         with torch.inference_mode():
             for i in range(max_new_tokens):
-                # crop idx to the last block_size tokens
-                idx_cond = idx[:, -block_size:]
-                # get the predictions
-                logits, loss = self(idx_cond)
-                # focus only on the last time step
-                logits = logits[:, -1, :] # becomes (B, C)
-                # apply softmax to get probabilities
-                probs = F.softmax(logits, dim=-1) # (B, C)
-                # sample from the distribution
-                idx_next = torch.multinomial(probs, num_samples=1) # (B, 1)
+                # Only use last block_size tokens (model can't see beyond this)
+            idx_cond = idx[:, -block_size:]
+            logits, loss = self(idx_cond)
+                logits = logits[:, -1, :]  # Only last position (B, C)
                 
-                # append sampled index to the running sequence
-                idx = torch.cat((idx, idx_next), dim=1) # (B, T+1)
+                # Temperature: >1 = more random, <1 = more deterministic
+                if temperature != 1.0:
+                    logits = logits / temperature
                 
-                if i % 10 == 0:  # Only check every 10 tokens
+                # Top-k: only consider top k most likely tokens (reduces nonsense)
+                if top_k is not None:
+                    v, _ = torch.topk(logits, min(top_k, logits.size(-1)))
+                    logits[logits < v[:, [-1]]] = float('-inf')
+                
+                probs = F.softmax(logits, dim=-1)  # (B, C)
+                
+                # Don't sample padding tokens
+                probs[:, pad_token_id] = 0
+                probs = probs / probs.sum(dim=-1, keepdim=True)
+                
+                idx_next = torch.multinomial(probs, num_samples=1)  # (B, 1)
+                idx = torch.cat((idx, idx_next), dim=1)  # (B, T+1)
+                
+                # Early stopping: check if we've generated a complete DSL response
+                if i % 5 == 0:
                     new_tokens = idx[:, original_length:]
                     if new_tokens.shape[1] > 0:
                         decoded_new = decode(new_tokens[0].tolist())
-                        if decoded_new and decoded_new[-1] == '\n':
-                            break
+                        if decoded_new:
+                            # Look for DSL patterns (S:, T:, C:, E:, CL)
+                            if any(pattern in decoded_new for pattern in ['S:', 'T:', 'C:', 'E:', '\nCL', 'CL\n']):
+                                if decoded_new.strip().endswith(('\n', 'CL')):
+                                    break
+                            # Stop on double newline (end of response)
+                            if decoded_new.count('\n') >= 2:
+                                break
 
-        # Return only the newly generated tokens (exclude the original prompt)
         return idx[:, original_length:]
 
 def train_model(model_path='model.pt', checkpoint_interval=100):
-    global train_pairs, val_pairs, train_data, val_data
+    global train_pairs, val_pairs
     
-    # Try to load existing checkpoint
     checkpoint = load_checkpoint(model_path)
     
-    # Reload and shuffle pairs when resuming training (or on first run)
-    if checkpoint is not None:
-        print("Resuming training - reloading and shuffling pairs...")
+    # Lazy loading: only load data when training starts (saves memory during inference)
+    if train_pairs is None or val_pairs is None:
+        if checkpoint is not None:
+            print("Resuming training - reloading and shuffling pairs...")
+        else:
+            print("Starting new training - loading pairs...")
+        
+        text, pairs = load_all_input_files()
+        print("Encoding pairs...")
+        
+        encoded_pairs = []
+        pair_lengths = []
+        for pair in pairs:
+            tokens = encode(pair)
+            if len(tokens) > 0:
+                encoded_pairs.append(torch.tensor(tokens, dtype=torch.long))
+                pair_lengths.append(len(tokens))
+        
+        if pair_lengths:
+            avg_len = sum(pair_lengths) / len(pair_lengths)
+            max_len = max(pair_lengths)
+            min_len = min(pair_lengths)
+            print(f"Pair length stats - Avg: {avg_len:.1f}, Min: {min_len}, Max: {max_len}, Block size: {block_size}")
+            if max_len > block_size:
+                print(f"  Warning: {sum(1 for l in pair_lengths if l > block_size)} pairs exceed block_size and will be truncated")
+        
+        random.shuffle(encoded_pairs)
+        
+        n = int(0.9 * len(encoded_pairs))
+        train_pairs = encoded_pairs[:n]
+        val_pairs = encoded_pairs[n:]
+        print(f"Shuffled pairs - Train: {len(train_pairs)} pairs, Val: {len(val_pairs)} pairs")
+        
+        print("\n[Validation] Sample pairs being trained:")
+        for i, pair_tokens in enumerate(train_pairs[:3]):
+            decoded = decode(pair_tokens.tolist())
+            parts = decoded.split('\n', 1)
+            question = parts[0] if parts else ""
+            answer = parts[1].strip() if len(parts) > 1 else ""
+            print(f"  Train pair {i+1} ({len(pair_tokens)} tokens):")
+            print(f"    Q: {repr(question)}")
+            print(f"    A: {repr(answer[:100])}")
+        for i, pair_tokens in enumerate(val_pairs[:2]):
+            decoded = decode(pair_tokens.tolist())
+            parts = decoded.split('\n', 1)
+            question = parts[0] if parts else ""
+            answer = parts[1].strip() if len(parts) > 1 else ""
+            print(f"  Val pair {i+1} ({len(pair_tokens)} tokens):")
+            print(f"    Q: {repr(question)}")
+            print(f"    A: {repr(answer[:100])}")
     else:
-        print("Starting new training - loading pairs...")
+        print("Using already loaded training data")
     
-    # Reload pairs and shuffle
-    text, pairs = load_all_input_files()
-    print("Re-encoding pairs...")
-    
-    # Re-encode pairs
-    encoded_pairs = []
-    for pair in pairs:
-        tokens = encode(pair)
-        if len(tokens) > 0:
-            encoded_pairs.append(torch.tensor(tokens, dtype=torch.long))
-    
-    # Shuffle pairs
-    random.shuffle(encoded_pairs)
-    
-    # Recreate train/val splits
-    n = int(0.9 * len(encoded_pairs))
-    train_pairs = encoded_pairs[:n]
-    val_pairs = encoded_pairs[n:]
-    print(f"Shuffled pairs - Train: {len(train_pairs)} pairs, Val: {len(val_pairs)} pairs")
-    
-    # Also update flat data for backward compatibility
-    data = torch.tensor(encode(text), dtype=torch.long)
-    train_data = data[:int(0.9*len(data))]
-    val_data = data[int(0.9*len(data)):]
-    
-    # Create model
     model = GPTLanguageModel()
     m = model.to(device)
     
-    # Clear MPS cache
     if device == 'mps':
         torch.mps.empty_cache()
     
-    # Initialize training state
     start_iter = 0
     best_loss = float('inf')
     optimizer = None
     
     if checkpoint is not None:
-        # Verify vocab_size matches
         if checkpoint['vocab_size'] != vocab_size:
             print(f"Warning: Saved vocab_size ({checkpoint['vocab_size']}) != current vocab_size ({vocab_size})")
             print("Reinitializing model with new vocab_size...")
             model = GPTLanguageModel()
             m = model.to(device)
         else:
-            # Normalize checkpoint keys (strip _orig_mod. if present)
+            # Normalize checkpoint keys: compiled models wrap in _orig_mod, we need unwrapped state
             normalized_state_dict = normalize_checkpoint_state_dict(checkpoint['model_state_dict'])
             m.load_state_dict(normalized_state_dict)
             start_iter = checkpoint.get('iter', 0) + 1
             best_loss = checkpoint.get('best_loss', float('inf'))
             print(f"Resuming training from iteration {start_iter}")
     
-    # Compile model AFTER loading weights
+    # CRITICAL: Compile AFTER loading weights (compilation changes parameter names)
     try:
         m = torch.compile(m, mode='reduce-overhead')
         print("Model compiled with torch.compile()")
     except:
         print("torch.compile() not available (requires PyTorch 2.0+)")
     
-    # Print model info
     print(f"{sum(p.numel() for p in m.parameters())/1e6:.2f} M parameters")
     
-    # Create optimizer
     optimizer = torch.optim.AdamW(m.parameters(), lr=learning_rate)
     
-    # Load optimizer state if resuming
     if checkpoint is not None and checkpoint['vocab_size'] == vocab_size:
         if checkpoint.get('optimizer_state_dict') is not None:
             optimizer.load_state_dict(checkpoint['optimizer_state_dict'])
-            print("Optimizer state loaded")
+            
+            # CRITICAL: Override LR from checkpoint (prevents loss spikes when resuming)
+            checkpoint_lr = checkpoint.get('learning_rate', learning_rate)
+            if abs(checkpoint_lr - learning_rate) > 1e-8:
+                print(f"Learning rate override: checkpoint had {checkpoint_lr:.2e}, overriding to {learning_rate:.2e}")
+            for param_group in optimizer.param_groups:
+                param_group['lr'] = learning_rate
+            
+            print("Optimizer state loaded (learning rate overridden to current script value)")
     
-    # Training loop
+    loss_history = []
+    last_loss = None
+    
+    print(f"\nLearning rate schedule:")
+    print(f"  Initial LR: {learning_rate:.2e}")
+    print(f"  Min LR: {min_learning_rate:.2e}")
+    print(f"  Warmup iterations: {warmup_iters}")
+    print(f"  Decay style: {decay_style}")
+    print(f"  Max iterations: {max_iters}")
+    print(f"  Final LR (at max_iters): {get_lr(max_iters-1):.2e}\n")
+    
+    pbar = None
+    eval_start_iter = start_iter
+    
+    if start_iter % eval_interval != 0:
+        next_eval = ((start_iter // eval_interval) + 1) * eval_interval
+        next_eval = min(next_eval, max_iters - 1)
+        pbar = ProgressBar(next_eval - start_iter, desc=f"Epoch {start_iter//eval_interval + 1}")
+        eval_start_iter = start_iter
+    
     for iter in range(start_iter, max_iters):
-        # Sample a batch of data
-        xb, yb = get_batch('train')
+        current_lr = get_lr(iter)
+        for param_group in optimizer.param_groups:
+            param_group['lr'] = current_lr
         
-        # # Evaluate the loss
-        # logits, loss = m(xb, yb)
-        # optimizer.zero_grad(set_to_none=True)
-        # loss.backward()
-        # # Gradient clipping for stability
-        # torch.nn.utils.clip_grad_norm_(m.parameters(), max_norm=1.0)
-        # optimizer.step()
+        debug_batch = (iter == start_iter) or (iter % 1000 == 0)
+        xb, yb = get_batch('train', debug=debug_batch)
         
-        # # Evaluate the loss
         optimizer.zero_grad(set_to_none=True)
-        with torch.autocast(device_type='mps', dtype=torch.float16):
+        # Mixed precision: use float16 for faster training, less memory
+        with torch.autocast(device_type=device, dtype=torch.float16):
             logits, loss = m(xb, yb)
         loss.backward()
+        # Gradient clipping: prevents exploding gradients
         torch.nn.utils.clip_grad_norm_(m.parameters(), max_norm=1.0)
         optimizer.step()
+        
+        loss_history.append(loss.item())
+        if len(loss_history) > 100:
+            loss_history.pop(0)
+        
+        if pbar is not None:
+            # Update progress bar periodically to reduce I/O overhead
+            iter_in_epoch = iter - eval_start_iter
+            if iter_in_epoch % max(1, eval_interval // 50) == 0:
+                avg_loss = sum(loss_history[-10:]) / min(10, len(loss_history)) if loss_history else loss.item()
+                pbar.update(iter_in_epoch, loss=avg_loss, lr=current_lr)
         
         if device == 'mps' and iter % 100 == 0:
             torch.mps.empty_cache()
         
-        # Periodic checkpoint saving
         if iter % checkpoint_interval == 0 and iter > 0:
             save_checkpoint(m, optimizer, tokenizer, iter, best_loss, model_path)
+            
+        if iter % (len(train_pairs) // batch_size) == 0:
+            random.shuffle(train_pairs)
+            print(f"\nReshuffled training pairs at iteration {iter}")
         
-        # Evaluation and full checkpoint
         if iter % eval_interval == 0 or iter == max_iters - 1:
+            if pbar is not None:
+                pbar.close()
+                pbar = None
+            if iter < max_iters - 1 and iter % eval_interval == 0:
+                next_eval = min(iter + eval_interval, max_iters - 1)
+                pbar = ProgressBar(next_eval - iter, desc=f"Epoch {iter//eval_interval + 1}")
+                eval_start_iter = iter
             losses = estimate_loss(m)
-            print(f"step {iter}: train loss {losses['train']:.4f}, val loss {losses['val']:.4f}")
+            train_loss = losses['train']
+            val_loss = losses['val']
+            
+            if len(loss_history) >= 10:
+                recent_avg = sum(loss_history[-10:]) / 10
+                older_avg = sum(loss_history[:10]) / 10 if len(loss_history) >= 20 else recent_avg
+                trend = "↓" if recent_avg < older_avg else "↑" if recent_avg > older_avg else "→"
+            else:
+                trend = "?"
+            
+            if last_loss is not None:
+                improvement = last_loss - val_loss
+                improvement_str = f" ({improvement:+.4f})" if abs(improvement) > 0.0001 else ""
+            else:
+                improvement_str = ""
+            
+            train_non_pad = losses.get('train_non_pad_tokens', 0)
+            val_non_pad = losses.get('val_non_pad_tokens', 0)
+            pad_percentage = (1 - train_non_pad / (batch_size * block_size)) * 100 if train_non_pad > 0 else 0
+            
+            lr_phase = "warmup" if iter < warmup_iters else "decay"
+            print(f"step {iter}: train loss {train_loss:.4f}, val loss {val_loss:.4f}{improvement_str} {trend} | LR: {current_lr:.2e} ({lr_phase})")
+            print(f"  Non-pad tokens: train={train_non_pad:.0f}, val={val_non_pad:.0f}, padding={pad_percentage:.1f}%")
+            
+            if iter % 1000 == 0 and iter > 0:
+                print(f"  [Sample generation at iter {iter}]:")
+                with torch.no_grad():
+                    test_prompts = ["hello", "what is 2+2", "go to kitchen"]
+                    for sample_prompt in test_prompts:
+                        sample_tokens = encode(sample_prompt + "\n")
+                        sample_context = torch.tensor([sample_tokens], dtype=torch.long, device=device)
+                        sample_gen = m.generate(sample_context, max_new_tokens=30, temperature=0.8, top_k=50)
+                        sample_text = decode(sample_gen[0].tolist())
+                        print(f"    Q: '{sample_prompt}'")
+                        print(f"    A: '{sample_text[:100]}...'")
+            
+            last_loss = val_loss
+            
             if device == 'mps':
-                # Check MPS memory usage
                 if hasattr(torch.mps, 'current_allocated_memory'):
-                    allocated = torch.mps.current_allocated_memory() / 1024**3  # GB
+                    allocated = torch.mps.current_allocated_memory() / 1024**3
                     print(f"MPS allocated memory: {allocated:.2f} GB")
             
-            # Save checkpoint with best model tracking
             is_best = losses['val'] < best_loss
             if is_best:
                 best_loss = losses['val']
             
             save_checkpoint(m, optimizer, tokenizer, iter, best_loss, model_path, is_best)
+    
+    # Close progress bar if still open
+    if pbar is not None:
+        pbar.close()
     
     print("Training completed!")
     return m
@@ -656,30 +798,27 @@ def inference_model(model_path='model.pt', prompt="", num_tokens=500, output_fil
     
     if checkpoint is None:
         print(f"Error: No checkpoint found at {model_path}")
-        print("Please train the model first using: python gpt.py --mode train")
+        print("Please train the model first using: python gpt.py train")
         return
     
-    # Verify vocab_size matches
     if checkpoint['vocab_size'] != vocab_size:
         print(f"Error: Vocab size mismatch!")
         print(f"  Checkpoint: {checkpoint['vocab_size']}, Current: {vocab_size}")
         return
     
-    # Create model
     model = GPTLanguageModel()
     m = model.to(device)
     
-    # Normalize checkpoint keys (strip _orig_mod. if present) and load weights BEFORE compiling
+    # CRITICAL: Load weights BEFORE compiling (compilation changes parameter names)
     normalized_state_dict = normalize_checkpoint_state_dict(checkpoint['model_state_dict'])
     m.load_state_dict(normalized_state_dict)
-    m.eval()  # Set to evaluation mode
+    m.eval()
     
     if device != 'cpu':
-        m = m.half()
+        m = m.half()  # Use float16 for inference (faster, less memory)
     
-    # Compile after loading weights
     try:
-        # Use 'reduce-overhead' for MPS compatibility, 'max-autotune' for CUDA
+        # MPS needs 'reduce-overhead', CUDA can use 'max-autotune' for better optimization
         compile_mode = 'reduce-overhead' if device == 'mps' else 'max-autotune'
         m = torch.compile(m, mode=compile_mode, fullgraph=True)
         print(f"Model compiled with torch.compile() (mode: {compile_mode})")
@@ -690,28 +829,26 @@ def inference_model(model_path='model.pt', prompt="", num_tokens=500, output_fil
     if 'iter' in checkpoint:
         print(f"Trained for {checkpoint['iter']} iterations")
     
-    # Prepare context
     if prompt:
-        # Encode the prompt
-        context_tokens = encode(prompt)
+        # Training format: "Question\nAnswer\n\n", so prompt should be "Question\n"
+        formatted_prompt = prompt if prompt.endswith('\n') else prompt + '\n'
+        context_tokens = encode(formatted_prompt)
         context = torch.tensor([context_tokens], dtype=torch.long, device=device)
         print(f"Prompt: {prompt}")
+        print(f"Formatted prompt (for model): {formatted_prompt!r}")
     else:
-        # Empty context (random generation)
         context = torch.zeros((1, 1), dtype=torch.long, device=device)
         print("Generating from empty context...")
     
-    # Generate
     print("\n" + "="*50)
     print("Generated text:")
     print("="*50)
     
     with torch.no_grad():
-        generated_tokens = m.generate(context, max_new_tokens=num_tokens)
+        generated_tokens = m.generate(context, max_new_tokens=num_tokens, temperature=0.8, top_k=50)
         generated_text = decode(generated_tokens[0].tolist())
         print(generated_text)
     
-    # Save to file if specified
     if output_file:
         with open(output_file, 'w', encoding='utf-8') as f:
             f.write(generated_text)
@@ -737,87 +874,73 @@ def dispatch(model, prompt="", max_new_tokens=200, max_recursions=5, recursion_d
     if recursion_depth >= max_recursions:
         return "E:Max recursions reached"
     
-    # Prepare context
     if prompt:
-        context_tokens = encode(prompt)
+        # Match training format: "Question\nAnswer\n\n"
+        formatted_prompt = prompt if prompt.endswith('\n') else prompt + '\n'
+        context_tokens = encode(formatted_prompt)
         context = torch.tensor([context_tokens], dtype=torch.long, device=device)
     else:
         context = torch.zeros((1, 1), dtype=torch.long, device=device)
     
-    # Generate response
     with torch.no_grad():
-        generated_tokens = model.generate(context, max_new_tokens=max_new_tokens)
+        generated_tokens = model.generate(context, max_new_tokens=max_new_tokens, temperature=0.8, top_k=50)
         generated_text = decode(generated_tokens[0].tolist())
     
-    # Clean up generated text - extract first complete DSL response
-    # Remove prompt from generated text if present
+    # Extract first complete DSL response from generated text
     if prompt and prompt in generated_text:
         generated_text = generated_text.split(prompt, 1)[-1].strip()
     
-    # Find first valid DSL pattern
     dsl_response = None
     lines = generated_text.split('\n')
     for line in lines:
         line = line.strip()
         if not line:
             continue
-        # Check if it looks like DSL (starts with S:, T:, C:, E:, or CL)
+        # Look for DSL patterns: S:, T:, C:, E:, or CL
         if line.startswith(('S:', 'T:', 'C:', 'E:')) or line == 'CL':
             dsl_response = line
             break
-        # Also check for combined format S:text;C:cmd,args
+        # Check for combined format: S:text;C:cmd,args
         if ';' in line and any(line.startswith(prefix) for prefix in ['S:', 'T:', 'C:']):
             dsl_response = line
             break
     
-    # If no DSL pattern found, try to find it anywhere in the text
     if not dsl_response:
         import re
-        # Look for DSL patterns in the entire text
         dsl_pattern = r'(?:^|\n)([STCE]:[^\n]+|CL)(?:\n|$)'
         match = re.search(dsl_pattern, generated_text)
         if match:
             dsl_response = match.group(1).strip()
     
-    # If still no DSL pattern found, use first non-empty line or full text
     if not dsl_response:
         dsl_response = generated_text.strip().split('\n')[0] if generated_text.strip() else generated_text
     
-    # Check if response contains a tool call
     if DSLDecoder.is_tool(dsl_response):
-        # Check for tool chain (chained tool calls)
         tool_chain = DSLDecoder.extract_tool_chain(dsl_response)
         
         if tool_chain and len(tool_chain) > 1:
-            # Execute chained tools sequentially
+            # Execute chained tools sequentially (e.g., T:date,tomorrow;T:wthr,<date>)
             print(f"[Recursion {recursion_depth + 1}] Executing tool chain: {len(tool_chain)} tools")
             results = []
             
             for i, (tool_name, tool_args) in enumerate(tool_chain):
                 print(f"  Tool {i+1}/{len(tool_chain)}: {tool_name}({tool_args})")
                 
-                # Replace <date> placeholder with previous result if present
+                # Replace <date> placeholder with previous tool result
                 if '<date>' in tool_args and results:
                     tool_args = tool_args.replace('<date>', results[-1])
                 
-                # Execute tool
                 tool_result = execute_tool(tool_name, tool_args)
                 
-                # If tool result is an error, return it
                 if tool_result.startswith("E:"):
                     return DSLEncoder.encode_error(tool_result[2:])
                 
                 results.append(tool_result)
                 print(f"    Result: {tool_result}")
             
-            # Use the last result for the final response
-            final_result = results[-1]
-            
-            # Create new prompt with all tool results and recursively call dispatch
+            # Recursively call model with all tool results as context
             results_str = " | ".join(results)
             new_prompt = f"{prompt}\nTool results: {results_str}"
-            
-            # Recursive call
             return dispatch(model, new_prompt, max_new_tokens, max_recursions, recursion_depth + 1)
         
         else:
@@ -827,64 +950,42 @@ def dispatch(model, prompt="", max_new_tokens=200, max_recursions=5, recursion_d
                 tool_name, tool_args = tool_info
                 print(f"[Recursion {recursion_depth + 1}] Executing tool: {tool_name}({tool_args})")
                 
-                # Execute tool
                 tool_result = execute_tool(tool_name, tool_args)
                 
-                # If tool result is an error, return it
                 if tool_result.startswith("E:"):
                     return DSLEncoder.encode_error(tool_result[2:])
                 
-                # Create new prompt with tool result and recursively call dispatch
-                # Format: original prompt + tool result as context
+                # Recursively call model with tool result as context
                 new_prompt = f"{prompt}\nTool result: {tool_result}"
-                
-                # Recursive call
                 return dispatch(model, new_prompt, max_new_tokens, max_recursions, recursion_depth + 1)
     
-    # Check if response contains a command (but not a tool)
+    # Commands (C:) are executed but don't require recursive model calls
     decoded = DSLDecoder.decode(dsl_response)
     if decoded['type'] == 'response_command':
-        # Extract command if present
         for item in decoded['content']:
             if item.get('type') == 'command':
                 cmd = item.get('command', '')
                 args = item.get('args', '')
                 print(f"[Command] {cmd}({args})")
-                # Commands are executed but don't require recursive model calls
-                # They're actions to be performed
     
     return dsl_response
 
 def dispatch_inference(model_path='model.pt', prompt="", max_new_tokens=200, max_recursions=5):
-    """
-    Convenience function to load model and run dispatch.
-    
-    Args:
-        model_path: Path to model checkpoint
-        prompt: User prompt
-        max_new_tokens: Maximum tokens per generation
-        max_recursions: Maximum tool call recursions
-    
-    Returns:
-        Final response string
-    """
-    # Load checkpoint
+    """Convenience function to load model and run dispatch with tool execution"""
     checkpoint = load_checkpoint(model_path)
     
     if checkpoint is None:
         print(f"Error: No checkpoint found at {model_path}")
         return None
     
-    # Verify vocab_size matches
     if checkpoint['vocab_size'] != vocab_size:
         print(f"Error: Vocab size mismatch!")
         return None
     
-    # Create model
     model = GPTLanguageModel()
     m = model.to(device)
     
-    # Normalize checkpoint keys (strip _orig_mod. if present) and load weights BEFORE compiling
+    # Load weights BEFORE compiling
     normalized_state_dict = normalize_checkpoint_state_dict(checkpoint['model_state_dict'])
     m.load_state_dict(normalized_state_dict)
     m.eval()
@@ -892,18 +993,16 @@ def dispatch_inference(model_path='model.pt', prompt="", max_new_tokens=200, max
     if device != 'cpu':
         m = m.half()
     
-    # Compile after loading weights
     compile_mode = 'reduce-overhead' if device == 'mps' else 'max-autotune'
     try:
         m = torch.compile(m, mode=compile_mode, fullgraph=True)
     except:
-        pass  # Compilation is optional
+        pass
     
     print(f"Model loaded: {sum(p.numel() for p in m.parameters())/1e6:.2f} M parameters")
     print(f"Prompt: {prompt}")
     print("="*50)
     
-    # Run dispatch
     result = dispatch(m, prompt, max_new_tokens, max_recursions)
     
     print("="*50)
