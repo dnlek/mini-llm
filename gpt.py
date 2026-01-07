@@ -4,6 +4,7 @@ from torch.nn import functional as F
 import os
 import math
 import argparse
+import random
 from tokenizers import Tokenizer
 from tokenizers.models import BPE
 from tokenizers.trainers import BpeTrainer
@@ -152,6 +153,7 @@ print(f"Vocabulary size: {vocab_size}")
 
 # Load all text files from inputs directory
 def load_all_input_files(inputs_dir='inputs'):
+    """Load and parse question/answer pairs from input files"""
     input_files = get_input_files(inputs_dir)
     
     if not input_files:
@@ -162,46 +164,101 @@ def load_all_input_files(inputs_dir='inputs'):
             raise ValueError(f"No training files found in {inputs_dir} or input.txt")
     
     print(f"Loading {len(input_files)} file(s) from {inputs_dir}:")
-    all_texts = []
+    all_pairs = []
+    
     for filepath in input_files:
         print(f"  Loading {filepath}...")
         with open(filepath, 'r', encoding='utf-8') as f:
-            text = f.read()
-            all_texts.append(text)
-            print(f"    Loaded {len(text)} characters")
+            lines = f.readlines()
+        
+        # Parse question/answer pairs
+        i = 0
+        file_pairs = 0
+        while i < len(lines):
+            line = lines[i].strip()
+            # Check if this is a question (not empty, not starting with DSL prefixes)
+            if line and not line.startswith(('S:', 'T:', 'C:', 'E:')) and line != 'CL':
+                question = line
+                # Next line should be the answer
+                if i + 1 < len(lines):
+                    answer = lines[i + 1].strip()
+                    # Check if answer is valid DSL format
+                    if answer.startswith(('S:', 'T:', 'C:', 'E:')) or answer == 'CL':
+                        # Valid pair: question -> answer
+                        pair_text = f"{question}\n{answer}\n\n"
+                        all_pairs.append(pair_text)
+                        file_pairs += 1
+                        i += 2  # Skip both question and answer lines
+                        continue
+            i += 1
+        
+        print(f"    Loaded {file_pairs} question/answer pairs")
     
-    # Combine all texts
-    combined_text = '\n'.join(all_texts)
-    print(f"Total combined text: {len(combined_text)} characters")
-    return combined_text
+    # Shuffle pairs (not tokens!) to randomize training order
+    random.shuffle(all_pairs)
+    
+    # Combine pairs into text for tokenization
+    combined_text = ''.join(all_pairs)
+    print(f"Total: {len(all_pairs)} pairs, {len(combined_text)} characters")
+    return combined_text, all_pairs
 
-# Load all training data
-text = load_all_input_files()
+# Load all training data as pairs
+text, pairs = load_all_input_files()
 
-# Encode and create data tensor
-print("Encoding text...")
+# Encode all pairs and store as list of sequences
+print("Encoding question/answer pairs...")
+encoded_pairs = []
+for pair in pairs:
+    tokens = encode(pair)
+    if len(tokens) > 0:  # Only add non-empty pairs
+        encoded_pairs.append(torch.tensor(tokens, dtype=torch.long))
+
+print(f"Encoded {len(encoded_pairs)} pairs")
+
+# Split pairs into train/val (shuffle already done in load_all_input_files)
+n = int(0.9 * len(encoded_pairs))
+train_pairs = encoded_pairs[:n]
+val_pairs = encoded_pairs[n:]
+print(f"Train: {len(train_pairs)} pairs, Val: {len(val_pairs)} pairs")
+
+# For backward compatibility, also create flat data tensor
 data = torch.tensor(encode(text), dtype=torch.long)
-print(f"Encoded to {len(data)} tokens")
-
-# Shuffle data before splitting (for better training)
-print("Shuffling data...")
-shuffle_indices = torch.randperm(len(data))
-data = data[shuffle_indices]
-
-# Train and test splits (will be updated in train_model when resuming)
-n = int(0.9*len(data)) # first 90% will be train, rest val
-train_data = data[:n]
-val_data = data[n:]
-print(f"Train data: {len(train_data)} tokens, Val data: {len(val_data)} tokens")
+train_data = data[:int(0.9*len(data))]
+val_data = data[int(0.9*len(data)):]
 
 def get_batch(split):
-    data = train_data if split == 'train' else val_data
-    # Generate all indices at once
-    ix = torch.randint(len(data) - block_size, (batch_size,))
+    """Sample complete question/answer pairs, pad/truncate to block_size"""
+    pairs = train_pairs if split == 'train' else val_pairs
     
-    # Use advanced indexing (faster)
-    x = torch.stack([data[i:i+block_size] for i in ix.tolist()])
-    y = torch.stack([data[i+1:i+block_size+1] for i in ix.tolist()])
+    # Sample random pairs
+    selected_pairs = random.sample(pairs, min(batch_size, len(pairs)))
+    
+    # Pad or truncate each pair to block_size
+    x_batch = []
+    y_batch = []
+    
+    for pair_tokens in selected_pairs:
+        # Truncate if too long
+        if len(pair_tokens) > block_size:
+            pair_tokens = pair_tokens[:block_size]
+        
+        # Create input (all tokens) and target (shifted by 1)
+        x_seq = pair_tokens[:-1] if len(pair_tokens) > 1 else pair_tokens
+        y_seq = pair_tokens[1:] if len(pair_tokens) > 1 else pair_tokens
+        
+        # Pad if too short
+        if len(x_seq) < block_size:
+            pad_length = block_size - len(x_seq)
+            # Pad with zeros (or use a padding token if you have one)
+            x_seq = torch.cat([x_seq, torch.zeros(pad_length, dtype=torch.long)])
+            y_seq = torch.cat([y_seq, torch.zeros(pad_length, dtype=torch.long)])
+        
+        x_batch.append(x_seq)
+        y_batch.append(y_seq)
+    
+    # Stack into batch tensors
+    x = torch.stack(x_batch)
+    y = torch.stack(y_batch)
     
     return x.to(device), y.to(device)
 
@@ -220,7 +277,7 @@ def estimate_loss(model):
     out = {}
     model.eval()
     for split in ['train', 'val']:
-        losses = torch.zeros(eval_iters)
+        losses = torch.zeros(eval_iters, device=device)
         for k in range(eval_iters):
             X, Y = get_batch(split)
             logits, loss = model(X, Y)
@@ -435,51 +492,69 @@ class GPTLanguageModel(nn.Module):
 
     def generate(self, idx, max_new_tokens):
         # idx is (B, T) array of indices in the current context
-        
-        for _ in range(max_new_tokens):
-            # crop idx to the last block_size tokens
-            idx_cond = idx[:, -block_size:]
-            # get the predictions
-            logits, loss = self(idx_cond)
-            # focus only on the last time step
-            logits = logits[:, -1, :] # becomes (B, C)
-            # apply softmax to get probabilities
-            probs = F.softmax(logits, dim=-1) # (B, C)
-            # sample from the distribution
-            idx_next = torch.multinomial(probs, num_samples=1) # (B, 1)
-            
-            # append sampled index to the running sequence
-            idx = torch.cat((idx, idx_next), dim=1) # (B, T+1)
-            
-            if decode(idx[0].tolist())[-1] == '\n':
-                break
+        original_length = idx.shape[1]
+        with torch.inference_mode():
+            for i in range(max_new_tokens):
+                # crop idx to the last block_size tokens
+                idx_cond = idx[:, -block_size:]
+                # get the predictions
+                logits, loss = self(idx_cond)
+                # focus only on the last time step
+                logits = logits[:, -1, :] # becomes (B, C)
+                # apply softmax to get probabilities
+                probs = F.softmax(logits, dim=-1) # (B, C)
+                # sample from the distribution
+                idx_next = torch.multinomial(probs, num_samples=1) # (B, 1)
+                
+                # append sampled index to the running sequence
+                idx = torch.cat((idx, idx_next), dim=1) # (B, T+1)
+                
+                if i % 10 == 0:  # Only check every 10 tokens
+                    new_tokens = idx[:, original_length:]
+                    if new_tokens.shape[1] > 0:
+                        decoded_new = decode(new_tokens[0].tolist())
+                        if decoded_new and decoded_new[-1] == '\n':
+                            break
 
-        return idx[:-1] if len(idx) > 1 else idx
+        # Return only the newly generated tokens (exclude the original prompt)
+        return idx[:, original_length:]
 
 def train_model(model_path='model.pt', checkpoint_interval=100):
-    global train_data, val_data
+    global train_pairs, val_pairs, train_data, val_data
     
     # Try to load existing checkpoint
     checkpoint = load_checkpoint(model_path)
     
-    # Shuffle data when resuming training (or on first run)
+    # Reload and shuffle pairs when resuming training (or on first run)
     if checkpoint is not None:
-        print("Resuming training - shuffling data for better training...")
+        print("Resuming training - reloading and shuffling pairs...")
     else:
-        print("Starting new training - data already shuffled")
+        print("Starting new training - loading pairs...")
     
-    # Reload and shuffle data
-    text = load_all_input_files()
-    print("Re-encoding and shuffling data...")
-    data = torch.tensor(encode(text), dtype=torch.long)
-    shuffle_indices = torch.randperm(len(data))
-    data = data[shuffle_indices]
+    # Reload pairs and shuffle
+    text, pairs = load_all_input_files()
+    print("Re-encoding pairs...")
+    
+    # Re-encode pairs
+    encoded_pairs = []
+    for pair in pairs:
+        tokens = encode(pair)
+        if len(tokens) > 0:
+            encoded_pairs.append(torch.tensor(tokens, dtype=torch.long))
+    
+    # Shuffle pairs
+    random.shuffle(encoded_pairs)
     
     # Recreate train/val splits
-    n = int(0.9*len(data))
-    train_data = data[:n]
-    val_data = data[n:]
-    print(f"Shuffled data - Train: {len(train_data)} tokens, Val: {len(val_data)} tokens")
+    n = int(0.9 * len(encoded_pairs))
+    train_pairs = encoded_pairs[:n]
+    val_pairs = encoded_pairs[n:]
+    print(f"Shuffled pairs - Train: {len(train_pairs)} pairs, Val: {len(val_pairs)} pairs")
+    
+    # Also update flat data for backward compatibility
+    data = torch.tensor(encode(text), dtype=torch.long)
+    train_data = data[:int(0.9*len(data))]
+    val_data = data[int(0.9*len(data)):]
     
     # Create model
     model = GPTLanguageModel()
@@ -598,6 +673,9 @@ def inference_model(model_path='model.pt', prompt="", num_tokens=500, output_fil
     normalized_state_dict = normalize_checkpoint_state_dict(checkpoint['model_state_dict'])
     m.load_state_dict(normalized_state_dict)
     m.eval()  # Set to evaluation mode
+    
+    if device != 'cpu':
+        m = m.half()
     
     # Compile after loading weights
     try:
@@ -810,6 +888,9 @@ def dispatch_inference(model_path='model.pt', prompt="", max_new_tokens=200, max
     normalized_state_dict = normalize_checkpoint_state_dict(checkpoint['model_state_dict'])
     m.load_state_dict(normalized_state_dict)
     m.eval()
+    
+    if device != 'cpu':
+        m = m.half()
     
     # Compile after loading weights
     compile_mode = 'reduce-overhead' if device == 'mps' else 'max-autotune'
