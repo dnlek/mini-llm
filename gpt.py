@@ -730,6 +730,7 @@ def train_model(model_path='model.pt', checkpoint_interval=100):
             print(f"\nReshuffled training pairs at iteration {iter}")
         
         if iter % eval_interval == 0 or iter == max_iters - 1:
+            print(f"\nEvaluating at iteration {iter}")
             if pbar is not None:
                 pbar.close()
                 pbar = None
