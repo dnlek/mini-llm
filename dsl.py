@@ -11,6 +11,7 @@ from typing import List, Dict, Optional, Tuple, Union
 # T:tool,args - Tool call
 # C:cmd,args - Command
 # S:text;C:cmd,args - Response + Command
+# R:result - Tool result (used in recursive calls)
 # CL - Cloud route
 # E:error - Error message
 

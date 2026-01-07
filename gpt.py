@@ -23,7 +23,7 @@ batch_size = 256
 block_size = 256
 max_iters = 50000
 eval_interval = 500
-learning_rate = 1e-4
+learning_rate = 5e-5  # Reduced from 1e-4 to combat overfitting (smaller steps = less memorization)
 min_learning_rate = 1e-6  # Minimum learning rate for decay
 warmup_iters = 1000  # Warmup iterations before decay starts
 decay_style = 'cosine'  # 'cosine' or 'linear'
@@ -41,7 +41,7 @@ eval_iters = 100
 n_embd = 384
 n_head = 6
 n_layer = 6
-dropout = 0.2
+dropout = 0.3  # Increased from 0.2 to reduce overfitting
 
 torch.manual_seed(1337)
 
@@ -147,7 +147,7 @@ except:
 print(f"Vocabulary size: {vocab_size}, Pad token ID: {pad_token_id}")
 
 def load_all_input_files(inputs_dir='inputs'):
-    """Load and parse question/answer pairs from input files"""
+    """Load and parse question/answer pairs from input files, grouped by source file"""
     input_files = get_input_files(inputs_dir)
     
     if not input_files:
@@ -159,77 +159,116 @@ def load_all_input_files(inputs_dir='inputs'):
     
     print(f"Loading {len(input_files)} file(s) from {inputs_dir}:")
     all_pairs = []
+    pairs_by_file = {}
     
     for filepath in input_files:
         print(f"  Loading {filepath}...")
         with open(filepath, 'r', encoding='utf-8') as f:
             lines = f.readlines()
         
+        file_pairs = []
         i = 0
-        file_pairs = 0
         while i < len(lines):
             line = lines[i].strip()
-            # Question: not empty, not starting with DSL prefixes (S:, T:, C:, E:, CL)
             if line and not line.startswith(('S:', 'T:', 'C:', 'E:')) and line != 'CL':
                 question = line
                 if i + 1 < len(lines):
                     answer = lines[i + 1].strip()
-                    # Answer must be valid DSL format
                     if answer.startswith(('S:', 'T:', 'C:', 'E:')) or answer == 'CL':
                         pair_text = f"{question}\n{answer}\n\n"
                         all_pairs.append(pair_text)
-                        file_pairs += 1
+                        file_pairs.append(pair_text)
                         i += 2
                         continue
             i += 1
         
-        print(f"    Loaded {file_pairs} question/answer pairs")
+        pairs_by_file[filepath] = file_pairs
+        print(f"    Loaded {len(file_pairs)} question/answer pairs")
     
-    # Shuffle pairs (not tokens!) to randomize training order - important for learning
     random.shuffle(all_pairs)
-    
     combined_text = ''.join(all_pairs)
     print(f"Total: {len(all_pairs)} pairs, {len(combined_text)} characters")
-    return combined_text, all_pairs
+    return combined_text, all_pairs, pairs_by_file
 
-# Training data - loaded lazily only when needed for training (saves memory during inference)
 train_pairs = None
 val_pairs = None
+train_pairs_by_file = None
+val_pairs_by_file = None
 
 def get_batch(split, debug=False):
-    """Sample complete question/answer pairs, pad/truncate to block_size"""
+    """Sample batches with stratified sampling from all files for balanced representation"""
     if train_pairs is None or val_pairs is None:
         raise RuntimeError("Training data not loaded. Call train_model() to load data.")
-    pairs = train_pairs if split == 'train' else val_pairs
     
-    selected_pairs = random.sample(pairs, min(batch_size, len(pairs)))
+    pairs = train_pairs if split == 'train' else val_pairs
+    pairs_by_file = train_pairs_by_file if split == 'train' else val_pairs_by_file
+    
+    selected_pairs = []
+    if pairs_by_file and len(pairs_by_file) > 1:
+        samples_per_file = max(1, batch_size // len(pairs_by_file))
+        remaining = batch_size
+        selected_ids = set()
+        
+        file_list = list(pairs_by_file.items())
+        random.shuffle(file_list)
+        
+        for filepath, file_pairs in file_list:
+            if remaining <= 0:
+                break
+            n_samples = min(samples_per_file, len(file_pairs), remaining)
+            if n_samples > 0:
+                sampled = random.sample(file_pairs, n_samples)
+                for pair in sampled:
+                    pair_id = id(pair)
+                    if pair_id not in selected_ids:
+                        selected_pairs.append(pair)
+                        selected_ids.add(pair_id)
+                        remaining -= 1
+                        if remaining <= 0:
+                            break
+        
+        if remaining > 0:
+            all_file_pairs = [p for file_pairs in pairs_by_file.values() for p in file_pairs]
+            available = [p for p in all_file_pairs if id(p) not in selected_ids]
+            if available:
+                additional = random.sample(available, min(remaining, len(available)))
+                selected_pairs.extend(additional)
+        
+        random.shuffle(selected_pairs)
+    else:
+        selected_pairs = random.sample(pairs, min(batch_size, len(pairs)))
     
     x_batch = []
     y_batch = []
     pair_info = []
     
     for pair_tokens in selected_pairs:
-        original_len = len(pair_tokens)
+        non_pad_mask = (pair_tokens != pad_token_id)
+        non_pad_indices = torch.nonzero(non_pad_mask, as_tuple=False).squeeze(-1)
         
-        if len(pair_tokens) > block_size:
-            pair_tokens = pair_tokens[:block_size]
-            truncated = True
+        if len(non_pad_indices) > 1:
+            last_non_pad_idx = non_pad_indices[-1].item()
+            x_seq = pair_tokens[:last_non_pad_idx]
+            y_seq = pair_tokens[1:last_non_pad_idx+1]
+        elif len(non_pad_indices) == 1:
+            idx = non_pad_indices[0].item()
+            x_seq = pair_tokens[:idx+1]
+            y_seq = pair_tokens[1:idx+2] if idx+1 < len(pair_tokens) else pair_tokens[1:]
         else:
-            truncated = False
+            continue
         
-        # Language modeling: predict next token given previous tokens
-        # Input is all tokens except last, target is all tokens shifted by 1
-        x_seq = pair_tokens[:-1] if len(pair_tokens) > 1 else pair_tokens
-        y_seq = pair_tokens[1:] if len(pair_tokens) > 1 else pair_tokens
-        
-        pad_count = 0
-        if len(x_seq) < block_size:
-            pad_length = block_size - len(x_seq)
-            pad_count = pad_length
-            # Use pad_token_id (not zero) - zero might be a valid token ID
+        pad_length = block_size - len(x_seq)
+        if pad_length > 0:
             pad_tensor = torch.full((pad_length,), pad_token_id, dtype=torch.long)
             x_seq = torch.cat([x_seq, pad_tensor])
-            y_seq = torch.cat([y_seq, pad_tensor])
+            y_seq_pad = torch.full((pad_length,), pad_token_id, dtype=torch.long)
+            y_seq = torch.cat([y_seq, y_seq_pad])
+        
+        if len(x_seq) != block_size or len(y_seq) != block_size:
+            continue
+        
+        if (y_seq != pad_token_id).sum().item() == 0:
+            continue
         
         x_batch.append(x_seq)
         y_batch.append(y_seq)
@@ -240,10 +279,6 @@ def get_batch(split, debug=False):
             question = parts[0] if parts else ""
             answer = parts[1].strip() if len(parts) > 1 else ""
             pair_info.append({
-                'original_len': original_len,
-                'final_len': len(x_seq),
-                'pad_count': pad_count,
-                'truncated': truncated,
                 'question': question,
                 'answer': answer[:80] + '...' if len(answer) > 80 else answer
             })
@@ -253,9 +288,8 @@ def get_batch(split, debug=False):
     
     if debug and pair_info:
         print(f"\n[DEBUG] Batch sample ({split}):")
-        for i, info in enumerate(pair_info[:3]):  # Show first 3
-            print(f"  Pair {i+1}: len={info['original_len']}→{info['final_len']}, "
-                  f"pad={info['pad_count']}, trunc={info['truncated']}")
+        for i, info in enumerate(pair_info[:3]):
+            print(f"  Pair {i+1}:")
             print(f"    Q: {repr(info['question'])}")
             print(f"    A: {repr(info['answer'])}")
     
@@ -527,8 +561,8 @@ class GPTLanguageModel(nn.Module):
         with torch.inference_mode():
             for i in range(max_new_tokens):
                 # Only use last block_size tokens (model can't see beyond this)
-                idx_cond = idx[:, -block_size:]
-                logits, loss = self(idx_cond)
+            idx_cond = idx[:, -block_size:]
+            logits, loss = self(idx_cond)
                 logits = logits[:, -1, :]  # Only last position (B, C)
                 
                 # Temperature: >1 = more random, <1 = more deterministic
@@ -566,7 +600,7 @@ class GPTLanguageModel(nn.Module):
         return idx[:, original_length:]
 
 def train_model(model_path='model.pt', checkpoint_interval=100):
-    global train_pairs, val_pairs
+    global train_pairs, val_pairs, train_pairs_by_file, val_pairs_by_file
     
     checkpoint = load_checkpoint(model_path)
     
@@ -577,16 +611,33 @@ def train_model(model_path='model.pt', checkpoint_interval=100):
         else:
             print("Starting new training - loading pairs...")
         
-        text, pairs = load_all_input_files()
-        print("Encoding pairs...")
+        text, pairs, pairs_by_file = load_all_input_files()
+        print("Encoding and preprocessing pairs...")
         
         encoded_pairs = []
+        pairs_by_file_encoded = {}
         pair_lengths = []
-        for pair in pairs:
-            tokens = encode(pair)
-            if len(tokens) > 0:
-                encoded_pairs.append(torch.tensor(tokens, dtype=torch.long))
-                pair_lengths.append(len(tokens))
+        
+        for filepath, file_pairs_list in pairs_by_file.items():
+            file_encoded = []
+            for pair in file_pairs_list:
+                tokens = encode(pair)
+                if len(tokens) > 0:
+                    if len(tokens) > block_size:
+                        tokens = tokens[:block_size]
+                    
+                    if len(tokens) < block_size:
+                        pad_length = block_size - len(tokens)
+                        pad_tensor = torch.full((pad_length,), pad_token_id, dtype=torch.long)
+                        tokens = torch.cat([torch.tensor(tokens, dtype=torch.long), pad_tensor])
+                    else:
+                        tokens = torch.tensor(tokens, dtype=torch.long)
+                    
+                    encoded_pairs.append(tokens)
+                    file_encoded.append(tokens)
+                    pair_lengths.append(len(tokens))
+            
+            pairs_by_file_encoded[filepath] = file_encoded
         
         if pair_lengths:
             avg_len = sum(pair_lengths) / len(pair_lengths)
@@ -601,6 +652,14 @@ def train_model(model_path='model.pt', checkpoint_interval=100):
         n = int(0.9 * len(encoded_pairs))
         train_pairs = encoded_pairs[:n]
         val_pairs = encoded_pairs[n:]
+        
+        train_pairs_by_file = {}
+        val_pairs_by_file = {}
+        for filepath, file_encoded in pairs_by_file_encoded.items():
+            n_file = int(0.9 * len(file_encoded))
+            train_pairs_by_file[filepath] = file_encoded[:n_file]
+            val_pairs_by_file[filepath] = file_encoded[n_file:]
+        
         print(f"Shuffled pairs - Train: {len(train_pairs)} pairs, Val: {len(val_pairs)} pairs")
         
         print("\n[Validation] Sample pairs being trained:")
@@ -632,6 +691,7 @@ def train_model(model_path='model.pt', checkpoint_interval=100):
     start_iter = 0
     best_loss = float('inf')
     optimizer = None
+    saved_checkpoint = checkpoint
     
     if checkpoint is not None:
         if checkpoint['vocab_size'] != vocab_size:
@@ -649,14 +709,15 @@ def train_model(model_path='model.pt', checkpoint_interval=100):
     
     # CRITICAL: Compile AFTER loading weights (compilation changes parameter names)
     try:
-        m = torch.compile(m, mode='reduce-overhead')
-        print("Model compiled with torch.compile()")
+        compile_mode = 'reduce-overhead' if device == 'mps' else 'default'
+        m = torch.compile(m, mode=compile_mode)
+        print(f"Model compiled with torch.compile() (mode: {compile_mode})")
     except:
         print("torch.compile() not available (requires PyTorch 2.0+)")
     
     print(f"{sum(p.numel() for p in m.parameters())/1e6:.2f} M parameters")
     
-    optimizer = torch.optim.AdamW(m.parameters(), lr=learning_rate)
+    optimizer = torch.optim.AdamW(m.parameters(), lr=learning_rate, weight_decay=0.01)  # Increased weight decay to combat severe overfitting
     
     if checkpoint is not None and checkpoint['vocab_size'] == vocab_size:
         if checkpoint.get('optimizer_state_dict') is not None:
@@ -699,32 +760,94 @@ def train_model(model_path='model.pt', checkpoint_interval=100):
         debug_batch = (iter == start_iter) or (iter % 1000 == 0)
         xb, yb = get_batch('train', debug=debug_batch)
         
+        non_pad_count = (yb != pad_token_id).sum().item()
+        if non_pad_count == 0:
+            print(f"\nWARNING: All padding tokens in batch at iteration {iter}! Skipping.")
+            continue
+        
         optimizer.zero_grad(set_to_none=True)
-        # Mixed precision: use float16 for faster training, less memory
         with torch.autocast(device_type=device, dtype=torch.float16):
             logits, loss = m(xb, yb)
+        
+        if torch.isnan(loss) or torch.isinf(loss):
+            print(f"\nWARNING: NaN/Inf loss at iteration {iter}!")
+            print(f"  Loss value: {loss.item()}")
+            print(f"  Learning rate: {current_lr:.2e}")
+            
+            has_nan_params = False
+            model_to_check = m._orig_mod if hasattr(m, '_orig_mod') else m
+            for name, param in model_to_check.named_parameters():
+                if torch.isnan(param).any() or torch.isinf(param).any():
+                    print(f"  Model parameter '{name}' contains NaN/Inf!")
+                    has_nan_params = True
+                    break
+            
+            non_pad_tokens = (yb != pad_token_id).sum().item()
+            print(f"  Batch stats: non-pad tokens={non_pad_tokens}/{yb.numel()}, pad_percent={(1-non_pad_tokens/yb.numel())*100:.1f}%")
+            print(f"  Logits stats: min={logits.min().item():.2f}, max={logits.max().item():.2f}, mean={logits.mean().item():.2f}")
+            if torch.isnan(logits).any():
+                print(f"  Logits contain NaN!")
+            if torch.isinf(logits).any():
+                print(f"  Logits contain Inf!")
+            
+            if has_nan_params:
+                print(f"  Model weights corrupted! Reloading from checkpoint...")
+                if saved_checkpoint is not None:
+                    model_to_reload = m._orig_mod if hasattr(m, '_orig_mod') else m
+                    normalized_state_dict = normalize_checkpoint_state_dict(saved_checkpoint['model_state_dict'])
+                    model_to_reload.load_state_dict(normalized_state_dict)
+                    if saved_checkpoint.get('optimizer_state_dict') is not None:
+                        optimizer.load_state_dict(saved_checkpoint['optimizer_state_dict'])
+                        for param_group in optimizer.param_groups:
+                            param_group['lr'] = current_lr
+                    print(f"  Reloaded from checkpoint at iteration {saved_checkpoint.get('iter', 0)}")
+                else:
+                    print(f"  ERROR: No checkpoint available to reload from!")
+                    break
+            
+            nan_count = sum(1 for _ in range(iter - start_iter) if iter > start_iter + 10)
+            if nan_count > 10:
+                print(f"  Stopping training - NaN persists after 10 attempts. Reload checkpoint manually.")
+                break
+            
+            continue
+        
         loss.backward()
-        # Gradient clipping: prevents exploding gradients
         torch.nn.utils.clip_grad_norm_(m.parameters(), max_norm=1.0)
         optimizer.step()
         
-        loss_history.append(loss.item())
-        if len(loss_history) > 100:
-            loss_history.pop(0)
+        loss_value = loss.item()
+        if not (math.isnan(loss_value) or math.isinf(loss_value)):
+            loss_history.append(loss_value)
+            if len(loss_history) > 100:
+                loss_history.pop(0)
         
         if pbar is not None:
-            # Update progress bar periodically to reduce I/O overhead
             iter_in_epoch = iter - eval_start_iter
             if iter_in_epoch % max(1, eval_interval // 50) == 0:
-                avg_loss = sum(loss_history[-10:]) / min(10, len(loss_history)) if loss_history else loss.item()
+                if loss_history:
+                    avg_loss = sum(loss_history[-10:]) / min(10, len(loss_history))
+                    if math.isnan(avg_loss) or math.isinf(avg_loss):
+                        avg_loss = loss_value if not (math.isnan(loss_value) or math.isinf(loss_value)) else 0.0
+                else:
+                    avg_loss = loss_value if not (math.isnan(loss_value) or math.isinf(loss_value)) else 0.0
                 pbar.update(iter_in_epoch, loss=avg_loss, lr=current_lr)
+        
+        if iter % 100 == 0:
+            if loss_history:
+                avg_loss = sum(loss_history[-10:]) / min(10, len(loss_history))
+                if math.isnan(avg_loss) or math.isinf(avg_loss):
+                    avg_loss = loss_value if not (math.isnan(loss_value) or math.isinf(loss_value)) else 0.0
+            else:
+                avg_loss = loss_value if not (math.isnan(loss_value) or math.isinf(loss_value)) else 0.0
+            print(f"\niter {iter}: loss={avg_loss:.4f}, lr={current_lr:.2e}")
         
         if device == 'mps' and iter % 100 == 0:
             torch.mps.empty_cache()
         
         if iter % checkpoint_interval == 0 and iter > 0:
             save_checkpoint(m, optimizer, tokenizer, iter, best_loss, model_path)
-            
+        
         if iter % (len(train_pairs) // batch_size) == 0:
             random.shuffle(train_pairs)
             print(f"\nReshuffled training pairs at iteration {iter}")
@@ -762,6 +885,17 @@ def train_model(model_path='model.pt', checkpoint_interval=100):
             lr_phase = "warmup" if iter < warmup_iters else "decay"
             print(f"step {iter}: train loss {train_loss:.4f}, val loss {val_loss:.4f}{improvement_str} {trend} | LR: {current_lr:.2e} ({lr_phase})")
             print(f"  Non-pad tokens: train={train_non_pad:.0f}, val={val_non_pad:.0f}, padding={pad_percentage:.1f}%")
+            
+            # Overfitting detection
+            if val_loss > train_loss * 1.5:
+                gap_ratio = val_loss / train_loss
+                print(f"  ⚠️  OVERFITTING WARNING: Val loss is {gap_ratio:.1f}x higher than train loss!")
+                if gap_ratio > 2.0:
+                    print(f"  ⚠️  SEVERE overfitting detected! Consider:")
+                    print(f"      - Increasing dropout (current: {dropout})")
+                    print(f"      - Reducing learning rate (current: {current_lr:.2e})")
+                    print(f"      - Adding more training data")
+                    print(f"      - Early stopping if val loss doesn't improve")
             
             if iter % 1000 == 0 and iter > 0:
                 print(f"  [Sample generation at iter {iter}]:")
@@ -858,10 +992,11 @@ def inference_model(model_path='model.pt', prompt="", num_tokens=500, output_fil
     
     return generated_text
 
-def dispatch(model, prompt="", max_new_tokens=200, max_recursions=5, recursion_depth=0):
+def dispatch(model, prompt="", max_new_tokens=200, max_recursions=5, recursion_depth=0, tool_call_count=0):
     """
     Dispatch method that handles model responses and tool execution.
     Supports recursive tool calling up to max_recursions times.
+    Falls back to cloud (CL) if more than 3 tool calls are needed.
     
     Args:
         model: The GPT model instance
@@ -869,6 +1004,7 @@ def dispatch(model, prompt="", max_new_tokens=200, max_recursions=5, recursion_d
         max_new_tokens: Maximum tokens to generate per call
         max_recursions: Maximum depth of recursive tool calls (default 5)
         recursion_depth: Current recursion depth (internal use)
+        tool_call_count: Total number of tool calls made so far (internal use)
     
     Returns:
         Final response string after all tool calls are resolved
@@ -876,9 +1012,14 @@ def dispatch(model, prompt="", max_new_tokens=200, max_recursions=5, recursion_d
     if recursion_depth >= max_recursions:
         return "E:Max recursions reached"
     
+    # Fallback to cloud if more than 3 tool calls needed
+    if tool_call_count > 3:
+        return "CL"
+    
     if prompt:
-        # Match training format: "Question\nAnswer\n\n"
-        formatted_prompt = prompt if prompt.endswith('\n') else prompt + '\n'
+        # Remove line breaks and ensure single-line prompt
+        single_line_prompt = prompt.replace('\n', ' ').strip()
+        formatted_prompt = single_line_prompt + '\n'
         context_tokens = encode(formatted_prompt)
         context = torch.tensor([context_tokens], dtype=torch.long, device=device)
     else:
@@ -921,6 +1062,11 @@ def dispatch(model, prompt="", max_new_tokens=200, max_recursions=5, recursion_d
         tool_chain = DSLDecoder.extract_tool_chain(dsl_response)
         
         if tool_chain and len(tool_chain) > 1:
+            # Check if total tool calls would exceed 3
+            new_tool_count = tool_call_count + len(tool_chain)
+            if new_tool_count > 3:
+                return "CL"
+            
             # Execute chained tools sequentially (e.g., T:date,tomorrow;T:wthr,<date>)
             print(f"[Recursion {recursion_depth + 1}] Executing tool chain: {len(tool_chain)} tools")
             results = []
@@ -940,15 +1086,22 @@ def dispatch(model, prompt="", max_new_tokens=200, max_recursions=5, recursion_d
                 results.append(tool_result)
                 print(f"    Result: {tool_result}")
             
-            # Recursively call model with all tool results as context
-            results_str = " | ".join(results)
-            new_prompt = f"{prompt}\nTool results: {results_str}"
-            return dispatch(model, new_prompt, max_new_tokens, max_recursions, recursion_depth + 1)
+            # Recursively call model with all tool results as context (DSL format: |R:result)
+            # Append |R: results without line breaks, unified separator format
+            prompt_clean = prompt.replace('\n', ' ').strip()
+            results_str = "|".join([f"R:{r}" for r in results])
+            new_prompt = f"{prompt_clean} |{results_str}"  # Unified |R: format
+            return dispatch(model, new_prompt, max_new_tokens, max_recursions, recursion_depth + 1, new_tool_count)
         
         else:
             # Single tool call
             tool_info = DSLDecoder.extract_tool(dsl_response)
             if tool_info:
+                # Check if total tool calls would exceed 3
+                new_tool_count = tool_call_count + 1
+                if new_tool_count > 3:
+                    return "CL"
+                
                 tool_name, tool_args = tool_info
                 print(f"[Recursion {recursion_depth + 1}] Executing tool: {tool_name}({tool_args})")
                 
@@ -957,9 +1110,11 @@ def dispatch(model, prompt="", max_new_tokens=200, max_recursions=5, recursion_d
                 if tool_result.startswith("E:"):
                     return DSLEncoder.encode_error(tool_result[2:])
                 
-                # Recursively call model with tool result as context
-                new_prompt = f"{prompt}\nTool result: {tool_result}"
-                return dispatch(model, new_prompt, max_new_tokens, max_recursions, recursion_depth + 1)
+                # Recursively call model with tool result as context (DSL format: |R:result)
+                # Append |R: result without line breaks, unified separator format
+                prompt_clean = prompt.replace('\n', ' ').strip()
+                new_prompt = f"{prompt_clean} |R:{tool_result}"  # Unified |R: format
+                return dispatch(model, new_prompt, max_new_tokens, max_recursions, recursion_depth + 1, new_tool_count)
     
     # Commands (C:) are executed but don't require recursive model calls
     decoded = DSLDecoder.decode(dsl_response)

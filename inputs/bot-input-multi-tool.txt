@@ -1,0 +1,278 @@
+if mary is 7 years old and I am 3 years older than her how old am I |R:10
+S:If Mary is 7 years old, then you are 10 years old.
+
+if mary is 7 years old and I am 3 years older how old am I |R:10
+S:You are 10 years old.
+
+mary is 7 I am 3 years older how old am I |R:10
+S:You are 10 years old.
+
+if john has 5 apples and gives away 2 how many does he have left |R:3
+S:John has 3 apples left.
+
+if john has 5 apples and gives away 2 how many does he have |R:3
+S:He has 3 apples left.
+
+if sarah has 10 dollars and spends 3 dollars how much money does she have left |R:7
+S:Sarah has 7 dollars left.
+
+if sarah has 10 dollars and spends 3 dollars how much does she have |R:7
+S:She has 7 dollars left.
+
+if I have 10 dollars spend 3 then get 5 more how much do I have |R:12
+S:If you have 10 dollars, spend 3, then get 5 more, you have 12 dollars.
+
+if I have 10 dollars spend 3 then get 5 more how much money |R:12
+S:You have 12 dollars.
+
+if tom has 4 cookies he eats 1 cookie how many cookies does he have now |R:3
+S:Tom has 3 cookies left.
+
+if tom has 4 cookies he eats 1 cookie how many does he have |R:3
+S:He has 3 cookies left.
+
+if a pizza has 8 slices and I eat 3 slices how many slices are left |R:5
+S:There are 5 slices left.
+
+if a pizza has 8 slices and I eat 3 slices how many are left |R:5
+S:5 slices are left.
+
+if I walk 5 miles today and 3 miles yesterday how many miles did I walk total |R:8
+S:You walked 8 miles total.
+
+if I walk 5 miles today and 3 miles yesterday how many miles total |R:8
+S:You walked a total of 8 miles.
+
+if I save 10 dollars each week for 4 weeks how much money do I have |R:40
+S:If you save 10 dollars each week for 4 weeks, you have 40 dollars.
+
+if I save 10 dollars each week for 4 weeks how much do I have |R:40
+S:You have 40 dollars.
+
+if a box has 6 rows and each row has 4 items how many items are in the box |R:24
+S:There are 24 items in the box.
+
+if a box has 6 rows and each row has 4 items how many items total |R:24
+S:The box has 24 items total.
+
+if I divide 20 cookies equally among 4 friends how many cookies does each friend get |R:5
+S:Each friend gets 5 cookies.
+
+if I divide 20 cookies equally among 4 friends how many does each get |R:5
+S:Each friend gets 5 cookies.
+
+whats 2 plus 2 and what time is it |R:4|R:14:30
+S:2 plus 2 equals 4, and the current time is 14:30.
+
+whats 2 plus 2 and what time is it |R:4|R:09:15
+S:2 plus 2 equals 4, and the current time is 9:15.
+
+whats 5 times 3 and whats the date |R:15|R:2024-01-15
+S:5 times 3 equals 15, and today's date is 2024-01-15.
+
+whats 5 times 3 and whats the date |R:15|R:2024-01-15
+S:5 times 3 is 15, and today is 2024-01-15.
+
+whats 10 minus 3 and what time is it |R:7|R:16:45
+S:10 minus 3 equals 7, and the current time is 16:45.
+
+whats 20 divided by 4 and whats the date |R:5|R:2024-01-15
+S:20 divided by 4 equals 5, and today's date is 2024-01-15.
+
+whats the weather tomorrow and whats 15 plus 20 |R:2024-01-16|R:72F, sunny on 2024-01-16|R:35
+S:Tomorrow's weather will be 72F and sunny, and 15 plus 20 equals 35.
+
+whats the weather tomorrow and whats 15 plus 20 |R:2024-01-16|R:72F, sunny on 2024-01-16|R:35
+S:Tomorrow will be 72F and sunny, and 15 plus 20 is 35.
+
+whats the weather today and what time is it |R:72F, sunny|R:14:30
+S:The weather today is 72F and sunny, and the current time is 14:30.
+
+whats the weather today and what time is it |R:72F, sunny|R:09:00
+S:Today's weather is 72F and sunny, and it's 9:00 AM.
+
+whats the date tomorrow and whats 10 times 5 |R:2024-01-16|R:50
+S:Tomorrow's date is 2024-01-16, and 10 times 5 equals 50.
+
+whats the date tomorrow and whats 10 times 5 |R:2024-01-16|R:50
+S:Tomorrow is 2024-01-16, and 10 times 5 is 50.
+
+whats the weather tomorrow and whats 8 plus 7 |R:2024-01-16|R:72F, sunny on 2024-01-16|R:15
+S:Tomorrow's weather will be 72F and sunny, and 8 plus 7 equals 15.
+
+whats the weather tomorrow and whats 8 plus 7 |R:2024-01-16|R:72F, sunny on 2024-01-16|R:15
+S:Tomorrow will be 72F and sunny, and 8 plus 7 is 15.
+
+if I have 20 dollars and spend 5 dollars then get 10 more how much do I have and what time is it |R:25|R:14:30
+S:If you have 20 dollars, spend 5, then get 10 more, you have 25 dollars. The current time is 14:30.
+
+if I have 20 dollars and spend 5 dollars then get 10 more how much do I have and what time is it |R:25|R:09:15
+S:You have 25 dollars, and the current time is 9:15.
+
+if sarah is 8 years old and her brother is 5 years older how old is her brother and whats the date |R:13|R:2024-01-15
+S:Sarah's brother is 13 years old, and today's date is 2024-01-15.
+
+if sarah is 8 years old and her brother is 5 years older how old is her brother and whats the date |R:13|R:2024-01-15
+S:Her brother is 13 years old, and today is 2024-01-15.
+
+if a train travels 60 miles per hour for 2 hours how far does it travel and whats the weather |R:120|R:72F, sunny
+S:The train travels 120 miles, and the weather today is 72F and sunny.
+
+if a train travels 60 miles per hour for 2 hours how far does it travel and whats the weather |R:120|R:72F, sunny
+S:It travels 120 miles, and the weather is 72F and sunny.
+
+whats 12 plus 8 and whats the weather tomorrow |R:20|R:2024-01-16|R:72F, sunny on 2024-01-16
+S:12 plus 8 equals 20, and tomorrow's weather will be 72F and sunny.
+
+whats 12 plus 8 and whats the weather tomorrow |R:20|R:2024-01-16|R:72F, sunny on 2024-01-16
+S:12 plus 8 is 20, and tomorrow will be 72F and sunny.
+
+if I buy 3 items that cost 5 dollars each how much do I spend and what time is it |R:15|R:14:30
+S:If you buy 3 items at 5 dollars each, you spend 15 dollars. The current time is 14:30.
+
+if I buy 3 items that cost 5 dollars each how much do I spend and what time is it |R:15|R:09:00
+S:You spend 15 dollars, and it's 9:00 AM.
+
+if I have 50 dollars and spend 20 dollars how much do I have left and whats the date |R:30|R:2024-01-15
+S:If you have 50 dollars and spend 20, you have 30 dollars left. Today's date is 2024-01-15.
+
+if I have 50 dollars and spend 20 dollars how much do I have left and whats the date |R:30|R:2024-01-15
+S:You have 30 dollars left, and today is 2024-01-15.
+
+whats 6 times 4 and whats the weather today and what time is it |R:24|R:72F, sunny|R:14:30
+S:6 times 4 equals 24, the weather today is 72F and sunny, and the current time is 14:30.
+
+whats 6 times 4 and whats the weather today and what time is it |R:24|R:72F, sunny|R:09:15
+S:6 times 4 is 24, today's weather is 72F and sunny, and it's 9:15.
+
+if mary is 10 years old and I am 2 years younger how old am I and whats the date |R:8|R:2024-01-15
+S:If Mary is 10 years old and you are 2 years younger, you are 8 years old. Today's date is 2024-01-15.
+
+if mary is 10 years old and I am 2 years younger how old am I and whats the date |R:8|R:2024-01-15
+S:You are 8 years old, and today is 2024-01-15.
+
+whats 25 divided by 5 and whats the weather tomorrow and what time is it |R:5|R:2024-01-16|R:72F, sunny on 2024-01-16|R:14:30
+S:25 divided by 5 equals 5, tomorrow's weather will be 72F and sunny, and the current time is 14:30.
+
+whats 25 divided by 5 and whats the weather tomorrow and what time is it |R:5|R:2024-01-16|R:72F, sunny on 2024-01-16|R:09:00
+S:25 divided by 5 is 5, tomorrow will be 72F and sunny, and it's 9:00 AM.
+
+if I have 15 cookies and eat 4 cookies how many cookies do I have left and whats the date |R:11|R:2024-01-15
+S:If you have 15 cookies and eat 4, you have 11 cookies left. Today's date is 2024-01-15.
+
+if I have 15 cookies and eat 4 cookies how many cookies do I have left and whats the date |R:11|R:2024-01-15
+S:You have 11 cookies left, and today is 2024-01-15.
+
+whats 9 plus 6 and whats the weather today |R:15|R:72F, sunny
+S:9 plus 6 equals 15, and the weather today is 72F and sunny.
+
+whats 9 plus 6 and whats the weather today |R:15|R:72F, sunny
+S:9 plus 6 is 15, and today's weather is 72F and sunny.
+
+if a book costs 15 dollars and I have 20 dollars how much change will I get and what time is it |R:5|R:14:30
+S:If a book costs 15 dollars and you have 20, you will get 5 dollars in change. The current time is 14:30.
+
+if a book costs 15 dollars and I have 20 dollars how much change will I get and what time is it |R:5|R:09:15
+S:You will get 5 dollars in change, and it's 9:15.
+
+whats 7 times 3 and whats the date tomorrow |R:21|R:2024-01-16
+S:7 times 3 equals 21, and tomorrow's date is 2024-01-16.
+
+whats 7 times 3 and whats the date tomorrow |R:21|R:2024-01-16
+S:7 times 3 is 21, and tomorrow is 2024-01-16.
+
+if I walk 3 miles in the morning and 2 miles in the afternoon how many miles did I walk total and whats the weather |R:5|R:72F, sunny
+S:If you walk 3 miles in the morning and 2 miles in the afternoon, you walked 5 miles total. The weather today is 72F and sunny.
+
+if I walk 3 miles in the morning and 2 miles in the afternoon how many miles did I walk total and whats the weather |R:5|R:72F, sunny
+S:You walked 5 miles total, and the weather is 72F and sunny.
+
+whats 18 minus 9 and whats the weather tomorrow and whats the date |R:9|R:2024-01-16|R:72F, sunny on 2024-01-16|R:2024-01-15
+S:18 minus 9 equals 9, tomorrow's weather will be 72F and sunny, and today's date is 2024-01-15.
+
+whats 18 minus 9 and whats the weather tomorrow and whats the date |R:9|R:2024-01-16|R:72F, sunny on 2024-01-16|R:2024-01-15
+S:18 minus 9 is 9, tomorrow will be 72F and sunny, and today is 2024-01-15.
+
+if tom has 12 apples and gives away 4 apples how many apples does he have left and what time is it |R:8|R:14:30
+S:If Tom has 12 apples and gives away 4, he has 8 apples left. The current time is 14:30.
+
+if tom has 12 apples and gives away 4 apples how many apples does he have left and what time is it |R:8|R:09:00
+S:He has 8 apples left, and it's 9:00 AM.
+
+whats 4 times 5 and whats the weather today and what time is it |R:20|R:72F, sunny|R:14:30
+S:4 times 5 equals 20, the weather today is 72F and sunny, and the current time is 14:30.
+
+whats 4 times 5 and whats the weather today and what time is it |R:20|R:72F, sunny|R:09:15
+S:4 times 5 is 20, today's weather is 72F and sunny, and it's 9:15.
+
+if I save 5 dollars each day for 6 days how much money do I have and whats the date |R:30|R:2024-01-15
+S:If you save 5 dollars each day for 6 days, you have 30 dollars. Today's date is 2024-01-15.
+
+if I save 5 dollars each day for 6 days how much money do I have and whats the date |R:30|R:2024-01-15
+S:You have 30 dollars, and today is 2024-01-15.
+
+whats 14 plus 11 and whats the weather tomorrow |R:25|R:2024-01-16|R:72F, sunny on 2024-01-16
+S:14 plus 11 equals 25, and tomorrow's weather will be 72F and sunny.
+
+whats 14 plus 11 and whats the weather tomorrow |R:25|R:2024-01-16|R:72F, sunny on 2024-01-16
+S:14 plus 11 is 25, and tomorrow will be 72F and sunny.
+
+if I have 30 dollars and spend 12 dollars how much do I have left and whats the weather |R:18|R:72F, sunny
+S:If you have 30 dollars and spend 12, you have 18 dollars left. The weather today is 72F and sunny.
+
+if I have 30 dollars and spend 12 dollars how much do I have left and whats the weather |R:18|R:72F, sunny
+S:You have 18 dollars left, and the weather is 72F and sunny.
+
+whats 16 divided by 4 and whats the date and what time is it |R:4|R:2024-01-15|R:14:30
+S:16 divided by 4 equals 4, today's date is 2024-01-15, and the current time is 14:30.
+
+whats 16 divided by 4 and whats the date and what time is it |R:4|R:2024-01-15|R:09:00
+S:16 divided by 4 is 4, today is 2024-01-15, and it's 9:00 AM.
+
+if a car travels 50 miles per hour for 3 hours how far does it travel and whats the weather tomorrow |R:150|R:2024-01-16|R:72F, sunny on 2024-01-16
+S:The car travels 150 miles, and tomorrow's weather will be 72F and sunny.
+
+if a car travels 50 miles per hour for 3 hours how far does it travel and whats the weather tomorrow |R:150|R:2024-01-16|R:72F, sunny on 2024-01-16
+S:It travels 150 miles, and tomorrow will be 72F and sunny.
+
+whats 8 times 2 and whats the weather today and whats the date |R:16|R:72F, sunny|R:2024-01-15
+S:8 times 2 equals 16, the weather today is 72F and sunny, and today's date is 2024-01-15.
+
+whats 8 times 2 and whats the weather today and whats the date |R:16|R:72F, sunny|R:2024-01-15
+S:8 times 2 is 16, today's weather is 72F and sunny, and today is 2024-01-15.
+
+if I have 25 dollars and spend 8 dollars then get 5 more how much do I have and what time is it |R:22|R:14:30
+S:If you have 25 dollars, spend 8, then get 5 more, you have 22 dollars. The current time is 14:30.
+
+if I have 25 dollars and spend 8 dollars then get 5 more how much do I have and what time is it |R:22|R:09:15
+S:You have 22 dollars, and it's 9:15.
+
+whats 11 plus 7 and whats the weather tomorrow and whats the date |R:18|R:2024-01-16|R:72F, sunny on 2024-01-16|R:2024-01-15
+S:11 plus 7 equals 18, tomorrow's weather will be 72F and sunny, and today's date is 2024-01-15.
+
+whats 11 plus 7 and whats the weather tomorrow and whats the date |R:18|R:2024-01-16|R:72F, sunny on 2024-01-16|R:2024-01-15
+S:11 plus 7 is 18, tomorrow will be 72F and sunny, and today is 2024-01-15.
+
+if I buy 4 books that cost 6 dollars each how much do I spend and whats the weather |R:24|R:72F, sunny
+S:If you buy 4 books at 6 dollars each, you spend 24 dollars. The weather today is 72F and sunny.
+
+if I buy 4 books that cost 6 dollars each how much do I spend and whats the weather |R:24|R:72F, sunny
+S:You spend 24 dollars, and the weather is 72F and sunny.
+
+whats 20 minus 7 and whats the date tomorrow and what time is it |R:13|R:2024-01-16|R:14:30
+S:20 minus 7 equals 13, tomorrow's date is 2024-01-16, and the current time is 14:30.
+
+whats 20 minus 7 and whats the date tomorrow and what time is it |R:13|R:2024-01-16|R:09:00
+S:20 minus 7 is 13, tomorrow is 2024-01-16, and it's 9:00 AM.
+
+if I have 40 dollars and spend 15 dollars how much do I have left and whats the weather tomorrow |R:25|R:2024-01-16|R:72F, sunny on 2024-01-16
+S:If you have 40 dollars and spend 15, you have 25 dollars left. Tomorrow's weather will be 72F and sunny.
+
+if I have 40 dollars and spend 15 dollars how much do I have left and whats the weather tomorrow |R:25|R:2024-01-16|R:72F, sunny on 2024-01-16
+S:You have 25 dollars left, and tomorrow will be 72F and sunny.
+
+whats 9 times 3 and whats the weather today and whats the date and what time is it |R:27|R:72F, sunny|R:2024-01-15|R:14:30
+S:9 times 3 equals 27, the weather today is 72F and sunny, today's date is 2024-01-15, and the current time is 14:30.
+
+whats 9 times 3 and whats the weather today and whats the date and what time is it |R:27|R:72F, sunny|R:2024-01-15|R:09:15
+S:9 times 3 is 27, today's weather is 72F and sunny, today is 2024-01-15, and it's 9:15.

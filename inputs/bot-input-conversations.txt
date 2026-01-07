@@ -16513,3 +16513,303 @@ S:I'm here to help! What do you need?
 ah thx a lot
 S:You're welcome! How else can I help?
 
+what can you do
+S:I can help with math, check weather, tell time, and answer questions.
+
+what can you do for me
+S:I can help with calculations, weather info, time, and general questions.
+
+what are you capable of
+S:I can do math, check weather, tell time, and help answer questions.
+
+what do you know how to do
+S:I know how to do math, check weather, tell time, and answer questions.
+
+tell me what you can do
+S:I can help with math problems, weather forecasts, time, and questions.
+
+whats your purpose
+S:My purpose is to help you with tasks and answer questions.
+
+why are you here
+S:I'm here to assist you with whatever you need.
+
+what should I ask you
+S:You can ask me about math, weather, time, or anything else.
+
+uh what can you do
+S:I can help with math, weather, time, and questions.
+
+hmm what can you do
+S:I can help with various tasks like math, weather, and time.
+
+oh what can you do
+S:I can help with math, check weather, tell time, and more.
+
+ah what can you do
+S:I can help with calculations, weather info, and time.
+
+um what can you do
+S:I can help with math, weather, time, and answering questions.
+
+what should I do today
+S:You could go for a walk, read a book, or try a new hobby.
+
+give me some activity ideas
+S:Try cooking, painting, gardening, or learning something new.
+
+what are some fun things to do
+S:You could try crafts, puzzles, music, or outdoor activities.
+
+im bored what should I do
+S:Try a new hobby, read, exercise, or create something.
+
+what can I do for fun
+S:Try crafts, games, music, cooking, or exploring new places.
+
+give me ideas for activities
+S:Try drawing, writing, gardening, or learning a skill.
+
+what are good hobbies
+S:Good hobbies include reading, crafting, music, sports, or cooking.
+
+what should I try
+S:Try painting, knitting, photography, or learning an instrument.
+
+im looking for something to do
+S:Try a craft project, read a book, or learn something new.
+
+whats a good activity
+S:A good activity could be drawing, cooking, or trying a new hobby.
+
+uh what should I do
+S:You could try a hobby, read, or do something creative.
+
+hmm what should I do
+S:Try crafts, music, or learning something new.
+
+oh what should I do
+S:You could try painting, cooking, or a new activity.
+
+ah what should I do
+S:Try reading, crafting, or exploring a new hobby.
+
+tell me about life
+S:Life is about finding what makes you happy and meaningful.
+
+whats important in life
+S:Important things include relationships, growth, and finding purpose.
+
+what makes life meaningful
+S:Meaning comes from connections, growth, and doing what you love.
+
+how do I find purpose
+S:Find purpose by exploring what you care about and what brings joy.
+
+what should I focus on
+S:Focus on what matters to you and what brings fulfillment.
+
+how do I live better
+S:Live better by taking care of yourself and doing what you enjoy.
+
+whats the meaning of life
+S:Life's meaning comes from connections, growth, and finding joy.
+
+how can I be happier
+S:Be happier by doing things you love and spending time with others.
+
+what are good crafts to try
+S:Good crafts include knitting, painting, pottery, or woodworking.
+
+tell me about hobbies
+S:Hobbies are activities you enjoy like reading, crafting, or sports.
+
+what hobbies are popular
+S:Popular hobbies include reading, cooking, gardening, and crafts.
+
+what craft should I learn
+S:Try knitting, painting, or making things with your hands.
+
+im interested in crafts
+S:Crafts are great! Try knitting, painting, or making things.
+
+whats a good craft project
+S:A good project could be knitting, painting, or making something useful.
+
+how do I start a hobby
+S:Start by choosing something you like and trying it out.
+
+what hobby should I pick
+S:Pick something that interests you like crafts, music, or sports.
+
+tell me about crafting
+S:Crafting is making things by hand like knitting, painting, or building.
+
+what crafts are easy to learn
+S:Easy crafts include knitting, drawing, or simple woodworking.
+
+uh what should I do today
+S:You could try a hobby, read, or do something creative.
+
+hmm what should I do today
+S:Try crafts, music, or learning something new.
+
+oh what should I do today
+S:You could try painting, cooking, or a new activity.
+
+ah what should I do today
+S:Try reading, crafting, or exploring a new hobby.
+
+um what should I do today
+S:You could try a craft project or learn something new.
+
+uh give me ideas
+S:Try cooking, painting, gardening, or learning something new.
+
+hmm give me ideas
+S:Try crafts, puzzles, music, or outdoor activities.
+
+oh give me ideas
+S:You could try drawing, writing, or gardening.
+
+ah give me ideas
+S:Try reading, crafting, or learning a skill.
+
+what can I make
+S:You can make crafts, food, art, or useful things.
+
+what should I create
+S:Create art, crafts, food, or something that interests you.
+
+what can I build
+S:You can build crafts, models, or useful items.
+
+what should I learn
+S:Learn something that interests you like a craft, skill, or hobby.
+
+whats fun to learn
+S:Fun things to learn include crafts, music, cooking, or languages.
+
+what skill should I learn
+S:Learn a skill you enjoy like crafting, cooking, or music.
+
+how do I find what I love
+S:Try different activities and see what brings you joy.
+
+what should I care about
+S:Care about what matters to you and what brings fulfillment.
+
+how do I discover myself
+S:Discover yourself by trying new things and seeing what resonates.
+
+what makes me happy
+S:You find happiness in activities and connections that bring joy.
+
+how do I know what I want
+S:Try different things and see what feels right for you.
+
+whats my purpose
+S:Your purpose comes from what you care about and what brings meaning.
+
+uh hmm what should I do
+S:Try a hobby, read, or do something creative.
+
+oh um what should I do
+S:You could try crafts, music, or learning something new.
+
+ah hmm what should I do
+S:Try reading, crafting, or exploring a new hobby.
+
+um oh what should I do
+S:You could try a craft project or learn something new.
+
+what else can you do
+S:I can also help with calculations, weather, and time questions.
+
+anything else
+S:I can help with math, weather, time, and answer questions.
+
+what more can you do
+S:I can help with various tasks and answer your questions.
+
+tell me more
+S:I can help with math, weather, time, and many other things.
+
+what other things
+S:I can help with calculations, weather info, and time.
+
+uh what are some activities
+S:Try cooking, painting, gardening, or learning something new.
+
+hmm what are some activities
+S:Try crafts, puzzles, music, or outdoor activities.
+
+oh what are some activities
+S:You could try drawing, writing, or gardening.
+
+ah what are some activities
+S:Try reading, crafting, or learning a skill.
+
+tell me more about crafts
+S:Crafts involve making things by hand like knitting or painting.
+
+what crafts are there
+S:There are many crafts like knitting, painting, pottery, and woodworking.
+
+how do I get into crafting
+S:Start with something simple like drawing or basic knitting.
+
+whats a beginner craft
+S:Beginner crafts include drawing, simple knitting, or paper crafts.
+
+im new to crafts
+S:Start with something simple like drawing or basic projects.
+
+uh how do I find purpose
+S:Find purpose by exploring what you care about and what brings joy.
+
+hmm how do I find purpose
+S:Try different activities and see what feels meaningful to you.
+
+oh how do I find purpose
+S:Purpose comes from doing what you love and what matters to you.
+
+ah how do I find purpose
+S:Find purpose by trying new things and seeing what resonates.
+
+what can I do indoors
+S:Try reading, crafting, cooking, or learning something new.
+
+what can I do outside
+S:Try walking, gardening, sports, or exploring nature.
+
+whats good for rainy days
+S:Rainy days are good for reading, crafts, cooking, or indoor hobbies.
+
+whats good for sunny days
+S:Sunny days are great for outdoor activities, gardening, or sports.
+
+umm what can you do
+S:I can help with math, weather, time, and questions.
+
+uhh what can you do
+S:I can help with various tasks like math, weather, and time.
+
+ohh what can you do
+S:I can help with math, check weather, tell time, and more.
+
+ahh what can you do
+S:I can help with calculations, weather info, and time.
+
+umm what should I do
+S:You could try a hobby, read, or do something creative.
+
+uhh what should I do
+S:Try crafts, music, or learning something new.
+
+ohh what should I do
+S:You could try painting, cooking, or a new activity.
+
+ahh what should I do
+S:Try reading, crafting, or exploring a new hobby.
+
