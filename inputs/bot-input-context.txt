@@ -1,47 +1,47 @@
-CXT:Hi there! | hello again
-S:Hello again! How can I help?
+CTX:hi there | hello again
+S:hello again how can i help
 
-CXT:Good morning! | good morning
-S:Good morning! What can I do for you?
+CTX:good morning | good morning
+S:good morning what can i do for you
 
-CXT:talked about weather | what about tomorrow
+CTX:talked about weather | what about tomorrow
 T:wthr,tomorrow
 
-CXT:used math tool | what is 5 plus 3
+CTX:used math tool | what is 5 plus 3
 T:math,5+3
 
-CXT:talked about time | what time is it now
+CTX:talked about time | what time is it now
 T:time
 
-CXT:mentioned kitchen | go to kitchen
+CTX:mentioned kitchen | go to kitchen
 C:move,kitchen
 
-CXT:talked about Oliwia | how old is she
+CTX:talked about oliwia | how old is she
 T:fam,age,oliwia
 
-CXT:discussed family | where is oliwia
+CTX:discussed family | where is oliwia
 T:fam,where,oliwia
 
-CXT:mentioned dad | when is his birthday
+CTX:mentioned dad | when is his birthday
 T:fam,birthday,dad
 
-CXT:Hi there! | how are you
-S:I'm doing well, thanks for asking!
+CTX:hi there | how are you
+S:im doing well, thanks for asking
 
-CXT:discussed weather | is it sunny
+CTX:discussed weather | is it sunny
 T:wthr
 
-CXT:about math | calculate 10 times 5
+CTX:about math | calculate 10 times 5
 T:math,10*5
 
-CXT:about time | what date is it
+CTX:about time | what date is it
 T:date
 
-CXT:used calculator | what is 20 divided by 4
+CTX:used calculator | what is 20 divided by 4
 T:math,20/4
 
 hello
-S:Hi there! How can I help you?
+S:hi there how can i help you
 
 what is 2+2
 T:math,2+2
@@ -55,211 +55,211 @@ C:move,kitchen
 what is the weather
 T:wthr
 
-CXT:mentioned kitchen | what time is it
+CTX:mentioned kitchen | what time is it
 T:time
 
-CXT:discussed time | what is 3 plus 4
+CTX:discussed time | what is 3 plus 4
 T:math,3+4
 
-CXT:discussed family | hello again
-S:Hello again! How can I help?
+CTX:discussed family | hello again
+S:hello again how can i help
 
-CXT:Hi there! | what about tomorrow
+CTX:hi there | what about tomorrow
 T:wthr,tomorrow
 
-CXT:discussed time | what time is it
+CTX:discussed time | what time is it
 T:time
 
-CXT:Hi there! | calculate 5 times 6
+CTX:hi there | calculate 5 times 6
 T:math,5*6
 
-CXT:discussed time | where is oliwia
+CTX:discussed time | where is oliwia
 T:fam,where,oliwia
 
-CXT:discussed family | what time is it
+CTX:discussed family | what time is it
 T:time
 
 what date is it
 T:date
 
-CXT:mentioned kitchen | hello again
-S:Hello again! How can I help?
+CTX:mentioned kitchen | hello again
+S:hello again how can i help
 
-CXT:discussed family | how are you
-S:I'm doing well! What do you need?
+CTX:discussed family | how are you
+S:im doing well what do you need
 
-CXT:mentioned kitchen | what is 3 plus 4
+CTX:mentioned kitchen | what is 3 plus 4
 T:math,3+4
 
-CXT:discussed time | how are you
-S:I'm doing well! What do you need?
+CTX:discussed time | how are you
+S:im doing well what do you need
 
-CXT:talked about weather | what about tomorrow
+CTX:talked about weather | what about tomorrow
 T:wthr,tomorrow
 
-CXT:discussed family | what about tomorrow
+CTX:discussed family | what about tomorrow
 T:wthr,tomorrow
 
-CXT:talked about Oliwia | how are you
-S:I'm doing well! What do you need?
+CTX:talked about oliwia | how are you
+S:im doing well what do you need
 
-CXT:mentioned kitchen | hello again
-S:Hello again! How can I help?
+CTX:mentioned kitchen | hello again
+S:hello again how can i help
 
 calculate 5 times 6
 T:math,5*6
 
-CXT:mentioned kitchen | how old is oliwia
+CTX:mentioned kitchen | how old is oliwia
 T:fam,age,oliwia
 
-CXT:talked about Oliwia | what date is it
+CTX:talked about oliwia | what date is it
 T:date
 
-CXT:discussed time | where is oliwia
+CTX:discussed time | where is oliwia
 T:fam,where,oliwia
 
-CXT:discussed time | go to kitchen
+CTX:discussed time | go to kitchen
 C:move,kitchen
 
-CXT:mentioned kitchen | what is the weather
+CTX:mentioned kitchen | what is the weather
 T:wthr
 
-CXT:talked about Oliwia | what is 3 plus 4
+CTX:talked about oliwia | what is 3 plus 4
 T:math,3+4
 
-CXT:talked about Oliwia | how are you
-S:I'm doing well! What do you need?
+CTX:talked about oliwia | how are you
+S:im doing well what do you need
 
-CXT:discussed time | how old is oliwia
+CTX:discussed time | how old is oliwia
 T:fam,age,oliwia
 
-CXT:mentioned kitchen | where is oliwia
+CTX:mentioned kitchen | where is oliwia
 T:fam,where,oliwia
 
-CXT:used math | calculate 5 times 6
+CTX:used math | calculate 5 times 6
 T:math,5*6
 
-CXT:discussed time | what is 3 plus 4
+CTX:discussed time | what is 3 plus 4
 T:math,3+4
 
 what can you do
-S:I can help with tasks and answer questions.
+S:i can help with tasks and answer questions.
 
-CXT:mentioned kitchen | how old is oliwia
+CTX:mentioned kitchen | how old is oliwia
 T:fam,age,oliwia
 
-CXT:discussed time | how old is oliwia
+CTX:discussed time | how old is oliwia
 T:fam,age,oliwia
 
-CXT:talked about Oliwia | hello again
-S:Hello again! How can I help?
+CTX:talked about oliwia | hello again
+S:hello again how can i help
 
-CXT:discussed time | hello again
-S:Hello again! How can I help?
+CTX:discussed time | hello again
+S:hello again how can i help
 
-CXT:talked about Oliwia | what can you do
-S:I can help with tasks and answer questions.
+CTX:talked about oliwia | what can you do
+S:i can help with tasks and answer questions.
 
-CXT:mentioned kitchen | what about tomorrow
+CTX:mentioned kitchen | what about tomorrow
 T:wthr,tomorrow
 
-CXT:discussed time | what date is it
+CTX:discussed time | what date is it
 T:date
 
-CXT:talked about Oliwia | what time is it
+CTX:talked about oliwia | what time is it
 T:time
 
 what can you do
-S:I can help with tasks and answer questions.
+S:i can help with tasks and answer questions.
 
 what is 3 plus 4
 T:math,3+4
 
-CXT:mentioned kitchen | what is 3 plus 4
+CTX:mentioned kitchen | what is 3 plus 4
 T:math,3+4
 
-CXT:discussed time | where is oliwia
+CTX:discussed time | where is oliwia
 T:fam,where,oliwia
 
-CXT:mentioned kitchen | where is oliwia
+CTX:mentioned kitchen | where is oliwia
 T:fam,where,oliwia
 
-CXT:discussed family | what date is it
+CTX:discussed family | what date is it
 T:date
 
-CXT:discussed family | how are you
-S:I'm doing well! What do you need?
+CTX:discussed family | how are you
+S:im doing well what do you need
 
-CXT:discussed time | what is 3 plus 4
+CTX:discussed time | what is 3 plus 4
 T:math,3+4
 
 what about tomorrow
 T:wthr,tomorrow
 
-CXT:Hi there! | what about tomorrow
+CTX:hi there | what about tomorrow
 T:wthr,tomorrow
 
-CXT:discussed family | what date is it
+CTX:discussed family | what date is it
 T:date
 
-CXT:discussed family | what date is it
+CTX:discussed family | what date is it
 T:date
 
 calculate 5 times 6
 T:math,5*6
 
-CXT:mentioned kitchen | calculate 5 times 6
+CTX:mentioned kitchen | calculate 5 times 6
 T:math,5*6
 
-CXT:Hi there! | how old is oliwia
+CTX:hi there | how old is oliwia
 T:fam,age,oliwia
 
-CXT:mentioned kitchen | how old is oliwia
+CTX:mentioned kitchen | how old is oliwia
 T:fam,age,oliwia
 
-CXT:talked about Oliwia | what about tomorrow
+CTX:talked about oliwia | what about tomorrow
 T:wthr,tomorrow
 
-CXT:mentioned kitchen | what can you do
-S:I can help with tasks and answer questions.
+CTX:mentioned kitchen | what can you do
+S:i can help with tasks and answer questions.
 
-CXT:Hi there! | where is oliwia
+CTX:hi there | where is oliwia
 T:fam,where,oliwia
 
-CXT:mentioned kitchen | calculate 5 times 6
+CTX:mentioned kitchen | calculate 5 times 6
 T:math,5*6
 
-CXT:used math | calculate 5 times 6
+CTX:used math | calculate 5 times 6
 T:math,5*6
 
-CXT:mentioned kitchen | how old is oliwia
+CTX:mentioned kitchen | how old is oliwia
 T:fam,age,oliwia
 
-CXT:discussed time | what is 3 plus 4
+CTX:discussed time | what is 3 plus 4
 T:math,3+4
 
-CXT:talked about Oliwia | what is 3 plus 4
+CTX:talked about oliwia | what is 3 plus 4
 T:math,3+4
 
-CXT:Hi there! | what date is it
+CTX:hi there | what date is it
 T:date
 
-CXT:talked about Oliwia | what is the weather
+CTX:talked about oliwia | what is the weather
 T:wthr
 
-CXT:Hi there! | what about tomorrow
+CTX:hi there | what about tomorrow
 T:wthr,tomorrow
 
-CXT:talked about Oliwia | go to kitchen
+CTX:talked about oliwia | go to kitchen
 C:move,kitchen
 
-CXT:discussed time | hello again
-S:Hello again! How can I help?
+CTX:discussed time | hello again
+S:hello again how can i help
 
-CXT:discussed time | what date is it
+CTX:discussed time | what date is it
 T:date
 
-CXT:talked about weather | what about tomorrow
+CTX:talked about weather | what about tomorrow
 T:wthr,tomorrow
 
 what about tomorrow
@@ -268,40 +268,40 @@ T:wthr,tomorrow
 calculate 5 times 6
 T:math,5*6
 
-CXT:discussed family | what time is it
+CTX:discussed family | what time is it
 T:time
 
-CXT:discussed time | where is oliwia
+CTX:discussed time | where is oliwia
 T:fam,where,oliwia
 
-CXT:mentioned kitchen | what can you do
-S:I can help with tasks and answer questions.
+CTX:mentioned kitchen | what can you do
+S:i can help with tasks and answer questions.
 
-CXT:talked about Oliwia | what is the weather
+CTX:talked about oliwia | what is the weather
 T:wthr
 
 what about tomorrow
 T:wthr,tomorrow
 
-CXT:discussed time | what time is it
+CTX:discussed time | what time is it
 T:time
 
-CXT:Hi there! | what date is it
+CTX:hi there | what date is it
 T:date
 
-CXT:discussed time | what date is it
+CTX:discussed time | what date is it
 T:date
 
-CXT:discussed time | hello again
-S:Hello again! How can I help?
+CTX:discussed time | hello again
+S:hello again how can i help
 
-CXT:Hi there! | what time is it
+CTX:hi there | what time is it
 T:time
 
-CXT:talked about Oliwia | what about tomorrow
+CTX:talked about oliwia | what about tomorrow
 T:wthr,tomorrow
 
-CXT:discussed time | go to kitchen
+CTX:discussed time | go to kitchen
 C:move,kitchen
 
 what time is it
@@ -311,218 +311,217 @@ what time is it
 T:time
 
 what can you do
-S:I can help with tasks and answer questions.
+S:i can help with tasks and answer questions.
 
-CXT:discussed time | what about tomorrow
+CTX:discussed time | what about tomorrow
 T:wthr,tomorrow
 
-CXT:discussed family | how are you
-S:I'm doing well! What do you need?
+CTX:discussed family | how are you
+S:im doing well what do you need
 
-CXT:discussed family | what can you do
-S:I can help with tasks and answer questions.
+CTX:discussed family | what can you do
+S:i can help with tasks and answer questions.
 
 where is oliwia
 T:fam,where,oliwia
 
-CXT:Hi there! | how old is oliwia
+CTX:hi there | how old is oliwia
 T:fam,age,oliwia
 
-CXT:discussed family | where is oliwia
+CTX:discussed family | where is oliwia
 T:fam,where,oliwia
 
-CXT:talked about Oliwia | what about tomorrow
+CTX:talked about oliwia | what about tomorrow
 T:wthr,tomorrow
 
-CXT:discussed time | what time is it
+CTX:discussed time | what time is it
 T:time
 
-CXT:discussed time | calculate 5 times 6
+CTX:discussed time | calculate 5 times 6
 T:math,5*6
 
 what is 3 plus 4
 T:math,3+4
 
-CXT:discussed family | what is 3 plus 4
+CTX:discussed family | what is 3 plus 4
 T:math,3+4
 
-CXT:mentioned kitchen | what is the weather
+CTX:mentioned kitchen | what is the weather
 T:wthr
 
-CXT:discussed time | what about tomorrow
+CTX:discussed time | what about tomorrow
 T:wthr,tomorrow
 
 calculate 5 times 6
 T:math,5*6
 
-CXT:Hi there! | what about tomorrow
+CTX:hi there | what about tomorrow
 T:wthr,tomorrow
 
-CXT:discussed time | what is 3 plus 4
+CTX:discussed time | what is 3 plus 4
 T:math,3+4
 
-CXT:discussed family | what is the weather
+CTX:discussed family | what is the weather
 T:wthr
 
 what time is it
 T:time
 
-CXT:discussed family | hello again
-S:Hello again! How can I help?
+CTX:discussed family | hello again
+S:hello again how can i help
 
-CXT:Hi there! | what can you do
-S:I can help with tasks and answer questions.
+CTX:hi there | what can you do
+S:i can help with tasks and answer questions.
 
-CXT:mentioned kitchen | what is the weather
+CTX:mentioned kitchen | what is the weather
 T:wthr
 
-CXT:mentioned kitchen | what can you do
-S:I can help with tasks and answer questions.
+CTX:mentioned kitchen | what can you do
+S:i can help with tasks and answer questions.
 
 what is 3 plus 4
 T:math,3+4
 
-CXT:discussed time | go to kitchen
+CTX:discussed time | go to kitchen
 C:move,kitchen
 
-CXT:discussed time | hello again
-S:Hello again! How can I help?
+CTX:discussed time | hello again
+S:hello again how can i help
 
-CXT:Hi there! | where is oliwia
+CTX:hi there | where is oliwia
 T:fam,where,oliwia
 
-CXT:talked about Oliwia | hello again
-S:Hello again! How can I help?
+CTX:talked about oliwia | hello again
+S:hello again how can i help
 
-CXT:Hi there! | what date is it
+CTX:hi there | what date is it
 T:date
 
 calculate 5 times 6
 T:math,5*6
 
-CXT:discussed time | what can you do
-S:I can help with tasks and answer questions.
+CTX:discussed time | what can you do
+S:i can help with tasks and answer questions.
 
-CXT:discussed time | what date is it
+CTX:discussed time | what date is it
 T:date
 
-CXT:Hi there! | what date is it
+CTX:hi there | what date is it
 T:date
 
-CXT:talked about Oliwia | go to kitchen
+CTX:talked about oliwia | go to kitchen
 C:move,kitchen
 
-CXT:discussed time | how old is oliwia
+CTX:discussed time | how old is oliwia
 T:fam,age,oliwia
 
-CXT:talked about Oliwia | what time is it
+CTX:talked about oliwia | what time is it
 T:time
 
-CXT:mentioned kitchen | what can you do
-S:I can help with tasks and answer questions.
+CTX:mentioned kitchen | what can you do
+S:i can help with tasks and answer questions.
 
-CXT:mentioned kitchen | what is the weather
+CTX:mentioned kitchen | what is the weather
 T:wthr
 
-CXT:talked about Oliwia | what about tomorrow
+CTX:talked about oliwia | what about tomorrow
 T:wthr,tomorrow
 
-CXT:Hi there! | what is the weather
+CTX:hi there | what is the weather
 T:wthr
 
-CXT:talked about weather | what about tomorrow
+CTX:talked about weather | what about tomorrow
 T:wthr,tomorrow
 
-CXT:discussed time | calculate 5 times 6
+CTX:discussed time | calculate 5 times 6
 T:math,5*6
 
-CXT:mentioned kitchen | what is 3 plus 4
+CTX:mentioned kitchen | what is 3 plus 4
 T:math,3+4
 
-CXT:talked about Oliwia | what about tomorrow
+CTX:talked about oliwia | what about tomorrow
 T:wthr,tomorrow
 
-CXT:discussed time | how are you
-S:I'm doing well! What do you need?
+CTX:discussed time | how are you
+S:im doing well what do you need
 
-CXT:mentioned kitchen | what is 3 plus 4
+CTX:mentioned kitchen | what is 3 plus 4
 T:math,3+4
 
 calculate 5 times 6
 T:math,5*6
 
-CXT:mentioned kitchen | what date is it
+CTX:mentioned kitchen | what date is it
 T:date
 
-CXT:Hi there! | how old is oliwia
+CTX:hi there | how old is oliwia
 T:fam,age,oliwia
 
-CXT:mentioned kitchen | how old is oliwia
+CTX:mentioned kitchen | how old is oliwia
 T:fam,age,oliwia
 
-CXT:mentioned kitchen | what about tomorrow
+CTX:mentioned kitchen | what about tomorrow
 T:wthr,tomorrow
 
-CXT:mentioned kitchen | what date is it
+CTX:mentioned kitchen | what date is it
 T:date
 
-CXT:discussed time | where is oliwia
+CTX:discussed time | where is oliwia
 T:fam,where,oliwia
 
-CXT:talked about Oliwia | what time is it
+CTX:talked about oliwia | what time is it
 T:time
 
-CXT:mentioned kitchen | calculate 5 times 6
+CTX:mentioned kitchen | calculate 5 times 6
 T:math,5*6
 
 go to kitchen
 C:move,kitchen
 
-CXT:Hi there! | what about tomorrow
+CTX:hi there | what about tomorrow
 T:wthr,tomorrow
 
-CXT:discussed family | go to kitchen
+CTX:discussed family | go to kitchen
 C:move,kitchen
 
-CXT:Hi there! | hello again
-S:Hello again! How can I help?
+CTX:hi there | hello again
+S:hello again how can i help
 
-CXT:talked about Oliwia | what is 3 plus 4
+CTX:talked about oliwia | what is 3 plus 4
 T:math,3+4
 
-CXT:mentioned kitchen | what is 3 plus 4
+CTX:mentioned kitchen | what is 3 plus 4
 T:math,3+4
 
 calculate 5 times 6
 T:math,5*6
 
-CXT:discussed family | calculate 5 times 6
+CTX:discussed family | calculate 5 times 6
 T:math,5*6
 
-CXT:Hi there! | what about tomorrow
+CTX:hi there | what about tomorrow
 T:wthr,tomorrow
 
-CXT:used math | calculate 5 times 6
+CTX:used math | calculate 5 times 6
 T:math,5*6
 
-CXT:Hi there! | how are you
-S:I'm doing well! What do you need?
+CTX:hi there | how are you
+S:im doing well what do you need
 
-CXT:mentioned kitchen | how are you
-S:I'm doing well! What do you need?
+CTX:mentioned kitchen | how are you
+S:im doing well what do you need
 
-CXT:Hi there! | how are you
-S:I'm doing well! What do you need?
+CTX:hi there | how are you
+S:im doing well what do you need
 
-CXT:discussed time | how old is oliwia
+CTX:discussed time | how old is oliwia
 T:fam,age,oliwia
 
-CXT:discussed time | how old is oliwia
+CTX:discussed time | how old is oliwia
 T:fam,age,oliwia
 
-CXT:discussed family | what date is it
+CTX:discussed family | what date is it
 T:date
 
-CXT:discussed family | hello again
-S:Hello again! How can I help?
-
+CTX:discussed family | hello again
+S:hello again how can i help
