@@ -592,8 +592,8 @@ class GPTLanguageModel(nn.Module):
         original_length = idx.shape[1]
         with torch.inference_mode():
             for i in range(max_new_tokens):
-            idx_cond = idx[:, -block_size:]
-            logits, loss = self(idx_cond)
+                idx_cond = idx[:, -block_size:]
+                logits, loss = self(idx_cond)
                 logits = logits[:, -1, :]  # Only last position (B, C)
                 
                 # Temperature: >1 = more random, <1 = more deterministic
