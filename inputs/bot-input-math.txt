@@ -1,4782 +1,1227 @@
-Compute 17-28
-T:math,17-28
+What is 6-5
+T:math,6-5
 
-oh What is 47-50
-T:math,47-50
+What is 5*6
+T:math,5*6
 
-yup Calculate 49-19
-T:math,49-19
+What's 8*2
+T:math,8*2
 
-What is 4-6
-T:math,4-6
+What's 2*2
+T:math,2*2
 
-Yeah solve 3-14
-T:math,3-14
+What's 5*7
+T:math,5*7
 
-oh Calculate 11-18
-T:math,11-18
+What is 4-34
+T:math,4-34
 
-Yeah compute 31-16
-T:math,31-16
+What's 1-39
+T:math,1-39
 
-wat is 20-30
-T:math,20-30
+Work out 36/3
+T:math,36/3
 
-Yeah compute 30-26
-T:math,30-26
+What is 4*5
+T:math,4*5
 
-Oh compute 31-39
-T:math,31-39
+Work out 30+62
+T:math,30+62
 
-Ah tell me 22-2
-T:math,22-2
+What is 3*2
+T:math,3*2
 
-Oh what's 10-49
-T:math,10-49
+What's 5*2
+T:math,5*2
 
-maths 14-39
-T:math,14-39
+What is 2*2
+T:math,2*2
 
-yup math 9-40
-T:math,9-40
+Solve 7*8
+T:math,7*8
 
-wut is 31-16
-T:math,31-16
+Calculate 121/11
+T:math,121/11
 
-yep What is 14-39
-T:math,14-39
+What is 79+22
+T:math,79+22
 
-Oh solve 11-14
-T:math,11-14
+What is 4*8
+T:math,4*8
 
-Tell me 9-40
-T:math,9-40
+Work out 10*7
+T:math,10*7
 
-yup What is 11-18
-T:math,11-18
+Work out 95-92
+T:math,95-92
 
-Ah compute 11-14
-T:math,11-14
+What's 8*8
+T:math,8*8
 
-Yeah solve 35-29
-T:math,35-29
+What's 3*2
+T:math,3*2
 
-yup What is 9-40
-T:math,9-40
+Tell me 100+52
+T:math,100+52
 
-maths 3-14
-T:math,3-14
+Calculate 12+62
+T:math,12+62
 
-mat 4-6
-T:math,4-6
+What is 10*4
+T:math,10*4
 
-yep Calculate 10-49
-T:math,10-49
+What's 6*7
+T:math,6*7
 
-Yep solve 3-9
-T:math,3-9
+What is 76+26
+T:math,76+26
 
-yeah Calculate 41-18
-T:math,41-18
+Compute 5*6
+T:math,5*6
 
-Yep tell me 41-18
-T:math,41-18
+What's 95+18
+T:math,95+18
 
-yeah Calculate 27-6
-T:math,27-6
+What's 2*4
+T:math,2*4
 
-Yup tell me 30-26
-T:math,30-26
+Calculate 9*4
+T:math,9*4
 
-yep Calculate 28-7
-T:math,28-7
+Tell me 11*7
+T:math,11*7
 
-Oh what's 27-6
-T:math,27-6
+Compute 62+99
+T:math,62+99
 
-Calculate 45-43
-T:math,45-43
+Work out 2*10
+T:math,2*10
 
-oh Calculate 7-1
-T:math,7-1
+99-50
+T:math,99-50
 
-ah What is 2-24
-T:math,2-24
+Tell me 71-1
+T:math,71-1
 
-yeah Calculate 4-6
-T:math,4-6
+Compute 86-67
+T:math,86-67
 
-What's 32-43
-T:math,32-43
+Tell me 54/6
+T:math,54/6
 
-oh Wut is 3-14
-T:math,3-14
+What's 6*9
+T:math,6*9
 
-oh math 41-18
-T:math,41-18
+Calculate 8*5
+T:math,8*5
 
-yep math 23-24
-T:math,23-24
+What is 5*4
+T:math,5*4
 
-ah Calculate 2-24
-T:math,2-24
+3*10
+T:math,3*10
 
-Yup compute 3-9
-T:math,3-9
+Solve 4*10
+T:math,4*10
 
-maths 41-18
-T:math,41-18
+What's 9/3
+T:math,9/3
 
-Yup compute 35-29
-T:math,35-29
+What's 9*6
+T:math,9*6
 
-Yep what's 28-7
-T:math,28-7
+What iz 4*10
+T:math,4*10
 
-maths 4-6
-T:math,4-6
+Tell me 120/12
+T:math,120/12
 
-mat 11-18
-T:math,11-18
+Solve 3*10
+T:math,3*10
 
-ah What is 31-16
-T:math,31-16
+What's 3*9
+T:math,3*9
 
-yup What iz 3-19
-T:math,3-19
+What is 90/9
+T:math,90/9
 
-Yep what's 13-5
-T:math,13-5
+What is 7*8
+T:math,7*8
 
-Yup compute 11-18
-T:math,11-18
+What is 33+25
+T:math,33+25
 
-Calculate 24-34
-T:math,24-34
+What is 5*10
+T:math,5*10
 
-Ah solve 34-33
-T:math,34-33
+What's 3*7
+T:math,3*7
 
-Yeah tell me 3-9
-T:math,3-9
+What's 4*8
+T:math,4*8
 
-yep math 34-33
-T:math,34-33
+Calculate 72/8
+T:math,72/8
 
-yeah Calculate 34-33
-T:math,34-33
+What's 4*5
+T:math,4*5
 
-yeah Calculate 24-34
-T:math,24-34
+What is 7-6
+T:math,7-6
 
-Yeah compute 17-28
-T:math,17-28
+What's 7+1
+T:math,7+1
 
-yep math 3-19
-T:math,3-19
+What's 1-18
+T:math,1-18
 
-Calculate 32-43
-T:math,32-43
+Solve 80-58
+T:math,80-58
 
-Tell me 20-30
-T:math,20-30
+What is 9*8
+T:math,9*8
 
-Yeah compute 15-32
-T:math,15-32
+What's 5*8
+T:math,5*8
 
-Yup compute 22-2
-T:math,22-2
+Tell me 35/7
+T:math,35/7
 
-Yep what's 41-18
-T:math,41-18
+What is 12*9
+T:math,12*9
 
-Ah what's 14-39
-T:math,14-39
+What's 3*5
+T:math,3*5
 
-yeah math 31-16
-T:math,31-16
+Tell me 10*11
+T:math,10*11
 
-ah math 32-43
-T:math,32-43
+What is 2*6
+T:math,2*6
 
-Oh tell me 34-33
-T:math,34-33
+What is 21+50
+T:math,21+50
 
-oh math 30-26
-T:math,30-26
+What is 9*5
+T:math,9*5
 
-oh What is 16-5
-T:math,16-5
+What is 10*8
+T:math,10*8
 
-oh What is 2-24
-T:math,2-24
+What's 2*10
+T:math,2*10
 
-What's 31-16
-T:math,31-16
+What is 6*5
+T:math,6*5
 
-wat is 3-9
-T:math,3-9
+Solve 6*5
+T:math,6*5
 
-yep Calculate 45-43
-T:math,45-43
+What is 6*8
+T:math,6*8
 
-yup math 41-18
-T:math,41-18
+What is 6*4
+T:math,6*4
 
-What is 49-19
-T:math,49-19
+What is 0-49
+T:math,0-49
 
-Yeah what's 28-7
-T:math,28-7
+What's 8*10
+T:math,8*10
 
-Yup tell me 31-16
-T:math,31-16
+Solve 20+55
+T:math,20+55
 
-oh Calculate 17-28
-T:math,17-28
+What's 4*6
+T:math,4*6
 
-yeah What is 28-7
-T:math,28-7
+What is 9*7
+T:math,9*7
 
-calcuate 45-43
-T:math,45-43
+What's 7-50
+T:math,7-50
 
-Yup solve 11-18
-T:math,11-18
+What's 7*7
+T:math,7*7
 
-Ah what's 4-22
-T:math,4-22
+Work out 6+90
+T:math,6+90
 
-Yup what's 30-26
-T:math,30-26
+Work out 100+87
+T:math,100+87
 
-Yep solve 24-34
-T:math,24-34
+What is 3*6
+T:math,3*6
 
-ah What is 17-28
-T:math,17-28
+70-10
+T:math,70-10
 
-Yeah what's 10-49
-T:math,10-49
+Solve 61-50
+T:math,61-50
 
-ah What is 11-14
-T:math,11-14
+What is 6*6
+T:math,6*6
 
-What's 20-30
-T:math,20-30
+What is 5-32
+T:math,5-32
 
-mat 15-32
-T:math,15-32
+What's 6*3
+T:math,6*3
 
-Oh compute 16-5
-T:math,16-5
+53+71
+T:math,53+71
 
-yep What is 10-49
-T:math,10-49
+What's 0-30
+T:math,0-30
 
-calclate 27-6
-T:math,27-6
+Solve 24-18
+T:math,24-18
 
-Yeah what's 27-6
-T:math,27-6
+What iz 6*10
+T:math,6*10
 
-Ah solve 31-39
-T:math,31-39
+What's 10*3
+T:math,10*3
 
-wat is 49-19
-T:math,49-19
+What is 5*3
+T:math,5*3
 
-Yep what's 10-49
-T:math,10-49
+Solve 73+47
+T:math,73+47
 
-yup Calculate 27-6
-T:math,27-6
+What is 7*7
+T:math,7*7
 
-Oh solve 13-5
-T:math,13-5
+What is 10*5
+T:math,10*5
 
-Yep compute 3-19
-T:math,3-19
+Solve 5*11
+T:math,5*11
 
-Yup what's 10-49
-T:math,10-49
+Tell me 3*8
+T:math,3*8
 
-yup math 17-28
-T:math,17-28
+Work out 132/12
+T:math,132/12
 
-yep math 47-50
-T:math,47-50
+What's 72/12
+T:math,72/12
 
-yup What is 41-18
-T:math,41-18
+What is 39-20
+T:math,39-20
 
-Compute 24-34
-T:math,24-34
+What's 10*4
+T:math,10*4
 
-Yup compute 3-14
-T:math,3-14
+What is 10*9
+T:math,10*9
 
-ah What is 4-6
-T:math,4-6
+What is 9*4
+T:math,9*4
 
-calcuate 7-1
-T:math,7-1
+Tell me 11*3
+T:math,11*3
 
-Yeah what's 31-16
-T:math,31-16
+What is 3*8
+T:math,3*8
 
-Ah what's 17-28
-T:math,17-28
+Solve 9*4
+T:math,9*4
 
-Yep what's 34-33
-T:math,34-33
+What's 7*5
+T:math,7*5
 
-Ah what's 24-34
-T:math,24-34
+What is 44+71
+T:math,44+71
 
-Yeah what's 11-18
-T:math,11-18
+What's 2-2
+T:math,2-2
 
-ah What is 24-34
-T:math,24-34
+90-80
+T:math,90-80
 
-yup What is 27-6
-T:math,27-6
+Work out 12*5
+T:math,12*5
 
-Yup compute 31-39
-T:math,31-39
+What is 6*3
+T:math,6*3
 
-yup math 30-26
-T:math,30-26
+What's 3*10
+T:math,3*10
 
-Tell me 22-2
-T:math,22-2
+Solve 84-37
+T:math,84-37
 
-Yeah solve 3-19
-T:math,3-19
+What is 42-25
+T:math,42-25
 
-Compute 23-24
-T:math,23-24
+120/12
+T:math,120/12
 
-yep What is 3-14
-T:math,3-14
+66/11
+T:math,66/11
 
-What's 28-7
-T:math,28-7
+What's 4*9
+T:math,4*9
 
-Yeah compute 2-24
-T:math,2-24
+Work out 82-31
+T:math,82-31
 
-Calculate 3-14
-T:math,3-14
+What's 9*7
+T:math,9*7
 
-Oh solve 3-19
-T:math,3-19
+Calculate 11*7
+T:math,11*7
 
-oh math 10-49
-T:math,10-49
+Work out 100+91
+T:math,100+91
 
-ah Calculate 9-40
-T:math,9-40
+What's 2*5
+T:math,2*5
 
-Yeah solve 10-49
-T:math,10-49
+What's 9*5
+T:math,9*5
 
-yup What is 11-14
-T:math,11-14
+What is 51-32
+T:math,51-32
 
-ah math 7-1
-T:math,7-1
+What is 92+77
+T:math,92+77
 
-Oh what's 11-14
-T:math,11-14
+What's 5-43
+T:math,5-43
 
-math 2-24
-T:math,2-24
+What's 5*5
+T:math,5*5
 
-Ah tell me 14-39
-T:math,14-39
+What's 74+67
+T:math,74+67
 
-calclate 3-14
-T:math,3-14
+What is 3*5
+T:math,3*5
 
-Yup compute 32-43
-T:math,32-43
+Compute 88+51
+T:math,88+51
 
-Yep what's 14-39
-T:math,14-39
+What's 75-36
+T:math,75-36
 
-Yup what's 35-29
-T:math,35-29
+What's 9*4
+T:math,9*4
 
-oh What is 35-29
-T:math,35-29
+Calculate 43-11
+T:math,43-11
 
-oh Calculate 13-5
-T:math,13-5
+Tell me 67+54
+T:math,67+54
 
-mat 7-1
-T:math,7-1
+What is 7*3
+T:math,7*3
 
-yup What is 15-32
-T:math,15-32
+What is 0-26
+T:math,0-26
 
-Yeah what's 49-19
-T:math,49-19
+45-37
+T:math,45-37
 
-yep What is 45-43
-T:math,45-43
+What's 6*6
+T:math,6*6
 
-Yep what's 31-16
-T:math,31-16
+Compute 77-38
+T:math,77-38
 
-yup Calculate 15-32
-T:math,15-32
+What's 5*10
+T:math,5*10
 
-Ah solve 41-18
-T:math,41-18
+What is 3-24
+T:math,3-24
 
-Solve 34-33
-T:math,34-33
+Work out 20/5
+T:math,20/5
 
-Yep what's 23-24
-T:math,23-24
+What is 3*3
+T:math,3*3
 
-Compute 10-49
-T:math,10-49
+What's 4*7
+T:math,4*7
 
-What's 13-5
-T:math,13-5
+Solve 49-29
+T:math,49-29
 
-What is 47-50
-T:math,47-50
+Compute 8/2
+T:math,8/2
 
-Calculate 27-6
-T:math,27-6
+Calculate 24/8
+T:math,24/8
 
-Yep compute 22-2
-T:math,22-2
+Wut is 0-26
+T:math,0-26
 
-yep math 4-6
-T:math,4-6
+Solve 79+84
+T:math,79+84
 
-yup math 20-30
-T:math,20-30
+What is 7-50
+T:math,7-50
 
-Oh what's 3-19
-T:math,3-19
+What is 7*10
+T:math,7*10
 
-oh Calculate 2-24
-T:math,2-24
+What is 7*6
+T:math,7*6
 
-Yeah solve 15-32
-T:math,15-32
+54-40
+T:math,54-40
 
-calclate 4-6
-T:math,4-6
+Compute 5*5
+T:math,5*5
 
-Yup compute 15-32
-T:math,15-32
+What's 8*5
+T:math,8*5
 
-Oh solve 10-49
-T:math,10-49
+What's 7*8
+T:math,7*8
 
-Solve 14-39
-T:math,14-39
+Compute 25+5
+T:math,25+5
 
-wut is 9-40
-T:math,9-40
+What is 1-39
+T:math,1-39
 
-yep Calculate 49-19
-T:math,49-19
+Calculate 32/8
+T:math,32/8
 
-Ah compute 49-19
-T:math,49-19
+Compute 18/3
+T:math,18/3
 
-Oh compute 4-22
-T:math,4-22
+What's 3*6
+T:math,3*6
 
-Ah what's 22-2
-T:math,22-2
+Calculate 51-32
+T:math,51-32
 
-ah Calulate 3-9
-T:math,3-9
+Tell me 64-28
+T:math,64-28
 
-yup Calculate 32-43
-T:math,32-43
+Work out 27/9
+T:math,27/9
 
-Yep tell me 11-14
-T:math,11-14
+What is 8*2
+T:math,8*2
 
-mat 27-6
-T:math,27-6
+Calculate 9/3
+T:math,9/3
 
-What is 10-49
-T:math,10-49
+What's 7*4
+T:math,7*4
 
-ah math 47-50
-T:math,47-50
+What is 9*6
+T:math,9*6
 
-Yup tell me 2-24
-T:math,2-24
+What is 3-5
+T:math,3-5
 
-Solve 24-34
-T:math,24-34
+What iz 2*8
+T:math,2*8
 
-Oh what's 32-43
-T:math,32-43
+96+30
+T:math,96+30
 
-Ah solve 24-34
-T:math,24-34
+What's 0-49
+T:math,0-49
 
-wut is 17-28
-T:math,17-28
+What's 5*9
+T:math,5*9
 
-Yep tell me 24-34
-T:math,24-34
+What's 6*2
+T:math,6*2
 
-ah math 23-24
-T:math,23-24
+What is 7*9
+T:math,7*9
 
-Yep what's 32-43
-T:math,32-43
+Work out 11+37
+T:math,11+37
 
-ah What is 22-2
-T:math,22-2
+What's 1-14
+T:math,1-14
 
-yup Calculate 28-7
-T:math,28-7
+What is 9*2
+T:math,9*2
 
-mat 32-43
-T:math,32-43
+What's 45+76
+T:math,45+76
 
-Tell me 35-29
-T:math,35-29
+What's 7*6
+T:math,7*6
 
-Tell me 15-32
-T:math,15-32
+What's 3*8
+T:math,3*8
 
-calcuate 4-22
-T:math,4-22
+What's 6*4
+T:math,6*4
 
-ah What is 32-43
-T:math,32-43
+What's 10*10
+T:math,10*10
 
-maths 34-33
-T:math,34-33
+What's 8*3
+T:math,8*3
 
-What iz 7-1
-T:math,7-1
+What's 16/2
+T:math,16/2
 
-wut is 14-39
-T:math,14-39
+12+19
+T:math,12+19
 
-oh math 9-40
-T:math,9-40
+What's 95+91
+T:math,95+91
 
-yeah Calculate 3-19
-T:math,3-19
+What's 10*5
+T:math,10*5
 
-Calcuate 31-16
-T:math,31-16
+Work out 84/12
+T:math,84/12
 
-wut is 32-43
-T:math,32-43
+What is 5-29
+T:math,5-29
 
-Yep solve 35-29
-T:math,35-29
+Solve 24-14
+T:math,24-14
 
-yup math 35-29
-T:math,35-29
+What's 10*8
+T:math,10*8
 
-Oh solve 15-32
-T:math,15-32
+What is 7*4
+T:math,7*4
 
-Yep compute 31-39
-T:math,31-39
+What is 4*6
+T:math,4*6
 
-ah What is 27-6
-T:math,27-6
+What is 4*2
+T:math,4*2
 
-wut is 24-34
-T:math,24-34
+What's 10*6
+T:math,10*6
 
-yep What is 30-26
-T:math,30-26
+What is 7*5
+T:math,7*5
 
-Yeah compute 16-5
-T:math,16-5
+What is 4*3
+T:math,4*3
 
-What's 4-22
-T:math,4-22
+Solve 63/9
+T:math,63/9
 
-math 30-26
-T:math,30-26
+Wot is 9-19
+T:math,9-19
 
-Ah compute 30-26
-T:math,30-26
+Work out 28+66
+T:math,28+66
 
-yup Calculate 34-33
-T:math,34-33
+What is 91+96
+T:math,91+96
 
-Tell me 3-14
-T:math,3-14
+Calculate 20/5
+T:math,20/5
 
-ah What is 31-39
-T:math,31-39
+What is 8*6
+T:math,8*6
 
-wat is 10-49
-T:math,10-49
+What iz 7-28
+T:math,7-28
 
-ah math 13-5
-T:math,13-5
+Wut is 8*6
+T:math,8*6
 
-Oh solve 4-6
-T:math,4-6
+Compute 11*12
+T:math,11*12
 
-What's 27-6
-T:math,27-6
+What is 5*2
+T:math,5*2
 
-Ah compute 3-9
-T:math,3-9
+What is 9-19
+T:math,9-19
 
-yep math 13-5
-T:math,13-5
+What is 2*7
+T:math,2*7
 
-Tell me 28-7
-T:math,28-7
+What is 2*5
+T:math,2*5
 
-ah Calculate 11-14
-T:math,11-14
+What is 1-16
+T:math,1-16
 
-Yep tell me 35-29
-T:math,35-29
+Solve 21+12
+T:math,21+12
 
-mat 16-5
-T:math,16-5
+Work out 66/6
+T:math,66/6
 
-yeah math 22-2
-T:math,22-2
+What's 7*3
+T:math,7*3
 
-yep What is 41-18
-T:math,41-18
+What is 2+0
+T:math,2+0
 
-Yep solve 9-40
-T:math,9-40
+What's 2+0
+T:math,2+0
 
-Yep compute 11-18
-T:math,11-18
+Solve 85+67
+T:math,85+67
 
-Oh compute 27-6
-T:math,27-6
+What's 2*9
+T:math,2*9
 
-oh Calculate 34-33
-T:math,34-33
+What is 42-21
+T:math,42-21
 
-yup Calculate 22-2
-T:math,22-2
+What's 86-28
+T:math,86-28
 
-Yep tell me 31-39
-T:math,31-39
+What is 9*3
+T:math,9*3
 
-Oh what's 35-29
-T:math,35-29
+What is 9*10
+T:math,9*10
 
-yup What is 4-6
-T:math,4-6
+Work out 86+51
+T:math,86+51
 
-yeah math 9-40
-T:math,9-40
+What's 3*3
+T:math,3*3
 
-Solve 7-1
-T:math,7-1
+Solve 25-24
+T:math,25-24
 
-Oh tell me 13-5
-T:math,13-5
+What's 6-5
+T:math,6-5
 
-Solve 47-50
-T:math,47-50
+Compute 21/3
+T:math,21/3
 
-Compute 41-18
-T:math,41-18
+Calculate 18/3
+T:math,18/3
 
-Calculate 3-9
-T:math,3-9
+What iz 4*4
+T:math,4*4
 
-yup Calculate 11-14
-T:math,11-14
+What's 9*8
+T:math,9*8
 
-What's 22-2
-T:math,22-2
+Solve 10*11
+T:math,10*11
 
-maths 3-19
-T:math,3-19
+82-15
+T:math,82-15
 
-Yeah tell me 2-24
-T:math,2-24
+What's 7*2
+T:math,7*2
 
-Ah tell me 16-5
-T:math,16-5
+What's 6*5
+T:math,6*5
 
-Ah tell me 7-1
-T:math,7-1
+121/11
+T:math,121/11
 
-wat is 30-26
-T:math,30-26
+What's 69+65
+T:math,69+65
 
-yup Calculate 3-19
-T:math,3-19
+What's 3*4
+T:math,3*4
 
-wat is 27-6
-T:math,27-6
+Calculate 54/6
+T:math,54/6
 
-What is 45-43
-T:math,45-43
+What is 95-32
+T:math,95-32
 
-Yep tell me 14-39
-T:math,14-39
+Tell me 84+27
+T:math,84+27
 
-Yup compute 16-5
-T:math,16-5
+What is 8*9
+T:math,8*9
 
-yeah What is 4-22
-T:math,4-22
+23+48
+T:math,23+48
 
-yup math 7-1
-T:math,7-1
+What is 11*2
+T:math,11*2
 
-yup What is 4-22
-T:math,4-22
+What's 2*7
+T:math,2*7
 
-Oh what's 3-14
-T:math,3-14
+Tell me 12*5
+T:math,12*5
 
-Yeah tell me 20-30
-T:math,20-30
+69-2
+T:math,69-2
 
-Yeah solve 45-43
-T:math,45-43
+What is 3*7
+T:math,3*7
 
-math 15-32
-T:math,15-32
+What is 6*10
+T:math,6*10
 
-Yep what's 17-28
-T:math,17-28
+What's 10*2
+T:math,10*2
 
-Yeah tell me 47-50
-T:math,47-50
+What's 6*8
+T:math,6*8
 
-yep Calculate 35-29
-T:math,35-29
+What is 10*10
+T:math,10*10
 
-Oh compute 3-19
-T:math,3-19
+What's 5*4
+T:math,5*4
 
-Yep what's 3-14
-T:math,3-14
+What's 5-32
+T:math,5-32
 
-Yep tell me 4-22
-T:math,4-22
+What is 78+70
+T:math,78+70
 
-oh math 14-39
-T:math,14-39
+Work out 34+69
+T:math,34+69
 
-Ah what's 2-24
-T:math,2-24
+Work out 53-25
+T:math,53-25
 
-What is 17-28
-T:math,17-28
+5*6
+T:math,5*6
 
-yup What iz 4-6
-T:math,4-6
+Solve 10/2
+T:math,10/2
 
-Yup solve 4-6
-T:math,4-6
+Compute 30/6
+T:math,30/6
 
-yep What is 49-19
-T:math,49-19
+What's 59-26
+T:math,59-26
 
-Oh solve 41-18
-T:math,41-18
+Solve 7*11
+T:math,7*11
 
-Yup tell me 17-28
-T:math,17-28
+Solve 49/7
+T:math,49/7
 
-math 35-29
-T:math,35-29
+What's 9*3
+T:math,9*3
 
-Yup tell me 41-18
-T:math,41-18
+What is 2*3
+T:math,2*3
 
-math 49-19
-T:math,49-19
+What's 4-33
+T:math,4-33
 
-oh math 13-5
-T:math,13-5
+Work out 80/10
+T:math,80/10
 
-Ah tell me 49-19
-T:math,49-19
+Solve 12+71
+T:math,12+71
 
-Yeah what's 20-30
-T:math,20-30
+What is 8*5
+T:math,8*5
 
-Tell me 31-16
-T:math,31-16
+What's 3-24
+T:math,3-24
 
-Ah what's 9-40
-T:math,9-40
+What's 7*10
+T:math,7*10
 
-ah math 2-24
-T:math,2-24
+Work out 144/12
+T:math,144/12
 
-Calculate 31-39
-T:math,31-39
+Work out 99-2
+T:math,99-2
 
-Ah solve 17-28
-T:math,17-28
+Work out 6*4
+T:math,6*4
 
-Yeah tell me 7-1
-T:math,7-1
+What is 6*9
+T:math,6*9
 
-yeah What is 45-43
-T:math,45-43
+What's 7-6
+T:math,7-6
 
-ah math 17-28
-T:math,17-28
+What is 4*10
+T:math,4*10
 
-Yeah what's 15-32
-T:math,15-32
+What is 5*7
+T:math,5*7
 
-Oh tell me 7-1
-T:math,7-1
+What is 4*4
+T:math,4*4
 
-Oh tell me 27-6
-T:math,27-6
+What's 8-7
+T:math,8-7
 
-Yep compute 30-26
-T:math,30-26
+Calculate 40/4
+T:math,40/4
 
-Yep solve 2-24
-T:math,2-24
+What is 10*3
+T:math,10*3
 
-math 10-49
-T:math,10-49
+Work out 93+50
+T:math,93+50
 
-Solve 9-40
-T:math,9-40
+What is 3*9
+T:math,3*9
 
-Ah compute 34-33
-T:math,34-33
+What is 1-18
+T:math,1-18
 
-yeah math 32-43
-T:math,32-43
+What is 5*5
+T:math,5*5
 
-yep Calculate 20-30
-T:math,20-30
+What's 5*6
+T:math,5*6
 
-Oh compute 47-50
-T:math,47-50
+110/11
+T:math,110/11
 
-ah What is 30-26
-T:math,30-26
+What's 5-29
+T:math,5-29
 
-wat is 47-50
-T:math,47-50
+What's 4*2
+T:math,4*2
 
-mat 30-26
-T:math,30-26
+What is 8*11
+T:math,8*11
 
-yep Calclate 23-24
-T:math,23-24
+Compute 63/7
+T:math,63/7
 
-yeah math 47-50
-T:math,47-50
+Work out 14/7
+T:math,14/7
 
-oh What is 45-43
-T:math,45-43
+Solve 9*11
+T:math,9*11
 
-Yup solve 4-22
-T:math,4-22
+Solve 62-33
+T:math,62-33
 
-Yep what's 9-40
-T:math,9-40
+What is 4-33
+T:math,4-33
 
-What is 27-6
-T:math,27-6
+Compute 55-11
+T:math,55-11
 
-Tell me 34-33
-T:math,34-33
+Solve 97-62
+T:math,97-62
 
-Yep what's 16-5
-T:math,16-5
+What is 20-7
+T:math,20-7
 
-yep math 31-16
-T:math,31-16
+What's 7*9
+T:math,7*9
 
-yup Calclate 10-49
-T:math,10-49
+What is 2-2
+T:math,2-2
 
-oh Calculate 27-6
-T:math,27-6
+What's 8*9
+T:math,8*9
 
-oh Calulate 28-7
-T:math,28-7
+What is 8*3
+T:math,8*3
 
-Yep what's 11-14
-T:math,11-14
+What is 1-14
+T:math,1-14
 
-Ah what's 11-18
-T:math,11-18
+What is 2-43
+T:math,2-43
 
-mat 9-40
-T:math,9-40
+Compute 7*6
+T:math,7*6
 
-wat is 16-5
-T:math,16-5
+What's 4-34
+T:math,4-34
 
-What's 45-43
-T:math,45-43
+What is 2*4
+T:math,2*4
 
-oh Calculate 9-40
-T:math,9-40
+Solve 84/7
+T:math,84/7
 
-Ah compute 9-40
-T:math,9-40
+What's 9*2
+T:math,9*2
 
-Oh what's 23-24
-T:math,23-24
+What's 49-2
+T:math,49-2
 
-Oh solve 47-50
-T:math,47-50
+What is 6*2
+T:math,6*2
 
-ah Calculate 4-6
-T:math,4-6
+Calculate 18/9
+T:math,18/9
 
-Ah solve 14-39
-T:math,14-39
+Compute 94-2
+T:math,94-2
 
-Compute 3-14
-T:math,3-14
+Calculate 3*10
+T:math,3*10
 
-wut is 35-29
-T:math,35-29
+100+23
+T:math,100+23
 
-yup What iz 11-18
-T:math,11-18
+11*5
+T:math,11*5
 
-Oh compute 13-5
-T:math,13-5
+Solve 27/3
+T:math,27/3
 
-Ah tell me 34-33
-T:math,34-33
+What is 4*9
+T:math,4*9
 
-Yeah solve 4-22
-T:math,4-22
+5*7
+T:math,5*7
 
-Compute 31-16
-T:math,31-16
+What is 5-43
+T:math,5-43
 
-Yeah what's 45-43
-T:math,45-43
+What is 10*7
+T:math,10*7
 
-Yep solve 4-22
-T:math,4-22
+What is 2*8
+T:math,2*8
 
-yeah math 30-26
-T:math,30-26
+What's 53-25
+T:math,53-25
 
-Yeah tell me 17-28
-T:math,17-28
+What is 8*4
+T:math,8*4
 
-maths 17-28
-T:math,17-28
+What is 110/10
+T:math,110/10
 
-Yeah tell me 45-43
-T:math,45-43
+What's 1-16
+T:math,1-16
 
-mat 3-19
-T:math,3-19
+What is 8*7
+T:math,8*7
 
-Oh compute 32-43
-T:math,32-43
+What is 7*2
+T:math,7*2
 
-wut is 4-6
-T:math,4-6
+What is 47+31
+T:math,47+31
 
-yup What is 13-5
-T:math,13-5
+Tell me 42/6
+T:math,42/6
 
-Oh compute 14-39
-T:math,14-39
+What is 7-28
+T:math,7-28
 
-oh math 3-14
-T:math,3-14
+What's 53+47
+T:math,53+47
 
-Oh tell me 3-19
-T:math,3-19
+What's 8*4
+T:math,8*4
 
-wut is 3-9
-T:math,3-9
+35-17
+T:math,35-17
 
-yup math 24-34
-T:math,24-34
+What is 8*10
+T:math,8*10
 
-Yep tell me 23-24
-T:math,23-24
+What's 5+1
+T:math,5+1
 
-calclate 34-33
-T:math,34-33
+Work out 67+1
+T:math,67+1
 
-yeah What is 11-14
-T:math,11-14
+Calculate 42-2
+T:math,42-2
 
-Ah tell me 4-6
-T:math,4-6
+Tell me 10*6
+T:math,10*6
 
-Yup solve 3-14
-T:math,3-14
+What's 2-43
+T:math,2-43
 
-yep Calculate 7-1
-T:math,7-1
+What is 3*4
+T:math,3*4
 
-Ah what's 28-7
-T:math,28-7
+Tell me 9*7
+T:math,9*7
 
-Oh what's 30-26
-T:math,30-26
+Tell me 5*8
+T:math,5*8
 
-Oh compute 45-43
-T:math,45-43
+What is 10*6
+T:math,10*6
 
-yeah What is 32-43
-T:math,32-43
+Tell me 33+40
+T:math,33+40
 
-maths 23-24
-T:math,23-24
+What's 10*7
+T:math,10*7
 
-yep What is 3-9
-T:math,3-9
+What is 5*8
+T:math,5*8
 
-Ah what's 11-14
-T:math,11-14
+Compute 3*8
+T:math,3*8
 
-Yeah compute 22-2
-T:math,22-2
+What's 8*7
+T:math,8*7
 
-oh Calculate 45-43
-T:math,45-43
+12*12
+T:math,12*12
 
-ah math 41-18
-T:math,41-18
+What's 9*10
+T:math,9*10
 
-mat 23-24
-T:math,23-24
+What is 48+11
+T:math,48+11
 
-calclate 24-34
-T:math,24-34
+Solve 120/10
+T:math,120/10
 
-yup math 27-6
-T:math,27-6
+Solve 9*3
+T:math,9*3
 
-ah What is 47-50
-T:math,47-50
+What is 5+1
+T:math,5+1
 
-Calculate 16-5
-T:math,16-5
+Compute 9*5
+T:math,9*5
 
-What is 28-7
-T:math,28-7
+Solve 98-67
+T:math,98-67
 
-Yep solve 31-39
-T:math,31-39
+Calculate 67-1
+T:math,67-1
 
-yup What iz 35-29
-T:math,35-29
+What's 77+56
+T:math,77+56
 
-Yup compute 4-22
-T:math,4-22
+What is 4-39
+T:math,4-39
 
-oh Calculate 23-24
-T:math,23-24
+What is 10*2
+T:math,10*2
 
-Calculate 13-5
-T:math,13-5
+What is 7+1
+T:math,7+1
 
-Oh solve 4-22
-T:math,4-22
+What's 9*9
+T:math,9*9
 
-ah Calculate 11-18
-T:math,11-18
+What's 5*3
+T:math,5*3
 
-Yeah what's 11-14
-T:math,11-14
+What is 47-26
+T:math,47-26
 
-yep Calculate 31-39
-T:math,31-39
+What is 0-30
+T:math,0-30
 
-oh What is 22-2
-T:math,22-2
+What is 3*10
+T:math,3*10
 
-Oh tell me 31-39
-T:math,31-39
+Solve 55+18
+T:math,55+18
 
-Yeah tell me 27-6
-T:math,27-6
+What's 4*3
+T:math,4*3
 
-yeah Calculate 13-5
-T:math,13-5
+What is 20-12
+T:math,20-12
 
-wut is 7-1
-T:math,7-1
+Compute 4*12
+T:math,4*12
 
-Yep solve 14-39
-T:math,14-39
+What is 6*7
+T:math,6*7
 
-Yeah compute 11-18
-T:math,11-18
+What's 2*3
+T:math,2*3
 
-yep What is 4-22
-T:math,4-22
+Compute 9+34
+T:math,9+34
 
-yeah What iz 17-28
-T:math,17-28
+What is 2*9
+T:math,2*9
 
-yeah Calculate 45-43
-T:math,45-43
+What is 5*9
+T:math,5*9
 
-wut is 23-24
-T:math,23-24
+9*8
+T:math,9*8
 
-math 34-33
-T:math,34-33
+Solve 53-47
+T:math,53-47
 
-Yeah solve 3-9
-T:math,3-9
+What is 6+1
+T:math,6+1
 
-Ah tell me 31-39
-T:math,31-39
+Calculate 48/12
+T:math,48/12
 
-Ah solve 13-5
-T:math,13-5
+What is 9*9
+T:math,9*9
 
-yep Calculate 16-5
-T:math,16-5
+Work out 35-8
+T:math,35-8
 
-yep Calculate 3-9
-T:math,3-9
+What is 8-7
+T:math,8-7
 
-yup math 3-9
-T:math,3-9
+What's 108/9
+T:math,108/9
 
-Yup solve 3-19
-T:math,3-19
+What is 60-48
+T:math,60-48
 
-Yep tell me 17-28
-T:math,17-28
+What's 2*6
+T:math,2*6
 
-Calcuate 49-19
-T:math,49-19
+Solve 54/9
+T:math,54/9
 
-Calculate 2-24
-T:math,2-24
+Tell me 4/2
+T:math,4/2
 
-Yup tell me 15-32
-T:math,15-32
+What is 2*10
+T:math,2*10
 
-Compute 31-39
-T:math,31-39
+Compute 57+2
+T:math,57+2
 
-Yep what's 3-19
-T:math,3-19
+What is 4*7
+T:math,4*7
 
-Oh tell me 3-9
-T:math,3-9
+What's 10*9
+T:math,10*9
 
-maths 11-14
-T:math,11-14
+Wat is 3-5
+T:math,3-5
 
-yeah What is 31-16
-T:math,31-16
+Compute 99-92
+T:math,99-92
 
-ah Calulate 32-43
-T:math,32-43
+What is 8*8
+T:math,8*8
 
-Ah what's 31-39
-T:math,31-39
+What's 6+1
+T:math,6+1
 
-yup Calcuate 45-43
-T:math,45-43
+Work out 4*9
+T:math,4*9
 
-yep math 10-49
-T:math,10-49
+63/7
+T:math,63/7
 
-oh What is 3-19
-T:math,3-19
+What's 90+21
+T:math,90+21
 
-Yeah tell me 13-5
-T:math,13-5
+60/10
+T:math,60/10
 
-Calulate 11-14
-T:math,11-14
+What's 96-71
+T:math,96-71
 
-Yup tell me 24-34
-T:math,24-34
+12*4
+T:math,12*4
 
-Yup compute 47-50
-T:math,47-50
-
-yep Calculate 15-32
-T:math,15-32
-
-Yep tell me 3-19
-T:math,3-19
-
-yep Calculate 31-16
-T:math,31-16
-
-Yeah tell me 4-22
-T:math,4-22
-
-yep Calculate 13-5
-T:math,13-5
-
-What is 31-16
-T:math,31-16
-
-yup Calculate 41-18
-T:math,41-18
-
-Yup what's 3-9
-T:math,3-9
-
-Yup compute 31-16
-T:math,31-16
-
-yep Calculate 22-2
-T:math,22-2
-
-Calculate 20-30
-T:math,20-30
-
-Yeah solve 34-33
-T:math,34-33
-
-yeah Calculate 11-14
-T:math,11-14
-
-Yeah solve 2-24
-T:math,2-24
-
-Compute 4-22
-T:math,4-22
-
-Ah compute 20-30
-T:math,20-30
-
-yeah Wut is 4-22
-T:math,4-22
-
-Ah tell me 3-19
-T:math,3-19
-
-Tell me 14-39
-T:math,14-39
-
-Yeah compute 14-39
-T:math,14-39
-
-calcuate 17-28
-T:math,17-28
-
-What's 11-18
-T:math,11-18
-
-Ah compute 11-18
-T:math,11-18
-
-What's 30-26
-T:math,30-26
-
-Oh solve 11-18
-T:math,11-18
-
-yeah Calclate 14-39
-T:math,14-39
-
-Calculate 14-39
-T:math,14-39
-
-Ah compute 27-6
-T:math,27-6
-
-Yup solve 3-9
-T:math,3-9
-
-ah math 31-16
-T:math,31-16
-
-yeah What iz 4-6
-T:math,4-6
-
-What is 13-5
-T:math,13-5
-
-Yep solve 11-18
-T:math,11-18
-
-Yep solve 4-6
-T:math,4-6
-
-yep What is 2-24
-T:math,2-24
-
-Yeah tell me 41-18
-T:math,41-18
-
-calcuate 10-49
-T:math,10-49
-
-oh What is 7-1
-T:math,7-1
-
-Oh solve 31-16
-T:math,31-16
-
-yup math 13-5
-T:math,13-5
-
-maths 3-9
-T:math,3-9
-
-Ah compute 45-43
-T:math,45-43
-
-oh math 45-43
-T:math,45-43
-
-yup Calculate 23-24
-T:math,23-24
-
-yep math 20-30
-T:math,20-30
-
-ah math 45-43
-T:math,45-43
-
-yep Wot is 35-29
-T:math,35-29
-
-Calculate 3-19
-T:math,3-19
-
-Oh compute 41-18
-T:math,41-18
-
-math 47-50
-T:math,47-50
-
-Yup compute 24-34
-T:math,24-34
-
-oh What is 24-34
-T:math,24-34
-
-yep math 45-43
-T:math,45-43
-
-oh math 27-6
-T:math,27-6
-
-yup math 49-19
-T:math,49-19
-
-wat is 17-28
-T:math,17-28
-
-yeah math 17-28
-T:math,17-28
-
-yep math 7-1
-T:math,7-1
-
-calcuate 41-18
-T:math,41-18
-
-Yup solve 30-26
-T:math,30-26
-
-Yup compute 11-14
-T:math,11-14
-
-mat 10-49
-T:math,10-49
-
-oh What is 9-40
-T:math,9-40
-
-Oh what's 31-39
-T:math,31-39
-
-Yep solve 10-49
-T:math,10-49
-
-oh What is 4-6
-T:math,4-6
-
-yeah math 13-5
-T:math,13-5
-
-wat is 15-32
-T:math,15-32
-
-wat is 7-1
-T:math,7-1
-
-yeah Calculate 17-28
-T:math,17-28
-
-yup What is 31-16
-T:math,31-16
-
-oh math 31-39
-T:math,31-39
-
-maths 7-1
-T:math,7-1
-
-yeah What is 22-2
-T:math,22-2
-
-oh Wat is 2-24
-T:math,2-24
-
-What is 32-43
-T:math,32-43
-
-Ah what's 3-14
-T:math,3-14
-
-Yep tell me 10-49
-T:math,10-49
-
-Ah tell me 20-30
-T:math,20-30
-
-Yeah compute 32-43
-T:math,32-43
-
-calcuate 3-14
-T:math,3-14
-
-Yup what's 49-19
-T:math,49-19
-
-Yeah solve 41-18
-T:math,41-18
-
-Solve 4-6
-T:math,4-6
-
-Yup what's 31-16
-T:math,31-16
-
-calcuate 34-33
-T:math,34-33
-
-oh What is 17-28
-T:math,17-28
-
-yep What is 9-40
-T:math,9-40
-
-yeah What is 27-6
-T:math,27-6
-
-maths 10-49
-T:math,10-49
-
-What is 11-14
-T:math,11-14
-
-Oh compute 24-34
-T:math,24-34
-
-yeah Calculate 16-5
-T:math,16-5
-
-What's 3-9
-T:math,3-9
-
-Yup what's 4-6
-T:math,4-6
-
-Yep what's 27-6
-T:math,27-6
-
-Oh compute 23-24
-T:math,23-24
-
-Oh solve 31-39
-T:math,31-39
-
-yep What is 23-24
-T:math,23-24
-
-yeah math 15-32
-T:math,15-32
-
-Yup tell me 10-49
-T:math,10-49
-
-Solve 28-7
-T:math,28-7
-
-Tell me 31-39
-T:math,31-39
-
-Yeah solve 31-39
-T:math,31-39
-
-Solve 31-16
-T:math,31-16
-
-Yeah solve 4-6
-T:math,4-6
-
-Ah compute 22-2
-T:math,22-2
-
-math 41-18
-T:math,41-18
-
-math 23-24
-T:math,23-24
-
-Compute 2-24
-T:math,2-24
-
-calcuate 30-26
-T:math,30-26
-
-calclate 11-14
-T:math,11-14
-
-wut iz 11-18
-T:math,11-18
-
-Yup compute 10-49
-T:math,10-49
-
-yep Calculate 4-22
-T:math,4-22
-
-Ah solve 11-18
-T:math,11-18
-
-Yup tell me 35-29
-T:math,35-29
-
-Yup solve 34-33
-T:math,34-33
-
-wut iz 3-19
-T:math,3-19
-
-Yeah what's 32-43
-T:math,32-43
-
-Ah compute 16-5
-T:math,16-5
-
-Calculate 22-2
-T:math,22-2
-
-Solve 17-28
-T:math,17-28
-
-Yeah compute 49-19
-T:math,49-19
-
-Yup tell me 11-14
-T:math,11-14
-
-Yeah compute 10-49
-T:math,10-49
-
-Yup compute 30-26
-T:math,30-26
-
-Yep what's 4-6
-T:math,4-6
-
-Yeah solve 11-18
-T:math,11-18
-
-Ah compute 4-6
-T:math,4-6
-
-Yup what's 47-50
-T:math,47-50
-
-Oh compute 34-33
-T:math,34-33
-
-yup What is 23-24
-T:math,23-24
-
-Yeah compute 23-24
-T:math,23-24
-
-mat 49-19
-T:math,49-19
-
-yup What is 3-19
-T:math,3-19
-
-Yeah solve 32-43
-T:math,32-43
-
-Tell me 45-43
-T:math,45-43
-
-Tell me 4-22
-T:math,4-22
-
-Ah tell me 35-29
-T:math,35-29
-
-ah What is 34-33
-T:math,34-33
-
-oh Calculate 3-14
-T:math,3-14
-
-ah What is 16-5
-T:math,16-5
-
-Yep what's 31-39
-T:math,31-39
-
-Yup what's 11-18
-T:math,11-18
-
-Yup tell me 14-39
-T:math,14-39
-
-yep What is 4-6
-T:math,4-6
-
-ah Calculate 3-9
-T:math,3-9
-
-Oh solve 16-5
-T:math,16-5
-
-Oh what's 17-28
-T:math,17-28
-
-math 7-1
-T:math,7-1
-
-Yup compute 4-6
-T:math,4-6
-
-Yep compute 16-5
-T:math,16-5
-
-math 4-22
-T:math,4-22
-
-ah math 16-5
-T:math,16-5
-
-Yeah solve 27-6
-T:math,27-6
-
-Solve 13-5
-T:math,13-5
-
-Ah what's 47-50
-T:math,47-50
-
-What's 3-19
-T:math,3-19
-
-Yeah solve 47-50
-T:math,47-50
-
-yep math 3-9
-T:math,3-9
-
-calclate 45-43
-T:math,45-43
-
-yup What is 16-5
-T:math,16-5
-
-Yeah tell me 35-29
-T:math,35-29
-
-Solve 3-9
-T:math,3-9
-
-Yup what's 20-30
-T:math,20-30
-
-Yup tell me 13-5
-T:math,13-5
-
-What's 47-50
-T:math,47-50
-
-Yep tell me 27-6
-T:math,27-6
-
-yep Calculate 11-18
-T:math,11-18
-
-Yup tell me 27-6
-T:math,27-6
-
-yeah What iz 11-18
-T:math,11-18
-
-Yep solve 31-16
-T:math,31-16
-
-ah Calculate 31-16
-T:math,31-16
-
-Calculate 49-19
-T:math,49-19
-
-Yeah what's 30-26
-T:math,30-26
-
-Yup tell me 4-6
-T:math,4-6
-
-ah math 28-7
-T:math,28-7
-
-Yep compute 31-16
-T:math,31-16
-
-What is 9-40
-T:math,9-40
-
-Oh solve 22-2
-T:math,22-2
-
-Ah solve 3-9
-T:math,3-9
-
-yeah Calculate 31-16
-T:math,31-16
-
-Oh compute 22-2
-T:math,22-2
-
-yup math 3-19
-T:math,3-19
-
-maths 35-29
-T:math,35-29
-
-Yeah what's 35-29
-T:math,35-29
-
-Yep tell me 3-14
-T:math,3-14
-
-Yeah compute 4-22
-T:math,4-22
-
-Compute 30-26
-T:math,30-26
-
-mat 14-39
-T:math,14-39
-
-Oh what's 11-18
-T:math,11-18
-
-maths 20-30
-T:math,20-30
-
-Oh tell me 3-14
-T:math,3-14
-
-yep What is 11-18
-T:math,11-18
-
-Oh solve 27-6
-T:math,27-6
-
-oh math 35-29
-T:math,35-29
-
-Yep solve 16-5
-T:math,16-5
-
-Yeah what's 3-9
-T:math,3-9
-
-Calculate 17-28
-T:math,17-28
-
-Solve 15-32
-T:math,15-32
-
-Oh what's 2-24
-T:math,2-24
-
-Yup what's 32-43
-T:math,32-43
-
-yeah Calculate 3-9
-T:math,3-9
-
-Tell me 7-1
-T:math,7-1
-
-yeah What is 31-39
-T:math,31-39
-
-ah math 4-22
-T:math,4-22
-
-oh math 31-16
-T:math,31-16
-
-wat iz 24-34
-T:math,24-34
-
-Tell me 49-19
-T:math,49-19
-
-yep math 28-7
-T:math,28-7
-
-Yeah compute 24-34
-T:math,24-34
-
-Oh what's 49-19
-T:math,49-19
-
-maths 30-26
-T:math,30-26
-
-Solve 32-43
-T:math,32-43
-
-ah What is 9-40
-T:math,9-40
-
-Ah solve 30-26
-T:math,30-26
-
-Calculate 47-50
-T:math,47-50
-
-calcuate 23-24
-T:math,23-24
-
-Yep tell me 15-32
-T:math,15-32
-
-yeah What is 16-5
-T:math,16-5
-
-calclate 3-9
-T:math,3-9
-
-Ah compute 35-29
-T:math,35-29
-
-Yup solve 13-5
-T:math,13-5
-
-yeah Calculate 20-30
-T:math,20-30
-
-Calculate 11-18
-T:math,11-18
-
-yup What is 49-19
-T:math,49-19
-
-ah What is 10-49
-T:math,10-49
-
-Yeah tell me 11-14
-T:math,11-14
-
-yup Calculate 17-28
-T:math,17-28
-
-Ah tell me 41-18
-T:math,41-18
-
-What is 15-32
-T:math,15-32
-
-Oh tell me 22-2
-T:math,22-2
-
-maths 31-16
-T:math,31-16
-
-yup math 15-32
-T:math,15-32
-
-Yeah what's 14-39
-T:math,14-39
-
-yup Calculate 24-34
-T:math,24-34
-
-Ah solve 23-24
-T:math,23-24
-
-ah What is 3-14
-T:math,3-14
-
-Yeah solve 17-28
-T:math,17-28
-
-Yep solve 3-19
-T:math,3-19
-
-yep Calculate 9-40
-T:math,9-40
-
-Yeah compute 31-39
-T:math,31-39
-
-Yeah tell me 49-19
-T:math,49-19
-
-Yup compute 23-24
-T:math,23-24
-
-yeah Calclate 4-22
-T:math,4-22
-
-yup Calculate 30-26
-T:math,30-26
-
-Yep tell me 47-50
-T:math,47-50
-
-Ah what's 27-6
-T:math,27-6
-
-yep What is 13-5
-T:math,13-5
-
-oh What is 27-6
-T:math,27-6
-
-Ah what's 49-19
-T:math,49-19
-
-ah What iz 20-30
-T:math,20-30
-
-Oh what's 28-7
-T:math,28-7
-
-ah math 14-39
-T:math,14-39
-
-Compute 9-40
-T:math,9-40
-
-What is 31-39
-T:math,31-39
-
-Solve 4-22
-T:math,4-22
-
-Yeah tell me 31-16
-T:math,31-16
-
-yeah What is 3-9
-T:math,3-9
-
-yeah math 2-24
-T:math,2-24
-
-Ah what's 31-16
-T:math,31-16
-
-ah math 3-9
-T:math,3-9
-
-Tell me 3-9
-T:math,3-9
-
-Tell me 10-49
-T:math,10-49
-
-Yup tell me 16-5
-T:math,16-5
-
-Calculate 41-18
-T:math,41-18
-
-Tell me 16-5
-T:math,16-5
-
-math 31-16
-T:math,31-16
-
-yeah What is 49-19
-T:math,49-19
-
-Yeah compute 13-5
-T:math,13-5
-
-Yup solve 27-6
-T:math,27-6
-
-yup Calculate 4-6
-T:math,4-6
-
-Ah solve 11-14
-T:math,11-14
-
-Oh compute 17-28
-T:math,17-28
-
-Ah tell me 27-6
-T:math,27-6
-
-Ah what's 45-43
-T:math,45-43
-
-oh Calculate 35-29
-T:math,35-29
-
-math 3-19
-T:math,3-19
-
-ah What is 20-30
-T:math,20-30
-
-ah Calculate 49-19
-T:math,49-19
-
-yup math 31-16
-T:math,31-16
-
-yeah Calculate 35-29
-T:math,35-29
-
-Yep tell me 9-40
-T:math,9-40
-
-wut is 28-7
-T:math,28-7
-
-What's 49-19
-T:math,49-19
-
-wat is 2-24
-T:math,2-24
-
-Yeah solve 23-24
-T:math,23-24
-
-Yeah tell me 9-40
-T:math,9-40
-
-yep What is 47-50
-T:math,47-50
-
-Yup solve 41-18
-T:math,41-18
-
-Yup tell me 3-14
-T:math,3-14
-
-maths 28-7
-T:math,28-7
-
-Oh compute 9-40
-T:math,9-40
-
-Yup what's 11-14
-T:math,11-14
-
-ah What is 11-18
-T:math,11-18
-
-Oh what's 7-1
-T:math,7-1
-
-What is 41-18
-T:math,41-18
-
-yeah What is 13-5
-T:math,13-5
-
-Oh compute 49-19
-T:math,49-19
-
-Oh compute 11-14
-T:math,11-14
-
-yeah math 16-5
-T:math,16-5
-
-ah What is 23-24
-T:math,23-24
-
-Oh tell me 20-30
-T:math,20-30
-
-maths 4-22
-T:math,4-22
-
-Ah what's 32-43
-T:math,32-43
-
-ah math 22-2
-T:math,22-2
-
-Yeah what's 17-28
-T:math,17-28
-
-wut is 31-39
-T:math,31-39
-
-Yup what's 2-24
-T:math,2-24
-
-yep What is 35-29
-T:math,35-29
-
-What is 20-30
-T:math,20-30
-
-Compute 47-50
-T:math,47-50
-
-Yeah tell me 16-5
-T:math,16-5
-
-oh What is 32-43
-T:math,32-43
-
-oh What is 49-19
-T:math,49-19
-
-mat 2-24
-T:math,2-24
-
-Oh what's 9-40
-T:math,9-40
-
-yep Calclate 30-26
-T:math,30-26
-
-Yep compute 2-24
-T:math,2-24
-
-yup Wut is 4-22
-T:math,4-22
-
-oh Calculate 3-19
-T:math,3-19
-
-oh math 34-33
-T:math,34-33
-
-ah Calcuate 22-2
-T:math,22-2
-
-Yeah what's 3-14
-T:math,3-14
-
-Yep solve 17-28
-T:math,17-28
-
-yep Calculate 32-43
-T:math,32-43
-
-What is 14-39
-T:math,14-39
-
-Oh what's 4-22
-T:math,4-22
-
-Oh tell me 11-18
-T:math,11-18
-
-Oh tell me 45-43
-T:math,45-43
-
-yeah What is 14-39
-T:math,14-39
-
-Yep compute 14-39
-T:math,14-39
-
-Yep what's 11-18
-T:math,11-18
-
-Yeah solve 11-14
-T:math,11-14
-
-ah Calculate 23-24
-T:math,23-24
-
-Ah compute 47-50
-T:math,47-50
-
-oh Wut is 3-19
-T:math,3-19
-
-yup math 32-43
-T:math,32-43
-
-Solve 31-39
-T:math,31-39
-
-Calcuate 16-5
-T:math,16-5
-
-oh math 7-1
-T:math,7-1
-
-Yup solve 24-34
-T:math,24-34
-
-Oh compute 4-6
-T:math,4-6
-
-Yep compute 35-29
-T:math,35-29
-
-Yeah tell me 15-32
-T:math,15-32
-
-What's 41-18
-T:math,41-18
-
-What's 11-14
-T:math,11-14
-
-Yup tell me 4-22
-T:math,4-22
-
-Calculate 9-40
-T:math,9-40
-
-Yeah compute 28-7
-T:math,28-7
-
-Yup compute 9-40
-T:math,9-40
-
-wat is 34-33
-T:math,34-33
-
-yep Calculate 2-24
-T:math,2-24
-
-Ah what's 10-49
-T:math,10-49
-
-What is 3-9
-T:math,3-9
-
-yup math 3-14
-T:math,3-14
-
-wat is 13-5
-T:math,13-5
-
-oh What is 30-26
-T:math,30-26
-
-yup math 4-6
-T:math,4-6
-
-wut is 11-18
-T:math,11-18
-
-Solve 3-19
-T:math,3-19
-
-ah Calculate 20-30
-T:math,20-30
-
-What is 11-18
-T:math,11-18
-
-calclate 16-5
-T:math,16-5
-
-oh math 32-43
-T:math,32-43
-
-calclate 23-24
-T:math,23-24
-
-Compute 27-6
-T:math,27-6
-
-calclate 22-2
-T:math,22-2
-
-oh What is 13-5
-T:math,13-5
-
-Oh compute 3-14
-T:math,3-14
-
-oh What is 31-16
-T:math,31-16
-
-calcuate 31-39
-T:math,31-39
-
-yep math 11-14
-T:math,11-14
-
-Oh tell me 41-18
-T:math,41-18
-
-Yup what's 3-19
-T:math,3-19
-
-yeah math 28-7
-T:math,28-7
-
-oh Calculate 47-50
-T:math,47-50
-
-ah Calculate 13-5
-T:math,13-5
-
-oh What is 15-32
-T:math,15-32
-
-Ah solve 22-2
-T:math,22-2
-
-yeah Calculate 23-24
-T:math,23-24
-
-yep Calculate 41-18
-T:math,41-18
-
-Yup what's 31-39
-T:math,31-39
-
-Yup tell me 34-33
-T:math,34-33
-
-Yep tell me 16-5
-T:math,16-5
-
-ah math 34-33
-T:math,34-33
-
-Yup compute 45-43
-T:math,45-43
-
-Yeah solve 28-7
-T:math,28-7
-
-What is 3-19
-T:math,3-19
-
-Yeah compute 47-50
-T:math,47-50
-
-Calculate 7-1
-T:math,7-1
-
-Yup solve 10-49
-T:math,10-49
-
-oh math 24-34
-T:math,24-34
-
-yeah What is 20-30
-T:math,20-30
-
-yep math 22-2
-T:math,22-2
-
-Yeah compute 3-14
-T:math,3-14
-
-Yep what's 4-22
-T:math,4-22
-
-ah Wat is 3-19
-T:math,3-19
-
-Yep tell me 34-33
-T:math,34-33
-
-yup math 16-5
-T:math,16-5
-
-ah Calculate 10-49
-T:math,10-49
-
-Ah what's 30-26
-T:math,30-26
-
-oh Calculate 4-6
-T:math,4-6
-
-wut is 30-26
-T:math,30-26
-
-yeah math 4-6
-T:math,4-6
-
-Yep tell me 31-16
-T:math,31-16
-
-oh What is 4-22
-T:math,4-22
-
-yeah Calculate 28-7
-T:math,28-7
-
-ah math 4-6
-T:math,4-6
-
-Solve 49-19
-T:math,49-19
-
-Oh compute 11-18
-T:math,11-18
-
-yep math 35-29
-T:math,35-29
-
-Yep solve 28-7
-T:math,28-7
-
-Yeah what's 16-5
-T:math,16-5
-
-Ah what's 4-6
-T:math,4-6
-
-maths 2-24
-T:math,2-24
-
-oh What is 23-24
-T:math,23-24
-
-yep What is 22-2
-T:math,22-2
-
-ah math 15-32
-T:math,15-32
-
-yup What is 45-43
-T:math,45-43
-
-Yep compute 45-43
-T:math,45-43
-
-yep math 30-26
-T:math,30-26
-
-Ah what's 3-19
-T:math,3-19
-
-Tell me 17-28
-T:math,17-28
-
-yup Wut is 28-7
-T:math,28-7
-
-mat 22-2
-T:math,22-2
-
-Oh solve 23-24
-T:math,23-24
-
-ah Calculate 16-5
-T:math,16-5
-
-yup What is 10-49
-T:math,10-49
-
-Yup solve 32-43
-T:math,32-43
-
-Yep compute 3-9
-T:math,3-9
-
-Yup what's 4-22
-T:math,4-22
-
-Ah tell me 9-40
-T:math,9-40
-
-yeah math 34-33
-T:math,34-33
-
-math 22-2
-T:math,22-2
-
-What is 35-29
-T:math,35-29
-
-Yeah compute 45-43
-T:math,45-43
-
-Yep tell me 49-19
-T:math,49-19
-
-Yup tell me 22-2
-T:math,22-2
-
-What's 35-29
-T:math,35-29
-
-calclate 31-16
-T:math,31-16
-
-Tell me 41-18
-T:math,41-18
-
-yup Calculate 20-30
-T:math,20-30
-
-Ah tell me 15-32
-T:math,15-32
-
-Solve 3-14
-T:math,3-14
-
-Yup compute 7-1
-T:math,7-1
-
-yup math 34-33
-T:math,34-33
-
-yeah Wut is 3-14
-T:math,3-14
-
-ah What is 15-32
-T:math,15-32
-
-yup What is 34-33
-T:math,34-33
-
-oh What iz 24-34
-T:math,24-34
-
-Yep solve 45-43
-T:math,45-43
-
-Ah tell me 45-43
-T:math,45-43
-
-oh math 4-22
-T:math,4-22
-
-ah Calculate 3-14
-T:math,3-14
-
-oh Calculate 14-39
-T:math,14-39
-
-wat is 45-43
-T:math,45-43
-
-yup math 11-18
-T:math,11-18
-
-yup math 22-2
-T:math,22-2
-
-Yep what's 3-9
-T:math,3-9
-
-What is 2-24
-T:math,2-24
-
-math 3-9
-T:math,3-9
-
-What's 14-39
-T:math,14-39
-
-Ah tell me 47-50
-T:math,47-50
-
-maths 11-18
-T:math,11-18
-
-Yep compute 41-18
-T:math,41-18
-
-Yup what's 24-34
-T:math,24-34
-
-Yep solve 49-19
-T:math,49-19
-
-Yeah what's 31-39
-T:math,31-39
-
-oh Calculate 20-30
-T:math,20-30
-
-mat 4-22
-T:math,4-22
-
-yeah math 14-39
-T:math,14-39
-
-Ah tell me 11-18
-T:math,11-18
-
-Oh compute 2-24
-T:math,2-24
-
-Solve 11-14
-T:math,11-14
-
-yep Calculate 47-50
-T:math,47-50
-
-Yup solve 17-28
-T:math,17-28
-
-Yup solve 45-43
-T:math,45-43
-
-yup What is 3-9
-T:math,3-9
-
-Calculate 4-22
-T:math,4-22
-
-Compute 14-39
-T:math,14-39
-
-ah What iz 49-19
-T:math,49-19
-
-oh Calculate 16-5
-T:math,16-5
-
-Ah solve 7-1
-T:math,7-1
-
-Oh what's 22-2
-T:math,22-2
-
-yep Wut is 49-19
-T:math,49-19
-
-yeah Calculate 15-32
-T:math,15-32
-
-Yep compute 32-43
-T:math,32-43
-
-Solve 41-18
-T:math,41-18
-
-Ah tell me 11-14
-T:math,11-14
-
-Yeah compute 3-19
-T:math,3-19
-
-Yup what's 13-5
-T:math,13-5
-
-oh What is 11-18
-T:math,11-18
-
-Yep tell me 2-24
-T:math,2-24
-
-wat is 35-29
-T:math,35-29
-
-yup What iz 3-9
-T:math,3-9
-
-math 27-6
-T:math,27-6
-
-yup Calculate 13-5
-T:math,13-5
-
-Yep tell me 30-26
-T:math,30-26
-
-yeah Calculate 47-50
-T:math,47-50
-
-yup Calculate 7-1
-T:math,7-1
-
-Wat is 14-39
-T:math,14-39
-
-Yeah tell me 23-24
-T:math,23-24
-
-Yeah compute 11-14
-T:math,11-14
-
-yup Calculate 16-5
-T:math,16-5
-
-Yeah compute 3-9
-T:math,3-9
-
-yup What iz 27-6
-T:math,27-6
-
-Ah compute 31-16
-T:math,31-16
-
-yep What is 32-43
-T:math,32-43
-
-Compute 32-43
-T:math,32-43
-
-Ah solve 15-32
-T:math,15-32
-
-ah What iz 11-14
-T:math,11-14
-
-oh math 47-50
-T:math,47-50
-
-Tell me 30-26
-T:math,30-26
-
-Yup solve 2-24
-T:math,2-24
-
-yeah math 11-14
-T:math,11-14
-
-yup math 14-39
-T:math,14-39
-
-Yup tell me 45-43
-T:math,45-43
-
-yep math 17-28
-T:math,17-28
-
-What's 24-34
-T:math,24-34
-
-Yep compute 4-22
-T:math,4-22
-
-Yeah what's 4-6
-T:math,4-6
-
-yeah What is 4-6
-T:math,4-6
-
-yep Calculate 4-6
-T:math,4-6
-
-ah What is 13-5
-T:math,13-5
-
-Yep solve 13-5
-T:math,13-5
-
-Yeah compute 27-6
-T:math,27-6
-
-Yeah tell me 31-39
-T:math,31-39
-
-Oh what's 24-34
-T:math,24-34
-
-Ah compute 4-22
-T:math,4-22
-
-Yup compute 20-30
-T:math,20-30
-
-Compute 34-33
-T:math,34-33
-
-Compute 15-32
-T:math,15-32
-
-oh math 17-28
-T:math,17-28
-
-yup Calculate 2-24
-T:math,2-24
-
-Tell me 47-50
-T:math,47-50
-
-Yup what's 17-28
-T:math,17-28
-
-Oh what's 20-30
-T:math,20-30
-
-ah What is 3-19
-T:math,3-19
-
-Oh tell me 23-24
-T:math,23-24
-
-What is 24-34
-T:math,24-34
-
-wat is 23-24
-T:math,23-24
-
-yup math 2-24
-T:math,2-24
-
-Yeah solve 13-5
-T:math,13-5
-
-Yeah what's 13-5
-T:math,13-5
-
-oh math 28-7
-T:math,28-7
-
-What's 23-24
-T:math,23-24
-
-Ah compute 28-7
-T:math,28-7
-
-Oh tell me 9-40
-T:math,9-40
-
-What is 30-26
-T:math,30-26
-
-yeah What iz 27-6
-T:math,27-6
-
-Yeah tell me 34-33
-T:math,34-33
-
-Oh what's 34-33
-T:math,34-33
-
-yeah Calculate 4-22
-T:math,4-22
-
-Yeah compute 9-40
-T:math,9-40
-
-Yeah compute 4-6
-T:math,4-6
-
-mat 11-14
-T:math,11-14
-
-ah Calculate 3-19
-T:math,3-19
-
-Tell me 32-43
-T:math,32-43
-
-Oh tell me 28-7
-T:math,28-7
-
-Yup solve 31-16
-T:math,31-16
-
-mat 17-28
-T:math,17-28
-
-yeah Calculate 9-40
-T:math,9-40
-
-Yep solve 7-1
-T:math,7-1
-
-math 31-39
-T:math,31-39
-
-Yeah compute 20-30
-T:math,20-30
-
-Solve 10-49
-T:math,10-49
-
-oh math 2-24
-T:math,2-24
-
-What's 16-5
-T:math,16-5
-
-ah math 31-39
-T:math,31-39
-
-yup What is 22-2
-T:math,22-2
-
-calclate 30-26
-T:math,30-26
-
-ah What is 41-18
-T:math,41-18
-
-Yep what's 30-26
-T:math,30-26
-
-yeah math 11-18
-T:math,11-18
-
-yeah Calculate 49-19
-T:math,49-19
-
-Ah solve 32-43
-T:math,32-43
-
-Yup solve 28-7
-T:math,28-7
-
-yeah math 24-34
-T:math,24-34
-
-wut is 20-30
-T:math,20-30
-
-ah What is 7-1
-T:math,7-1
-
-oh math 11-14
-T:math,11-14
-
-Calculate 23-24
-T:math,23-24
-
-Oh solve 2-24
-T:math,2-24
-
-Yup tell me 3-19
-T:math,3-19
-
-yep math 9-40
-T:math,9-40
-
-Calculate 34-33
-T:math,34-33
-
-Oh tell me 4-22
-T:math,4-22
-
-Yup tell me 3-9
-T:math,3-9
-
-oh Calculate 30-26
-T:math,30-26
-
-Yup compute 2-24
-T:math,2-24
-
-Oh tell me 35-29
-T:math,35-29
-
-Ah solve 16-5
-T:math,16-5
-
-Ah tell me 30-26
-T:math,30-26
-
-calclate 14-39
-T:math,14-39
-
-Ah compute 24-34
-T:math,24-34
-
-Tell me 23-24
-T:math,23-24
-
-Ah what's 35-29
-T:math,35-29
-
-oh math 20-30
-T:math,20-30
-
-Yeah solve 14-39
-T:math,14-39
-
-math 16-5
-T:math,16-5
-
-yup Calculate 3-9
-T:math,3-9
-
-Yup solve 20-30
-T:math,20-30
-
-yup Calculate 9-40
-T:math,9-40
-
-wut is 47-50
-T:math,47-50
-
-ah math 11-18
-T:math,11-18
-
-Ah solve 2-24
-T:math,2-24
-
-yeah Wot is 10-49
-T:math,10-49
-
-Oh tell me 10-49
-T:math,10-49
-
-What iz 11-14
-T:math,11-14
-
-Yup tell me 20-30
-T:math,20-30
-
-Yup tell me 47-50
-T:math,47-50
-
-calclate 15-32
-T:math,15-32
-
-Oh tell me 16-5
-T:math,16-5
-
-yeah What is 41-18
-T:math,41-18
-
-Yep compute 4-6
-T:math,4-6
-
-yeah What is 23-24
-T:math,23-24
-
-Ah compute 3-14
-T:math,3-14
-
-ah Calculate 17-28
-T:math,17-28
-
-yup math 28-7
-T:math,28-7
-
-Solve 2-24
-T:math,2-24
-
-Ah compute 32-43
-T:math,32-43
-
-Oh what's 41-18
-T:math,41-18
-
-ah Wut is 13-5
-T:math,13-5
-
-Oh what's 15-32
-T:math,15-32
-
-Yup solve 7-1
-T:math,7-1
-
-ah What is 28-7
-T:math,28-7
-
-yup math 4-22
-T:math,4-22
-
-Oh solve 32-43
-T:math,32-43
-
-Yeah what's 22-2
-T:math,22-2
-
-Yup compute 27-6
-T:math,27-6
-
-yup What is 3-14
-T:math,3-14
-
-yep math 32-43
-T:math,32-43
-
-Yep what's 2-24
-T:math,2-24
-
-yep math 14-39
-T:math,14-39
-
-Yep what's 49-19
-T:math,49-19
-
-Solve 23-24
-T:math,23-24
-
-Yep solve 30-26
-T:math,30-26
-
-yep Calculate 34-33
-T:math,34-33
-
-Oh solve 49-19
-T:math,49-19
-
-yep math 31-39
-T:math,31-39
-
-Oh solve 3-9
-T:math,3-9
-
-ah What is 14-39
-T:math,14-39
-
-yep math 27-6
-T:math,27-6
-
-ah Calculate 47-50
-T:math,47-50
-
-Oh solve 34-33
-T:math,34-33
-
-Oh compute 20-30
-T:math,20-30
-
-Compute 16-5
-T:math,16-5
-
-Ah what's 41-18
-T:math,41-18
-
-yeah Calculate 7-1
-T:math,7-1
-
-calcuate 9-40
-T:math,9-40
-
-yeah Calculate 22-2
-T:math,22-2
-
-yep math 2-24
-T:math,2-24
-
-calcuate 3-9
-T:math,3-9
-
-ah What is 45-43
-T:math,45-43
-
-oh What is 20-30
-T:math,20-30
-
-Yep tell me 45-43
-T:math,45-43
-
-Ah solve 3-19
-T:math,3-19
-
-Yup tell me 7-1
-T:math,7-1
-
-Yep solve 15-32
-T:math,15-32
-
-ah Calculate 24-34
-T:math,24-34
-
-oh What is 11-14
-T:math,11-14
-
-Tell me 3-19
-T:math,3-19
-
-Yeah solve 9-40
-T:math,9-40
-
-yup Calculate 31-16
-T:math,31-16
-
-mat 35-29
-T:math,35-29
-
-wut is 4-22
-T:math,4-22
-
-yeah What is 34-33
-T:math,34-33
-
-Yeah compute 35-29
-T:math,35-29
-
-yep What is 27-6
-T:math,27-6
-
-calclate 20-30
-T:math,20-30
-
-Tell me 24-34
-T:math,24-34
-
-Ah what's 20-30
-T:math,20-30
-
-yup Calculate 45-43
-T:math,45-43
-
-mat 20-30
-T:math,20-30
-
-Ah compute 41-18
-T:math,41-18
-
-What iz 35-29
-T:math,35-29
-
-yep What is 34-33
-T:math,34-33
-
-Compute 11-14
-T:math,11-14
-
-Compute 22-2
-T:math,22-2
-
-Solve 16-5
-T:math,16-5
-
-oh math 49-19
-T:math,49-19
-
-Yeah solve 7-1
-T:math,7-1
-
-ah Calculate 32-43
-T:math,32-43
-
-wut is 3-19
-T:math,3-19
-
-Yup compute 14-39
-T:math,14-39
-
-calcuate 20-30
-T:math,20-30
-
-yeah math 27-6
-T:math,27-6
-
-wut is 15-32
-T:math,15-32
-
-oh What is 3-14
-T:math,3-14
-
-yep math 11-18
-T:math,11-18
-
-math 24-34
-T:math,24-34
-
-Ah tell me 10-49
-T:math,10-49
-
-oh math 3-9
-T:math,3-9
-
-Oh compute 28-7
-T:math,28-7
-
-ah math 24-34
-T:math,24-34
-
-Solve 20-30
-T:math,20-30
-
-yup What is 35-29
-T:math,35-29
-
-ah math 27-6
-T:math,27-6
-
-yep math 49-19
-T:math,49-19
-
-Yup tell me 23-24
-T:math,23-24
-
-Yep tell me 13-5
-T:math,13-5
-
-Yep what's 7-1
-T:math,7-1
-
-Yep what's 35-29
-T:math,35-29
-
-Tell me 27-6
-T:math,27-6
-
-Solve 45-43
-T:math,45-43
-
-yup math 11-14
-T:math,11-14
-
-Ah solve 27-6
-T:math,27-6
-
-ah What is 49-19
-T:math,49-19
-
-yeah What iz 9-40
-T:math,9-40
-
-yup Calculate 4-22
-T:math,4-22
-
-yep math 15-32
-T:math,15-32
-
-Yep solve 34-33
-T:math,34-33
-
-yup What is 47-50
-T:math,47-50
-
-Oh compute 15-32
-T:math,15-32
-
-oh Calculate 31-16
-T:math,31-16
-
-calclate 2-24
-T:math,2-24
-
-math 9-40
-T:math,9-40
-
-Oh tell me 11-14
-T:math,11-14
-
-yup What is 14-39
-T:math,14-39
-
-oh What is 31-39
-T:math,31-39
-
-ah math 20-30
-T:math,20-30
-
-calclate 31-39
-T:math,31-39
-
-Yep tell me 3-9
-T:math,3-9
-
-Oh tell me 15-32
-T:math,15-32
-
-yeah math 7-1
-T:math,7-1
-
-calcuate 22-2
-T:math,22-2
-
-Yeah what's 23-24
-T:math,23-24
-
-Oh what's 13-5
-T:math,13-5
-
-Oh solve 24-34
-T:math,24-34
-
-yup math 45-43
-T:math,45-43
-
-What iz 9-40
-T:math,9-40
-
-Compute 20-30
-T:math,20-30
-
-Oh what's 4-6
-T:math,4-6
-
-oh Calculate 10-49
-T:math,10-49
-
-Yeah solve 20-30
-T:math,20-30
-
-Yeah tell me 4-6
-T:math,4-6
-
-Yep what's 20-30
-T:math,20-30
-
-Oh what's 47-50
-T:math,47-50
-
-Yep solve 22-2
-T:math,22-2
-
-oh math 11-18
-T:math,11-18
-
-yeah math 45-43
-T:math,45-43
-
-calclate 49-19
-T:math,49-19
-
-Yup what's 9-40
-T:math,9-40
-
-Ah what's 23-24
-T:math,23-24
-
-Ah compute 15-32
-T:math,15-32
-
-math 28-7
-T:math,28-7
-
-Yep compute 34-33
-T:math,34-33
-
-Calculate 28-7
-T:math,28-7
-
-Yep compute 27-6
-T:math,27-6
-
-Yup what's 3-14
-T:math,3-14
-
-yeah math 23-24
-T:math,23-24
-
-Ah solve 35-29
-T:math,35-29
-
-yep math 16-5
-T:math,16-5
-
-calclate 7-1
-T:math,7-1
-
-ah math 3-14
-T:math,3-14
-
-Ah tell me 32-43
-T:math,32-43
-
-Yeah tell me 3-19
-T:math,3-19
-
-wat is 4-22
-T:math,4-22
-
-Yup solve 14-39
-T:math,14-39
-
-yeah Calculate 31-39
-T:math,31-39
-
-Oh solve 14-39
-T:math,14-39
-
-mat 24-34
-T:math,24-34
-
-What's 7-1
-T:math,7-1
-
-calcuate 3-19
-T:math,3-19
-
-Oh what's 45-43
-T:math,45-43
-
-ah What is 35-29
-T:math,35-29
-
-Yup compute 28-7
-T:math,28-7
-
-Oh tell me 49-19
-T:math,49-19
-
-ah Calculate 27-6
-T:math,27-6
-
-Oh tell me 17-28
-T:math,17-28
-
-calclate 10-49
-T:math,10-49
-
-ah Calculate 14-39
-T:math,14-39
-
-Yup solve 35-29
-T:math,35-29
-
-Oh solve 28-7
-T:math,28-7
-
-Ah compute 13-5
-T:math,13-5
-
-Yep what's 15-32
-T:math,15-32
-
-yup Wat is 31-16
-T:math,31-16
-
-Yeah what's 41-18
-T:math,41-18
-
-Ah solve 9-40
-T:math,9-40
-
-calcuate 47-50
-T:math,47-50
-
-wut is 45-43
-T:math,45-43
-
-Solve 30-26
-T:math,30-26
-
-oh math 16-5
-T:math,16-5
-
-calcuate 15-32
-T:math,15-32
-
-Yup what's 22-2
-T:math,22-2
-
-yep Calculate 17-28
-T:math,17-28
-
-Yup solve 23-24
-T:math,23-24
-
-Compute 35-29
-T:math,35-29
-
-mat 13-5
-T:math,13-5
-
-yup math 10-49
-T:math,10-49
-
-calcuate 4-6
-T:math,4-6
-
-calcuate 11-18
-T:math,11-18
-
-wut is 3-14
-T:math,3-14
-
-maths 32-43
-T:math,32-43
-
-Yup what's 7-1
-T:math,7-1
-
-mat 34-33
-T:math,34-33
-
-wat is 11-18
-T:math,11-18
-
-Yup solve 15-32
-T:math,15-32
-
-math 11-18
-T:math,11-18
-
-Yeah tell me 22-2
-T:math,22-2
-
-oh math 4-6
-T:math,4-6
-
-wat is 22-2
-T:math,22-2
-
-maths 27-6
-T:math,27-6
-
-Ah compute 14-39
-T:math,14-39
-
-yup Calculate 11-18
-T:math,11-18
-
-calcuate 32-43
-T:math,32-43
-
-mat 3-14
-T:math,3-14
-
-calclate 9-40
-T:math,9-40
-
-Calculate 4-6
-T:math,4-6
-
-Yup solve 22-2
-T:math,22-2
-
-Oh tell me 30-26
-T:math,30-26
-
-Tell me 4-6
-T:math,4-6
-
-Calculate 31-16
-T:math,31-16
-
-Oh what's 3-9
-T:math,3-9
-
-Oh what's 14-39
-T:math,14-39
-
-Ah compute 10-49
-T:math,10-49
-
-Yep solve 32-43
-T:math,32-43
-
-calclate 47-50
-T:math,47-50
-
-ah math 35-29
-T:math,35-29
-
-calclate 13-5
-T:math,13-5
-
-yep Calculate 11-14
-T:math,11-14
-
-Calulate 4-6
-T:math,4-6
-
-Yup what's 16-5
-T:math,16-5
-
-yeah What is 3-14
-T:math,3-14
-
-Oh solve 30-26
-T:math,30-26
-
-Yeah what's 2-24
-T:math,2-24
-
-wut is 11-14
-T:math,11-14
-
-What is 16-5
-T:math,16-5
-
-wat is 3-19
-T:math,3-19
-
-What is 4-22
-T:math,4-22
-
-Yup compute 3-19
-T:math,3-19
-
-Ah solve 28-7
-T:math,28-7
-
-Yep what's 24-34
-T:math,24-34
-
-math 17-28
-T:math,17-28
-
-yep What iz 34-33
-T:math,34-33
-
-wat is 41-18
-T:math,41-18
-
-oh What is 3-9
-T:math,3-9
-
-yeah What is 30-26
-T:math,30-26
-
-Yep tell me 32-43
-T:math,32-43
-
-Yep solve 47-50
-T:math,47-50
-
-yep What is 15-32
-T:math,15-32
-
-yep Calculate 24-34
-T:math,24-34
-
-Oh what's 31-16
-T:math,31-16
-
-maths 24-34
-T:math,24-34
-
-ah Calculate 30-26
-T:math,30-26
-
-Yeah solve 30-26
-T:math,30-26
-
-ah math 49-19
-T:math,49-19
-
-Yup what's 14-39
-T:math,14-39
-
-yep math 4-22
-T:math,4-22
-
-yeah What is 10-49
-T:math,10-49
-
-ah Calculate 41-18
-T:math,41-18
-
-Yeah compute 41-18
-T:math,41-18
-
-Compute 13-5
-T:math,13-5
-
-wut is 13-5
-T:math,13-5
-
-calcuate 24-34
-T:math,24-34
-
-Oh solve 20-30
-T:math,20-30
-
-Yep compute 24-34
-T:math,24-34
-
-Ah solve 3-14
-T:math,3-14
-
-What's 10-49
-T:math,10-49
-
-Ah tell me 23-24
-T:math,23-24
-
-mat 47-50
-T:math,47-50
-
-wut is 10-49
-T:math,10-49
-
-yeah What is 24-34
-T:math,24-34
-
-Yep solve 20-30
-T:math,20-30
-
-What is 7-1
-T:math,7-1
-
-calclate 35-29
-T:math,35-29
-
-yeah What is 15-32
-T:math,15-32
-
-oh What is 28-7
-T:math,28-7
-
-Yeah solve 49-19
-T:math,49-19
-
-yep math 41-18
-T:math,41-18
-
-Compute 49-19
-T:math,49-19
-
-oh Calculate 22-2
-T:math,22-2
-
-yup Calculate 31-39
-T:math,31-39
-
-Yeah solve 22-2
-T:math,22-2
-
-Yup tell me 32-43
-T:math,32-43
-
-Yep compute 3-14
-T:math,3-14
-
-wat is 28-7
-T:math,28-7
-
-Yeah what's 7-1
-T:math,7-1
-
-Oh compute 10-49
-T:math,10-49
-
-Yup compute 49-19
-T:math,49-19
-
-yup Calculate 35-29
-T:math,35-29
-
-wut iz 10-49
-T:math,10-49
-
-wut is 34-33
-T:math,34-33
-
-Oh solve 9-40
-T:math,9-40
-
-Yeah tell me 3-14
-T:math,3-14
-
-math 32-43
-T:math,32-43
-
-yep math 24-34
-T:math,24-34
-
-Yep tell me 20-30
-T:math,20-30
-
-yep What is 11-14
-T:math,11-14
-
-wat is 24-34
-T:math,24-34
-
-calclate 32-43
-T:math,32-43
-
-Yeah tell me 11-18
-T:math,11-18
-
-oh Calculate 31-39
-T:math,31-39
-
-Oh solve 3-14
-T:math,3-14
-
-Compute 3-19
-T:math,3-19
-
-wat is 11-14
-T:math,11-14
-
-wat is 9-40
-T:math,9-40
-
-Yeah tell me 32-43
-T:math,32-43
-
-What's 34-33
-T:math,34-33
-
-Oh solve 35-29
-T:math,35-29
-
-mat 3-9
-T:math,3-9
-
-Yeah tell me 24-34
-T:math,24-34
-
-wat is 4-6
-T:math,4-6
-
-yup Calculate 47-50
-T:math,47-50
-
-wut is 16-5
-T:math,16-5
-
-Compute 3-9
-T:math,3-9
-
-Yep compute 10-49
-T:math,10-49
-
-yep What is 17-28
-T:math,17-28
-
-yup math 31-39
-T:math,31-39
-
-Yep compute 17-28
-T:math,17-28
-
-yep Calculate 23-24
-T:math,23-24
-
-calcuate 2-24
-T:math,2-24
-
-maths 31-39
-T:math,31-39
-
-wat is 3-14
-T:math,3-14
-
-Yep tell me 22-2
-T:math,22-2
-
-maths 49-19
-T:math,49-19
-
-ah What is 4-22
-T:math,4-22
-
-yeah Calculate 10-49
-T:math,10-49
-
-What's 15-32
-T:math,15-32
-
-wut is 41-18
-T:math,41-18
-
-ah Calculate 15-32
-T:math,15-32
-
-yep Calculate 30-26
-T:math,30-26
-
-math 14-39
-T:math,14-39
-
-yup math 23-24
-T:math,23-24
-
-mat 31-39
-T:math,31-39
-
-math 11-14
-T:math,11-14
-
-Yep solve 11-14
-T:math,11-14
-
-math 4-6
-T:math,4-6
-
-Yeah compute 7-1
-T:math,7-1
-
-oh Calculate 41-18
-T:math,41-18
-
-Yeah solve 24-34
-T:math,24-34
-
-What is 34-33
-T:math,34-33
-
-yup What is 30-26
-T:math,30-26
-
-math 3-14
-T:math,3-14
-
-Oh compute 30-26
-T:math,30-26
-
-Yeah compute 34-33
-T:math,34-33
-
-oh Calculate 24-34
-T:math,24-34
-
-Yep tell me 28-7
-T:math,28-7
-
-yeah What is 2-24
-T:math,2-24
-
-Yup tell me 31-39
-T:math,31-39
-
-maths 16-5
-T:math,16-5
-
-yup What is 20-30
-T:math,20-30
-
-calclate 41-18
-T:math,41-18
-
-yeah math 3-9
-T:math,3-9
-
-yup What is 7-1
-T:math,7-1
-
-Oh compute 31-16
-T:math,31-16
-
-ah Calculate 22-2
-T:math,22-2
-
-yep Calculate 3-14
-T:math,3-14
-
-Yup what's 27-6
-T:math,27-6
-
-Ah tell me 2-24
-T:math,2-24
-
-Solve 11-18
-T:math,11-18
-
-Ah solve 45-43
-T:math,45-43
-
-math 20-30
-T:math,20-30
-
-yeah math 3-14
-T:math,3-14
-
-Ah what's 13-5
-T:math,13-5
-
-yep Wot is 14-39
-T:math,14-39
-
-What's 4-6
-T:math,4-6
-
-Yep solve 3-14
-T:math,3-14
-
-Oh solve 17-28
-T:math,17-28
-
-Oh compute 3-9
-T:math,3-9
-
-yeah What is 7-1
-T:math,7-1
-
-Ah solve 31-16
-T:math,31-16
-
-Solve 22-2
-T:math,22-2
-
-calclate 4-22
-T:math,4-22
-
-Yep tell me 7-1
-T:math,7-1
-
-Yep compute 49-19
-T:math,49-19
-
-Yeah tell me 30-26
-T:math,30-26
-
-Solve 35-29
-T:math,35-29
-
-oh What is 41-18
-T:math,41-18
-
-yeah math 31-39
-T:math,31-39
-
-wat is 31-39
-T:math,31-39
-
-Oh tell me 31-16
-T:math,31-16
-
-Yeah tell me 28-7
-T:math,28-7
-
-yeah What iz 14-39
-T:math,14-39
-
-oh Calculate 3-9
-T:math,3-9
-
-Yeah tell me 10-49
-T:math,10-49
-
-Compute 45-43
-T:math,45-43
-
-calcuate 27-6
-T:math,27-6
-
-Yeah what's 34-33
-T:math,34-33
-
-Yep compute 15-32
-T:math,15-32
-
-ah Calculate 34-33
-T:math,34-33
-
-Ah compute 31-39
-T:math,31-39
-
-Oh what's 16-5
-T:math,16-5
-
-yep What is 16-5
-T:math,16-5
-
-calcuate 35-29
-T:math,35-29
-
-calcuate 14-39
-T:math,14-39
-
-Wat is 31-16
-T:math,31-16
-
-Ah tell me 13-5
-T:math,13-5
-
-Yep what's 45-43
-T:math,45-43
-
-ah math 11-14
-T:math,11-14
-
-Yup compute 13-5
-T:math,13-5
-
-What's 2-24
-T:math,2-24
-
-Ah tell me 24-34
-T:math,24-34
-
-Yep tell me 4-6
-T:math,4-6
-
-oh Calculate 49-19
-T:math,49-19
-
-What is 3-14
-T:math,3-14
-
-yup What is 17-28
-T:math,17-28
-
-Yep solve 23-24
-T:math,23-24
-
-Ah what's 16-5
-T:math,16-5
-
-yeah What is 3-19
-T:math,3-19
-
-mat 45-43
-T:math,45-43
-
-Yep what's 47-50
-T:math,47-50
-
-Ah compute 7-1
-T:math,7-1
-
-Calculate 15-32
-T:math,15-32
-
-Yup tell me 11-18
-T:math,11-18
-
-yep What is 28-7
-T:math,28-7
-
-Ah what's 15-32
-T:math,15-32
-
-ah math 9-40
-T:math,9-40
-
-yup What is 32-43
-T:math,32-43
-
-Ah tell me 4-22
-T:math,4-22
-
-Yeah solve 16-5
-T:math,16-5
-
-Ah solve 10-49
-T:math,10-49
-
-yup What is 31-39
-T:math,31-39
-
-Yup what's 45-43
-T:math,45-43
-
-Yup solve 9-40
-T:math,9-40
-
-Yep compute 28-7
-T:math,28-7
-
-Yup compute 17-28
-T:math,17-28
-
-calcuate 11-14
-T:math,11-14
-
-oh Calculate 32-43
-T:math,32-43
-
-Calculate 11-14
-T:math,11-14
-
-Oh tell me 32-43
-T:math,32-43
-
-oh Calculate 28-7
-T:math,28-7
-
-Yep compute 9-40
-T:math,9-40
-
-yeah What is 47-50
-T:math,47-50
-
-yeah Calculate 14-39
-T:math,14-39
-
-Yep solve 27-6
-T:math,27-6
-
-Yeah what's 24-34
-T:math,24-34
-
-oh math 15-32
-T:math,15-32
-
-maths 9-40
-T:math,9-40
-
-What's 3-14
-T:math,3-14
-
-oh What is 14-39
-T:math,14-39
-
-Oh solve 7-1
-T:math,7-1
-
-mat 41-18
-T:math,41-18
-
-yep What is 20-30
-T:math,20-30
-
-yeah What is 17-28
-T:math,17-28
-
-oh math 22-2
-T:math,22-2
-
-Calculate 35-29
-T:math,35-29
-
-Yup solve 47-50
-T:math,47-50
-
-Yup tell me 28-7
-T:math,28-7
-
-yeah Calculate 3-14
-T:math,3-14
-
-Yup tell me 49-19
-T:math,49-19
-
-oh Calculate 4-22
-T:math,4-22
-
-oh What is 34-33
-T:math,34-33
-
-Yep tell me 11-18
-T:math,11-18
-
-Oh compute 7-1
-T:math,7-1
-
-maths 13-5
-T:math,13-5
-
-math 13-5
-T:math,13-5
-
-wut iz 45-43
-T:math,45-43
-
-yep What iz 45-43
-T:math,45-43
-
-oh math 23-24
-T:math,23-24
-
-Ah tell me 17-28
-T:math,17-28
-
-yup What is 28-7
-T:math,28-7
-
-ah Calculate 31-39
-T:math,31-39
-
-Tell me 2-24
-T:math,2-24
-
-Ah solve 4-6
-T:math,4-6
-
-Solve 27-6
-T:math,27-6
-
-wut is 27-6
-T:math,27-6
-
-yep What is 31-39
-T:math,31-39
-
-Ah compute 17-28
-T:math,17-28
-
-yeah What is 35-29
-T:math,35-29
-
-ah What is 3-9
-T:math,3-9
-
-ah Calculate 45-43
-T:math,45-43
-
-yep Calculate 27-6
-T:math,27-6
-
-ah math 10-49
-T:math,10-49
-
-Ah tell me 28-7
-T:math,28-7
-
-calcuate 13-5
-T:math,13-5
-
-ah Calculate 28-7
-T:math,28-7
-
-Oh compute 35-29
-T:math,35-29
-
-yeah math 49-19
-T:math,49-19
-
-wut is 22-2
-T:math,22-2
-
-Ah solve 4-22
-T:math,4-22
-
-Yup solve 11-14
-T:math,11-14
-
-maths 45-43
-T:math,45-43
-
-yup Calculate 10-49
-T:math,10-49
-
-mat 28-7
-T:math,28-7
-
-oh Calculate 15-32
-T:math,15-32
-
-wat is 32-43
-T:math,32-43
-
-ah Calculate 7-1
-T:math,7-1
-
-Ah what's 7-1
-T:math,7-1
-
-Ah solve 20-30
-T:math,20-30
-
-Yeah what's 47-50
-T:math,47-50
-
-wut is 2-24
-T:math,2-24
-
-Yep compute 20-30
-T:math,20-30
-
-Yeah tell me 14-39
-T:math,14-39
-
-yeah What is 9-40
-T:math,9-40
-
-yeah Calculate 30-26
-T:math,30-26
-
-Yup what's 34-33
-T:math,34-33
-
-mat 31-16
-T:math,31-16
-
-yeah math 10-49
-T:math,10-49
-
-Oh tell me 24-34
-T:math,24-34
-
-Ah what's 3-9
-T:math,3-9
-
-Oh tell me 4-6
-T:math,4-6
-
-Ah compute 3-19
-T:math,3-19
-
-Ah solve 49-19
-T:math,49-19
-
-ah math 3-19
-T:math,3-19
-
-What's 31-39
-T:math,31-39
-
-yep What is 7-1
-T:math,7-1
-
-oh math 3-19
-T:math,3-19
-
-Ah tell me 3-9
-T:math,3-9
-
-Yup what's 28-7
-T:math,28-7
-
-yep What iz 32-43
-T:math,32-43
-
-Yep compute 7-1
-T:math,7-1
-
-Calclate 3-19
-T:math,3-19
-
-oh What is 10-49
-T:math,10-49
-
-yeah What is 11-18
-T:math,11-18
-
-Oh tell me 2-24
-T:math,2-24
-
-Yeah what's 9-40
-T:math,9-40
-
-Yup solve 49-19
-T:math,49-19
-
-Ah what's 34-33
-T:math,34-33
-
-Yup what's 23-24
-T:math,23-24
-
-ah Calculate 35-29
-T:math,35-29
-
-yup Calculate 14-39
-T:math,14-39
-
-yup Calculate 3-14
-T:math,3-14
-
-Ah tell me 31-16
-T:math,31-16
-
-yeah Calculate 11-18
-T:math,11-18
-
-What's 17-28
-T:math,17-28
-
-Oh tell me 14-39
-T:math,14-39
-
-yep Calculate 14-39
-T:math,14-39
-
-Yup compute 41-18
-T:math,41-18
-
-Ah tell me 3-14
-T:math,3-14
-
-Yep compute 47-50
-T:math,47-50
-
-Ah compute 2-24
-T:math,2-24
-
-yeah math 3-19
-T:math,3-19
-
-Oh solve 45-43
-T:math,45-43
-
-Yep compute 13-5
-T:math,13-5
-
-Compute 4-6
-T:math,4-6
-
-What is 22-2
-T:math,22-2
-
-Ah solve 47-50
-T:math,47-50
-
-Tell me 13-5
-T:math,13-5
-
-Compute 11-18
-T:math,11-18
-
-Yep compute 11-14
-T:math,11-14
-
-Yeah what's 3-19
-T:math,3-19
-
-Calculate 10-49
-T:math,10-49
-
-ah math 30-26
-T:math,30-26
-
-Yep what's 22-2
-T:math,22-2
-
-calclate 28-7
-T:math,28-7
-
-oh What iz 34-33
-T:math,34-33
-
-math 45-43
-T:math,45-43
-
-yeah math 20-30
-T:math,20-30
-
-yeah math 41-18
-T:math,41-18
-
-maths 47-50
-T:math,47-50
-
-Tell me 11-14
-T:math,11-14
-
-Yeah solve 31-16
-T:math,31-16
-
-What's 9-40
-T:math,9-40
-
-wut is 49-19
-T:math,49-19
-
-yep What is 3-19
-T:math,3-19
-
-wut iz 11-14
-T:math,11-14
-
-maths 22-2
-T:math,22-2
-
-yup math 47-50
-T:math,47-50
-
-Calculate 30-26
-T:math,30-26
-
-Yup compute 34-33
-T:math,34-33
-
-Tell me 11-18
-T:math,11-18
-
-yeah math 4-22
-T:math,4-22
-
-Yup solve 16-5
-T:math,16-5
-
-Yup solve 31-39
-T:math,31-39
-
-oh What iz 28-7
-T:math,28-7
-
-What is 23-24
-T:math,23-24
-
-Oh tell me 47-50
-T:math,47-50
-
-yup What is 2-24
-T:math,2-24
-
-calclate 11-18
-T:math,11-18
-
-calclate 17-28
-T:math,17-28
-
-Ah compute 23-24
-T:math,23-24
-
-yeah math 35-29
-T:math,35-29
-
-oh Calculate 11-14
-T:math,11-14
-
-Yup what's 15-32
-T:math,15-32
-
-yep What is 31-16
-T:math,31-16
-
-Compute 7-1
-T:math,7-1
-
-calcuate 28-7
-T:math,28-7
-
-Yeah what's 4-22
-T:math,4-22
-
-yep Calculate 3-19
-T:math,3-19
-
-yup What is 24-34
-T:math,24-34
-
-Yup what's 41-18
-T:math,41-18
-
-ah Calculate 4-22
-T:math,4-22
-
-maths 15-32
-T:math,15-32
-
-Yep compute 23-24
-T:math,23-24
-
-Yup tell me 9-40
-T:math,9-40
-
-yep What is 24-34
-T:math,24-34
-
-yeah Calculate 2-24
-T:math,2-24
-
-yep math 3-14
-T:math,3-14
-
-yup Wat is 20-30
-T:math,20-30
-
-Compute 28-7
-T:math,28-7
-
-Yep solve 41-18
-T:math,41-18
-
-yeah Calculate 32-43
-T:math,32-43
+What's 4-39
+T:math,4-39
 

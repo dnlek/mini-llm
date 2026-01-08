@@ -1,162 +1,228 @@
-yeah Time now
+wot date is in 2 weeks
+T:date,in 2 weeks
+
+like what time is it
 T:time
 
-yup Today's date
+what date is in a month
+T:date,in 1 month
+
+what time is it in utc
+T:time,utc
+
+whats the date
 T:date
 
-Yeah what's today's date
+what date is in 10 days
+T:date,in 10 days
+
+what date is it
 T:date
 
-oh What tme
+you know what time
 T:time
 
-yep Time now
+whats the time
 T:time
 
-Yup what's today's date
-T:date
+how many days until monday
+T:date,days until monday
 
-Yup what's the time
+whats teh time
 T:time
 
-ah What time
-T:time
+well what time in utc
+T:time,utc
 
-Yeah what's the time
-T:time
+uh whats tomorrows date
+T:date,tomorrow
 
-yep What time
-T:time
+whats tomorrows date
+T:date,tomorrow
 
-Yup tell me the time
-T:time
+wut date is in 5 days
+T:date,in 5 days
 
-What's the time
-T:time
-
-yeah Current date
-T:date
-
-yep Current time
-T:time
-
-Oh what's today's date
-T:date
-
-current tym
-T:time
-
-ah Time now
-T:time
-
-oh What time
-T:time
-
-oh Current date
-T:date
-
-current tiem
-T:time
-
-ah Current time
-T:time
-
-yup Current date
-T:date
-
-yup Current time
-T:time
-
-oh Today's date
+todays date
 T:date
 
 tiem now
 T:time
 
-yeah Today's date
+how many days until next month
+T:date,days until next month
+
+what date is tomorrow
+T:date,tomorrow
+
+like yesterdays date
+T:date,yesterday
+
+what day is it
 T:date
 
-Yep tell me the time
+yesterdays date
+T:date,yesterday
+
+wot time in est
+T:time,est
+
+how many days until next week
+T:date,days until next week
+
+how long until noon
+T:time,duration until noon
+
+how long until midnight
+T:time,duration until midnight
+
+current time
 T:time
 
-yeah What time
+you know how long until noon
+T:time,duration until noon
+
+gmt time
+T:time,gmt
+
+time until noon
+T:time,duration until noon
+
+how many days until next wek
+T:date,days until next week
+
+current tme
 T:time
 
-yeah Current time
+what date was yesterday
+T:date,yesterday
+
+what time is it in gmt
+T:time,gmt
+
+what date is in 2 weeks
+T:date,in 2 weeks
+
+what date is next monday
+T:date,next monday
+
+what date is in 3 days
+T:date,in 3 days
+
+what time
 T:time
 
-Ah what's today's date
+what date is last week
+T:date,last week
+
+tell me the time
+T:time
+
+what time in pst
+T:time,pst
+
+what dat is it
 T:date
 
-Current time
-T:time
+pst time
+T:time,pst
 
-oh Current time
-T:time
+what date is next week
+T:date,next week
 
-Ah what's the time
-T:time
+so time until 5 pm
+T:time,duration until 5 pm
 
-Ah tell me the time
-T:time
+est time
+T:time,est
 
-Oh what's the time
-T:time
-
-wut time
-T:time
-
-Oh tell me the time
-T:time
-
-Yep what's the time
-T:time
-
-Yep what's today's date
+today's date
 T:date
 
-What time
-T:time
+days until monday
+T:date,days until monday
 
-Tell me the time
-T:time
+time until 5 pm
+T:time,duration until 5 pm
 
-yup Time now
-T:time
-
-Today's date
+current date
 T:date
+
+what date is inn 7 days
+T:date,in 7 days
+
+how many days until friday
+T:date,days until friday
+
+um est time
+T:time,est
 
 tym now
 T:time
 
-Time now
+what time in gmt
+T:time,gmt
+
+what time in est
+T:time,est
+
+what time is it in pst
+T:time,pst
+
+what dte is last week
+T:date,last week
+
+what date is in 5 days
+T:date,in 5 days
+
+time now
 T:time
 
-ah Today's date
+what day is today
 T:date
 
-wat time
+what time is it
 T:time
 
-yep Current date
+whats today
 T:date
 
-oh Time now
-T:time
+wot date is next monday
+T:date,next monday
 
-ah Current date
+whats todays date
 T:date
 
-Current date
-T:date
+what time is it in est
+T:time,est
 
-yep Today's date
-T:date
+utc time
+T:time,utc
 
-Yeah tell me the time
-T:time
+you know how many days until monday
+T:date,days until monday
 
-yup What time
-T:time
+days until friday
+T:date,days until friday
+
+what date is in 7 days
+T:date,in 7 days
+
+tomorrows date
+T:date,tomorrow
+
+how long until 5 pm
+T:time,duration until 5 pm
+
+whats yesterdays date
+T:date,yesterday
+
+what time in utc
+T:time,utc
+
+what tym in gmt
+T:time,gmt
+
+so what date is next week
+T:date,next week
 
