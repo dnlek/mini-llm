@@ -226,3 +226,8 @@ T:time,gmt
 so what date is next week
 T:date,next week
 
+whats the date tomorrow for weather
+T:date,tomorrow
+
+whats tomorrows date for weather and time
+T:date,tomorrow;T:wthr,<date>;T:time

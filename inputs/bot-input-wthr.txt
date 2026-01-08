@@ -404,154 +404,154 @@ yeah outside weather tomorrow
 T:wthr,outside,tomorrow
 
 weather for tomorrows date
-T:date,tomorrowtwthr,date
+T:date,tomorrow;T:wthr,<res>
 
 wether for tomorrows date
-T:date,tomorrowtwthr,date
+T:date,tomorrow;T:wthr,<res>
 
 wheather for tomorrows date
-T:date,tomorrowtwthr,date
+T:date,tomorrow;T:wthr,<res>
 
 oh weather for tomorrows date
-T:date,tomorrowtwthr,date
+T:date,tomorrow;T:wthr,<res>
 
 ah weather for tomorrows date
-T:date,tomorrowtwthr,date
+T:date,tomorrow;T:wthr,<res>
 
 whats weather on tomorrow
-T:date,tomorrowtwthr,date
+T:date,tomorrow;T:wthr,<res>
 
 whats wether on tomorrow
-T:date,tomorrowtwthr,date
+T:date,tomorrow;T:wthr,<res>
 
 whats wheather on tomorrow
-T:date,tomorrowtwthr,date
+T:date,tomorrow;T:wthr,<res>
 
 oh whats weather on tomorrow
-T:date,tomorrowtwthr,date
+T:date,tomorrow;T:wthr,<res>
 
 yeah whats weather on tomorrow
-T:date,tomorrowtwthr,date
+T:date,tomorrow;T:wthr,<res>
 
 weather forecast for tomorrow
-T:date,tomorrowtwthr,date
+T:date,tomorrow;T:wthr,<res>
 
 wether forecast for tomorrow
-T:date,tomorrowtwthr,date
+T:date,tomorrow;T:wthr,<res>
 
 wheather forecast for tomorrow
-T:date,tomorrowtwthr,date
+T:date,tomorrow;T:wthr,<res>
 
 oh weather forecast for tomorrow
-T:date,tomorrowtwthr,date
+T:date,tomorrow;T:wthr,<res>
 
 yeah weather forecast for tomorrow
-T:date,tomorrowtwthr,date
+T:date,tomorrow;T:wthr,<res>
 
 check weather tomorrow
-T:date,tomorrowtwthr,date
+T:date,tomorrow;T:wthr,<res>
 
 check wether tomorrow
-T:date,tomorrowtwthr,date
+T:date,tomorrow;T:wthr,<res>
 
 check wheather tomorrow
-T:date,tomorrowtwthr,date
+T:date,tomorrow;T:wthr,<res>
 
 yup check weather tomorrow
-T:date,tomorrowtwthr,date
+T:date,tomorrow;T:wthr,<res>
 
 yep check weather tomorrow
-T:date,tomorrowtwthr,date
+T:date,tomorrow;T:wthr,<res>
 
 tomorrow weather
-T:date,tomorrowtwthr,date
+T:date,tomorrow;T:wthr,<res>
 
 tomorow weather
-T:date,tomorrowtwthr,date
+T:date,tomorrow;T:wthr,<res>
 
 tomoro weather
-T:date,tomorrowtwthr,date
+T:date,tomorrow;T:wthr,<res>
 
 yeah tomorrow weather
-T:date,tomorrowtwthr,date
+T:date,tomorrow;T:wthr,<res>
 
 oh tomorrow weather
-T:date,tomorrowtwthr,date
+T:date,tomorrow;T:wthr,<res>
 
 weather yesterday
-T:date,yesterdaytwthr,date
+T:date,yesterday;T:wthr,<res>
 
 wether yesterday
-T:date,yesterdaytwthr,date
+T:date,yesterday;T:wthr,<res>
 
 wheather yesterday
-T:date,yesterdaytwthr,date
+T:date,yesterday;T:wthr,<res>
 
 yeah weather yesterday
-T:date,yesterdaytwthr,date
+T:date,yesterday;T:wthr,<res>
 
 yep weather yesterday
-T:date,yesterdaytwthr,date
+T:date,yesterday;T:wthr,<res>
 
 yesterday weather
-T:date,yesterdaytwthr,date
+T:date,yesterday;T:wthr,<res>
 
 yestaday weather
-T:date,yesterdaytwthr,date
+T:date,yesterday;T:wthr,<res>
 
 yest weather
-T:date,yesterdaytwthr,date
+T:date,yesterday;T:wthr,<res>
 
 ah yesterday weather
-T:date,yesterdaytwthr,date
+T:date,yesterday;T:wthr,<res>
 
 yup yesterday weather
-T:date,yesterdaytwthr,date
+T:date,yesterday;T:wthr,<res>
 
 weather for yesterday
-T:date,yesterdaytwthr,date
+T:date,yesterday;T:wthr,<res>
 
 wether for yesterday
-T:date,yesterdaytwthr,date
+T:date,yesterday;T:wthr,<res>
 
 wheather for yesterday
-T:date,yesterdaytwthr,date
+T:date,yesterday;T:wthr,<res>
 
 yep weather for yesterday
-T:date,yesterdaytwthr,date
+T:date,yesterday;T:wthr,<res>
 
 ah weather for yesterday
-T:date,yesterdaytwthr,date
+T:date,yesterday;T:wthr,<res>
 
 yup weather for tomorrows date
-T:date,tomorrowtwthr,date
+T:date,tomorrow;T:wthr,<res>
 
 yup whats weather on tomorrow
-T:date,tomorrowtwthr,date
+T:date,tomorrow;T:wthr,<res>
 
 yeah check weather tomorrow
-T:date,tomorrowtwthr,date
+T:date,tomorrow;T:wthr,<res>
 
 yup tomorrow weather
-T:date,tomorrowtwthr,date
+T:date,tomorrow;T:wthr,<res>
 
 oh weather yesterday
-T:date,yesterdaytwthr,date
+T:date,yesterday;T:wthr,<res>
 
 ah weather yesterday
-T:date,yesterdaytwthr,date
+T:date,yesterday;T:wthr,<res>
 
 yep yesterday weather
-T:date,yesterdaytwthr,date
+T:date,yesterday;T:wthr,<res>
 
 yeah yesterday weather
-T:date,yesterdaytwthr,date
+T:date,yesterday;T:wthr,<res>
 
 yeah weather for yesterday
-T:date,yesterdaytwthr,date
+T:date,yesterday;T:wthr,<res>
 
 yup weather for yesterday
-T:date,yesterdaytwthr,date
+T:date,yesterday;T:wthr,<res>
 
 weather on 2024-12-25
 T:wthr,2024-12-25
