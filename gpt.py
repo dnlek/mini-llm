@@ -1055,6 +1055,23 @@ def get_memory_system(model=None, tokenizer_encode=None, dev_mode=False):
         _memory_system.model = model
     return _memory_system
 
+def compress_context(context_tokens, max_tokens, context_prefix_tokens=None):
+    if len(context_tokens) <= max_tokens:
+        return context_tokens
+    
+    if context_prefix_tokens:
+        prefix_len = len(context_prefix_tokens)
+        prompt_tokens = context_tokens[prefix_len:]
+        
+        if prefix_len >= max_tokens:
+            return context_prefix_tokens[:max_tokens]
+        
+        available_for_prompt = max_tokens - prefix_len
+        if len(prompt_tokens) > available_for_prompt:
+            return context_prefix_tokens + prompt_tokens[-available_for_prompt:]
+    
+    return context_tokens[-max_tokens:]
+
 def dispatch(model, prompt="", max_new_tokens=200, max_recursions=5, recursion_depth=0, tool_call_count=0, memory_system=None):
     """
     Dispatch method that handles model responses and tool execution.
@@ -1074,46 +1091,43 @@ def dispatch(model, prompt="", max_new_tokens=200, max_recursions=5, recursion_d
     Returns:
         Final response string after all tool calls are resolved
     """
-    # Get memory system (initialize if needed)
     if memory_system is None:
         memory_system = get_memory_system(model=model, tokenizer_encode=encode)
     if recursion_depth >= max_recursions:
         return "E:Max recursions reached"
     
-    # Fallback to cloud if more than 3 tool calls needed
     if tool_call_count > 3:
         return "CL"
     
-    # Retrieve relevant history using RAG (retrieval-only, not raw Q/A pairs)
     context_prefix = ""
+    single_line_prompt = ""
     if prompt and memory_system and recursion_depth == 0:
-        # Clean prompt for retrieval (remove tool results if present)
         clean_prompt = prompt.split('|R:')[0].strip()
-        # Get DSL-formatted context (CXT:context |)
         context_prefix = memory_system.get_relevant_context(clean_prompt, k=1)
         if context_prefix:
             print(f"[History] Retrieved context: {context_prefix[:100]}...")
     
     if prompt:
-        # Remove line breaks and ensure single-line prompt
         single_line_prompt = prompt.replace('\n', ' ').strip()
-        # Inject context prefix if available (DSL format: CXT:context | prompt)
         if context_prefix:
             full_prompt = context_prefix + single_line_prompt + '\n'
         else:
-            # No context: just "current_q\n"
             full_prompt = single_line_prompt + '\n'
         
         context_tokens = encode(full_prompt)
         
-        # Debug: show what we're sending to the model
-        if context_prefix:
-            print(f"[Dispatch] Full prompt with context ({len(full_prompt)} chars, {len(context_tokens)} tokens):")
-            print(f"  {repr(full_prompt[:300])}")
-        
         if len(context_tokens) > block_size:
-            print(f"[Dispatch] Warning: Prompt too long ({len(context_tokens)} tokens), truncating to {block_size}")
-            context_tokens = context_tokens[-block_size:]
+            context_prefix_tokens = None
+            if context_prefix:
+                prefix_only_tokens = encode(context_prefix)
+                if len(prefix_only_tokens) <= len(context_tokens):
+                    if context_tokens[:len(prefix_only_tokens)] == prefix_only_tokens:
+                        context_prefix_tokens = prefix_only_tokens
+            
+            original_len = len(context_tokens)
+            context_tokens = compress_context(context_tokens, max_tokens=block_size, 
+                                              context_prefix_tokens=context_prefix_tokens)
+            print(f"[Dispatch] Compressed: {original_len} -> {len(context_tokens)} tokens")
         
         context = torch.tensor([context_tokens], dtype=torch.long, device=device)
     else:
@@ -1123,23 +1137,16 @@ def dispatch(model, prompt="", max_new_tokens=200, max_recursions=5, recursion_d
         generated_tokens = model.generate(context, max_new_tokens=max_new_tokens, temperature=0.8, top_k=50)
         generated_text = decode(generated_tokens[0].tolist())
     
-    # Extract first complete DSL response from generated text
-    # Remove context prefix (CXT:...) if model echoed it
     import re
     
     generated_text_clean = generated_text
-    
-    # Remove CXT: context markers if present
     generated_text_clean = re.sub(r'CXT:[^\|]+\|\s*', '', generated_text_clean)
     
-    # Remove the original prompt if it appears (to get only the generated part)
     if single_line_prompt and single_line_prompt in generated_text_clean:
-        # Find the last occurrence of the prompt (after any context)
         parts = generated_text_clean.rsplit(single_line_prompt, 1)
         if len(parts) > 1:
             generated_text_clean = parts[-1].strip()
     
-    # Also remove context prefix if it appears in generated text
     if context_prefix:
         context_marker = context_prefix.split('|')[0] if '|' in context_prefix else context_prefix
         if context_marker in generated_text_clean:
@@ -1151,11 +1158,9 @@ def dispatch(model, prompt="", max_new_tokens=200, max_recursions=5, recursion_d
         line = line.strip()
         if not line:
             continue
-        # Look for DSL patterns: S:, T:, C:, E:, or CL
         if line.startswith(('S:', 'T:', 'C:', 'E:')) or line == 'CL':
             dsl_response = line
             break
-        # Check for combined format: S:text;C:cmd,args
         if ';' in line and any(line.startswith(prefix) for prefix in ['S:', 'T:', 'C:']):
             dsl_response = line
             break
