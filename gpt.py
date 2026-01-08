@@ -15,13 +15,24 @@ from tokenizers.decoders import ByteLevel as ByteLevelDecoder
 from dsl import DSLDecoder, DSLEncoder
 from tools import execute_tool
 
+# Try to import quantization (available in PyTorch 1.3+)
+try:
+    from torch.quantization import quantize_dynamic
+    QUANTIZATION_AVAILABLE = True
+except ImportError:
+    try:
+        from torch.ao.quantization import quantize_dynamic
+        QUANTIZATION_AVAILABLE = True
+    except ImportError:
+        QUANTIZATION_AVAILABLE = False
+
 torch.set_float32_matmul_precision('medium')  # PyTorch 2.0+
 
 
 # hyperparameters
 batch_size = 256
 block_size = 256
-max_iters = 50000
+max_iters = 20000
 eval_interval = 500
 learning_rate = 5e-5  # Reduced from 1e-4 to combat overfitting (smaller steps = less memorization)
 min_learning_rate = 1e-6  # Minimum learning rate for decay
@@ -415,6 +426,26 @@ def load_checkpoint(model_path='model.pt'):
     if 'iter' in checkpoint:
         print(f"Resuming from iteration {checkpoint['iter']}")
     return checkpoint
+
+def quantize_model_int8(model):
+    """
+    Apply int8 dynamic quantization to Linear layers.
+    Keeps embeddings as float16 (quantization doesn't work well for embeddings).
+    Reduces model size from ~31MB (float16) to ~15MB (int8).
+    """
+    if not QUANTIZATION_AVAILABLE:
+        print("Warning: PyTorch quantization not available, skipping int8 quantization")
+        return model
+    
+    # Quantize Linear layers (attention, feedforward, lm_head)
+    # Embeddings stay float16 (they're not quantized)
+    quantized_model = quantize_dynamic(
+        model,
+        {nn.Linear},  # Only quantize Linear layers
+        dtype=torch.qint8
+    )
+    
+    return quantized_model
 
 class Head(nn.Module):
     """One head of self-attention - learns what to pay attention to"""
@@ -928,7 +959,7 @@ def train_model(model_path='model.pt', checkpoint_interval=100):
     print("Training completed!")
     return m
 
-def inference_model(model_path='model.pt', prompt="", num_tokens=500, output_file=None):
+def inference_model(model_path='model.pt', prompt="", num_tokens=500, output_file=None, use_int8=False):
     checkpoint = load_checkpoint(model_path)
     
     if checkpoint is None:
@@ -949,8 +980,12 @@ def inference_model(model_path='model.pt', prompt="", num_tokens=500, output_fil
     m.load_state_dict(normalized_state_dict)
     m.eval()
     
-    if device != 'cpu':
-        m = m.half()  # Use float16 for inference (faster, less memory)
+    # Convert to float16 first (embeddings stay float16 even with int8 quantization)
+    m = m.half()
+    
+    # Apply int8 quantization if requested (quantizes Linear layers, keeps embeddings float16)
+    if use_int8:
+        m = quantize_model_int8(m)
     
     try:
         # MPS needs 'reduce-overhead', CUDA can use 'max-autotune' for better optimization
@@ -960,7 +995,13 @@ def inference_model(model_path='model.pt', prompt="", num_tokens=500, output_fil
     except:
         print("torch.compile() not available (requires PyTorch 2.0+)")
     
-    print(f"Model loaded: {sum(p.numel() for p in m.parameters())/1e6:.2f} M parameters")
+    total_params = sum(p.numel() for p in m.parameters())
+    if use_int8:
+        model_size_mb = total_params * 1.2 / 1e6  # ~1 byte/param average with some overhead
+    else:
+        model_size_mb = total_params * 2 / 1e6  # float16 = 2 bytes/param
+    
+    print(f"Model loaded: {total_params/1e6:.2f} M parameters (~{model_size_mb:.2f} MB)")
     if 'iter' in checkpoint:
         print(f"Trained for {checkpoint['iter']} iterations")
     
@@ -1126,7 +1167,7 @@ def dispatch(model, prompt="", max_new_tokens=200, max_recursions=5, recursion_d
     
     return dsl_response
 
-def dispatch_inference(model_path='model.pt', prompt="", max_new_tokens=200, max_recursions=5):
+def dispatch_inference(model_path='model.pt', prompt="", max_new_tokens=200, max_recursions=5, use_int8=False):
     """Convenience function to load model and run dispatch with tool execution"""
     checkpoint = load_checkpoint(model_path)
     
@@ -1146,8 +1187,11 @@ def dispatch_inference(model_path='model.pt', prompt="", max_new_tokens=200, max
     m.load_state_dict(normalized_state_dict)
     m.eval()
     
-    if device != 'cpu':
-        m = m.half()
+    m = m.half()
+    
+    # Apply int8 quantization
+    if use_int8:
+        m = quantize_model_int8(m)
     
     compile_mode = 'reduce-overhead' if device == 'mps' else 'max-autotune'
     try:
@@ -1155,7 +1199,13 @@ def dispatch_inference(model_path='model.pt', prompt="", max_new_tokens=200, max
     except:
         pass
     
-    print(f"Model loaded: {sum(p.numel() for p in m.parameters())/1e6:.2f} M parameters")
+    total_params = sum(p.numel() for p in m.parameters())
+    if use_int8:
+        model_size_mb = total_params * 1.2 / 1e6
+    else:
+        model_size_mb = total_params * 2 / 1e6
+    
+    print(f"Model loaded: {total_params/1e6:.2f} M parameters (~{model_size_mb:.2f} MB)")
     print(f"Prompt: {prompt}")
     print("="*50)
     
@@ -1181,6 +1231,8 @@ def main():
     infer_parser = subparsers.add_parser('infer', help='Generate text from trained model')
     infer_parser.add_argument('--checkpoint', type=str, default='model.pt',
                               help='Path to model checkpoint (default: model.pt)')
+    infer_parser.add_argument('--int8', action='store_true',
+                              help='Use int8 quantization (reduces memory from ~31MB to ~15MB)')
     infer_parser.add_argument('--prompt', type=str, default='',
                               help='Prompt text (default: empty, generates randomly)')
     infer_parser.add_argument('--num_tokens', type=int, default=200,
@@ -1198,6 +1250,8 @@ def main():
                                 help='Max tokens per generation (default: 200)')
     dispatch_parser.add_argument('--max_recursions', type=int, default=5,
                                  help='Max tool call recursions (default: 5)')
+    dispatch_parser.add_argument('--int8', action='store_true',
+                                 help='Use int8 quantization (reduces memory from ~31MB to ~15MB)')
     
     args = parser.parse_args()
     
@@ -1210,12 +1264,12 @@ def main():
         print("="*50)
         print("INFERENCE MODE")
         print("="*50)
-        inference_model(args.checkpoint, args.prompt, args.num_tokens, args.output)
+        inference_model(args.checkpoint, args.prompt, args.num_tokens, args.output, use_int8=args.int8)
     elif args.command == 'dispatch':
         print("="*50)
         print("DISPATCH MODE")
         print("="*50)
-        dispatch_inference(args.checkpoint, args.prompt, args.max_tokens, args.max_recursions)
+        dispatch_inference(args.checkpoint, args.prompt, args.max_tokens, args.max_recursions, use_int8=args.int8)
     else:
         parser.print_help()
 
