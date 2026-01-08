@@ -33,12 +33,22 @@ torch.set_float32_matmul_precision('medium')  # PyTorch 2.0+
 # hyperparameters
 batch_size = 256
 block_size = 256
-max_iters = 20000
-eval_interval = 500
-learning_rate = 5e-5  # Reduced from 1e-4 to combat overfitting (smaller steps = less memorization)
-min_learning_rate = 1e-6  # Minimum learning rate for decay
+max_iters = 10000
+eval_interval = 100
+learning_rate = 1.5e-5  # Reduced from 1e-4 to combat overfitting (smaller steps = less memorization)
+min_learning_rate = 5e-7  # Minimum learning rate for decay
 warmup_iters = 1000  # Warmup iterations before decay starts
+label_smoothing = 0.1
 decay_style = 'cosine'  # 'cosine' or 'linear'
+eval_iters = 50
+n_embd = 256
+n_head = 4
+n_layer = 4
+dropout = 0.4  # Increased from 0.2 to reduce overfitting
+early_stop_patience = 15  # Stop training if val loss doesn't improve for N evaluations
+early_stop_min_delta = 0.0005  # Minimum change to qualify as an improvement
+weight_decay = 0.05
+
 device = 'cpu'
 if torch.cuda.is_available():
     device = 'cuda'
@@ -48,12 +58,6 @@ elif torch.backends.mps.is_available():
     torch.backends.mps.allow_tf32 = True
 
 print(f"Using device: {device}")
-
-eval_iters = 100
-n_embd = 384
-n_head = 6
-n_layer = 6
-dropout = 0.3  # Increased from 0.2 to reduce overfitting
 
 torch.manual_seed(1337)
 
@@ -582,8 +586,7 @@ class GPTLanguageModel(nn.Module):
             B, T, C = logits.shape
             logits = logits.view(B*T, C)
             targets = targets.view(B*T)
-            # ignore_index: don't count padding tokens in loss (they're not real predictions)
-            loss = F.cross_entropy(logits, targets, ignore_index=pad_token_id)
+            loss = F.cross_entropy(logits, targets, ignore_index=pad_token_id, label_smoothing=label_smoothing)
 
         return logits, loss
 
@@ -748,7 +751,7 @@ def train_model(model_path='model.pt', checkpoint_interval=100):
     
     print(f"{sum(p.numel() for p in m.parameters())/1e6:.2f} M parameters")
     
-    optimizer = torch.optim.AdamW(m.parameters(), lr=learning_rate, weight_decay=0.01)  # Increased weight decay to combat severe overfitting
+    optimizer = torch.optim.AdamW(m.parameters(), lr=learning_rate, weight_decay=weight_decay)  # Increased weight decay to combat severe overfitting
     
     if checkpoint is not None and checkpoint['vocab_size'] == vocab_size:
         if checkpoint.get('optimizer_state_dict') is not None:
@@ -765,6 +768,10 @@ def train_model(model_path='model.pt', checkpoint_interval=100):
     
     loss_history = []
     last_loss = None
+    val_loss_history = []  # Track validation loss for early stopping
+    no_improve_count = 0  # Count evaluations without improvement
+    # Initialize best_val_loss from checkpoint if resuming
+    best_val_loss = checkpoint.get('best_loss', float('inf')) if checkpoint is not None else float('inf')
     
     print(f"\nLearning rate schedule:")
     print(f"  Initial LR: {learning_rate:.2e}")
@@ -772,7 +779,8 @@ def train_model(model_path='model.pt', checkpoint_interval=100):
     print(f"  Warmup iterations: {warmup_iters}")
     print(f"  Decay style: {decay_style}")
     print(f"  Max iterations: {max_iters}")
-    print(f"  Final LR (at max_iters): {get_lr(max_iters-1):.2e}\n")
+    print(f"  Final LR (at max_iters): {get_lr(max_iters-1):.2e}")
+    print(f"  Early stopping: patience={early_stop_patience}, min_delta={early_stop_min_delta}\n")
     
     pbar = None
     eval_start_iter = start_iter
@@ -942,6 +950,26 @@ def train_model(model_path='model.pt', checkpoint_interval=100):
             
             last_loss = val_loss
             
+            # Early stopping logic
+            val_loss_history.append(val_loss)
+            should_stop = False
+            if val_loss < best_val_loss - early_stop_min_delta:
+                # Validation loss improved significantly
+                best_val_loss = val_loss
+                no_improve_count = 0
+                print(f"  ✓ Validation loss improved to {val_loss:.4f} (best: {best_val_loss:.4f})")
+            else:
+                # No improvement
+                no_improve_count += 1
+                if no_improve_count >= early_stop_patience:
+                    print(f"\n  ⚠️  EARLY STOPPING: No improvement for {no_improve_count} evaluations")
+                    print(f"  Best validation loss: {best_val_loss:.4f}")
+                    print(f"  Current validation loss: {val_loss:.4f}")
+                    print(f"  Stopping training to prevent overfitting...")
+                    should_stop = True
+                else:
+                    print(f"  ⚠️  No improvement ({no_improve_count}/{early_stop_patience}), best: {best_val_loss:.4f}")
+            
             if device == 'mps':
                 if hasattr(torch.mps, 'current_allocated_memory'):
                     allocated = torch.mps.current_allocated_memory() / 1024**3
@@ -952,6 +980,10 @@ def train_model(model_path='model.pt', checkpoint_interval=100):
                 best_loss = losses['val']
             
             save_checkpoint(m, optimizer, tokenizer, iter, best_loss, model_path, is_best)
+            
+            # Break after saving checkpoint if early stopping triggered
+            if should_stop:
+                break
     
     # Close progress bar if still open
     if pbar is not None:
@@ -1352,6 +1384,8 @@ def main():
                               help='Number of tokens to generate (default: 200)')
     infer_parser.add_argument('--output', type=str, default=None,
                               help='Output file for generated text (default: None)')
+    infer_parser.add_argument('--dev', action='store_true',
+                                help='Use JSON storage format (readable, slower) instead of Pickle')
     
     # Dispatch subcommand
     dispatch_parser = subparsers.add_parser('dispatch', help='Run dispatch with tool execution')
