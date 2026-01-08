@@ -5,6 +5,7 @@ Implements vector search and summarization for efficient memory management
 
 import json
 import os
+import pickle
 import numpy as np
 from typing import List, Dict, Optional, Tuple
 from datetime import datetime
@@ -24,8 +25,12 @@ class HistoryEntry:
         self.original_count = 1  # How many entries this summarizes
     
     def to_dsl(self) -> str:
-        """Convert to single-line DSL format"""
-        return f"{self.prompt} |R:{self.response}"
+        """Convert to training format for history: prompt\nresponse"""
+        # Skip empty entries
+        if not self.prompt or not self.response:
+            return ""
+        # Match training format: Question\nAnswer\n
+        return f"{self.prompt}\n{self.response}\n"
     
     def to_dict(self) -> Dict:
         """Convert to dictionary for JSON serialization"""
@@ -62,7 +67,8 @@ class HybridMemorySystem:
                  summary_threshold: int = 50,
                  embedding_dim: int = 128,
                  retrieval_k: int = 5,
-                 storage_file: str = "history.json"):
+                 storage_file: str = None,
+                 dev_mode: bool = False):
         """
         Initialize memory system.
         
@@ -73,7 +79,8 @@ class HybridMemorySystem:
             summary_threshold: Summarize every N entries
             embedding_dim: Dimension of embeddings (will be reduced from model dim)
             retrieval_k: Number of top-K entries to retrieve
-            storage_file: Path to JSON file for persistence
+            storage_file: Path to storage file (auto-determined if None)
+            dev_mode: If True, use JSON format (readable, slower). If False, use Pickle (faster, binary)
         """
         self.model = model
         self.tokenizer_encode = tokenizer_encode
@@ -81,7 +88,13 @@ class HybridMemorySystem:
         self.summary_threshold = summary_threshold
         self.embedding_dim = embedding_dim
         self.retrieval_k = retrieval_k
-        self.storage_file = storage_file
+        self.dev_mode = dev_mode
+        
+        # Auto-determine storage file based on mode
+        if storage_file is None:
+            self.storage_file = "history.json" if dev_mode else "history.pkl"
+        else:
+            self.storage_file = storage_file
         
         self.entries: List[HistoryEntry] = []
         self._embedding_proj = None  # Projection layer to reduce embedding dim
@@ -148,6 +161,10 @@ class HybridMemorySystem:
     
     def add_entry(self, prompt: str, response: str):
         """Add new conversation entry and trigger summarization if needed"""
+        # Skip empty entries
+        if not prompt or not response:
+            return
+        
         entry = HistoryEntry(prompt, response)
         entry.embedding = self._get_embedding(f"{prompt} {response}")
         
@@ -256,8 +273,56 @@ class HybridMemorySystem:
         similarities.sort(key=lambda x: x[0], reverse=True)
         return [entry for _, entry in similarities[:k]]
     
+    def get_relevant_context(self, query: str, k: int = 1) -> str:
+        """
+        Retrieve relevant history and return DSL-formatted context string.
+        Format: CXT:context_text | (DSL compatible)
+        Returns empty string if no relevant context found.
+        """
+        relevant = self.retrieve_relevant(query, k=k)
+        
+        if not relevant:
+            return ""
+        
+        # Extract context from most relevant entry
+        entry = relevant[0]
+        
+        # Extract key information from response
+        context_parts = []
+        
+        if entry.response.startswith('S:'):
+            # Speech response - extract the actual text
+            speech_text = entry.response[2:].strip()
+            # Limit length to keep it compact
+            if len(speech_text) > 80:
+                speech_text = speech_text[:80] + "..."
+            context_parts.append(speech_text)
+        
+        elif entry.response.startswith('T:'):
+            # Tool response - include tool info
+            tool_info = entry.response[2:].strip()
+            if len(tool_info) > 50:
+                tool_info = tool_info[:50] + "..."
+            context_parts.append(f"used {tool_info}")
+        
+        # Also include prompt topic if relevant
+        prompt_lower = entry.prompt.lower()
+        if any(word in prompt_lower for word in ['weather', 'math', 'time', 'date']):
+            # Extract topic
+            for word in ['weather', 'math', 'time', 'date']:
+                if word in prompt_lower:
+                    context_parts.append(f"about {word}")
+                    break
+        
+        if context_parts:
+            context_text = " ".join(context_parts)
+            # Format as DSL: CXT:context | 
+            return f"CXT:{context_text} | "
+        
+        return ""
+    
     def save(self):
-        """Save history to JSON file"""
+        """Save history to file (JSON for dev, Pickle for prod)"""
         try:
             data = {
                 'entries': [entry.to_dict() for entry in self.entries],
@@ -265,22 +330,49 @@ class HybridMemorySystem:
                     'max_entries': self.max_entries,
                     'summary_threshold': self.summary_threshold,
                     'embedding_dim': self.embedding_dim,
-                    'retrieval_k': self.retrieval_k
+                    'retrieval_k': self.retrieval_k,
+                    'dev_mode': self.dev_mode
                 }
             }
-            with open(self.storage_file, 'w', encoding='utf-8') as f:
-                json.dump(data, f, indent=2)
+            
+            if self.dev_mode:
+                # JSON format (readable, slower)
+                with open(self.storage_file, 'w', encoding='utf-8') as f:
+                    json.dump(data, f, indent=2)
+            else:
+                # Pickle format (binary, faster)
+                with open(self.storage_file, 'wb') as f:
+                    pickle.dump(data, f, protocol=pickle.HIGHEST_PROTOCOL)
         except Exception as e:
             print(f"Warning: Failed to save history: {e}")
     
     def load(self):
-        """Load history from JSON file"""
+        """Load history from file (auto-detect format)"""
         try:
             if not os.path.exists(self.storage_file):
                 return
             
-            with open(self.storage_file, 'r', encoding='utf-8') as f:
-                data = json.load(f)
+            # Auto-detect format based on file extension
+            if self.storage_file.endswith('.json'):
+                # JSON format
+                with open(self.storage_file, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                self.dev_mode = True
+            elif self.storage_file.endswith('.pkl'):
+                # Pickle format
+                with open(self.storage_file, 'rb') as f:
+                    data = pickle.load(f)
+                self.dev_mode = False
+            else:
+                # Try both formats (for migration)
+                try:
+                    with open(self.storage_file, 'rb') as f:
+                        data = pickle.load(f)
+                    self.dev_mode = False
+                except:
+                    with open(self.storage_file, 'r', encoding='utf-8') as f:
+                        data = json.load(f)
+                    self.dev_mode = True
             
             # Load entries
             self.entries = [HistoryEntry.from_dict(e) for e in data.get('entries', [])]
@@ -292,6 +384,9 @@ class HybridMemorySystem:
                 self.summary_threshold = config.get('summary_threshold', self.summary_threshold)
                 self.embedding_dim = config.get('embedding_dim', self.embedding_dim)
                 self.retrieval_k = config.get('retrieval_k', self.retrieval_k)
+                # Update dev_mode from config if present
+                if 'dev_mode' in config:
+                    self.dev_mode = config.get('dev_mode', self.dev_mode)
         except Exception as e:
             print(f"Warning: Failed to load history: {e}")
             self.entries = []
@@ -300,6 +395,25 @@ class HybridMemorySystem:
         """Clear all history"""
         self.entries = []
         self.save()
+    
+    def export_json(self, output_file: str = "history_export.json"):
+        """Export history to JSON format for debugging (works in both dev and prod mode)"""
+        try:
+            data = {
+                'entries': [entry.to_dict() for entry in self.entries],
+                'config': {
+                    'max_entries': self.max_entries,
+                    'summary_threshold': self.summary_threshold,
+                    'embedding_dim': self.embedding_dim,
+                    'retrieval_k': self.retrieval_k,
+                    'dev_mode': self.dev_mode
+                }
+            }
+            with open(output_file, 'w', encoding='utf-8') as f:
+                json.dump(data, f, indent=2)
+            print(f"History exported to {output_file}")
+        except Exception as e:
+            print(f"Warning: Failed to export history: {e}")
     
     def get_stats(self) -> Dict:
         """Get statistics about stored history"""
@@ -312,6 +426,8 @@ class HybridMemorySystem:
             'summaries': summaries,
             'regular_entries': regular,
             'max_entries': self.max_entries,
-            'memory_usage_mb': (total_entries * self.embedding_dim * 2) / (1024 * 1024)  # float16 = 2 bytes
+            'memory_usage_mb': (total_entries * self.embedding_dim * 2) / (1024 * 1024),  # float16 = 2 bytes
+            'storage_mode': 'JSON (dev)' if self.dev_mode else 'Pickle (prod)',
+            'storage_file': self.storage_file
         }
 

@@ -1036,7 +1036,7 @@ def inference_model(model_path='model.pt', prompt="", num_tokens=500, output_fil
 # Global memory system instance (initialized on first use)
 _memory_system = None
 
-def get_memory_system(model=None, tokenizer_encode=None):
+def get_memory_system(model=None, tokenizer_encode=None, dev_mode=False):
     """Get or initialize the global memory system"""
     global _memory_system
     if _memory_system is None:
@@ -1047,7 +1047,8 @@ def get_memory_system(model=None, tokenizer_encode=None):
             summary_threshold=50,
             embedding_dim=128,
             retrieval_k=5,
-            storage_file="history.json"
+            storage_file=None,
+            dev_mode=dev_mode
         )
     elif model is not None:
         # Update model reference if provided
@@ -1083,25 +1084,37 @@ def dispatch(model, prompt="", max_new_tokens=200, max_recursions=5, recursion_d
     if tool_call_count > 3:
         return "CL"
     
-    # Retrieve relevant history using RAG (only for original prompt, not recursive calls)
-    history_context = ""
+    # Retrieve relevant history using RAG (retrieval-only, not raw Q/A pairs)
+    context_prefix = ""
     if prompt and memory_system and recursion_depth == 0:
         # Clean prompt for retrieval (remove tool results if present)
         clean_prompt = prompt.split('|R:')[0].strip()
-        relevant_entries = memory_system.retrieve_relevant(clean_prompt, k=3)
-        if relevant_entries:
-            history_lines = [e.to_dsl() for e in relevant_entries]
-            history_context = "\n".join(history_lines) + "\n"
+        # Get DSL-formatted context (CXT:context |)
+        context_prefix = memory_system.get_relevant_context(clean_prompt, k=1)
+        if context_prefix:
+            print(f"[History] Retrieved context: {context_prefix[:100]}...")
     
     if prompt:
         # Remove line breaks and ensure single-line prompt
         single_line_prompt = prompt.replace('\n', ' ').strip()
-        # Prepend history context if available
-        if history_context:
-            full_prompt = history_context + single_line_prompt + '\n'
+        # Inject context prefix if available (DSL format: CXT:context | prompt)
+        if context_prefix:
+            full_prompt = context_prefix + single_line_prompt + '\n'
         else:
+            # No context: just "current_q\n"
             full_prompt = single_line_prompt + '\n'
+        
         context_tokens = encode(full_prompt)
+        
+        # Debug: show what we're sending to the model
+        if context_prefix:
+            print(f"[Dispatch] Full prompt with context ({len(full_prompt)} chars, {len(context_tokens)} tokens):")
+            print(f"  {repr(full_prompt[:300])}")
+        
+        if len(context_tokens) > block_size:
+            print(f"[Dispatch] Warning: Prompt too long ({len(context_tokens)} tokens), truncating to {block_size}")
+            context_tokens = context_tokens[-block_size:]
+        
         context = torch.tensor([context_tokens], dtype=torch.long, device=device)
     else:
         context = torch.zeros((1, 1), dtype=torch.long, device=device)
@@ -1111,11 +1124,29 @@ def dispatch(model, prompt="", max_new_tokens=200, max_recursions=5, recursion_d
         generated_text = decode(generated_tokens[0].tolist())
     
     # Extract first complete DSL response from generated text
-    if prompt and prompt in generated_text:
-        generated_text = generated_text.split(prompt, 1)[-1].strip()
+    # Remove context prefix (CXT:...) if model echoed it
+    import re
+    
+    generated_text_clean = generated_text
+    
+    # Remove CXT: context markers if present
+    generated_text_clean = re.sub(r'CXT:[^\|]+\|\s*', '', generated_text_clean)
+    
+    # Remove the original prompt if it appears (to get only the generated part)
+    if single_line_prompt and single_line_prompt in generated_text_clean:
+        # Find the last occurrence of the prompt (after any context)
+        parts = generated_text_clean.rsplit(single_line_prompt, 1)
+        if len(parts) > 1:
+            generated_text_clean = parts[-1].strip()
+    
+    # Also remove context prefix if it appears in generated text
+    if context_prefix:
+        context_marker = context_prefix.split('|')[0] if '|' in context_prefix else context_prefix
+        if context_marker in generated_text_clean:
+            generated_text_clean = generated_text_clean.replace(context_marker, '').strip()
     
     dsl_response = None
-    lines = generated_text.split('\n')
+    lines = generated_text_clean.split('\n')
     for line in lines:
         line = line.strip()
         if not line:
@@ -1130,14 +1161,26 @@ def dispatch(model, prompt="", max_new_tokens=200, max_recursions=5, recursion_d
             break
     
     if not dsl_response:
-        import re
         dsl_pattern = r'(?:^|\n)([STCE]:[^\n]+|CL)(?:\n|$)'
-        match = re.search(dsl_pattern, generated_text)
+        match = re.search(dsl_pattern, generated_text_clean)
         if match:
             dsl_response = match.group(1).strip()
     
     if not dsl_response:
-        dsl_response = generated_text.strip().split('\n')[0] if generated_text.strip() else generated_text
+        # Try to find any DSL pattern in the cleaned text
+        dsl_pattern = r'([STCE]:[^\n;]+|CL)'
+        match = re.search(dsl_pattern, generated_text_clean)
+        if match:
+            dsl_response = match.group(1).strip()
+        else:
+            dsl_response = generated_text_clean.strip().split('\n')[0] if generated_text_clean.strip() else generated_text_clean
+    
+    # Debug: show what was extracted
+    if not dsl_response or dsl_response.strip() == "":
+        print(f"[Dispatch] Warning: Empty DSL response")
+        print(f"[Dispatch] Full generated text ({len(generated_text)} chars): {repr(generated_text[:300])}")
+        print(f"[Dispatch] Cleaned text ({len(generated_text_clean)} chars): {repr(generated_text_clean[:300])}")
+        print(f"[Dispatch] Prompt was: {repr(single_line_prompt)}")
     
     if DSLDecoder.is_tool(dsl_response):
         tool_chain = DSLDecoder.extract_tool_chain(dsl_response)
@@ -1198,8 +1241,13 @@ def dispatch(model, prompt="", max_new_tokens=200, max_recursions=5, recursion_d
                 return dispatch(model, new_prompt, max_new_tokens, max_recursions, recursion_depth + 1, new_tool_count, memory_system)
     
     # Commands (C:) are executed but don't require recursive model calls
-    decoded = DSLDecoder.decode(dsl_response)
-    if decoded['type'] == 'response_command':
+    if dsl_response:
+        print(f"[Dispatch] DSL response: {dsl_response}")
+    else:
+        print(f"[Dispatch] Warning: No DSL response extracted from: {generated_text_clean[:100]}")
+    
+    decoded = DSLDecoder.decode(dsl_response) if dsl_response else None
+    if decoded and decoded['type'] == 'response_command':
         for item in decoded['content']:
             if item.get('type') == 'command':
                 cmd = item.get('command', '')
@@ -1209,13 +1257,18 @@ def dispatch(model, prompt="", max_new_tokens=200, max_recursions=5, recursion_d
     # Store conversation in memory system (only for original prompt, not recursive calls)
     if memory_system and recursion_depth == 0 and prompt:
         # Clean prompt (remove history context and tool results)
-        clean_prompt = prompt.split('|R:')[0].strip()
-        if clean_prompt and dsl_response:
+        # First remove any history context (lines that start with previous prompts)
+        clean_prompt = prompt.split('\n')[-1]  # Get last line (current prompt)
+        clean_prompt = clean_prompt.split('|R:')[0].strip()  # Remove tool results if present
+        
+        # Only store if we have both prompt and response
+        if clean_prompt and dsl_response and clean_prompt != dsl_response:
             memory_system.add_entry(clean_prompt, dsl_response)
+            print(f"[History] Stored entry: Q='{clean_prompt[:50]}...' A='{dsl_response[:50]}...'")
     
     return dsl_response
 
-def dispatch_inference(model_path='model.pt', prompt="", max_new_tokens=200, max_recursions=5, use_int8=False):
+def dispatch_inference(model_path='model.pt', prompt="", max_new_tokens=200, max_recursions=5, use_int8=False, dev_mode=False):
     """Convenience function to load model and run dispatch with tool execution"""
     checkpoint = load_checkpoint(model_path)
     
@@ -1256,8 +1309,10 @@ def dispatch_inference(model_path='model.pt', prompt="", max_new_tokens=200, max
     print(f"Model loaded: {total_params/1e6:.2f} M parameters (~{model_size_mb:.2f} MB)")
     
     # Initialize memory system with model
-    memory_system = get_memory_system(model=m, tokenizer_encode=encode)
-    print(f"Memory system initialized: {memory_system.get_stats()['total_entries']} entries")
+    memory_system = get_memory_system(model=m, tokenizer_encode=encode, dev_mode=dev_mode)
+    stats = memory_system.get_stats()
+    print(f"Memory system initialized: {stats['total_entries']} entries")
+    print(f"Storage mode: {stats['storage_mode']} ({stats['storage_file']})")
     
     print(f"Prompt: {prompt}")
     print("="*50)
@@ -1305,6 +1360,8 @@ def main():
                                  help='Max tool call recursions (default: 5)')
     dispatch_parser.add_argument('--int8', action='store_true',
                                  help='Use int8 quantization (reduces memory from ~31MB to ~15MB)')
+    dispatch_parser.add_argument('--dev', action='store_true',
+                                 help='Use JSON storage format (readable, slower) instead of Pickle')
     
     args = parser.parse_args()
     
@@ -1322,7 +1379,7 @@ def main():
         print("="*50)
         print("DISPATCH MODE")
         print("="*50)
-        dispatch_inference(args.checkpoint, args.prompt, args.max_tokens, args.max_recursions, use_int8=args.int8)
+        dispatch_inference(args.checkpoint, args.prompt, args.max_tokens, args.max_recursions, use_int8=args.int8, dev_mode=args.dev)
     else:
         parser.print_help()
 

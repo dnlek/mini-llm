@@ -152,6 +152,8 @@ class DSLDecoder:
     def is_tool(dsl_string: str) -> bool:
         """Check if DSL string is a tool call"""
         decoded = DSLDecoder.decode(dsl_string)
+        if decoded is None:
+            return False
         if decoded['type'] == 'tool':
             return True
         if decoded['type'] == 'tool_chain':
@@ -165,6 +167,9 @@ class DSLDecoder:
         """Extract tool chain from DSL string. Returns list of (tool_name, args) tuples"""
         decoded = DSLDecoder.decode(dsl_string)
         
+        if decoded is None:
+            return None
+        
         if decoded['type'] == 'tool_chain':
             return [(item['tool'], item.get('args', '')) for item in decoded['content']]
         
@@ -177,6 +182,9 @@ class DSLDecoder:
     def extract_tool(dsl_string: str) -> Optional[Tuple[str, str]]:
         """Extract tool name and args from DSL string"""
         decoded = DSLDecoder.decode(dsl_string)
+        
+        if decoded is None:
+            return None
         
         if decoded['type'] == 'tool':
             return (decoded['tool'], decoded.get('args', ''))
