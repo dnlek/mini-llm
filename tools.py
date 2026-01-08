@@ -209,6 +209,15 @@ def alarm_tool(action: str, time: str = "") -> str:
         return "Alarm cancelled"
     return "E:Invalid action"
 
+def hist_tool(query: str = "") -> str:
+    """
+    History retrieval tool - returns relevant conversation history (max 4 chars: hist)
+    This is called internally by the memory system, not directly by users.
+    """
+    # This tool is handled by the memory system in dispatch()
+    # Return empty string - actual retrieval happens in dispatch()
+    return ""
+
 # Tool registry - maps tool names to functions
 TOOLS: Dict[str, callable] = {
     "math": math_tool,
@@ -222,6 +231,7 @@ TOOLS: Dict[str, callable] = {
     "calc": calc_tool,
     "remd": remd_tool,
     "alrm": alarm_tool,
+    "hist": hist_tool,
 }
 
 def execute_tool(tool_name: str, args: str = "") -> str:

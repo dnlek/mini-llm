@@ -14,6 +14,7 @@ from tokenizers.processors import ByteLevel as ByteLevelProcessor
 from tokenizers.decoders import ByteLevel as ByteLevelDecoder
 from dsl import DSLDecoder, DSLEncoder
 from tools import execute_tool
+from history import HybridMemorySystem
 
 # Try to import quantization (available in PyTorch 1.3+)
 try:
@@ -591,8 +592,8 @@ class GPTLanguageModel(nn.Module):
         original_length = idx.shape[1]
         with torch.inference_mode():
             for i in range(max_new_tokens):
-                idx_cond = idx[:, -block_size:]
-                logits, loss = self(idx_cond)
+            idx_cond = idx[:, -block_size:]
+            logits, loss = self(idx_cond)
                 logits = logits[:, -1, :]  # Only last position (B, C)
                 
                 # Temperature: >1 = more random, <1 = more deterministic
@@ -1032,11 +1033,33 @@ def inference_model(model_path='model.pt', prompt="", num_tokens=500, output_fil
     
     return generated_text
 
-def dispatch(model, prompt="", max_new_tokens=200, max_recursions=5, recursion_depth=0, tool_call_count=0):
+# Global memory system instance (initialized on first use)
+_memory_system = None
+
+def get_memory_system(model=None, tokenizer_encode=None):
+    """Get or initialize the global memory system"""
+    global _memory_system
+    if _memory_system is None:
+        _memory_system = HybridMemorySystem(
+            model=model,
+            tokenizer_encode=encode if tokenizer_encode is None else tokenizer_encode,
+            max_entries=1000,
+            summary_threshold=50,
+            embedding_dim=128,
+            retrieval_k=5,
+            storage_file="history.json"
+        )
+    elif model is not None:
+        # Update model reference if provided
+        _memory_system.model = model
+    return _memory_system
+
+def dispatch(model, prompt="", max_new_tokens=200, max_recursions=5, recursion_depth=0, tool_call_count=0, memory_system=None):
     """
     Dispatch method that handles model responses and tool execution.
     Supports recursive tool calling up to max_recursions times.
     Falls back to cloud (CL) if more than 3 tool calls are needed.
+    Uses memory system for RAG-based history retrieval.
     
     Args:
         model: The GPT model instance
@@ -1045,10 +1068,14 @@ def dispatch(model, prompt="", max_new_tokens=200, max_recursions=5, recursion_d
         max_recursions: Maximum depth of recursive tool calls (default 5)
         recursion_depth: Current recursion depth (internal use)
         tool_call_count: Total number of tool calls made so far (internal use)
+        memory_system: Optional memory system instance (uses global if None)
     
     Returns:
         Final response string after all tool calls are resolved
     """
+    # Get memory system (initialize if needed)
+    if memory_system is None:
+        memory_system = get_memory_system(model=model, tokenizer_encode=encode)
     if recursion_depth >= max_recursions:
         return "E:Max recursions reached"
     
@@ -1056,11 +1083,25 @@ def dispatch(model, prompt="", max_new_tokens=200, max_recursions=5, recursion_d
     if tool_call_count > 3:
         return "CL"
     
+    # Retrieve relevant history using RAG (only for original prompt, not recursive calls)
+    history_context = ""
+    if prompt and memory_system and recursion_depth == 0:
+        # Clean prompt for retrieval (remove tool results if present)
+        clean_prompt = prompt.split('|R:')[0].strip()
+        relevant_entries = memory_system.retrieve_relevant(clean_prompt, k=3)
+        if relevant_entries:
+            history_lines = [e.to_dsl() for e in relevant_entries]
+            history_context = "\n".join(history_lines) + "\n"
+    
     if prompt:
         # Remove line breaks and ensure single-line prompt
         single_line_prompt = prompt.replace('\n', ' ').strip()
-        formatted_prompt = single_line_prompt + '\n'
-        context_tokens = encode(formatted_prompt)
+        # Prepend history context if available
+        if history_context:
+            full_prompt = history_context + single_line_prompt + '\n'
+        else:
+            full_prompt = single_line_prompt + '\n'
+        context_tokens = encode(full_prompt)
         context = torch.tensor([context_tokens], dtype=torch.long, device=device)
     else:
         context = torch.zeros((1, 1), dtype=torch.long, device=device)
@@ -1131,7 +1172,7 @@ def dispatch(model, prompt="", max_new_tokens=200, max_recursions=5, recursion_d
             prompt_clean = prompt.replace('\n', ' ').strip()
             results_str = "|".join([f"R:{r}" for r in results])
             new_prompt = f"{prompt_clean} |{results_str}"  # Unified |R: format
-            return dispatch(model, new_prompt, max_new_tokens, max_recursions, recursion_depth + 1, new_tool_count)
+            return dispatch(model, new_prompt, max_new_tokens, max_recursions, recursion_depth + 1, new_tool_count, memory_system)
         
         else:
             # Single tool call
@@ -1154,7 +1195,7 @@ def dispatch(model, prompt="", max_new_tokens=200, max_recursions=5, recursion_d
                 # Append |R: result without line breaks, unified separator format
                 prompt_clean = prompt.replace('\n', ' ').strip()
                 new_prompt = f"{prompt_clean} |R:{tool_result}"  # Unified |R: format
-                return dispatch(model, new_prompt, max_new_tokens, max_recursions, recursion_depth + 1, new_tool_count)
+                return dispatch(model, new_prompt, max_new_tokens, max_recursions, recursion_depth + 1, new_tool_count, memory_system)
     
     # Commands (C:) are executed but don't require recursive model calls
     decoded = DSLDecoder.decode(dsl_response)
@@ -1164,6 +1205,13 @@ def dispatch(model, prompt="", max_new_tokens=200, max_recursions=5, recursion_d
                 cmd = item.get('command', '')
                 args = item.get('args', '')
                 print(f"[Command] {cmd}({args})")
+    
+    # Store conversation in memory system (only for original prompt, not recursive calls)
+    if memory_system and recursion_depth == 0 and prompt:
+        # Clean prompt (remove history context and tool results)
+        clean_prompt = prompt.split('|R:')[0].strip()
+        if clean_prompt and dsl_response:
+            memory_system.add_entry(clean_prompt, dsl_response)
     
     return dsl_response
 
@@ -1206,10 +1254,15 @@ def dispatch_inference(model_path='model.pt', prompt="", max_new_tokens=200, max
         model_size_mb = total_params * 2 / 1e6
     
     print(f"Model loaded: {total_params/1e6:.2f} M parameters (~{model_size_mb:.2f} MB)")
+    
+    # Initialize memory system with model
+    memory_system = get_memory_system(model=m, tokenizer_encode=encode)
+    print(f"Memory system initialized: {memory_system.get_stats()['total_entries']} entries")
+    
     print(f"Prompt: {prompt}")
     print("="*50)
     
-    result = dispatch(m, prompt, max_new_tokens, max_recursions)
+    result = dispatch(m, prompt, max_new_tokens, max_recursions, memory_system=memory_system)
     
     print("="*50)
     print(f"Final response: {result}")
