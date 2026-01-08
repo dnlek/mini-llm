@@ -1,130 +1,124 @@
-Current time
+yeah Time now
 T:time
 
-current tiem
+yup Today's date
+T:date
+
+Yeah what's today's date
+T:date
+
+oh What tme
 T:time
 
-current tym
+yep Time now
 T:time
 
-yeah Current time
-T:time
+Yup what's today's date
+T:date
 
-Yeah Current time
-T:time
-
-ah Current time
-T:time
-
-What time
-T:time
-
-wat time
-T:time
-
-wut time
+Yup what's the time
 T:time
 
 ah What time
 T:time
 
-Ah What time
+Yeah what's the time
 T:time
 
-yeah What time
+yep What time
 T:time
 
-Time now
+Yup tell me the time
 T:time
 
-tiem now
+What's the time
 T:time
 
-tym now
-T:time
-
-yep Time now
-T:time
-
-Yep Time now
-T:time
-
-yup Time now
-T:time
-
-Today's date
+yeah Current date
 T:date
 
-oh Today's date
-T:date
-
-Oh Today's date
-T:date
-
-yeah Today's date
-T:date
-
-Current date
-T:date
-
-oh Current date
-T:date
-
-Oh Current date
-T:date
-
-yup Current date
-T:date
-
-Current time
+yep Current time
 T:time
 
-current tiem
-T:time
+Oh what's today's date
+T:date
 
 current tym
 T:time
 
-yeah Current time
-T:time
-
-Yeah Current time
-T:time
-
-oh Current time
-T:time
-
-What time
-T:time
-
-wat time
-T:time
-
-wut time
+ah Time now
 T:time
 
 oh What time
 T:time
 
-Oh What time
+oh Current date
+T:date
+
+current tiem
 T:time
 
-yup What time
+ah Current time
 T:time
 
-Time now
+yup Current date
+T:date
+
+yup Current time
 T:time
+
+oh Today's date
+T:date
 
 tiem now
 T:time
 
-tym now
+yeah Today's date
+T:date
+
+Yep tell me the time
 T:time
 
-oh Time now
+yeah What time
 T:time
 
-Oh Time now
+yeah Current time
+T:time
+
+Ah what's today's date
+T:date
+
+Current time
+T:time
+
+oh Current time
+T:time
+
+Ah what's the time
+T:time
+
+Ah tell me the time
+T:time
+
+Oh what's the time
+T:time
+
+wut time
+T:time
+
+Oh tell me the time
+T:time
+
+Yep what's the time
+T:time
+
+Yep what's today's date
+T:date
+
+What time
+T:time
+
+Tell me the time
 T:time
 
 yup Time now
@@ -133,1038 +127,36 @@ T:time
 Today's date
 T:date
 
+tym now
+T:time
+
+Time now
+T:time
+
 ah Today's date
 T:date
 
-Ah Today's date
-T:date
-
-yup Today's date
-T:date
-
-Current date
-T:date
+wat time
+T:time
 
 yep Current date
 T:date
 
-Yep Current date
-T:date
+oh Time now
+T:time
 
 ah Current date
 T:date
 
-Current time
-T:time
+Current date
+T:date
 
-current tiem
-T:time
+yep Today's date
+T:date
 
-current tym
-T:time
-
-yeah Current time
-T:time
-
-Yeah Current time
-T:time
-
-ah Current time
-T:time
-
-What time
-T:time
-
-wat time
-T:time
-
-wut time
+Yeah tell me the time
 T:time
 
 yup What time
 T:time
-
-Yup What time
-T:time
-
-yep What time
-T:time
-
-Time now
-T:time
-
-tiem now
-T:time
-
-tym now
-T:time
-
-yeah Time now
-T:time
-
-Yeah Time now
-T:time
-
-yep Time now
-T:time
-
-Today's date
-T:date
-
-yup Today's date
-T:date
-
-Yup Today's date
-T:date
-
-oh Today's date
-T:date
-
-Current date
-T:date
-
-yep Current date
-T:date
-
-Yep Current date
-T:date
-
-yup Current date
-T:date
-
-Current time
-T:time
-
-current tiem
-T:time
-
-current tym
-T:time
-
-yep Current time
-T:time
-
-Yep Current time
-T:time
-
-yeah Current time
-T:time
-
-What time
-T:time
-
-wat time
-T:time
-
-wut time
-T:time
-
-yup What time
-T:time
-
-Yup What time
-T:time
-
-yeah What time
-T:time
-
-Time now
-T:time
-
-tiem now
-T:time
-
-tym now
-T:time
-
-yup Time now
-T:time
-
-Yup Time now
-T:time
-
-yep Time now
-T:time
-
-Today's date
-T:date
-
-oh Today's date
-T:date
-
-Oh Today's date
-T:date
-
-yeah Today's date
-T:date
-
-Current date
-T:date
-
-oh Current date
-T:date
-
-Oh Current date
-T:date
-
-yup Current date
-T:date
-
-Current time
-T:time
-
-current tiem
-T:time
-
-current tym
-T:time
-
-ah Current time
-T:time
-
-Ah Current time
-T:time
-
-oh Current time
-T:time
-
-What time
-T:time
-
-wat time
-T:time
-
-wut time
-T:time
-
-yeah What time
-T:time
-
-Yeah What time
-T:time
-
-yup What time
-T:time
-
-Time now
-T:time
-
-tiem now
-T:time
-
-tym now
-T:time
-
-oh Time now
-T:time
-
-Oh Time now
-T:time
-
-yep Time now
-T:time
-
-Today's date
-T:date
-
-yup Today's date
-T:date
-
-Yup Today's date
-T:date
-
-yep Today's date
-T:date
-
-Current date
-T:date
-
-yeah Current date
-T:date
-
-Yeah Current date
-T:date
-
-oh Current date
-T:date
-
-Current time
-T:time
-
-current tiem
-T:time
-
-current tym
-T:time
-
-yup Current time
-T:time
-
-Yup Current time
-T:time
-
-yeah Current time
-T:time
-
-What time
-T:time
-
-wat time
-T:time
-
-wut time
-T:time
-
-yeah What time
-T:time
-
-Yeah What time
-T:time
-
-yep What time
-T:time
-
-Time now
-T:time
-
-tiem now
-T:time
-
-tym now
-T:time
-
-yeah Time now
-T:time
-
-Yeah Time now
-T:time
-
-oh Time now
-T:time
-
-Today's date
-T:date
-
-yeah Today's date
-T:date
-
-Yeah Today's date
-T:date
-
-yep Today's date
-T:date
-
-Current date
-T:date
-
-yeah Current date
-T:date
-
-Yeah Current date
-T:date
-
-yup Current date
-T:date
-
-Current time
-T:time
-
-current tiem
-T:time
-
-current tym
-T:time
-
-yup Current time
-T:time
-
-Yup Current time
-T:time
-
-ah Current time
-T:time
-
-What time
-T:time
-
-wat time
-T:time
-
-wut time
-T:time
-
-yeah What time
-T:time
-
-Yeah What time
-T:time
-
-oh What time
-T:time
-
-Time now
-T:time
-
-tiem now
-T:time
-
-tym now
-T:time
-
-ah Time now
-T:time
-
-Ah Time now
-T:time
-
-yep Time now
-T:time
-
-Today's date
-T:date
-
-yep Today's date
-T:date
-
-Yep Today's date
-T:date
-
-ah Today's date
-T:date
-
-Current date
-T:date
-
-ah Current date
-T:date
-
-Ah Current date
-T:date
-
-yeah Current date
-T:date
-
-Current time
-T:time
-
-current tiem
-T:time
-
-current tym
-T:time
-
-yep Current time
-T:time
-
-Yep Current time
-T:time
-
-yup Current time
-T:time
-
-What time
-T:time
-
-wat time
-T:time
-
-wut time
-T:time
-
-yup What time
-T:time
-
-Yup What time
-T:time
-
-yeah What time
-T:time
-
-Time now
-T:time
-
-tiem now
-T:time
-
-tym now
-T:time
-
-yep Time now
-T:time
-
-Yep Time now
-T:time
-
-ah Time now
-T:time
-
-Today's date
-T:date
-
-yup Today's date
-T:date
-
-Yup Today's date
-T:date
-
-yeah Today's date
-T:date
-
-Current date
-T:date
-
-oh Current date
-T:date
-
-Oh Current date
-T:date
-
-ah Current date
-T:date
-
-Current time
-T:time
-
-current tiem
-T:time
-
-current tym
-T:time
-
-oh Current time
-T:time
-
-Oh Current time
-T:time
-
-yup Current time
-T:time
-
-What time
-T:time
-
-wat time
-T:time
-
-wut time
-T:time
-
-oh What time
-T:time
-
-Oh What time
-T:time
-
-yeah What time
-T:time
-
-Time now
-T:time
-
-tiem now
-T:time
-
-tym now
-T:time
-
-yeah Time now
-T:time
-
-Yeah Time now
-T:time
-
-yep Time now
-T:time
-
-Today's date
-T:date
-
-yep Today's date
-T:date
-
-Yep Today's date
-T:date
-
-yup Today's date
-T:date
-
-Current date
-T:date
-
-yeah Current date
-T:date
-
-Yeah Current date
-T:date
-
-yep Current date
-T:date
-
-Current time
-T:time
-
-current tiem
-T:time
-
-current tym
-T:time
-
-ah Current time
-T:time
-
-Ah Current time
-T:time
-
-yep Current time
-T:time
-
-What time
-T:time
-
-wat time
-T:time
-
-wut time
-T:time
-
-yeah What time
-T:time
-
-Yeah What time
-T:time
-
-ah What time
-T:time
-
-Time now
-T:time
-
-tiem now
-T:time
-
-tym now
-T:time
-
-yep Time now
-T:time
-
-Yep Time now
-T:time
-
-yeah Time now
-T:time
-
-Today's date
-T:date
-
-yep Today's date
-T:date
-
-Yep Today's date
-T:date
-
-yeah Today's date
-T:date
-
-Current date
-T:date
-
-yup Current date
-T:date
-
-Yup Current date
-T:date
-
-oh Current date
-T:date
-
-Current time
-T:time
-
-current tiem
-T:time
-
-current tym
-T:time
-
-yup Current time
-T:time
-
-Yup Current time
-T:time
-
-yep Current time
-T:time
-
-What time
-T:time
-
-wat time
-T:time
-
-wut time
-T:time
-
-ah What time
-T:time
-
-Ah What time
-T:time
-
-oh What time
-T:time
-
-Time now
-T:time
-
-tiem now
-T:time
-
-tym now
-T:time
-
-oh Time now
-T:time
-
-Oh Time now
-T:time
-
-yup Time now
-T:time
-
-Today's date
-T:date
-
-yup Today's date
-T:date
-
-Yup Today's date
-T:date
-
-ah Today's date
-T:date
-
-Current date
-T:date
-
-yep Current date
-T:date
-
-Yep Current date
-T:date
-
-yeah Current date
-T:date
-
-Current time
-T:time
-
-current tiem
-T:time
-
-current tym
-T:time
-
-yup Current time
-T:time
-
-Yup Current time
-T:time
-
-yep Current time
-T:time
-
-What time
-T:time
-
-wat time
-T:time
-
-wut time
-T:time
-
-oh What time
-T:time
-
-Oh What time
-T:time
-
-yeah What time
-T:time
-
-Time now
-T:time
-
-tiem now
-T:time
-
-tym now
-T:time
-
-oh Time now
-T:time
-
-Oh Time now
-T:time
-
-ah Time now
-T:time
-
-Today's date
-T:date
-
-yep Today's date
-T:date
-
-Yep Today's date
-T:date
-
-yeah Today's date
-T:date
-
-Current date
-T:date
-
-yep Current date
-T:date
-
-Yep Current date
-T:date
-
-yeah Current date
-T:date
-
-Current time
-T:time
-
-current tiem
-T:time
-
-current tym
-T:time
-
-oh Current time
-T:time
-
-Oh Current time
-T:time
-
-yup Current time
-T:time
-
-What time
-T:time
-
-wat time
-T:time
-
-wut time
-T:time
-
-oh What time
-T:time
-
-Oh What time
-T:time
-
-yeah What time
-T:time
-
-Time now
-T:time
-
-tiem now
-T:time
-
-tym now
-T:time
-
-yeah Time now
-T:time
-
-Yeah Time now
-T:time
-
-yep Time now
-T:time
-
-Today's date
-T:date
-
-yep Today's date
-T:date
-
-Yep Today's date
-T:date
-
-yeah Today's date
-T:date
-
-Current date
-T:date
-
-yep Current date
-T:date
-
-Yep Current date
-T:date
-
-yeah Current date
-T:date
-
-Current time
-T:time
-
-current tiem
-T:time
-
-current tym
-T:time
-
-yup Current time
-T:time
-
-Yup Current time
-T:time
-
-yep Current time
-T:time
-
-What time
-T:time
-
-wat time
-T:time
-
-wut time
-T:time
-
-yep What time
-T:time
-
-Yep What time
-T:time
-
-oh What time
-T:time
-
-Time now
-T:time
-
-tiem now
-T:time
-
-tym now
-T:time
-
-ah Time now
-T:time
-
-Ah Time now
-T:time
-
-yeah Time now
-T:time
-
-Today's date
-T:date
-
-yeah Today's date
-T:date
-
-Yeah Today's date
-T:date
-
-yup Today's date
-T:date
-
-Current date
-T:date
-
-oh Current date
-T:date
-
-Oh Current date
-T:date
-
-yep Current date
-T:date
-
-Current time
-T:time
-
-current tiem
-T:time
-
-current tym
-T:time
-
-ah Current time
-T:time
-
-Ah Current time
-T:time
-
-yup Current time
-T:time
-
-What time
-T:time
-
-wat time
-T:time
-
-wut time
-T:time
-
-yeah What time
-T:time
-
-Yeah What time
-T:time
-
-yep What time
-T:time
-
-Time now
-T:time
-
-tiem now
-T:time
-
-tym now
-T:time
-
-yeah Time now
-T:time
-
-Yeah Time now
-T:time
-
-oh Time now
-T:time
-
-Today's date
-T:date
-
-ah Today's date
-T:date
-
-Ah Today's date
-T:date
-
-oh Today's date
-T:date
-
-Current date
-T:date
-
-yup Current date
-T:date
-
-Yup Current date
-T:date
-
-yep Current date
-T:date
 

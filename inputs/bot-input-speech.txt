@@ -1,3105 +1,378 @@
-Hello assistant
+what's going onn
+S:All good
+
+Ah how's it going doing
+S:Doing great
+
+Yeah how's it going doing
+S:Doing great
+
+yeah Gud day
+S:Good day
+
+yup See you
+S:See you
+
+Hey assistant
 S:Hi there
 
-helo assistant
-S:Hi there
+yeah Afternoon
+S:Good afternoon
 
-hlo assistant
-S:Hi there
+oh Later
+S:Later
 
 yep Hello assistant
 S:Hi there
 
-Yep Hello assistant
-S:Hi there
-
-ah Hello assistant
-S:Hi there
-
-Hi assistant
-S:Hello
-
-hai assistant
-S:Hello
-
-hii assistant
-S:Hello
-
-ah Hi assistant
-S:Hello
-
-Ah Hi assistant
-S:Hello
-
-yup Hi assistant
-S:Hello
-
-Good day
-S:Good day
-
-gud day
-S:Good day
-
-goood day
-S:Good day
-
-ah Good day
-S:Good day
-
-Ah Good day
-S:Good day
-
-oh Good day
-S:Good day
-
-Morning
-S:Good morning
-
-mornin
-S:Good morning
-
-morn
-S:Good morning
-
-yup Morning
-S:Good morning
-
-Yup Morning
-S:Good morning
-
-oh Morning
-S:Good morning
-
-Afternoon
-S:Good afternoon
-
-aftrnoon
-S:Good afternoon
-
-aftnoon
-S:Good afternoon
-
-yup Afternoon
-S:Good afternoon
-
-Yup Afternoon
-S:Good afternoon
-
-ah Afternoon
-S:Good afternoon
-
-Evening
-S:Good evening
-
-evning
-S:Good evening
-
-eve
-S:Good evening
-
-yup Evening
-S:Good evening
-
-Yup Evening
-S:Good evening
-
-oh Evening
-S:Good evening
-
-How are you doing
+How do you do doing
 S:Doing great
 
-howw are you doing
+yep Hi assistant
+S:Hello
+
+yeah How ar you doing
 S:Doing great
 
-ho are you doing
+Yup how do you do doing
 S:Doing great
-
-yup How are you doing
-S:Doing great
-
-Yup How are you doing
-S:Doing great
-
-ah How are you doing
-S:Doing great
-
-What's going on
-S:All good
-
-what's going onn
-S:All good
-
-yep What's going on
-S:All good
-
-Yep What's going on
-S:All good
-
-ah What's going on
-S:All good
-
-Thanks a lot
-S:You're welcome
-
-thx a lot
-S:You're welcome
-
-thanx a lot
-S:You're welcome
-
-oh Thanks a lot
-S:You're welcome
-
-Oh Thanks a lot
-S:You're welcome
-
-yep Thanks a lot
-S:You're welcome
-
-Thank you so much
-S:Happy to help
-
-thank u so much
-S:Happy to help
-
-thank yu so much
-S:Happy to help
-
-oh Thank you so much
-S:Happy to help
-
-Oh Thank you so much
-S:Happy to help
-
-yup Thank you so much
-S:Happy to help
-
-See you
-S:See you
-
-see u
-S:See you
-
-see yu
-S:See you
-
-ah See you
-S:See you
-
-Ah See you
-S:See you
-
-oh See you
-S:See you
-
-Later
-S:Later
-
-ah Later
-S:Later
-
-Ah Later
-S:Later
 
 yup Later
 S:Later
 
-Hello assistant
-S:Hi there
-
-helo assistant
-S:Hi there
-
-hlo assistant
-S:Hi there
-
-yeah Hello assistant
-S:Hi there
-
-Yeah Hello assistant
-S:Hi there
-
-oh Hello assistant
-S:Hi there
-
-Hi assistant
-S:Hello
-
-hai assistant
-S:Hello
-
-hii assistant
-S:Hello
-
-yep Hi assistant
-S:Hello
-
-Yep Hi assistant
-S:Hello
-
-oh Hi assistant
-S:Hello
-
-Good day
-S:Good day
-
-gud day
-S:Good day
-
-goood day
-S:Good day
-
-yep Good day
-S:Good day
-
-Yep Good day
-S:Good day
-
-ah Good day
-S:Good day
-
-Morning
-S:Good morning
-
-mornin
-S:Good morning
-
-morn
-S:Good morning
-
-oh Morning
-S:Good morning
-
-Oh Morning
-S:Good morning
-
-yup Morning
-S:Good morning
-
-Afternoon
-S:Good afternoon
-
-aftrnoon
-S:Good afternoon
-
-aftnoon
-S:Good afternoon
-
-yup Afternoon
-S:Good afternoon
-
-Yup Afternoon
-S:Good afternoon
-
-ah Afternoon
-S:Good afternoon
-
-Evening
-S:Good evening
-
-evning
-S:Good evening
-
-eve
-S:Good evening
-
 yeah Evening
 S:Good evening
 
-Yeah Evening
-S:Good evening
-
-yep Evening
-S:Good evening
-
-How are you doing
+Yep how's it going doing
 S:Doing great
 
-howw are you doing
-S:Doing great
-
-ho are you doing
-S:Doing great
-
-yup How are you doing
-S:Doing great
-
-Yup How are you doing
-S:Doing great
-
-ah How are you doing
-S:Doing great
-
-What's going on
-S:All good
-
-what's going onn
-S:All good
-
-yup What's going on
-S:All good
-
-Yup What's going on
-S:All good
-
-ah What's going on
-S:All good
-
-Thanks a lot
-S:You're welcome
-
-thx a lot
-S:You're welcome
-
-thanx a lot
-S:You're welcome
-
-yep Thanks a lot
-S:You're welcome
-
-Yep Thanks a lot
-S:You're welcome
-
-yeah Thanks a lot
-S:You're welcome
-
-Thank you so much
-S:Happy to help
+Yeah hi assistant
+S:Hi there
 
 thank u so much
 S:Happy to help
 
-thank yu so much
-S:Happy to help
+hii assistant
+S:Hello
 
-ah Thank you so much
-S:Happy to help
+oh Thanks a lot
+S:You're welcome
 
-Ah Thank you so much
-S:Happy to help
+How are you doing
+S:Doing great
 
-yup Thank you so much
-S:Happy to help
-
-See you
-S:See you
-
-see u
-S:See you
-
-see yu
-S:See you
-
-yep See you
-S:See you
-
-Yep See you
-S:See you
+yeah What's going on
+S:All good
 
 ah See you
 S:See you
 
-Later
-S:Later
+yeah How are you doing
+S:Doing great
 
-yep Later
-S:Later
-
-Yep Later
-S:Later
-
-yeah Later
-S:Later
-
-Hello assistant
+Yup hi assistant
 S:Hi there
+
+ah How are you doing
+S:Doing great
+
+Evening
+S:Good evening
 
 helo assistant
 S:Hi there
 
-hlo assistant
-S:Hi there
-
-yeah Hello assistant
-S:Hi there
-
-Yeah Hello assistant
-S:Hi there
-
-ah Hello assistant
-S:Hi there
-
-Hi assistant
-S:Hello
-
-hai assistant
-S:Hello
-
-hii assistant
-S:Hello
-
-yep Hi assistant
-S:Hello
-
-Yep Hi assistant
-S:Hello
-
-yeah Hi assistant
-S:Hello
-
-Good day
+oh Goood day
 S:Good day
 
-gud day
-S:Good day
+Ah hey assistant
+S:Hi there
 
-goood day
-S:Good day
+oh How are you doing
+S:Doing great
+
+aftnoon
+S:Good afternoon
+
+yep Thanks a lot
+S:You're welcome
+
+What's going on
+S:All good
 
 yeah Good day
 S:Good day
 
-Yeah Good day
-S:Good day
-
-oh Good day
-S:Good day
-
-Morning
-S:Good morning
-
-mornin
-S:Good morning
-
-morn
-S:Good morning
-
-oh Morning
-S:Good morning
-
-Oh Morning
-S:Good morning
-
-ah Morning
-S:Good morning
-
-Afternoon
-S:Good afternoon
-
-aftrnoon
-S:Good afternoon
-
-aftnoon
-S:Good afternoon
-
-yeah Afternoon
-S:Good afternoon
-
-Yeah Afternoon
-S:Good afternoon
-
-ah Afternoon
-S:Good afternoon
-
-Evening
-S:Good evening
-
-evning
-S:Good evening
-
-eve
-S:Good evening
-
-yeah Evening
-S:Good evening
-
-Yeah Evening
-S:Good evening
-
-oh Evening
-S:Good evening
-
-How are you doing
-S:Doing great
-
-howw are you doing
-S:Doing great
-
-ho are you doing
-S:Doing great
-
-yup How are you doing
-S:Doing great
-
-Yup How are you doing
-S:Doing great
-
-oh How are you doing
-S:Doing great
-
-What's going on
-S:All good
-
-what's going onn
-S:All good
-
-oh What's going on
-S:All good
-
-Oh What's going on
-S:All good
-
-ah What's going on
-S:All good
-
-Thanks a lot
-S:You're welcome
-
-thx a lot
-S:You're welcome
-
-thanx a lot
-S:You're welcome
-
-yeah Thanks a lot
-S:You're welcome
-
-Yeah Thanks a lot
-S:You're welcome
-
-ah Thanks a lot
-S:You're welcome
-
-Thank you so much
-S:Happy to help
-
-thank u so much
-S:Happy to help
-
-thank yu so much
-S:Happy to help
-
-yeah Thank you so much
-S:Happy to help
-
-Yeah Thank you so much
-S:Happy to help
-
-yep Thank you so much
-S:Happy to help
-
-See you
-S:See you
-
-see u
-S:See you
-
-see yu
-S:See you
-
-yup See you
-S:See you
-
-Yup See you
-S:See you
-
-ah See you
-S:See you
-
-Later
-S:Later
-
-yep Later
-S:Later
-
-Yep Later
-S:Later
-
-ah Later
-S:Later
-
-Hello assistant
-S:Hi there
-
-helo assistant
-S:Hi there
-
-hlo assistant
-S:Hi there
-
-yup Hello assistant
-S:Hi there
-
-Yup Hello assistant
-S:Hi there
-
-ah Hello assistant
-S:Hi there
-
-Hi assistant
+yup Hi assistant
 S:Hello
 
-hai assistant
-S:Hello
-
-hii assistant
-S:Hello
-
-oh Hi assistant
-S:Hello
-
-Oh Hi assistant
-S:Hello
-
-yep Hi assistant
-S:Hello
-
-Good day
-S:Good day
-
-gud day
-S:Good day
-
-goood day
-S:Good day
-
-yep Good day
-S:Good day
-
-Yep Good day
-S:Good day
-
-oh Good day
-S:Good day
-
-Morning
-S:Good morning
-
-mornin
-S:Good morning
-
-morn
-S:Good morning
-
-yeah Morning
-S:Good morning
-
-Yeah Morning
-S:Good morning
-
-yup Morning
-S:Good morning
-
-Afternoon
+oh Afternoon
 S:Good afternoon
-
-aftrnoon
-S:Good afternoon
-
-aftnoon
-S:Good afternoon
-
-yep Afternoon
-S:Good afternoon
-
-Yep Afternoon
-S:Good afternoon
-
-ah Afternoon
-S:Good afternoon
-
-Evening
-S:Good evening
-
-evning
-S:Good evening
-
-eve
-S:Good evening
-
-yup Evening
-S:Good evening
-
-Yup Evening
-S:Good evening
-
-ah Evening
-S:Good evening
-
-How are you doing
-S:Doing great
-
-howw are you doing
-S:Doing great
-
-ho are you doing
-S:Doing great
-
-oh How are you doing
-S:Doing great
-
-Oh How are you doing
-S:Doing great
-
-yep How are you doing
-S:Doing great
-
-What's going on
-S:All good
-
-what's going onn
-S:All good
-
-ah What's going on
-S:All good
-
-Ah What's going on
-S:All good
-
-yep What's going on
-S:All good
-
-Thanks a lot
-S:You're welcome
-
-thx a lot
-S:You're welcome
-
-thanx a lot
-S:You're welcome
-
-oh Thanks a lot
-S:You're welcome
-
-Oh Thanks a lot
-S:You're welcome
-
-yep Thanks a lot
-S:You're welcome
-
-Thank you so much
-S:Happy to help
-
-thank u so much
-S:Happy to help
-
-thank yu so much
-S:Happy to help
-
-ah Thank you so much
-S:Happy to help
-
-Ah Thank you so much
-S:Happy to help
-
-yup Thank you so much
-S:Happy to help
-
-See you
-S:See you
-
-see u
-S:See you
-
-see yu
-S:See you
-
-yup See you
-S:See you
-
-Yup See you
-S:See you
-
-yep See you
-S:See you
-
-Later
-S:Later
 
 yeah Later
 S:Later
 
-Yeah Later
+Later
 S:Later
 
-ah Later
-S:Later
+yup How are you doing
+S:Doing great
 
-Hello assistant
-S:Hi there
-
-helo assistant
-S:Hi there
-
-hlo assistant
+Yep hey assistant
 S:Hi there
 
 yeah Hello assistant
 S:Hi there
 
-Yeah Hello assistant
+Yep hi assistant
 S:Hi there
-
-ah Hello assistant
-S:Hi there
-
-Hi assistant
-S:Hello
-
-hai assistant
-S:Hello
-
-hii assistant
-S:Hello
-
-yup Hi assistant
-S:Hello
-
-Yup Hi assistant
-S:Hello
-
-yeah Hi assistant
-S:Hello
-
-Good day
-S:Good day
-
-gud day
-S:Good day
-
-goood day
-S:Good day
-
-oh Good day
-S:Good day
-
-Oh Good day
-S:Good day
-
-ah Good day
-S:Good day
-
-Morning
-S:Good morning
-
-mornin
-S:Good morning
-
-morn
-S:Good morning
-
-ah Morning
-S:Good morning
-
-Ah Morning
-S:Good morning
-
-yep Morning
-S:Good morning
-
-Afternoon
-S:Good afternoon
-
-aftrnoon
-S:Good afternoon
-
-aftnoon
-S:Good afternoon
-
-yup Afternoon
-S:Good afternoon
-
-Yup Afternoon
-S:Good afternoon
-
-yeah Afternoon
-S:Good afternoon
-
-Evening
-S:Good evening
-
-evning
-S:Good evening
-
-eve
-S:Good evening
-
-oh Evening
-S:Good evening
-
-Oh Evening
-S:Good evening
-
-yup Evening
-S:Good evening
-
-How are you doing
-S:Doing great
-
-howw are you doing
-S:Doing great
-
-ho are you doing
-S:Doing great
-
-oh How are you doing
-S:Doing great
-
-Oh How are you doing
-S:Doing great
-
-yeah How are you doing
-S:Doing great
-
-What's going on
-S:All good
-
-what's going onn
-S:All good
-
-oh What's going on
-S:All good
-
-Oh What's going on
-S:All good
-
-yeah What's going on
-S:All good
 
 Thanks a lot
 S:You're welcome
 
-thx a lot
-S:You're welcome
-
-thanx a lot
-S:You're welcome
-
-yup Thanks a lot
-S:You're welcome
-
-Yup Thanks a lot
-S:You're welcome
-
-yeah Thanks a lot
-S:You're welcome
-
-Thank you so much
-S:Happy to help
-
-thank u so much
-S:Happy to help
-
-thank yu so much
-S:Happy to help
-
-yup Thank you so much
-S:Happy to help
-
-Yup Thank you so much
-S:Happy to help
-
-oh Thank you so much
-S:Happy to help
-
-See you
-S:See you
-
-see u
-S:See you
-
-see yu
-S:See you
-
-yeah See you
-S:See you
-
-Yeah See you
-S:See you
-
-yep See you
-S:See you
-
-Later
-S:Later
-
-yup Later
-S:Later
-
-Yup Later
-S:Later
-
-yeah Later
-S:Later
-
-Hello assistant
-S:Hi there
-
-helo assistant
-S:Hi there
-
-hlo assistant
-S:Hi there
-
-yeah Hello assistant
-S:Hi there
-
-Yeah Hello assistant
-S:Hi there
-
-ah Hello assistant
-S:Hi there
-
-Hi assistant
-S:Hello
-
-hai assistant
-S:Hello
-
-hii assistant
-S:Hello
-
-yep Hi assistant
-S:Hello
-
-Yep Hi assistant
-S:Hello
-
-ah Hi assistant
-S:Hello
-
-Good day
-S:Good day
-
-gud day
-S:Good day
-
-goood day
-S:Good day
-
-ah Good day
-S:Good day
-
-Ah Good day
-S:Good day
-
-oh Good day
-S:Good day
-
-Morning
-S:Good morning
-
-mornin
-S:Good morning
-
-morn
-S:Good morning
-
-yeah Morning
-S:Good morning
-
-Yeah Morning
-S:Good morning
-
-yep Morning
-S:Good morning
-
-Afternoon
-S:Good afternoon
-
-aftrnoon
-S:Good afternoon
-
-aftnoon
-S:Good afternoon
-
-yeah Afternoon
-S:Good afternoon
-
-Yeah Afternoon
-S:Good afternoon
-
-oh Afternoon
-S:Good afternoon
-
-Evening
-S:Good evening
-
-evning
-S:Good evening
+oh What's going on
+S:All good
 
 eve
 S:Good evening
 
-yeah Evening
-S:Good evening
+oh See you
+S:See you
 
-Yeah Evening
-S:Good evening
-
-yep Evening
-S:Good evening
-
-How are you doing
+How's it going doing
 S:Doing great
 
-howw are you doing
-S:Doing great
+Oh hey assistant
+S:Hi there
 
-ho are you doing
-S:Doing great
+yeah Thank you so much
+S:Happy to help
 
-ah How are you doing
-S:Doing great
-
-Ah How are you doing
-S:Doing great
-
-yep How are you doing
-S:Doing great
-
-What's going on
-S:All good
-
-what's going onn
+What's goin on
 S:All good
 
 yep What's going on
 S:All good
 
-Yep What's going on
-S:All good
-
-ah What's going on
-S:All good
-
-Thanks a lot
-S:You're welcome
-
-thx a lot
-S:You're welcome
-
-thanx a lot
-S:You're welcome
-
-ah Thanks a lot
-S:You're welcome
-
-Ah Thanks a lot
-S:You're welcome
-
-oh Thanks a lot
-S:You're welcome
-
-Thank you so much
-S:Happy to help
-
-thank u so much
-S:Happy to help
-
-thank yu so much
-S:Happy to help
-
-yup Thank you so much
-S:Happy to help
-
-Yup Thank you so much
-S:Happy to help
-
-yeah Thank you so much
-S:Happy to help
-
-See you
-S:See you
-
-see u
-S:See you
-
-see yu
-S:See you
-
-yup See you
-S:See you
-
-Yup See you
-S:See you
-
-oh See you
-S:See you
-
-Later
-S:Later
-
-ah Later
-S:Later
-
-Ah Later
-S:Later
-
-oh Later
-S:Later
-
-Hello assistant
-S:Hi there
-
-helo assistant
-S:Hi there
-
-hlo assistant
-S:Hi there
-
-ah Hello assistant
-S:Hi there
-
-Ah Hello assistant
-S:Hi there
-
-yep Hello assistant
-S:Hi there
-
-Hi assistant
-S:Hello
-
-hai assistant
-S:Hello
-
-hii assistant
-S:Hello
-
-oh Hi assistant
-S:Hello
-
-Oh Hi assistant
-S:Hello
-
-yup Hi assistant
-S:Hello
-
-Good day
+yup Gud day
 S:Good day
-
-gud day
-S:Good day
-
-goood day
-S:Good day
-
-oh Good day
-S:Good day
-
-Oh Good day
-S:Good day
-
-yep Good day
-S:Good day
-
-Morning
-S:Good morning
-
-mornin
-S:Good morning
-
-morn
-S:Good morning
-
-yep Morning
-S:Good morning
-
-Yep Morning
-S:Good morning
-
-yeah Morning
-S:Good morning
-
-Afternoon
-S:Good afternoon
-
-aftrnoon
-S:Good afternoon
-
-aftnoon
-S:Good afternoon
-
-yup Afternoon
-S:Good afternoon
-
-Yup Afternoon
-S:Good afternoon
-
-oh Afternoon
-S:Good afternoon
-
-Evening
-S:Good evening
-
-evning
-S:Good evening
-
-eve
-S:Good evening
-
-oh Evening
-S:Good evening
-
-Oh Evening
-S:Good evening
-
-ah Evening
-S:Good evening
-
-How are you doing
-S:Doing great
-
-howw are you doing
-S:Doing great
-
-ho are you doing
-S:Doing great
-
-yeah How are you doing
-S:Doing great
-
-Yeah How are you doing
-S:Doing great
-
-yup How are you doing
-S:Doing great
-
-What's going on
-S:All good
-
-what's going onn
-S:All good
-
-yup What's going on
-S:All good
-
-Yup What's going on
-S:All good
-
-oh What's going on
-S:All good
-
-Thanks a lot
-S:You're welcome
-
-thx a lot
-S:You're welcome
-
-thanx a lot
-S:You're welcome
-
-yup Thanks a lot
-S:You're welcome
-
-Yup Thanks a lot
-S:You're welcome
-
-oh Thanks a lot
-S:You're welcome
-
-Thank you so much
-S:Happy to help
-
-thank u so much
-S:Happy to help
-
-thank yu so much
-S:Happy to help
-
-yeah Thank you so much
-S:Happy to help
-
-Yeah Thank you so much
-S:Happy to help
-
-oh Thank you so much
-S:Happy to help
-
-See you
-S:See you
-
-see u
-S:See you
-
-see yu
-S:See you
-
-oh See you
-S:See you
-
-Oh See you
-S:See you
-
-yep See you
-S:See you
-
-Later
-S:Later
-
-yup Later
-S:Later
-
-Yup Later
-S:Later
-
-ah Later
-S:Later
-
-Hello assistant
-S:Hi there
-
-helo assistant
-S:Hi there
-
-hlo assistant
-S:Hi there
-
-yep Hello assistant
-S:Hi there
-
-Yep Hello assistant
-S:Hi there
-
-oh Hello assistant
-S:Hi there
-
-Hi assistant
-S:Hello
-
-hai assistant
-S:Hello
-
-hii assistant
-S:Hello
-
-ah Hi assistant
-S:Hello
-
-Ah Hi assistant
-S:Hello
-
-yep Hi assistant
-S:Hello
-
-Good day
-S:Good day
-
-gud day
-S:Good day
-
-goood day
-S:Good day
-
-yep Good day
-S:Good day
-
-Yep Good day
-S:Good day
-
-ah Good day
-S:Good day
-
-Morning
-S:Good morning
-
-mornin
-S:Good morning
-
-morn
-S:Good morning
-
-yeah Morning
-S:Good morning
-
-Yeah Morning
-S:Good morning
-
-yep Morning
-S:Good morning
-
-Afternoon
-S:Good afternoon
-
-aftrnoon
-S:Good afternoon
-
-aftnoon
-S:Good afternoon
-
-yeah Afternoon
-S:Good afternoon
-
-Yeah Afternoon
-S:Good afternoon
-
-ah Afternoon
-S:Good afternoon
-
-Evening
-S:Good evening
-
-evning
-S:Good evening
-
-eve
-S:Good evening
-
-oh Evening
-S:Good evening
-
-Oh Evening
-S:Good evening
-
-ah Evening
-S:Good evening
-
-How are you doing
-S:Doing great
-
-howw are you doing
-S:Doing great
-
-ho are you doing
-S:Doing great
-
-oh How are you doing
-S:Doing great
-
-Oh How are you doing
-S:Doing great
-
-yeah How are you doing
-S:Doing great
-
-What's going on
-S:All good
-
-what's going onn
-S:All good
-
-yeah What's going on
-S:All good
-
-Yeah What's going on
-S:All good
-
-yup What's going on
-S:All good
-
-Thanks a lot
-S:You're welcome
-
-thx a lot
-S:You're welcome
-
-thanx a lot
-S:You're welcome
-
-yup Thanks a lot
-S:You're welcome
-
-Yup Thanks a lot
-S:You're welcome
 
 yeah Thanks a lot
 S:You're welcome
 
-Thank you so much
-S:Happy to help
+goood day
+S:Good day
 
-thank u so much
-S:Happy to help
-
-thank yu so much
-S:Happy to help
-
-yup Thank you so much
-S:Happy to help
-
-Yup Thank you so much
-S:Happy to help
-
-oh Thank you so much
-S:Happy to help
-
-See you
-S:See you
-
-see u
-S:See you
+ah Hi assistant
+S:Hello
 
 see yu
 S:See you
 
-ah See you
-S:See you
+Yep how do you do doing
+S:Doing great
 
-Ah See you
-S:See you
+thanx a lot
+S:You're welcome
+
+Oh hi assistant
+S:Hi there
+
+yup Thanks a lot
+S:You're welcome
+
+oh Hello assistant
+S:Hi there
 
 yeah See you
 S:See you
 
-Later
-S:Later
-
-ah Later
-S:Later
-
-Ah Later
-S:Later
-
-yep Later
-S:Later
-
-Hello assistant
-S:Hi there
-
-helo assistant
-S:Hi there
-
-hlo assistant
-S:Hi there
-
-oh Hello assistant
-S:Hi there
-
-Oh Hello assistant
-S:Hi there
-
-yep Hello assistant
-S:Hi there
-
-Hi assistant
-S:Hello
-
-hai assistant
-S:Hello
-
-hii assistant
-S:Hello
-
-yep Hi assistant
-S:Hello
-
-Yep Hi assistant
-S:Hello
-
-oh Hi assistant
-S:Hello
-
-Good day
-S:Good day
-
-gud day
-S:Good day
-
-goood day
-S:Good day
-
-yup Good day
-S:Good day
-
-Yup Good day
-S:Good day
-
-oh Good day
-S:Good day
-
-Morning
-S:Good morning
-
-mornin
-S:Good morning
-
-morn
-S:Good morning
-
-yup Morning
-S:Good morning
-
-Yup Morning
-S:Good morning
-
-yeah Morning
-S:Good morning
-
-Afternoon
-S:Good afternoon
-
-aftrnoon
-S:Good afternoon
-
-aftnoon
-S:Good afternoon
-
-oh Afternoon
-S:Good afternoon
-
-Oh Afternoon
-S:Good afternoon
+Yup how's it going doing
+S:Doing great
 
 yup Afternoon
 S:Good afternoon
-
-Evening
-S:Good evening
-
-evning
-S:Good evening
-
-eve
-S:Good evening
-
-ah Evening
-S:Good evening
-
-Ah Evening
-S:Good evening
-
-yeah Evening
-S:Good evening
-
-How are you doing
-S:Doing great
-
-howw are you doing
-S:Doing great
-
-ho are you doing
-S:Doing great
-
-yeah How are you doing
-S:Doing great
-
-Yeah How are you doing
-S:Doing great
-
-oh How are you doing
-S:Doing great
-
-What's going on
-S:All good
-
-what's going onn
-S:All good
-
-oh What's going on
-S:All good
-
-Oh What's going on
-S:All good
-
-yup What's going on
-S:All good
-
-Thanks a lot
-S:You're welcome
-
-thx a lot
-S:You're welcome
-
-thanx a lot
-S:You're welcome
-
-oh Thanks a lot
-S:You're welcome
-
-Oh Thanks a lot
-S:You're welcome
-
-ah Thanks a lot
-S:You're welcome
-
-Thank you so much
-S:Happy to help
-
-thank u so much
-S:Happy to help
-
-thank yu so much
-S:Happy to help
-
-yup Thank you so much
-S:Happy to help
-
-Yup Thank you so much
-S:Happy to help
-
-ah Thank you so much
-S:Happy to help
-
-See you
-S:See you
-
-see u
-S:See you
-
-see yu
-S:See you
-
-ah See you
-S:See you
-
-Ah See you
-S:See you
-
-yep See you
-S:See you
-
-Later
-S:Later
-
-yep Later
-S:Later
-
-Yep Later
-S:Later
-
-yup Later
-S:Later
-
-Hello assistant
-S:Hi there
-
-helo assistant
-S:Hi there
-
-hlo assistant
-S:Hi there
-
-oh Hello assistant
-S:Hi there
-
-Oh Hello assistant
-S:Hi there
-
-ah Hello assistant
-S:Hi there
-
-Hi assistant
-S:Hello
-
-hai assistant
-S:Hello
-
-hii assistant
-S:Hello
-
-ah Hi assistant
-S:Hello
-
-Ah Hi assistant
-S:Hello
-
-yep Hi assistant
-S:Hello
-
-Good day
-S:Good day
-
-gud day
-S:Good day
-
-goood day
-S:Good day
-
-yup Good day
-S:Good day
-
-Yup Good day
-S:Good day
-
-ah Good day
-S:Good day
-
-Morning
-S:Good morning
-
-mornin
-S:Good morning
-
-morn
-S:Good morning
-
-yup Morning
-S:Good morning
-
-Yup Morning
-S:Good morning
-
-yeah Morning
-S:Good morning
-
-Afternoon
-S:Good afternoon
-
-aftrnoon
-S:Good afternoon
-
-aftnoon
-S:Good afternoon
-
-yup Afternoon
-S:Good afternoon
-
-Yup Afternoon
-S:Good afternoon
-
-oh Afternoon
-S:Good afternoon
-
-Evening
-S:Good evening
-
-evning
-S:Good evening
-
-eve
-S:Good evening
-
-yup Evening
-S:Good evening
-
-Yup Evening
-S:Good evening
-
-ah Evening
-S:Good evening
-
-How are you doing
-S:Doing great
-
-howw are you doing
-S:Doing great
-
-ho are you doing
-S:Doing great
-
-ah How are you doing
-S:Doing great
-
-Ah How are you doing
-S:Doing great
-
-yeah How are you doing
-S:Doing great
-
-What's going on
-S:All good
-
-what's going onn
-S:All good
-
-oh What's going on
-S:All good
-
-Oh What's going on
-S:All good
-
-yup What's going on
-S:All good
-
-Thanks a lot
-S:You're welcome
-
-thx a lot
-S:You're welcome
-
-thanx a lot
-S:You're welcome
-
-ah Thanks a lot
-S:You're welcome
-
-Ah Thanks a lot
-S:You're welcome
-
-oh Thanks a lot
-S:You're welcome
-
-Thank you so much
-S:Happy to help
-
-thank u so much
-S:Happy to help
-
-thank yu so much
-S:Happy to help
-
-oh Thank you so much
-S:Happy to help
-
-Oh Thank you so much
-S:Happy to help
-
-yup Thank you so much
-S:Happy to help
-
-See you
-S:See you
-
-see u
-S:See you
-
-see yu
-S:See you
-
-yep See you
-S:See you
-
-Yep See you
-S:See you
-
-oh See you
-S:See you
-
-Later
-S:Later
-
-yup Later
-S:Later
-
-Yup Later
-S:Later
-
-yeah Later
-S:Later
-
-Hello assistant
-S:Hi there
-
-helo assistant
-S:Hi there
-
-hlo assistant
-S:Hi there
 
 yup Hello assistant
 S:Hi there
 
-Yup Hello assistant
-S:Hi there
-
-oh Hello assistant
-S:Hi there
-
-Hi assistant
-S:Hello
-
-hai assistant
-S:Hello
-
-hii assistant
-S:Hello
-
-ah Hi assistant
-S:Hello
-
-Ah Hi assistant
-S:Hello
-
-yeah Hi assistant
-S:Hello
-
-Good day
-S:Good day
-
-gud day
-S:Good day
-
-goood day
-S:Good day
-
-oh Good day
-S:Good day
-
-Oh Good day
-S:Good day
-
-yep Good day
-S:Good day
-
-Morning
-S:Good morning
-
-mornin
-S:Good morning
-
-morn
-S:Good morning
-
-yeah Morning
-S:Good morning
-
-Yeah Morning
-S:Good morning
-
-ah Morning
-S:Good morning
-
-Afternoon
-S:Good afternoon
-
-aftrnoon
-S:Good afternoon
-
-aftnoon
-S:Good afternoon
-
-yup Afternoon
-S:Good afternoon
-
-Yup Afternoon
-S:Good afternoon
-
-yep Afternoon
-S:Good afternoon
-
-Evening
-S:Good evening
-
-evning
-S:Good evening
-
-eve
-S:Good evening
-
-yeah Evening
-S:Good evening
-
-Yeah Evening
-S:Good evening
-
 ah Evening
 S:Good evening
-
-How are you doing
-S:Doing great
-
-howw are you doing
-S:Doing great
-
-ho are you doing
-S:Doing great
-
-ah How are you doing
-S:Doing great
-
-Ah How are you doing
-S:Doing great
-
-yep How are you doing
-S:Doing great
-
-What's going on
-S:All good
-
-what's going onn
-S:All good
-
-yup What's going on
-S:All good
-
-Yup What's going on
-S:All good
 
 ah What's going on
 S:All good
 
-Thanks a lot
-S:You're welcome
-
-thx a lot
-S:You're welcome
-
-thanx a lot
-S:You're welcome
-
-ah Thanks a lot
-S:You're welcome
-
-Ah Thanks a lot
-S:You're welcome
-
-yeah Thanks a lot
-S:You're welcome
-
-Thank you so much
-S:Happy to help
-
-thank u so much
-S:Happy to help
-
-thank yu so much
-S:Happy to help
-
-ah Thank you so much
-S:Happy to help
-
-Ah Thank you so much
-S:Happy to help
-
-yep Thank you so much
-S:Happy to help
-
-See you
-S:See you
-
-see u
-S:See you
-
-see yu
-S:See you
-
-yep See you
-S:See you
-
-Yep See you
-S:See you
-
-yup See you
-S:See you
-
-Later
-S:Later
-
-yup Later
-S:Later
-
-Yup Later
-S:Later
-
-yep Later
-S:Later
-
-Hello assistant
-S:Hi there
-
-helo assistant
-S:Hi there
-
-hlo assistant
-S:Hi there
-
-yeah Hello assistant
-S:Hi there
-
-Yeah Hello assistant
-S:Hi there
-
-ah Hello assistant
-S:Hi there
-
-Hi assistant
-S:Hello
-
-hai assistant
-S:Hello
-
-hii assistant
-S:Hello
-
-yeah Hi assistant
-S:Hello
-
-Yeah Hi assistant
-S:Hello
-
-yup Hi assistant
-S:Hello
-
-Good day
-S:Good day
-
-gud day
-S:Good day
-
-goood day
-S:Good day
-
-yup Good day
-S:Good day
-
-Yup Good day
-S:Good day
-
-oh Good day
-S:Good day
+Oh how's it going doing
+S:Doing great
 
 Morning
-S:Good morning
-
-mornin
-S:Good morning
-
-morn
 S:Good morning
 
 oh Morning
 S:Good morning
 
-Oh Morning
-S:Good morning
-
-yup Morning
-S:Good morning
-
-Afternoon
-S:Good afternoon
-
-aftrnoon
-S:Good afternoon
-
-aftnoon
-S:Good afternoon
-
-yeah Afternoon
-S:Good afternoon
-
-Yeah Afternoon
-S:Good afternoon
-
-oh Afternoon
-S:Good afternoon
-
-Evening
-S:Good evening
-
-evning
-S:Good evening
-
-eve
-S:Good evening
-
-oh Evening
-S:Good evening
-
-Oh Evening
-S:Good evening
-
-yup Evening
-S:Good evening
-
-How are you doing
-S:Doing great
-
-howw are you doing
-S:Doing great
-
-ho are you doing
-S:Doing great
-
-yup How are you doing
-S:Doing great
-
-Yup How are you doing
-S:Doing great
-
-oh How are you doing
-S:Doing great
-
-What's going on
-S:All good
-
-what's going onn
-S:All good
-
-yup What's going on
-S:All good
-
-Yup What's going on
-S:All good
-
-yeah What's going on
-S:All good
-
-Thanks a lot
-S:You're welcome
-
-thx a lot
-S:You're welcome
-
-thanx a lot
-S:You're welcome
-
-oh Thanks a lot
-S:You're welcome
-
-Oh Thanks a lot
-S:You're welcome
-
-ah Thanks a lot
-S:You're welcome
-
-Thank you so much
-S:Happy to help
-
-thank u so much
-S:Happy to help
-
-thank yu so much
-S:Happy to help
-
-yep Thank you so much
-S:Happy to help
-
-Yep Thank you so much
-S:Happy to help
-
-oh Thank you so much
-S:Happy to help
-
-See you
-S:See you
-
-see u
-S:See you
-
-see yu
-S:See you
-
-yup See you
-S:See you
-
-Yup See you
-S:See you
-
-yeah See you
-S:See you
-
-Later
-S:Later
-
-yeah Later
-S:Later
-
-Yeah Later
-S:Later
-
-ah Later
-S:Later
-
-Hello assistant
-S:Hi there
-
-helo assistant
-S:Hi there
-
-hlo assistant
-S:Hi there
-
-yep Hello assistant
-S:Hi there
-
-Yep Hello assistant
-S:Hi there
-
-yup Hello assistant
-S:Hi there
-
-Hi assistant
-S:Hello
-
-hai assistant
-S:Hello
-
-hii assistant
-S:Hello
-
-yeah Hi assistant
-S:Hello
-
-Yeah Hi assistant
-S:Hello
-
-ah Hi assistant
-S:Hello
-
-Good day
-S:Good day
-
-gud day
-S:Good day
-
-goood day
-S:Good day
-
-yup Good day
-S:Good day
-
-Yup Good day
-S:Good day
-
-oh Good day
-S:Good day
-
-Morning
-S:Good morning
-
-mornin
-S:Good morning
-
-morn
-S:Good morning
-
-yup Morning
-S:Good morning
-
-Yup Morning
-S:Good morning
-
-yeah Morning
-S:Good morning
-
-Afternoon
-S:Good afternoon
-
-aftrnoon
-S:Good afternoon
-
-aftnoon
-S:Good afternoon
-
-yeah Afternoon
-S:Good afternoon
-
-Yeah Afternoon
-S:Good afternoon
-
-ah Afternoon
-S:Good afternoon
-
-Evening
-S:Good evening
-
-evning
-S:Good evening
-
-eve
-S:Good evening
-
 yep Evening
 S:Good evening
-
-Yep Evening
-S:Good evening
-
-ah Evening
-S:Good evening
-
-How are you doing
-S:Doing great
-
-howw are you doing
-S:Doing great
-
-ho are you doing
-S:Doing great
-
-yeah How are you doing
-S:Doing great
-
-Yeah How are you doing
-S:Doing great
-
-ah How are you doing
-S:Doing great
-
-What's going on
-S:All good
-
-what's going onn
-S:All good
-
-yeah What's going on
-S:All good
-
-Yeah What's going on
-S:All good
-
-oh What's going on
-S:All good
-
-Thanks a lot
-S:You're welcome
-
-thx a lot
-S:You're welcome
-
-thanx a lot
-S:You're welcome
-
-yup Thanks a lot
-S:You're welcome
-
-Yup Thanks a lot
-S:You're welcome
-
-yep Thanks a lot
-S:You're welcome
-
-Thank you so much
-S:Happy to help
-
-thank u so much
-S:Happy to help
-
-thank yu so much
-S:Happy to help
-
-yep Thank you so much
-S:Happy to help
-
-Yep Thank you so much
-S:Happy to help
-
-oh Thank you so much
-S:Happy to help
-
-See you
-S:See you
-
-see u
-S:See you
-
-see yu
-S:See you
-
-yup See you
-S:See you
-
-Yup See you
-S:See you
-
-ah See you
-S:See you
-
-Later
-S:Later
-
-ah Later
-S:Later
-
-Ah Later
-S:Later
-
-yup Later
-S:Later
-
-Hello assistant
-S:Hi there
-
-helo assistant
-S:Hi there
-
-hlo assistant
-S:Hi there
-
-yep Hello assistant
-S:Hi there
-
-Yep Hello assistant
-S:Hi there
-
-oh Hello assistant
-S:Hi there
-
-Hi assistant
-S:Hello
-
-hai assistant
-S:Hello
-
-hii assistant
-S:Hello
-
-ah Hi assistant
-S:Hello
-
-Ah Hi assistant
-S:Hello
-
-yep Hi assistant
-S:Hello
-
-Good day
-S:Good day
-
-gud day
-S:Good day
-
-goood day
-S:Good day
-
-oh Good day
-S:Good day
-
-Oh Good day
-S:Good day
-
-yup Good day
-S:Good day
-
-Morning
-S:Good morning
-
-mornin
-S:Good morning
-
-morn
-S:Good morning
-
-ah Morning
-S:Good morning
-
-Ah Morning
-S:Good morning
-
-yep Morning
-S:Good morning
-
-Afternoon
-S:Good afternoon
-
-aftrnoon
-S:Good afternoon
-
-aftnoon
-S:Good afternoon
-
-oh Afternoon
-S:Good afternoon
-
-Oh Afternoon
-S:Good afternoon
-
-yeah Afternoon
-S:Good afternoon
-
-Evening
-S:Good evening
-
-evning
-S:Good evening
-
-eve
-S:Good evening
-
-yeah Evening
-S:Good evening
-
-Yeah Evening
-S:Good evening
-
-yep Evening
-S:Good evening
-
-How are you doing
-S:Doing great
-
-howw are you doing
-S:Doing great
-
-ho are you doing
-S:Doing great
-
-yup How are you doing
-S:Doing great
-
-Yup How are you doing
-S:Doing great
-
-ah How are you doing
-S:Doing great
-
-What's going on
-S:All good
-
-what's going onn
-S:All good
-
-oh What's going on
-S:All good
-
-Oh What's going on
-S:All good
-
-yep What's going on
-S:All good
-
-Thanks a lot
-S:You're welcome
-
-thx a lot
-S:You're welcome
-
-thanx a lot
-S:You're welcome
-
-oh Thanks a lot
-S:You're welcome
-
-Oh Thanks a lot
-S:You're welcome
-
-yup Thanks a lot
-S:You're welcome
-
-Thank you so much
-S:Happy to help
-
-thank u so much
-S:Happy to help
-
-thank yu so much
-S:Happy to help
-
-ah Thank you so much
-S:Happy to help
-
-Ah Thank you so much
-S:Happy to help
-
-oh Thank you so much
-S:Happy to help
-
-See you
-S:See you
-
-see u
-S:See you
-
-see yu
-S:See you
-
-yep See you
-S:See you
-
-Yep See you
-S:See you
-
-yup See you
-S:See you
-
-Later
-S:Later
-
-yup Later
-S:Later
-
-Yup Later
-S:Later
-
-oh Later
-S:Later
-
-Hello assistant
-S:Hi there
-
-helo assistant
-S:Hi there
-
-hlo assistant
-S:Hi there
 
 ah Hello assistant
 S:Hi there
 
-Ah Hello assistant
+Yup hey assistant
 S:Hi there
 
-yup Hello assistant
+Hello assistant
 S:Hi there
+
+Afternoon
+S:Good afternoon
+
+yep Thank you so much
+S:Happy to help
 
 Hi assistant
 S:Hello
 
-hai assistant
-S:Hello
-
-hii assistant
-S:Hello
-
-ah Hi assistant
-S:Hello
-
-Ah Hi assistant
-S:Hello
-
-yep Hi assistant
-S:Hello
+yep See you
+S:See you
 
 Good day
 S:Good day
 
-gud day
-S:Good day
+oh Evening
+S:Good evening
 
-goood day
-S:Good day
-
-yup Good day
-S:Good day
-
-Yup Good day
-S:Good day
-
-yeah Good day
-S:Good day
-
-Morning
-S:Good morning
+oh Thank you so much
+S:Happy to help
 
 mornin
 S:Good morning
 
-morn
+thank yu so much
+S:Happy to help
+
+ah Good day
+S:Good day
+
+Thank you so much
+S:Happy to help
+
+evning
+S:Good evening
+
+yup Morning
 S:Good morning
 
 yep Morning
 S:Good morning
 
-Yep Morning
-S:Good morning
-
-oh Morning
-S:Good morning
-
-Afternoon
-S:Good afternoon
-
 aftrnoon
 S:Good afternoon
 
-aftnoon
+Ah how do you do doing
+S:Doing great
+
+Yeah hey assistant
+S:Hi there
+
+gud day
+S:Good day
+
+ah Afternoon
 S:Good afternoon
+
+Hi assistant
+S:Hi there
+
+Oh how do you do doing
+S:Doing great
+
+yep Good day
+S:Good day
+
+yeah Morning
+S:Good morning
+
+Yeah how do you do doing
+S:Doing great
+
+yup What's going on
+S:All good
+
+ah Later
+S:Later
+
+morn
+S:Good morning
 
 yep Afternoon
 S:Good afternoon
 
-Yep Afternoon
-S:Good afternoon
-
-yeah Afternoon
-S:Good afternoon
-
-Evening
-S:Good evening
-
-evning
-S:Good evening
-
-eve
-S:Good evening
-
-yep Evening
-S:Good evening
-
-Yep Evening
-S:Good evening
-
-oh Evening
-S:Good evening
-
-How are you doing
-S:Doing great
-
-howw are you doing
-S:Doing great
-
-ho are you doing
-S:Doing great
-
-yup How are you doing
-S:Doing great
-
-Yup How are you doing
-S:Doing great
-
-yep How are you doing
-S:Doing great
-
-What's going on
-S:All good
-
-what's going onn
-S:All good
-
-yep What's going on
-S:All good
-
-Yep What's going on
-S:All good
-
-ah What's going on
-S:All good
-
-Thanks a lot
-S:You're welcome
-
-thx a lot
-S:You're welcome
-
-thanx a lot
-S:You're welcome
+see u
+S:See you
 
 ah Thanks a lot
 S:You're welcome
 
-Ah Thanks a lot
+yep How are you doing
+S:Doing great
+
+hai assistant
+S:Hello
+
+thx a lot
 S:You're welcome
 
-oh Thanks a lot
-S:You're welcome
+hlo assistant
+S:Hi there
 
-Thank you so much
-S:Happy to help
+howw are you doing
+S:Doing great
 
-thank u so much
-S:Happy to help
+yep Later
+S:Later
 
-thank yu so much
-S:Happy to help
+yeah Hi assistant
+S:Hello
 
-yeah Thank you so much
-S:Happy to help
+yup Good day
+S:Good day
 
-Yeah Thank you so much
-S:Happy to help
+oh How are you doin
+S:Doing great
 
-oh Thank you so much
+ah Thank you so much
 S:Happy to help
 
 See you
 S:See you
 
-see u
-S:See you
+ah Mornin
+S:Good morning
 
-see yu
-S:See you
+oh Hi assistant
+S:Hello
 
-yep See you
-S:See you
+oh Thnks a lot
+S:You're welcome
 
-Yep See you
-S:See you
+yup Evening
+S:Good evening
 
-ah See you
-S:See you
+ho are you doing
+S:Doing great
 
-Later
-S:Later
+yup Thank you so much
+S:Happy to help
 
-ah Later
-S:Later
+oh Good day
+S:Good day
 
-Ah Later
-S:Later
+howw are u doing
+S:Doing great
 
-oh Later
-S:Later
+Ah hi assistant
+S:Hi there
+
+ah Morning
+S:Good morning
 
