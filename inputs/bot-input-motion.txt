@@ -1,6717 +1,6717 @@
 go to kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 goo to kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 goe to kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 yep go to kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 yup go to kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 move to kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 move too kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 move tu kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 yeah move to kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 yep move to kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 navigate to kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 navigate too kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 navigate tu kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 oh navigate to kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 yep navigate to kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 go to bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 goo to bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 goe to bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 yeah go to bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 oh go to bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 move to bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 move too bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 move tu bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 yeah move to bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 yep move to bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 navigate to bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 navigate too bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 navigate tu bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 yup navigate to bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 yep navigate to bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 go to living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 goo to living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 goe to living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 oh go to living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 yup go to living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 move to living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 move too living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 move tu living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 yep move to living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 yeah move to living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 navigate to living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 navigate too living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 navigate tu living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 yep navigate to living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 ah navigate to living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 go to office
-S:okcmove,office
+S:ok;C:move,office
 
 goo to office
-S:okcmove,office
+S:ok;C:move,office
 
 goe to office
-S:okcmove,office
+S:ok;C:move,office
 
 ah go to office
-S:okcmove,office
+S:ok;C:move,office
 
 yup go to office
-S:okcmove,office
+S:ok;C:move,office
 
 move to office
-S:okcmove,office
+S:ok;C:move,office
 
 move too office
-S:okcmove,office
+S:ok;C:move,office
 
 move tu office
-S:okcmove,office
+S:ok;C:move,office
 
 yeah move to office
-S:okcmove,office
+S:ok;C:move,office
 
 yup move to office
-S:okcmove,office
+S:ok;C:move,office
 
 navigate to office
-S:okcmove,office
+S:ok;C:move,office
 
 navigate too office
-S:okcmove,office
+S:ok;C:move,office
 
 navigate tu office
-S:okcmove,office
+S:ok;C:move,office
 
 oh navigate to office
-S:okcmove,office
+S:ok;C:move,office
 
 yeah navigate to office
-S:okcmove,office
+S:ok;C:move,office
 
 go to bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 goo to bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 goe to bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 ah go to bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 oh go to bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 move to bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 move too bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 move tu bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 yep move to bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 oh move to bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 navigate to bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 navigate too bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 navigate tu bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 yep navigate to bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 oh navigate to bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 go to garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 goo to garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 goe to garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 oh go to garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 yup go to garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 move to garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 move too garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 move tu garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 yeah move to garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 yep move to garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 navigate to garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 navigate too garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 navigate tu garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 ah navigate to garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 yep navigate to garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 ah go to kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 oh go to kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 ah move to kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 oh move to kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 ah navigate to kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 yeah navigate to kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 yup go to bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 oh move to bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 ah go to living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 oh move to living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 ah move to living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 yeah navigate to living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 oh navigate to living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 yeah go to office
-S:okcmove,office
+S:ok;C:move,office
 
 oh go to office
-S:okcmove,office
+S:ok;C:move,office
 
 oh move to office
-S:okcmove,office
+S:ok;C:move,office
 
 yup navigate to office
-S:okcmove,office
+S:ok;C:move,office
 
 yep go to bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 yup move to bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 ah move to bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 yeah navigate to bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 ah navigate to bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 yep go to garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 yeah go to garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 yup move to garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 yeah navigate to garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 ah move to bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 ah navigate to bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 yeah go to living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 yep move to office
-S:okcmove,office
+S:ok;C:move,office
 
 yep navigate to office
-S:okcmove,office
+S:ok;C:move,office
 
 yeah move to bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 oh move to garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 yup navigate to kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 yep go to bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 oh navigate to bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 yup move to living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 yup navigate to living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 ah move to office
-S:okcmove,office
+S:ok;C:move,office
 
 ah navigate to office
-S:okcmove,office
+S:ok;C:move,office
 
 yup navigate to bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 oh navigate to garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 yeah go to kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 yup move to kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 ah go to bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 yep go to office
-S:okcmove,office
+S:ok;C:move,office
 
 yup go to bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 yup navigate to garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 yep go to living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 yeah navigate to bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 yeah go to bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 ah go to garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 ah move to garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 yup move to bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 head to kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 head too kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 head tu kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 ah head to kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 yep head to kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 travel to kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 travel too kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 travel tu kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 ah travel to kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 yep travel to kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 walk to kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 walk too kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 walk tu kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 ah walk to kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 yup walk to kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 head to bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 head too bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 head tu bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 yeah head to bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 oh head to bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 travel to bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 travel too bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 travel tu bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 ah travel to bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 oh travel to bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 walk to bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 walk too bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 walk tu bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 yep walk to bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 ah walk to bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 head to living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 head too living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 head tu living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 oh head to living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 yeah head to living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 travel to living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 travel too living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 travel tu living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 yep travel to living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 oh travel to living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 walk to living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 walk too living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 walk tu living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 oh walk to living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 ah walk to living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 head to office
-S:okcmove,office
+S:ok;C:move,office
 
 head too office
-S:okcmove,office
+S:ok;C:move,office
 
 head tu office
-S:okcmove,office
+S:ok;C:move,office
 
 oh head to office
-S:okcmove,office
+S:ok;C:move,office
 
 ah head to office
-S:okcmove,office
+S:ok;C:move,office
 
 travel to office
-S:okcmove,office
+S:ok;C:move,office
 
 travel too office
-S:okcmove,office
+S:ok;C:move,office
 
 travel tu office
-S:okcmove,office
+S:ok;C:move,office
 
 yep travel to office
-S:okcmove,office
+S:ok;C:move,office
 
 oh travel to office
-S:okcmove,office
+S:ok;C:move,office
 
 walk to office
-S:okcmove,office
+S:ok;C:move,office
 
 walk too office
-S:okcmove,office
+S:ok;C:move,office
 
 walk tu office
-S:okcmove,office
+S:ok;C:move,office
 
 ah walk to office
-S:okcmove,office
+S:ok;C:move,office
 
 yep walk to office
-S:okcmove,office
+S:ok;C:move,office
 
 head to bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 head too bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 head tu bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 ah head to bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 oh head to bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 travel to bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 travel too bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 travel tu bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 yep travel to bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 yup travel to bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 walk to bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 walk too bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 walk tu bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 oh walk to bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 yup walk to bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 head to garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 head too garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 head tu garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 yeah head to garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 yup head to garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 travel to garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 travel too garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 travel tu garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 yep travel to garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 yeah travel to garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 walk to garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 walk too garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 walk tu garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 yep walk to garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 oh walk to garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 go to dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 goo to dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 goe to dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 yeah go to dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 ah go to dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 move to dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 move too dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 move tu dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 yeah move to dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 oh move to dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 navigate to dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 navigate too dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 navigate tu dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 yep navigate to dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 yeah navigate to dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 head to dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 head too dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 head tu dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 yep head to dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 yup head to dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 travel to dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 travel too dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 travel tu dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 yeah travel to dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 ah travel to dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 walk to dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 walk too dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 walk tu dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 yup walk to dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 oh walk to dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 go to basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 goo to basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 goe to basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 yup go to basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 ah go to basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 move to basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 move too basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 move tu basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 yeah move to basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 ah move to basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 navigate to basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 navigate too basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 navigate tu basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 yep navigate to basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 yeah navigate to basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 head to basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 head too basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 head tu basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 oh head to basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 ah head to basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 travel to basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 travel too basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 travel tu basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 yeah travel to basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 ah travel to basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 walk to basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 walk too basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 walk tu basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 yup walk to basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 ah walk to basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 go to attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 goo to attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 goe to attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 yep go to attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 yeah go to attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 move to attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 move too attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 move tu attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 yup move to attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 oh move to attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 navigate to attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 navigate too attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 navigate tu attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 ah navigate to attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 oh navigate to attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 head to attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 head too attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 head tu attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 yeah head to attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 yup head to attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 travel to attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 travel too attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 travel tu attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 yeah travel to attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 yep travel to attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 walk to attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 walk too attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 walk tu attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 yep walk to attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 ah walk to attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 go to patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 goo to patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 goe to patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 yup go to patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 ah go to patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 move to patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 move too patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 move tu patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 yep move to patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 oh move to patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 navigate to patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 navigate too patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 navigate tu patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 yep navigate to patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 ah navigate to patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 head to patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 head too patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 head tu patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 oh head to patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 yeah head to patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 travel to patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 travel too patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 travel tu patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 yep travel to patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 yeah travel to patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 walk to patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 walk too patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 walk tu patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 yup walk to patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 ah walk to patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 go to backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 goo to backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 goe to backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 ah go to backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 yeah go to backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 move to backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 move too backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 move tu backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 oh move to backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 yep move to backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 navigate to backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 navigate too backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 navigate tu backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 ah navigate to backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 oh navigate to backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 head to backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 head too backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 head tu backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 oh head to backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 ah head to backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 travel to backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 travel too backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 travel tu backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 oh travel to backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 ah travel to backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 walk to backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 walk too backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 walk tu backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 yeah walk to backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 yup walk to backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 go to front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 goo to front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 goe to front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 yeah go to front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 ah go to front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 move to front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 move too front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 move tu front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 yup move to front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 ah move to front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 navigate to front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 navigate too front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 navigate tu front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 yep navigate to front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 ah navigate to front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 head to front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 head too front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 head tu front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 oh head to front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 yep head to front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 travel to front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 travel too front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 travel tu front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 yeah travel to front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 oh travel to front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 walk to front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 walk too front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 walk tu front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 yep walk to front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 ah walk to front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 go to garden
-S:okcmove,garden
+S:ok;C:move,garden
 
 goo to garden
-S:okcmove,garden
+S:ok;C:move,garden
 
 goe to garden
-S:okcmove,garden
+S:ok;C:move,garden
 
 ah go to garden
-S:okcmove,garden
+S:ok;C:move,garden
 
 yup go to garden
-S:okcmove,garden
+S:ok;C:move,garden
 
 move to garden
-S:okcmove,garden
+S:ok;C:move,garden
 
 move too garden
-S:okcmove,garden
+S:ok;C:move,garden
 
 move tu garden
-S:okcmove,garden
+S:ok;C:move,garden
 
 yep move to garden
-S:okcmove,garden
+S:ok;C:move,garden
 
 oh move to garden
-S:okcmove,garden
+S:ok;C:move,garden
 
 navigate to garden
-S:okcmove,garden
+S:ok;C:move,garden
 
 navigate too garden
-S:okcmove,garden
+S:ok;C:move,garden
 
 navigate tu garden
-S:okcmove,garden
+S:ok;C:move,garden
 
 yep navigate to garden
-S:okcmove,garden
+S:ok;C:move,garden
 
 yeah navigate to garden
-S:okcmove,garden
+S:ok;C:move,garden
 
 head to garden
-S:okcmove,garden
+S:ok;C:move,garden
 
 head too garden
-S:okcmove,garden
+S:ok;C:move,garden
 
 head tu garden
-S:okcmove,garden
+S:ok;C:move,garden
 
 oh head to garden
-S:okcmove,garden
+S:ok;C:move,garden
 
 yeah head to garden
-S:okcmove,garden
+S:ok;C:move,garden
 
 travel to garden
-S:okcmove,garden
+S:ok;C:move,garden
 
 travel too garden
-S:okcmove,garden
+S:ok;C:move,garden
 
 travel tu garden
-S:okcmove,garden
+S:ok;C:move,garden
 
 oh travel to garden
-S:okcmove,garden
+S:ok;C:move,garden
 
 yep travel to garden
-S:okcmove,garden
+S:ok;C:move,garden
 
 walk to garden
-S:okcmove,garden
+S:ok;C:move,garden
 
 walk too garden
-S:okcmove,garden
+S:ok;C:move,garden
 
 walk tu garden
-S:okcmove,garden
+S:ok;C:move,garden
 
 yep walk to garden
-S:okcmove,garden
+S:ok;C:move,garden
 
 oh walk to garden
-S:okcmove,garden
+S:ok;C:move,garden
 
 go to workshop
-S:okcmove,workshop
+S:ok;C:move,workshop
 
 goo to workshop
-S:okcmove,workshop
+S:ok;C:move,workshop
 
 goe to workshop
-S:okcmove,workshop
+S:ok;C:move,workshop
 
 yep go to workshop
-S:okcmove,workshop
+S:ok;C:move,workshop
 
 oh go to workshop
-S:okcmove,workshop
+S:ok;C:move,workshop
 
 move to workshop
-S:okcmove,workshop
+S:ok;C:move,workshop
 
 move too workshop
-S:okcmove,workshop
+S:ok;C:move,workshop
 
 move tu workshop
-S:okcmove,workshop
+S:ok;C:move,workshop
 
 yeah move to workshop
-S:okcmove,workshop
+S:ok;C:move,workshop
 
 ah move to workshop
-S:okcmove,workshop
+S:ok;C:move,workshop
 
 navigate to workshop
-S:okcmove,workshop
+S:ok;C:move,workshop
 
 navigate too workshop
-S:okcmove,workshop
+S:ok;C:move,workshop
 
 navigate tu workshop
-S:okcmove,workshop
+S:ok;C:move,workshop
 
 oh navigate to workshop
-S:okcmove,workshop
+S:ok;C:move,workshop
 
 ah navigate to workshop
-S:okcmove,workshop
+S:ok;C:move,workshop
 
 head to workshop
-S:okcmove,workshop
+S:ok;C:move,workshop
 
 head too workshop
-S:okcmove,workshop
+S:ok;C:move,workshop
 
 head tu workshop
-S:okcmove,workshop
+S:ok;C:move,workshop
 
 yup head to workshop
-S:okcmove,workshop
+S:ok;C:move,workshop
 
 yeah head to workshop
-S:okcmove,workshop
+S:ok;C:move,workshop
 
 travel to workshop
-S:okcmove,workshop
+S:ok;C:move,workshop
 
 travel too workshop
-S:okcmove,workshop
+S:ok;C:move,workshop
 
 travel tu workshop
-S:okcmove,workshop
+S:ok;C:move,workshop
 
 yeah travel to workshop
-S:okcmove,workshop
+S:ok;C:move,workshop
 
 oh travel to workshop
-S:okcmove,workshop
+S:ok;C:move,workshop
 
 walk to workshop
-S:okcmove,workshop
+S:ok;C:move,workshop
 
 walk too workshop
-S:okcmove,workshop
+S:ok;C:move,workshop
 
 walk tu workshop
-S:okcmove,workshop
+S:ok;C:move,workshop
 
 yeah walk to workshop
-S:okcmove,workshop
+S:ok;C:move,workshop
 
 oh walk to workshop
-S:okcmove,workshop
+S:ok;C:move,workshop
 
 go to study
-S:okcmove,study
+S:ok;C:move,study
 
 goo to study
-S:okcmove,study
+S:ok;C:move,study
 
 goe to study
-S:okcmove,study
+S:ok;C:move,study
 
 yep go to study
-S:okcmove,study
+S:ok;C:move,study
 
 oh go to study
-S:okcmove,study
+S:ok;C:move,study
 
 move to study
-S:okcmove,study
+S:ok;C:move,study
 
 move too study
-S:okcmove,study
+S:ok;C:move,study
 
 move tu study
-S:okcmove,study
+S:ok;C:move,study
 
 oh move to study
-S:okcmove,study
+S:ok;C:move,study
 
 yeah move to study
-S:okcmove,study
+S:ok;C:move,study
 
 navigate to study
-S:okcmove,study
+S:ok;C:move,study
 
 navigate too study
-S:okcmove,study
+S:ok;C:move,study
 
 navigate tu study
-S:okcmove,study
+S:ok;C:move,study
 
 ah navigate to study
-S:okcmove,study
+S:ok;C:move,study
 
 oh navigate to study
-S:okcmove,study
+S:ok;C:move,study
 
 head to study
-S:okcmove,study
+S:ok;C:move,study
 
 head too study
-S:okcmove,study
+S:ok;C:move,study
 
 head tu study
-S:okcmove,study
+S:ok;C:move,study
 
 yeah head to study
-S:okcmove,study
+S:ok;C:move,study
 
 ah head to study
-S:okcmove,study
+S:ok;C:move,study
 
 travel to study
-S:okcmove,study
+S:ok;C:move,study
 
 travel too study
-S:okcmove,study
+S:ok;C:move,study
 
 travel tu study
-S:okcmove,study
+S:ok;C:move,study
 
 oh travel to study
-S:okcmove,study
+S:ok;C:move,study
 
 yup travel to study
-S:okcmove,study
+S:ok;C:move,study
 
 walk to study
-S:okcmove,study
+S:ok;C:move,study
 
 walk too study
-S:okcmove,study
+S:ok;C:move,study
 
 walk tu study
-S:okcmove,study
+S:ok;C:move,study
 
 yep walk to study
-S:okcmove,study
+S:ok;C:move,study
 
 yeah walk to study
-S:okcmove,study
+S:ok;C:move,study
 
 go to library
-S:okcmove,library
+S:ok;C:move,library
 
 goo to library
-S:okcmove,library
+S:ok;C:move,library
 
 goe to library
-S:okcmove,library
+S:ok;C:move,library
 
 oh go to library
-S:okcmove,library
+S:ok;C:move,library
 
 yup go to library
-S:okcmove,library
+S:ok;C:move,library
 
 move to library
-S:okcmove,library
+S:ok;C:move,library
 
 move too library
-S:okcmove,library
+S:ok;C:move,library
 
 move tu library
-S:okcmove,library
+S:ok;C:move,library
 
 yeah move to library
-S:okcmove,library
+S:ok;C:move,library
 
 yep move to library
-S:okcmove,library
+S:ok;C:move,library
 
 navigate to library
-S:okcmove,library
+S:ok;C:move,library
 
 navigate too library
-S:okcmove,library
+S:ok;C:move,library
 
 navigate tu library
-S:okcmove,library
+S:ok;C:move,library
 
 ah navigate to library
-S:okcmove,library
+S:ok;C:move,library
 
 yup navigate to library
-S:okcmove,library
+S:ok;C:move,library
 
 head to library
-S:okcmove,library
+S:ok;C:move,library
 
 head too library
-S:okcmove,library
+S:ok;C:move,library
 
 head tu library
-S:okcmove,library
+S:ok;C:move,library
 
 yup head to library
-S:okcmove,library
+S:ok;C:move,library
 
 yeah head to library
-S:okcmove,library
+S:ok;C:move,library
 
 travel to library
-S:okcmove,library
+S:ok;C:move,library
 
 travel too library
-S:okcmove,library
+S:ok;C:move,library
 
 travel tu library
-S:okcmove,library
+S:ok;C:move,library
 
 yep travel to library
-S:okcmove,library
+S:ok;C:move,library
 
 ah travel to library
-S:okcmove,library
+S:ok;C:move,library
 
 walk to library
-S:okcmove,library
+S:ok;C:move,library
 
 walk too library
-S:okcmove,library
+S:ok;C:move,library
 
 walk tu library
-S:okcmove,library
+S:ok;C:move,library
 
 yup walk to library
-S:okcmove,library
+S:ok;C:move,library
 
 oh walk to library
-S:okcmove,library
+S:ok;C:move,library
 
 go to guest room
-S:okcmove,guest room
+S:ok;C:move,guest room
 
 goo to guest room
-S:okcmove,guest room
+S:ok;C:move,guest room
 
 goe to guest room
-S:okcmove,guest room
+S:ok;C:move,guest room
 
 yeah go to guest room
-S:okcmove,guest room
+S:ok;C:move,guest room
 
 ah go to guest room
-S:okcmove,guest room
+S:ok;C:move,guest room
 
 move to guest room
-S:okcmove,guest room
+S:ok;C:move,guest room
 
 move too guest room
-S:okcmove,guest room
+S:ok;C:move,guest room
 
 move tu guest room
-S:okcmove,guest room
+S:ok;C:move,guest room
 
 yep move to guest room
-S:okcmove,guest room
+S:ok;C:move,guest room
 
 oh move to guest room
-S:okcmove,guest room
+S:ok;C:move,guest room
 
 navigate to guest room
-S:okcmove,guest room
+S:ok;C:move,guest room
 
 navigate too guest room
-S:okcmove,guest room
+S:ok;C:move,guest room
 
 navigate tu guest room
-S:okcmove,guest room
+S:ok;C:move,guest room
 
 ah navigate to guest room
-S:okcmove,guest room
+S:ok;C:move,guest room
 
 yep navigate to guest room
-S:okcmove,guest room
+S:ok;C:move,guest room
 
 head to guest room
-S:okcmove,guest room
+S:ok;C:move,guest room
 
 head too guest room
-S:okcmove,guest room
+S:ok;C:move,guest room
 
 head tu guest room
-S:okcmove,guest room
+S:ok;C:move,guest room
 
 yeah head to guest room
-S:okcmove,guest room
+S:ok;C:move,guest room
 
 yep head to guest room
-S:okcmove,guest room
+S:ok;C:move,guest room
 
 travel to guest room
-S:okcmove,guest room
+S:ok;C:move,guest room
 
 travel too guest room
-S:okcmove,guest room
+S:ok;C:move,guest room
 
 travel tu guest room
-S:okcmove,guest room
+S:ok;C:move,guest room
 
 ah travel to guest room
-S:okcmove,guest room
+S:ok;C:move,guest room
 
 yup travel to guest room
-S:okcmove,guest room
+S:ok;C:move,guest room
 
 walk to guest room
-S:okcmove,guest room
+S:ok;C:move,guest room
 
 walk too guest room
-S:okcmove,guest room
+S:ok;C:move,guest room
 
 walk tu guest room
-S:okcmove,guest room
+S:ok;C:move,guest room
 
 yep walk to guest room
-S:okcmove,guest room
+S:ok;C:move,guest room
 
 ah walk to guest room
-S:okcmove,guest room
+S:ok;C:move,guest room
 
 go to master bedroom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 goo to master bedroom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 goe to master bedroom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 yep go to master bedroom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 ah go to master bedroom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 move to master bedroom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 move too master bedroom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 move tu master bedroom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 oh move to master bedroom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 yeah move to master bedroom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 navigate to master bedroom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 navigate too master bedroom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 navigate tu master bedroom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 yeah navigate to master bedroom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 yup navigate to master bedroom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 head to master bedroom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 head too master bedroom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 head tu master bedroom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 ah head to master bedroom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 yep head to master bedroom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 travel to master bedroom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 travel too master bedroom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 travel tu master bedroom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 yep travel to master bedroom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 oh travel to master bedroom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 walk to master bedroom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 walk too master bedroom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 walk tu master bedroom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 yeah walk to master bedroom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 yep walk to master bedroom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 go to hallway
-S:okcmove,hallway
+S:ok;C:move,hallway
 
 goo to hallway
-S:okcmove,hallway
+S:ok;C:move,hallway
 
 goe to hallway
-S:okcmove,hallway
+S:ok;C:move,hallway
 
 ah go to hallway
-S:okcmove,hallway
+S:ok;C:move,hallway
 
 yup go to hallway
-S:okcmove,hallway
+S:ok;C:move,hallway
 
 move to hallway
-S:okcmove,hallway
+S:ok;C:move,hallway
 
 move too hallway
-S:okcmove,hallway
+S:ok;C:move,hallway
 
 move tu hallway
-S:okcmove,hallway
+S:ok;C:move,hallway
 
 yep move to hallway
-S:okcmove,hallway
+S:ok;C:move,hallway
 
 yup move to hallway
-S:okcmove,hallway
+S:ok;C:move,hallway
 
 navigate to hallway
-S:okcmove,hallway
+S:ok;C:move,hallway
 
 navigate too hallway
-S:okcmove,hallway
+S:ok;C:move,hallway
 
 navigate tu hallway
-S:okcmove,hallway
+S:ok;C:move,hallway
 
 yup navigate to hallway
-S:okcmove,hallway
+S:ok;C:move,hallway
 
 oh navigate to hallway
-S:okcmove,hallway
+S:ok;C:move,hallway
 
 head to hallway
-S:okcmove,hallway
+S:ok;C:move,hallway
 
 head too hallway
-S:okcmove,hallway
+S:ok;C:move,hallway
 
 head tu hallway
-S:okcmove,hallway
+S:ok;C:move,hallway
 
 yeah head to hallway
-S:okcmove,hallway
+S:ok;C:move,hallway
 
 oh head to hallway
-S:okcmove,hallway
+S:ok;C:move,hallway
 
 travel to hallway
-S:okcmove,hallway
+S:ok;C:move,hallway
 
 travel too hallway
-S:okcmove,hallway
+S:ok;C:move,hallway
 
 travel tu hallway
-S:okcmove,hallway
+S:ok;C:move,hallway
 
 ah travel to hallway
-S:okcmove,hallway
+S:ok;C:move,hallway
 
 oh travel to hallway
-S:okcmove,hallway
+S:ok;C:move,hallway
 
 walk to hallway
-S:okcmove,hallway
+S:ok;C:move,hallway
 
 walk too hallway
-S:okcmove,hallway
+S:ok;C:move,hallway
 
 walk tu hallway
-S:okcmove,hallway
+S:ok;C:move,hallway
 
 oh walk to hallway
-S:okcmove,hallway
+S:ok;C:move,hallway
 
 yup walk to hallway
-S:okcmove,hallway
+S:ok;C:move,hallway
 
 go to entryway
-S:okcmove,entryway
+S:ok;C:move,entryway
 
 goo to entryway
-S:okcmove,entryway
+S:ok;C:move,entryway
 
 goe to entryway
-S:okcmove,entryway
+S:ok;C:move,entryway
 
 oh go to entryway
-S:okcmove,entryway
+S:ok;C:move,entryway
 
 yep go to entryway
-S:okcmove,entryway
+S:ok;C:move,entryway
 
 move to entryway
-S:okcmove,entryway
+S:ok;C:move,entryway
 
 move too entryway
-S:okcmove,entryway
+S:ok;C:move,entryway
 
 move tu entryway
-S:okcmove,entryway
+S:ok;C:move,entryway
 
 yeah move to entryway
-S:okcmove,entryway
+S:ok;C:move,entryway
 
 yup move to entryway
-S:okcmove,entryway
+S:ok;C:move,entryway
 
 navigate to entryway
-S:okcmove,entryway
+S:ok;C:move,entryway
 
 navigate too entryway
-S:okcmove,entryway
+S:ok;C:move,entryway
 
 navigate tu entryway
-S:okcmove,entryway
+S:ok;C:move,entryway
 
 yep navigate to entryway
-S:okcmove,entryway
+S:ok;C:move,entryway
 
 ah navigate to entryway
-S:okcmove,entryway
+S:ok;C:move,entryway
 
 head to entryway
-S:okcmove,entryway
+S:ok;C:move,entryway
 
 head too entryway
-S:okcmove,entryway
+S:ok;C:move,entryway
 
 head tu entryway
-S:okcmove,entryway
+S:ok;C:move,entryway
 
 yeah head to entryway
-S:okcmove,entryway
+S:ok;C:move,entryway
 
 yep head to entryway
-S:okcmove,entryway
+S:ok;C:move,entryway
 
 travel to entryway
-S:okcmove,entryway
+S:ok;C:move,entryway
 
 travel too entryway
-S:okcmove,entryway
+S:ok;C:move,entryway
 
 travel tu entryway
-S:okcmove,entryway
+S:ok;C:move,entryway
 
 yep travel to entryway
-S:okcmove,entryway
+S:ok;C:move,entryway
 
 oh travel to entryway
-S:okcmove,entryway
+S:ok;C:move,entryway
 
 walk to entryway
-S:okcmove,entryway
+S:ok;C:move,entryway
 
 walk too entryway
-S:okcmove,entryway
+S:ok;C:move,entryway
 
 walk tu entryway
-S:okcmove,entryway
+S:ok;C:move,entryway
 
 yeah walk to entryway
-S:okcmove,entryway
+S:ok;C:move,entryway
 
 ah walk to entryway
-S:okcmove,entryway
+S:ok;C:move,entryway
 
 go to closet
-S:okcmove,closet
+S:ok;C:move,closet
 
 goo to closet
-S:okcmove,closet
+S:ok;C:move,closet
 
 goe to closet
-S:okcmove,closet
+S:ok;C:move,closet
 
 ah go to closet
-S:okcmove,closet
+S:ok;C:move,closet
 
 yup go to closet
-S:okcmove,closet
+S:ok;C:move,closet
 
 move to closet
-S:okcmove,closet
+S:ok;C:move,closet
 
 move too closet
-S:okcmove,closet
+S:ok;C:move,closet
 
 move tu closet
-S:okcmove,closet
+S:ok;C:move,closet
 
 yup move to closet
-S:okcmove,closet
+S:ok;C:move,closet
 
 yep move to closet
-S:okcmove,closet
+S:ok;C:move,closet
 
 navigate to closet
-S:okcmove,closet
+S:ok;C:move,closet
 
 navigate too closet
-S:okcmove,closet
+S:ok;C:move,closet
 
 navigate tu closet
-S:okcmove,closet
+S:ok;C:move,closet
 
 yep navigate to closet
-S:okcmove,closet
+S:ok;C:move,closet
 
 oh navigate to closet
-S:okcmove,closet
+S:ok;C:move,closet
 
 head to closet
-S:okcmove,closet
+S:ok;C:move,closet
 
 head too closet
-S:okcmove,closet
+S:ok;C:move,closet
 
 head tu closet
-S:okcmove,closet
+S:ok;C:move,closet
 
 oh head to closet
-S:okcmove,closet
+S:ok;C:move,closet
 
 yeah head to closet
-S:okcmove,closet
+S:ok;C:move,closet
 
 travel to closet
-S:okcmove,closet
+S:ok;C:move,closet
 
 travel too closet
-S:okcmove,closet
+S:ok;C:move,closet
 
 travel tu closet
-S:okcmove,closet
+S:ok;C:move,closet
 
 yeah travel to closet
-S:okcmove,closet
+S:ok;C:move,closet
 
 ah travel to closet
-S:okcmove,closet
+S:ok;C:move,closet
 
 walk to closet
-S:okcmove,closet
+S:ok;C:move,closet
 
 walk too closet
-S:okcmove,closet
+S:ok;C:move,closet
 
 walk tu closet
-S:okcmove,closet
+S:ok;C:move,closet
 
 ah walk to closet
-S:okcmove,closet
+S:ok;C:move,closet
 
 yup walk to closet
-S:okcmove,closet
+S:ok;C:move,closet
 
 go to pantry
-S:okcmove,pantry
+S:ok;C:move,pantry
 
 goo to pantry
-S:okcmove,pantry
+S:ok;C:move,pantry
 
 goe to pantry
-S:okcmove,pantry
+S:ok;C:move,pantry
 
 yep go to pantry
-S:okcmove,pantry
+S:ok;C:move,pantry
 
 yeah go to pantry
-S:okcmove,pantry
+S:ok;C:move,pantry
 
 move to pantry
-S:okcmove,pantry
+S:ok;C:move,pantry
 
 move too pantry
-S:okcmove,pantry
+S:ok;C:move,pantry
 
 move tu pantry
-S:okcmove,pantry
+S:ok;C:move,pantry
 
 yep move to pantry
-S:okcmove,pantry
+S:ok;C:move,pantry
 
 oh move to pantry
-S:okcmove,pantry
+S:ok;C:move,pantry
 
 navigate to pantry
-S:okcmove,pantry
+S:ok;C:move,pantry
 
 navigate too pantry
-S:okcmove,pantry
+S:ok;C:move,pantry
 
 navigate tu pantry
-S:okcmove,pantry
+S:ok;C:move,pantry
 
 yeah navigate to pantry
-S:okcmove,pantry
+S:ok;C:move,pantry
 
 yup navigate to pantry
-S:okcmove,pantry
+S:ok;C:move,pantry
 
 head to pantry
-S:okcmove,pantry
+S:ok;C:move,pantry
 
 head too pantry
-S:okcmove,pantry
+S:ok;C:move,pantry
 
 head tu pantry
-S:okcmove,pantry
+S:ok;C:move,pantry
 
 oh head to pantry
-S:okcmove,pantry
+S:ok;C:move,pantry
 
 ah head to pantry
-S:okcmove,pantry
+S:ok;C:move,pantry
 
 travel to pantry
-S:okcmove,pantry
+S:ok;C:move,pantry
 
 travel too pantry
-S:okcmove,pantry
+S:ok;C:move,pantry
 
 travel tu pantry
-S:okcmove,pantry
+S:ok;C:move,pantry
 
 ah travel to pantry
-S:okcmove,pantry
+S:ok;C:move,pantry
 
 yup travel to pantry
-S:okcmove,pantry
+S:ok;C:move,pantry
 
 walk to pantry
-S:okcmove,pantry
+S:ok;C:move,pantry
 
 walk too pantry
-S:okcmove,pantry
+S:ok;C:move,pantry
 
 walk tu pantry
-S:okcmove,pantry
+S:ok;C:move,pantry
 
 ah walk to pantry
-S:okcmove,pantry
+S:ok;C:move,pantry
 
 yup walk to pantry
-S:okcmove,pantry
+S:ok;C:move,pantry
 
 go to laundry room
-S:okcmove,laundry room
+S:ok;C:move,laundry room
 
 goo to laundry room
-S:okcmove,laundry room
+S:ok;C:move,laundry room
 
 goe to laundry room
-S:okcmove,laundry room
+S:ok;C:move,laundry room
 
 yeah go to laundry room
-S:okcmove,laundry room
+S:ok;C:move,laundry room
 
 yep go to laundry room
-S:okcmove,laundry room
+S:ok;C:move,laundry room
 
 move to laundry room
-S:okcmove,laundry room
+S:ok;C:move,laundry room
 
 move too laundry room
-S:okcmove,laundry room
+S:ok;C:move,laundry room
 
 move tu laundry room
-S:okcmove,laundry room
+S:ok;C:move,laundry room
 
 oh move to laundry room
-S:okcmove,laundry room
+S:ok;C:move,laundry room
 
 yep move to laundry room
-S:okcmove,laundry room
+S:ok;C:move,laundry room
 
 navigate to laundry room
-S:okcmove,laundry room
+S:ok;C:move,laundry room
 
 navigate too laundry room
-S:okcmove,laundry room
+S:ok;C:move,laundry room
 
 navigate tu laundry room
-S:okcmove,laundry room
+S:ok;C:move,laundry room
 
 oh navigate to laundry room
-S:okcmove,laundry room
+S:ok;C:move,laundry room
 
 ah navigate to laundry room
-S:okcmove,laundry room
+S:ok;C:move,laundry room
 
 head to laundry room
-S:okcmove,laundry room
+S:ok;C:move,laundry room
 
 head too laundry room
-S:okcmove,laundry room
+S:ok;C:move,laundry room
 
 head tu laundry room
-S:okcmove,laundry room
+S:ok;C:move,laundry room
 
 oh head to laundry room
-S:okcmove,laundry room
+S:ok;C:move,laundry room
 
 yeah head to laundry room
-S:okcmove,laundry room
+S:ok;C:move,laundry room
 
 travel to laundry room
-S:okcmove,laundry room
+S:ok;C:move,laundry room
 
 travel too laundry room
-S:okcmove,laundry room
+S:ok;C:move,laundry room
 
 travel tu laundry room
-S:okcmove,laundry room
+S:ok;C:move,laundry room
 
 yeah travel to laundry room
-S:okcmove,laundry room
+S:ok;C:move,laundry room
 
 yep travel to laundry room
-S:okcmove,laundry room
+S:ok;C:move,laundry room
 
 walk to laundry room
-S:okcmove,laundry room
+S:ok;C:move,laundry room
 
 walk too laundry room
-S:okcmove,laundry room
+S:ok;C:move,laundry room
 
 walk tu laundry room
-S:okcmove,laundry room
+S:ok;C:move,laundry room
 
 oh walk to laundry room
-S:okcmove,laundry room
+S:ok;C:move,laundry room
 
 ah walk to laundry room
-S:okcmove,laundry room
+S:ok;C:move,laundry room
 
 go to storage room
-S:okcmove,storage room
+S:ok;C:move,storage room
 
 goo to storage room
-S:okcmove,storage room
+S:ok;C:move,storage room
 
 goe to storage room
-S:okcmove,storage room
+S:ok;C:move,storage room
 
 yup go to storage room
-S:okcmove,storage room
+S:ok;C:move,storage room
 
 ah go to storage room
-S:okcmove,storage room
+S:ok;C:move,storage room
 
 move to storage room
-S:okcmove,storage room
+S:ok;C:move,storage room
 
 move too storage room
-S:okcmove,storage room
+S:ok;C:move,storage room
 
 move tu storage room
-S:okcmove,storage room
+S:ok;C:move,storage room
 
 oh move to storage room
-S:okcmove,storage room
+S:ok;C:move,storage room
 
 yep move to storage room
-S:okcmove,storage room
+S:ok;C:move,storage room
 
 navigate to storage room
-S:okcmove,storage room
+S:ok;C:move,storage room
 
 navigate too storage room
-S:okcmove,storage room
+S:ok;C:move,storage room
 
 navigate tu storage room
-S:okcmove,storage room
+S:ok;C:move,storage room
 
 yup navigate to storage room
-S:okcmove,storage room
+S:ok;C:move,storage room
 
 yeah navigate to storage room
-S:okcmove,storage room
+S:ok;C:move,storage room
 
 head to storage room
-S:okcmove,storage room
+S:ok;C:move,storage room
 
 head too storage room
-S:okcmove,storage room
+S:ok;C:move,storage room
 
 head tu storage room
-S:okcmove,storage room
+S:ok;C:move,storage room
 
 ah head to storage room
-S:okcmove,storage room
+S:ok;C:move,storage room
 
 yep head to storage room
-S:okcmove,storage room
+S:ok;C:move,storage room
 
 travel to storage room
-S:okcmove,storage room
+S:ok;C:move,storage room
 
 travel too storage room
-S:okcmove,storage room
+S:ok;C:move,storage room
 
 travel tu storage room
-S:okcmove,storage room
+S:ok;C:move,storage room
 
 ah travel to storage room
-S:okcmove,storage room
+S:ok;C:move,storage room
 
 oh travel to storage room
-S:okcmove,storage room
+S:ok;C:move,storage room
 
 walk to storage room
-S:okcmove,storage room
+S:ok;C:move,storage room
 
 walk too storage room
-S:okcmove,storage room
+S:ok;C:move,storage room
 
 walk tu storage room
-S:okcmove,storage room
+S:ok;C:move,storage room
 
 yup walk to storage room
-S:okcmove,storage room
+S:ok;C:move,storage room
 
 yeah walk to storage room
-S:okcmove,storage room
+S:ok;C:move,storage room
 
 check kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 check kitchin
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 check kitchn
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 yeah check kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 yep check kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 inspect kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 inspect kitchin
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 inspect kitchn
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 yep inspect kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 oh inspect kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 look at kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 look at kitchin
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 look at kitchn
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 yep look at kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 ah look at kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 examine kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 examine kitchin
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 examine kitchn
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 oh examine kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 yep examine kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 visit kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 visit kitchin
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 visit kitchn
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 ah visit kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 yup visit kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 check bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 check bedrom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 check bedrm
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 oh check bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 yep check bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 inspect bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 inspect bedrom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 inspect bedrm
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 yup inspect bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 yeah inspect bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 look at bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 look at bedrom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 look at bedrm
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 yep look at bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 yeah look at bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 examine bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 examine bedrom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 examine bedrm
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 oh examine bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 yep examine bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 visit bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 visit bedrom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 visit bedrm
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 yup visit bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 ah visit bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 check living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 oh check living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 yep check living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 inspect living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 yup inspect living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 yeah inspect living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 look at living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 ah look at living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 yeah look at living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 examine living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 yeah examine living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 oh examine living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 visit living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 yeah visit living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 oh visit living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 check office
-S:okcmove,office
+S:ok;C:move,office
 
 ah check office
-S:okcmove,office
+S:ok;C:move,office
 
 yup check office
-S:okcmove,office
+S:ok;C:move,office
 
 inspect office
-S:okcmove,office
+S:ok;C:move,office
 
 yup inspect office
-S:okcmove,office
+S:ok;C:move,office
 
 yep inspect office
-S:okcmove,office
+S:ok;C:move,office
 
 look at office
-S:okcmove,office
+S:ok;C:move,office
 
 yup look at office
-S:okcmove,office
+S:ok;C:move,office
 
 yeah look at office
-S:okcmove,office
+S:ok;C:move,office
 
 examine office
-S:okcmove,office
+S:ok;C:move,office
 
 yup examine office
-S:okcmove,office
+S:ok;C:move,office
 
 oh examine office
-S:okcmove,office
+S:ok;C:move,office
 
 visit office
-S:okcmove,office
+S:ok;C:move,office
 
 yeah visit office
-S:okcmove,office
+S:ok;C:move,office
 
 ah visit office
-S:okcmove,office
+S:ok;C:move,office
 
 check bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 yep check bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 ah check bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 inspect bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 yeah inspect bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 yep inspect bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 look at bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 yup look at bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 oh look at bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 examine bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 yep examine bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 yup examine bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 visit bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 ah visit bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 oh visit bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 check garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 check grage
-S:okcmove,garage
+S:ok;C:move,garage
 
 check garaj
-S:okcmove,garage
+S:ok;C:move,garage
 
 yeah check garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 yup check garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 inspect garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 inspect grage
-S:okcmove,garage
+S:ok;C:move,garage
 
 inspect garaj
-S:okcmove,garage
+S:ok;C:move,garage
 
 yeah inspect garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 yep inspect garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 look at garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 look at grage
-S:okcmove,garage
+S:ok;C:move,garage
 
 look at garaj
-S:okcmove,garage
+S:ok;C:move,garage
 
 yup look at garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 oh look at garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 examine garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 examine grage
-S:okcmove,garage
+S:ok;C:move,garage
 
 examine garaj
-S:okcmove,garage
+S:ok;C:move,garage
 
 yeah examine garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 ah examine garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 visit garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 visit grage
-S:okcmove,garage
+S:ok;C:move,garage
 
 visit garaj
-S:okcmove,garage
+S:ok;C:move,garage
 
 oh visit garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 yeah visit garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 check dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 yeah check dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 yup check dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 inspect dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 ah inspect dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 yup inspect dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 look at dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 oh look at dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 ah look at dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 examine dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 oh examine dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 yup examine dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 visit dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 yup visit dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 yeah visit dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 check basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 yup check basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 oh check basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 inspect basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 yeah inspect basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 ah inspect basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 look at basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 yeah look at basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 oh look at basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 examine basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 yeah examine basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 yep examine basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 visit basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 ah visit basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 yup visit basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 check attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 yeah check attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 ah check attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 inspect attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 yup inspect attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 oh inspect attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 look at attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 yeah look at attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 ah look at attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 examine attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 yup examine attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 yeah examine attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 visit attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 ah visit attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 yep visit attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 check patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 oh check patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 yeah check patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 inspect patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 oh inspect patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 yep inspect patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 look at patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 yup look at patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 yeah look at patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 examine patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 yeah examine patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 yup examine patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 visit patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 oh visit patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 yep visit patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 check backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 yep check backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 yeah check backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 inspect backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 yeah inspect backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 ah inspect backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 look at backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 ah look at backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 oh look at backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 examine backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 ah examine backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 oh examine backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 visit backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 yup visit backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 ah visit backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 check front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 ah check front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 yeah check front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 inspect front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 ah inspect front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 yep inspect front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 look at front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 yup look at front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 yeah look at front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 examine front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 yup examine front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 yep examine front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 visit front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 oh visit front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 yeah visit front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 run to kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 run too kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 run tu kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 oh run to kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 yup run to kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 run into kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 run into kitchin
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 run into kitchn
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 yep run into kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 yeah run into kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 hurry to kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 hurry too kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 hurry tu kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 yeah hurry to kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 ah hurry to kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 rush to kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 rush too kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 rush tu kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 yeah rush to kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 yup rush to kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 sprint to kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 sprint too kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 sprint tu kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 ah sprint to kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 yeah sprint to kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 run to bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 run too bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 run tu bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 ah run to bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 oh run to bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 run into bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 run into bedrom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 run into bedrm
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 yup run into bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 ah run into bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 hurry to bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 hurry too bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 hurry tu bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 yep hurry to bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 yeah hurry to bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 rush to bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 rush too bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 rush tu bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 ah rush to bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 yup rush to bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 sprint to bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 sprint too bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 sprint tu bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 yep sprint to bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 oh sprint to bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 run to living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 run too living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 run tu living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 oh run to living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 yeah run to living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 run into living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 ah run into living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 yeah run into living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 hurry to living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 hurry too living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 hurry tu living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 yeah hurry to living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 ah hurry to living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 rush to living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 rush too living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 rush tu living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 yeah rush to living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 oh rush to living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 sprint to living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 sprint too living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 sprint tu living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 yup sprint to living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 oh sprint to living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 run to office
-S:okcmove,office
+S:ok;C:move,office
 
 run too office
-S:okcmove,office
+S:ok;C:move,office
 
 run tu office
-S:okcmove,office
+S:ok;C:move,office
 
 yup run to office
-S:okcmove,office
+S:ok;C:move,office
 
 oh run to office
-S:okcmove,office
+S:ok;C:move,office
 
 run into office
-S:okcmove,office
+S:ok;C:move,office
 
 yup run into office
-S:okcmove,office
+S:ok;C:move,office
 
 yeah run into office
-S:okcmove,office
+S:ok;C:move,office
 
 hurry to office
-S:okcmove,office
+S:ok;C:move,office
 
 hurry too office
-S:okcmove,office
+S:ok;C:move,office
 
 hurry tu office
-S:okcmove,office
+S:ok;C:move,office
 
 yeah hurry to office
-S:okcmove,office
+S:ok;C:move,office
 
 yup hurry to office
-S:okcmove,office
+S:ok;C:move,office
 
 rush to office
-S:okcmove,office
+S:ok;C:move,office
 
 rush too office
-S:okcmove,office
+S:ok;C:move,office
 
 rush tu office
-S:okcmove,office
+S:ok;C:move,office
 
 oh rush to office
-S:okcmove,office
+S:ok;C:move,office
 
 yep rush to office
-S:okcmove,office
+S:ok;C:move,office
 
 sprint to office
-S:okcmove,office
+S:ok;C:move,office
 
 sprint too office
-S:okcmove,office
+S:ok;C:move,office
 
 sprint tu office
-S:okcmove,office
+S:ok;C:move,office
 
 yep sprint to office
-S:okcmove,office
+S:ok;C:move,office
 
 yup sprint to office
-S:okcmove,office
+S:ok;C:move,office
 
 run to bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 run too bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 run tu bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 yep run to bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 oh run to bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 run into bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 oh run into bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 ah run into bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 hurry to bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 hurry too bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 hurry tu bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 ah hurry to bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 yep hurry to bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 rush to bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 rush too bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 rush tu bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 ah rush to bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 yep rush to bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 sprint to bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 sprint too bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 sprint tu bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 yeah sprint to bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 oh sprint to bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 run to garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 run too garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 run tu garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 yup run to garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 yeah run to garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 run into garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 run into grage
-S:okcmove,garage
+S:ok;C:move,garage
 
 run into garaj
-S:okcmove,garage
+S:ok;C:move,garage
 
 yeah run into garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 oh run into garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 hurry to garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 hurry too garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 hurry tu garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 oh hurry to garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 yup hurry to garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 rush to garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 rush too garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 rush tu garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 ah rush to garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 yep rush to garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 sprint to garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 sprint too garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 sprint tu garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 ah sprint to garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 yeah sprint to garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 run to dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 run too dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 run tu dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 yup run to dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 ah run to dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 run into dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 yep run into dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 oh run into dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 hurry to dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 hurry too dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 hurry tu dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 yeah hurry to dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 ah hurry to dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 rush to dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 rush too dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 rush tu dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 yeah rush to dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 yep rush to dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 sprint to dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 sprint too dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 sprint tu dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 oh sprint to dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 yup sprint to dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 run to basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 run too basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 run tu basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 oh run to basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 yep run to basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 run into basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 oh run into basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 ah run into basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 hurry to basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 hurry too basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 hurry tu basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 ah hurry to basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 yup hurry to basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 rush to basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 rush too basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 rush tu basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 yup rush to basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 ah rush to basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 sprint to basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 sprint too basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 sprint tu basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 oh sprint to basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 ah sprint to basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 run to attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 run too attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 run tu attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 oh run to attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 yup run to attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 run into attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 oh run into attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 ah run into attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 hurry to attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 hurry too attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 hurry tu attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 yep hurry to attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 yup hurry to attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 rush to attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 rush too attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 rush tu attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 yup rush to attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 oh rush to attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 sprint to attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 sprint too attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 sprint tu attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 oh sprint to attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 yup sprint to attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 run to patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 run too patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 run tu patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 yup run to patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 yep run to patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 run into patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 ah run into patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 yep run into patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 hurry to patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 hurry too patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 hurry tu patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 yeah hurry to patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 yup hurry to patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 rush to patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 rush too patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 rush tu patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 yup rush to patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 yep rush to patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 sprint to patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 sprint too patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 sprint tu patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 yep sprint to patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 ah sprint to patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 run to backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 run too backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 run tu backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 yup run to backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 oh run to backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 run into backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 yeah run into backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 yep run into backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 hurry to backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 hurry too backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 hurry tu backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 yep hurry to backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 oh hurry to backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 rush to backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 rush too backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 rush tu backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 yep rush to backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 yup rush to backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 sprint to backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 sprint too backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 sprint tu backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 ah sprint to backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 yeah sprint to backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 run to front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 run too front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 run tu front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 yup run to front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 yeah run to front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 run into front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 yep run into front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 oh run into front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 hurry to front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 hurry too front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 hurry tu front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 yeah hurry to front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 yep hurry to front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 rush to front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 rush too front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 rush tu front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 yup rush to front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 yep rush to front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 sprint to front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 sprint too front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 sprint tu front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 oh sprint to front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 yup sprint to front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 run to garden
-S:okcmove,garden
+S:ok;C:move,garden
 
 run too garden
-S:okcmove,garden
+S:ok;C:move,garden
 
 run tu garden
-S:okcmove,garden
+S:ok;C:move,garden
 
 yeah run to garden
-S:okcmove,garden
+S:ok;C:move,garden
 
 oh run to garden
-S:okcmove,garden
+S:ok;C:move,garden
 
 run into garden
-S:okcmove,garden
+S:ok;C:move,garden
 
 ah run into garden
-S:okcmove,garden
+S:ok;C:move,garden
 
 yup run into garden
-S:okcmove,garden
+S:ok;C:move,garden
 
 hurry to garden
-S:okcmove,garden
+S:ok;C:move,garden
 
 hurry too garden
-S:okcmove,garden
+S:ok;C:move,garden
 
 hurry tu garden
-S:okcmove,garden
+S:ok;C:move,garden
 
 yep hurry to garden
-S:okcmove,garden
+S:ok;C:move,garden
 
 yeah hurry to garden
-S:okcmove,garden
+S:ok;C:move,garden
 
 rush to garden
-S:okcmove,garden
+S:ok;C:move,garden
 
 rush too garden
-S:okcmove,garden
+S:ok;C:move,garden
 
 rush tu garden
-S:okcmove,garden
+S:ok;C:move,garden
 
 oh rush to garden
-S:okcmove,garden
+S:ok;C:move,garden
 
 yup rush to garden
-S:okcmove,garden
+S:ok;C:move,garden
 
 sprint to garden
-S:okcmove,garden
+S:ok;C:move,garden
 
 sprint too garden
-S:okcmove,garden
+S:ok;C:move,garden
 
 sprint tu garden
-S:okcmove,garden
+S:ok;C:move,garden
 
 ah sprint to garden
-S:okcmove,garden
+S:ok;C:move,garden
 
 yep sprint to garden
-S:okcmove,garden
+S:ok;C:move,garden
 
 run to workshop
-S:okcmove,workshop
+S:ok;C:move,workshop
 
 run too workshop
-S:okcmove,workshop
+S:ok;C:move,workshop
 
 run tu workshop
-S:okcmove,workshop
+S:ok;C:move,workshop
 
 yeah run to workshop
-S:okcmove,workshop
+S:ok;C:move,workshop
 
 oh run to workshop
-S:okcmove,workshop
+S:ok;C:move,workshop
 
 run into workshop
-S:okcmove,workshop
+S:ok;C:move,workshop
 
 yup run into workshop
-S:okcmove,workshop
+S:ok;C:move,workshop
 
 ah run into workshop
-S:okcmove,workshop
+S:ok;C:move,workshop
 
 hurry to workshop
-S:okcmove,workshop
+S:ok;C:move,workshop
 
 hurry too workshop
-S:okcmove,workshop
+S:ok;C:move,workshop
 
 hurry tu workshop
-S:okcmove,workshop
+S:ok;C:move,workshop
 
 yeah hurry to workshop
-S:okcmove,workshop
+S:ok;C:move,workshop
 
 oh hurry to workshop
-S:okcmove,workshop
+S:ok;C:move,workshop
 
 rush to workshop
-S:okcmove,workshop
+S:ok;C:move,workshop
 
 rush too workshop
-S:okcmove,workshop
+S:ok;C:move,workshop
 
 rush tu workshop
-S:okcmove,workshop
+S:ok;C:move,workshop
 
 yep rush to workshop
-S:okcmove,workshop
+S:ok;C:move,workshop
 
 oh rush to workshop
-S:okcmove,workshop
+S:ok;C:move,workshop
 
 sprint to workshop
-S:okcmove,workshop
+S:ok;C:move,workshop
 
 sprint too workshop
-S:okcmove,workshop
+S:ok;C:move,workshop
 
 sprint tu workshop
-S:okcmove,workshop
+S:ok;C:move,workshop
 
 ah sprint to workshop
-S:okcmove,workshop
+S:ok;C:move,workshop
 
 oh sprint to workshop
-S:okcmove,workshop
+S:ok;C:move,workshop
 
 run to study
-S:okcmove,study
+S:ok;C:move,study
 
 run too study
-S:okcmove,study
+S:ok;C:move,study
 
 run tu study
-S:okcmove,study
+S:ok;C:move,study
 
 yeah run to study
-S:okcmove,study
+S:ok;C:move,study
 
 ah run to study
-S:okcmove,study
+S:ok;C:move,study
 
 run into study
-S:okcmove,study
+S:ok;C:move,study
 
 oh run into study
-S:okcmove,study
+S:ok;C:move,study
 
 yup run into study
-S:okcmove,study
+S:ok;C:move,study
 
 hurry to study
-S:okcmove,study
+S:ok;C:move,study
 
 hurry too study
-S:okcmove,study
+S:ok;C:move,study
 
 hurry tu study
-S:okcmove,study
+S:ok;C:move,study
 
 oh hurry to study
-S:okcmove,study
+S:ok;C:move,study
 
 yep hurry to study
-S:okcmove,study
+S:ok;C:move,study
 
 rush to study
-S:okcmove,study
+S:ok;C:move,study
 
 rush too study
-S:okcmove,study
+S:ok;C:move,study
 
 rush tu study
-S:okcmove,study
+S:ok;C:move,study
 
 yeah rush to study
-S:okcmove,study
+S:ok;C:move,study
 
 yep rush to study
-S:okcmove,study
+S:ok;C:move,study
 
 sprint to study
-S:okcmove,study
+S:ok;C:move,study
 
 sprint too study
-S:okcmove,study
+S:ok;C:move,study
 
 sprint tu study
-S:okcmove,study
+S:ok;C:move,study
 
 oh sprint to study
-S:okcmove,study
+S:ok;C:move,study
 
 ah sprint to study
-S:okcmove,study
+S:ok;C:move,study
 
 run to library
-S:okcmove,library
+S:ok;C:move,library
 
 run too library
-S:okcmove,library
+S:ok;C:move,library
 
 run tu library
-S:okcmove,library
+S:ok;C:move,library
 
 ah run to library
-S:okcmove,library
+S:ok;C:move,library
 
 yep run to library
-S:okcmove,library
+S:ok;C:move,library
 
 run into library
-S:okcmove,library
+S:ok;C:move,library
 
 yeah run into library
-S:okcmove,library
+S:ok;C:move,library
 
 oh run into library
-S:okcmove,library
+S:ok;C:move,library
 
 hurry to library
-S:okcmove,library
+S:ok;C:move,library
 
 hurry too library
-S:okcmove,library
+S:ok;C:move,library
 
 hurry tu library
-S:okcmove,library
+S:ok;C:move,library
 
 yup hurry to library
-S:okcmove,library
+S:ok;C:move,library
 
 oh hurry to library
-S:okcmove,library
+S:ok;C:move,library
 
 rush to library
-S:okcmove,library
+S:ok;C:move,library
 
 rush too library
-S:okcmove,library
+S:ok;C:move,library
 
 rush tu library
-S:okcmove,library
+S:ok;C:move,library
 
 oh rush to library
-S:okcmove,library
+S:ok;C:move,library
 
 yep rush to library
-S:okcmove,library
+S:ok;C:move,library
 
 sprint to library
-S:okcmove,library
+S:ok;C:move,library
 
 sprint too library
-S:okcmove,library
+S:ok;C:move,library
 
 sprint tu library
-S:okcmove,library
+S:ok;C:move,library
 
 yup sprint to library
-S:okcmove,library
+S:ok;C:move,library
 
 yep sprint to library
-S:okcmove,library
+S:ok;C:move,library
 
 run to guest room
-S:okcmove,guest room
+S:ok;C:move,guest room
 
 run too guest room
-S:okcmove,guest room
+S:ok;C:move,guest room
 
 run tu guest room
-S:okcmove,guest room
+S:ok;C:move,guest room
 
 yup run to guest room
-S:okcmove,guest room
+S:ok;C:move,guest room
 
 ah run to guest room
-S:okcmove,guest room
+S:ok;C:move,guest room
 
 run into guest room
-S:okcmove,guest room
+S:ok;C:move,guest room
 
 ah run into guest room
-S:okcmove,guest room
+S:ok;C:move,guest room
 
 yup run into guest room
-S:okcmove,guest room
+S:ok;C:move,guest room
 
 hurry to guest room
-S:okcmove,guest room
+S:ok;C:move,guest room
 
 hurry too guest room
-S:okcmove,guest room
+S:ok;C:move,guest room
 
 hurry tu guest room
-S:okcmove,guest room
+S:ok;C:move,guest room
 
 yeah hurry to guest room
-S:okcmove,guest room
+S:ok;C:move,guest room
 
 yep hurry to guest room
-S:okcmove,guest room
+S:ok;C:move,guest room
 
 rush to guest room
-S:okcmove,guest room
+S:ok;C:move,guest room
 
 rush too guest room
-S:okcmove,guest room
+S:ok;C:move,guest room
 
 rush tu guest room
-S:okcmove,guest room
+S:ok;C:move,guest room
 
 yeah rush to guest room
-S:okcmove,guest room
+S:ok;C:move,guest room
 
 oh rush to guest room
-S:okcmove,guest room
+S:ok;C:move,guest room
 
 sprint to guest room
-S:okcmove,guest room
+S:ok;C:move,guest room
 
 sprint too guest room
-S:okcmove,guest room
+S:ok;C:move,guest room
 
 sprint tu guest room
-S:okcmove,guest room
+S:ok;C:move,guest room
 
 yup sprint to guest room
-S:okcmove,guest room
+S:ok;C:move,guest room
 
 yeah sprint to guest room
-S:okcmove,guest room
+S:ok;C:move,guest room
 
 run to master bedroom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 run too master bedroom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 run tu master bedroom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 yep run to master bedroom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 yup run to master bedroom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 run into master bedroom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 run into master bedrom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 run into master bedrm
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 yeah run into master bedroom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 yep run into master bedroom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 hurry to master bedroom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 hurry too master bedroom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 hurry tu master bedroom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 ah hurry to master bedroom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 oh hurry to master bedroom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 rush to master bedroom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 rush too master bedroom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 rush tu master bedroom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 oh rush to master bedroom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 yep rush to master bedroom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 sprint to master bedroom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 sprint too master bedroom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 sprint tu master bedroom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 yeah sprint to master bedroom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 yep sprint to master bedroom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 run to hallway
-S:okcmove,hallway
+S:ok;C:move,hallway
 
 run too hallway
-S:okcmove,hallway
+S:ok;C:move,hallway
 
 run tu hallway
-S:okcmove,hallway
+S:ok;C:move,hallway
 
 yep run to hallway
-S:okcmove,hallway
+S:ok;C:move,hallway
 
 oh run to hallway
-S:okcmove,hallway
+S:ok;C:move,hallway
 
 run into hallway
-S:okcmove,hallway
+S:ok;C:move,hallway
 
 yeah run into hallway
-S:okcmove,hallway
+S:ok;C:move,hallway
 
 ah run into hallway
-S:okcmove,hallway
+S:ok;C:move,hallway
 
 hurry to hallway
-S:okcmove,hallway
+S:ok;C:move,hallway
 
 hurry too hallway
-S:okcmove,hallway
+S:ok;C:move,hallway
 
 hurry tu hallway
-S:okcmove,hallway
+S:ok;C:move,hallway
 
 ah hurry to hallway
-S:okcmove,hallway
+S:ok;C:move,hallway
 
 yep hurry to hallway
-S:okcmove,hallway
+S:ok;C:move,hallway
 
 rush to hallway
-S:okcmove,hallway
+S:ok;C:move,hallway
 
 rush too hallway
-S:okcmove,hallway
+S:ok;C:move,hallway
 
 rush tu hallway
-S:okcmove,hallway
+S:ok;C:move,hallway
 
 yeah rush to hallway
-S:okcmove,hallway
+S:ok;C:move,hallway
 
 yup rush to hallway
-S:okcmove,hallway
+S:ok;C:move,hallway
 
 sprint to hallway
-S:okcmove,hallway
+S:ok;C:move,hallway
 
 sprint too hallway
-S:okcmove,hallway
+S:ok;C:move,hallway
 
 sprint tu hallway
-S:okcmove,hallway
+S:ok;C:move,hallway
 
 ah sprint to hallway
-S:okcmove,hallway
+S:ok;C:move,hallway
 
 yup sprint to hallway
-S:okcmove,hallway
+S:ok;C:move,hallway
 
 run to entryway
-S:okcmove,entryway
+S:ok;C:move,entryway
 
 run too entryway
-S:okcmove,entryway
+S:ok;C:move,entryway
 
 run tu entryway
-S:okcmove,entryway
+S:ok;C:move,entryway
 
 yep run to entryway
-S:okcmove,entryway
+S:ok;C:move,entryway
 
 yeah run to entryway
-S:okcmove,entryway
+S:ok;C:move,entryway
 
 run into entryway
-S:okcmove,entryway
+S:ok;C:move,entryway
 
 yup run into entryway
-S:okcmove,entryway
+S:ok;C:move,entryway
 
 yep run into entryway
-S:okcmove,entryway
+S:ok;C:move,entryway
 
 hurry to entryway
-S:okcmove,entryway
+S:ok;C:move,entryway
 
 hurry too entryway
-S:okcmove,entryway
+S:ok;C:move,entryway
 
 hurry tu entryway
-S:okcmove,entryway
+S:ok;C:move,entryway
 
 yup hurry to entryway
-S:okcmove,entryway
+S:ok;C:move,entryway
 
 yeah hurry to entryway
-S:okcmove,entryway
+S:ok;C:move,entryway
 
 rush to entryway
-S:okcmove,entryway
+S:ok;C:move,entryway
 
 rush too entryway
-S:okcmove,entryway
+S:ok;C:move,entryway
 
 rush tu entryway
-S:okcmove,entryway
+S:ok;C:move,entryway
 
 yup rush to entryway
-S:okcmove,entryway
+S:ok;C:move,entryway
 
 yeah rush to entryway
-S:okcmove,entryway
+S:ok;C:move,entryway
 
 sprint to entryway
-S:okcmove,entryway
+S:ok;C:move,entryway
 
 sprint too entryway
-S:okcmove,entryway
+S:ok;C:move,entryway
 
 sprint tu entryway
-S:okcmove,entryway
+S:ok;C:move,entryway
 
 yeah sprint to entryway
-S:okcmove,entryway
+S:ok;C:move,entryway
 
 yep sprint to entryway
-S:okcmove,entryway
+S:ok;C:move,entryway
 
 run to closet
-S:okcmove,closet
+S:ok;C:move,closet
 
 run too closet
-S:okcmove,closet
+S:ok;C:move,closet
 
 run tu closet
-S:okcmove,closet
+S:ok;C:move,closet
 
 oh run to closet
-S:okcmove,closet
+S:ok;C:move,closet
 
 yup run to closet
-S:okcmove,closet
+S:ok;C:move,closet
 
 run into closet
-S:okcmove,closet
+S:ok;C:move,closet
 
 yeah run into closet
-S:okcmove,closet
+S:ok;C:move,closet
 
 ah run into closet
-S:okcmove,closet
+S:ok;C:move,closet
 
 hurry to closet
-S:okcmove,closet
+S:ok;C:move,closet
 
 hurry too closet
-S:okcmove,closet
+S:ok;C:move,closet
 
 hurry tu closet
-S:okcmove,closet
+S:ok;C:move,closet
 
 yup hurry to closet
-S:okcmove,closet
+S:ok;C:move,closet
 
 yeah hurry to closet
-S:okcmove,closet
+S:ok;C:move,closet
 
 rush to closet
-S:okcmove,closet
+S:ok;C:move,closet
 
 rush too closet
-S:okcmove,closet
+S:ok;C:move,closet
 
 rush tu closet
-S:okcmove,closet
+S:ok;C:move,closet
 
 oh rush to closet
-S:okcmove,closet
+S:ok;C:move,closet
 
 yeah rush to closet
-S:okcmove,closet
+S:ok;C:move,closet
 
 sprint to closet
-S:okcmove,closet
+S:ok;C:move,closet
 
 sprint too closet
-S:okcmove,closet
+S:ok;C:move,closet
 
 sprint tu closet
-S:okcmove,closet
+S:ok;C:move,closet
 
 yup sprint to closet
-S:okcmove,closet
+S:ok;C:move,closet
 
 oh sprint to closet
-S:okcmove,closet
+S:ok;C:move,closet
 
 run to pantry
-S:okcmove,pantry
+S:ok;C:move,pantry
 
 run too pantry
-S:okcmove,pantry
+S:ok;C:move,pantry
 
 run tu pantry
-S:okcmove,pantry
+S:ok;C:move,pantry
 
 ah run to pantry
-S:okcmove,pantry
+S:ok;C:move,pantry
 
 oh run to pantry
-S:okcmove,pantry
+S:ok;C:move,pantry
 
 run into pantry
-S:okcmove,pantry
+S:ok;C:move,pantry
 
 yep run into pantry
-S:okcmove,pantry
+S:ok;C:move,pantry
 
 yeah run into pantry
-S:okcmove,pantry
+S:ok;C:move,pantry
 
 hurry to pantry
-S:okcmove,pantry
+S:ok;C:move,pantry
 
 hurry too pantry
-S:okcmove,pantry
+S:ok;C:move,pantry
 
 hurry tu pantry
-S:okcmove,pantry
+S:ok;C:move,pantry
 
 oh hurry to pantry
-S:okcmove,pantry
+S:ok;C:move,pantry
 
 ah hurry to pantry
-S:okcmove,pantry
+S:ok;C:move,pantry
 
 rush to pantry
-S:okcmove,pantry
+S:ok;C:move,pantry
 
 rush too pantry
-S:okcmove,pantry
+S:ok;C:move,pantry
 
 rush tu pantry
-S:okcmove,pantry
+S:ok;C:move,pantry
 
 yep rush to pantry
-S:okcmove,pantry
+S:ok;C:move,pantry
 
 yeah rush to pantry
-S:okcmove,pantry
+S:ok;C:move,pantry
 
 sprint to pantry
-S:okcmove,pantry
+S:ok;C:move,pantry
 
 sprint too pantry
-S:okcmove,pantry
+S:ok;C:move,pantry
 
 sprint tu pantry
-S:okcmove,pantry
+S:ok;C:move,pantry
 
 yeah sprint to pantry
-S:okcmove,pantry
+S:ok;C:move,pantry
 
 oh sprint to pantry
-S:okcmove,pantry
+S:ok;C:move,pantry
 
 run to laundry room
-S:okcmove,laundry room
+S:ok;C:move,laundry room
 
 run too laundry room
-S:okcmove,laundry room
+S:ok;C:move,laundry room
 
 run tu laundry room
-S:okcmove,laundry room
+S:ok;C:move,laundry room
 
 oh run to laundry room
-S:okcmove,laundry room
+S:ok;C:move,laundry room
 
 yeah run to laundry room
-S:okcmove,laundry room
+S:ok;C:move,laundry room
 
 run into laundry room
-S:okcmove,laundry room
+S:ok;C:move,laundry room
 
 ah run into laundry room
-S:okcmove,laundry room
+S:ok;C:move,laundry room
 
 yep run into laundry room
-S:okcmove,laundry room
+S:ok;C:move,laundry room
 
 hurry to laundry room
-S:okcmove,laundry room
+S:ok;C:move,laundry room
 
 hurry too laundry room
-S:okcmove,laundry room
+S:ok;C:move,laundry room
 
 hurry tu laundry room
-S:okcmove,laundry room
+S:ok;C:move,laundry room
 
 ah hurry to laundry room
-S:okcmove,laundry room
+S:ok;C:move,laundry room
 
 yup hurry to laundry room
-S:okcmove,laundry room
+S:ok;C:move,laundry room
 
 rush to laundry room
-S:okcmove,laundry room
+S:ok;C:move,laundry room
 
 rush too laundry room
-S:okcmove,laundry room
+S:ok;C:move,laundry room
 
 rush tu laundry room
-S:okcmove,laundry room
+S:ok;C:move,laundry room
 
 yep rush to laundry room
-S:okcmove,laundry room
+S:ok;C:move,laundry room
 
 yeah rush to laundry room
-S:okcmove,laundry room
+S:ok;C:move,laundry room
 
 sprint to laundry room
-S:okcmove,laundry room
+S:ok;C:move,laundry room
 
 sprint too laundry room
-S:okcmove,laundry room
+S:ok;C:move,laundry room
 
 sprint tu laundry room
-S:okcmove,laundry room
+S:ok;C:move,laundry room
 
 ah sprint to laundry room
-S:okcmove,laundry room
+S:ok;C:move,laundry room
 
 oh sprint to laundry room
-S:okcmove,laundry room
+S:ok;C:move,laundry room
 
 run to storage room
-S:okcmove,storage room
+S:ok;C:move,storage room
 
 run too storage room
-S:okcmove,storage room
+S:ok;C:move,storage room
 
 run tu storage room
-S:okcmove,storage room
+S:ok;C:move,storage room
 
 yup run to storage room
-S:okcmove,storage room
+S:ok;C:move,storage room
 
 ah run to storage room
-S:okcmove,storage room
+S:ok;C:move,storage room
 
 run into storage room
-S:okcmove,storage room
+S:ok;C:move,storage room
 
 yeah run into storage room
-S:okcmove,storage room
+S:ok;C:move,storage room
 
 oh run into storage room
-S:okcmove,storage room
+S:ok;C:move,storage room
 
 hurry to storage room
-S:okcmove,storage room
+S:ok;C:move,storage room
 
 hurry too storage room
-S:okcmove,storage room
+S:ok;C:move,storage room
 
 hurry tu storage room
-S:okcmove,storage room
+S:ok;C:move,storage room
 
 yup hurry to storage room
-S:okcmove,storage room
+S:ok;C:move,storage room
 
 yeah hurry to storage room
-S:okcmove,storage room
+S:ok;C:move,storage room
 
 rush to storage room
-S:okcmove,storage room
+S:ok;C:move,storage room
 
 rush too storage room
-S:okcmove,storage room
+S:ok;C:move,storage room
 
 rush tu storage room
-S:okcmove,storage room
+S:ok;C:move,storage room
 
 ah rush to storage room
-S:okcmove,storage room
+S:ok;C:move,storage room
 
 yup rush to storage room
-S:okcmove,storage room
+S:ok;C:move,storage room
 
 sprint to storage room
-S:okcmove,storage room
+S:ok;C:move,storage room
 
 sprint too storage room
-S:okcmove,storage room
+S:ok;C:move,storage room
 
 sprint tu storage room
-S:okcmove,storage room
+S:ok;C:move,storage room
 
 yeah sprint to storage room
-S:okcmove,storage room
+S:ok;C:move,storage room
 
 yep sprint to storage room
-S:okcmove,storage room
+S:ok;C:move,storage room
 
 check other room - kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 check other room - kitchin
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 check other room - kitchn
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 yeah check other room - kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 yup check other room - kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 check the kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 check teh kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 check da kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 yep check the kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 yup check the kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 yeah inspect kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 ah inspect kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 look in kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 look in kitchin
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 look in kitchn
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 oh look in kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 yup look in kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 go check kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 goo check kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 goe check kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 ah go check kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 yeah go check kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 check other room - bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 check other room - bedrom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 check other room - bedrm
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 yeah check other room - bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 yep check other room - bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 check the bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 check teh bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 check da bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 yep check the bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 oh check the bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 ah inspect bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 look in bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 look in bedrom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 look in bedrm
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 yep look in bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 yup look in bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 go check bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 goo check bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 goe check bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 oh go check bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 yep go check bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 check other room - living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 oh check other room - living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 yup check other room - living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 check the living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 check teh living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 check da living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 yup check the living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 ah check the living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 oh inspect living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 look in living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 oh look in living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 yep look in living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 go check living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 goo check living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 goe check living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 oh go check living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 yep go check living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 check other room - office
-S:okcmove,office
+S:ok;C:move,office
 
 yup check other room - office
-S:okcmove,office
+S:ok;C:move,office
 
 yeah check other room - office
-S:okcmove,office
+S:ok;C:move,office
 
 check the office
-S:okcmove,office
+S:ok;C:move,office
 
 check teh office
-S:okcmove,office
+S:ok;C:move,office
 
 check da office
-S:okcmove,office
+S:ok;C:move,office
 
 yep check the office
-S:okcmove,office
+S:ok;C:move,office
 
 oh check the office
-S:okcmove,office
+S:ok;C:move,office
 
 oh inspect office
-S:okcmove,office
+S:ok;C:move,office
 
 look in office
-S:okcmove,office
+S:ok;C:move,office
 
 ah look in office
-S:okcmove,office
+S:ok;C:move,office
 
 yup look in office
-S:okcmove,office
+S:ok;C:move,office
 
 go check office
-S:okcmove,office
+S:ok;C:move,office
 
 goo check office
-S:okcmove,office
+S:ok;C:move,office
 
 goe check office
-S:okcmove,office
+S:ok;C:move,office
 
 yup go check office
-S:okcmove,office
+S:ok;C:move,office
 
 oh go check office
-S:okcmove,office
+S:ok;C:move,office
 
 check other room - bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 oh check other room - bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 ah check other room - bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 check the bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 check teh bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 check da bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 yeah check the bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 ah check the bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 oh inspect bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 ah inspect bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 look in bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 yeah look in bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 yep look in bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 go check bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 goo check bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 goe check bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 ah go check bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 oh go check bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 check other room - garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 check other room - grage
-S:okcmove,garage
+S:ok;C:move,garage
 
 check other room - garaj
-S:okcmove,garage
+S:ok;C:move,garage
 
 ah check other room - garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 yup check other room - garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 check the garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 check teh garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 check da garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 oh check the garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 yup check the garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 ah inspect garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 look in garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 look in grage
-S:okcmove,garage
+S:ok;C:move,garage
 
 look in garaj
-S:okcmove,garage
+S:ok;C:move,garage
 
 yup look in garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 yep look in garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 go check garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 goo check garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 goe check garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 yep go check garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 oh go check garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 check other room - dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 ah check other room - dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 oh check other room - dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 check the dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 check teh dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 check da dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 yep check the dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 yeah check the dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 oh inspect dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 look in dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 yup look in dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 ah look in dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 go check dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 goo check dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 goe check dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 oh go check dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 yeah go check dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 check other room - basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 yep check other room - basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 yeah check other room - basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 check the basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 check teh basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 check da basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 yup check the basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 yep check the basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 look in basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 yup look in basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 oh look in basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 go check basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 goo check basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 goe check basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 yup go check basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 oh go check basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 check other room - attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 yeah check other room - attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 oh check other room - attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 check the attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 check teh attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 check da attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 yep check the attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 ah check the attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 ah inspect attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 look in attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 ah look in attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 oh look in attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 go check attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 goo check attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 goe check attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 yeah go check attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 oh go check attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 check other room - patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 yup check other room - patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 ah check other room - patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 check the patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 check teh patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 check da patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 ah check the patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 yeah check the patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 yeah inspect patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 yup inspect patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 look in patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 ah look in patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 yeah look in patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 go check patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 goo check patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 goe check patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 oh go check patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 yep go check patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 check other room - backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 yep check other room - backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 yup check other room - backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 check the backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 check teh backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 check da backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 ah check the backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 yup check the backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 yep inspect backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 look in backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 yep look in backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 oh look in backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 go check backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 goo check backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 goe check backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 yup go check backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 yeah go check backyard
-S:okcmove,backyard
+S:ok;C:move,backyard
 
 check other room - front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 ah check other room - front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 yup check other room - front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 check the front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 check teh front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 check da front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 ah check the front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 oh check the front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 oh inspect front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 yeah inspect front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 look in front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 yup look in front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 yep look in front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 go check front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 goo check front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 goe check front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 yeah go check front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 oh go check front yard
-S:okcmove,front yard
+S:ok;C:move,front yard
 
 check other room - garden
-S:okcmove,garden
+S:ok;C:move,garden
 
 yeah check other room - garden
-S:okcmove,garden
+S:ok;C:move,garden
 
 ah check other room - garden
-S:okcmove,garden
+S:ok;C:move,garden
 
 check the garden
-S:okcmove,garden
+S:ok;C:move,garden
 
 check teh garden
-S:okcmove,garden
+S:ok;C:move,garden
 
 check da garden
-S:okcmove,garden
+S:ok;C:move,garden
 
 yeah check the garden
-S:okcmove,garden
+S:ok;C:move,garden
 
 oh check the garden
-S:okcmove,garden
+S:ok;C:move,garden
 
 inspect garden
-S:okcmove,garden
+S:ok;C:move,garden
 
 ah inspect garden
-S:okcmove,garden
+S:ok;C:move,garden
 
 yep inspect garden
-S:okcmove,garden
+S:ok;C:move,garden
 
 look in garden
-S:okcmove,garden
+S:ok;C:move,garden
 
 oh look in garden
-S:okcmove,garden
+S:ok;C:move,garden
 
 ah look in garden
-S:okcmove,garden
+S:ok;C:move,garden
 
 go check garden
-S:okcmove,garden
+S:ok;C:move,garden
 
 goo check garden
-S:okcmove,garden
+S:ok;C:move,garden
 
 goe check garden
-S:okcmove,garden
+S:ok;C:move,garden
 
 yup go check garden
-S:okcmove,garden
+S:ok;C:move,garden
 
 ah go check garden
-S:okcmove,garden
+S:ok;C:move,garden
 
 check other room - workshop
-S:okcmove,workshop
+S:ok;C:move,workshop
 
 oh check other room - workshop
-S:okcmove,workshop
+S:ok;C:move,workshop
 
 yeah check other room - workshop
-S:okcmove,workshop
+S:ok;C:move,workshop
 
 check the workshop
-S:okcmove,workshop
+S:ok;C:move,workshop
 
 check teh workshop
-S:okcmove,workshop
+S:ok;C:move,workshop
 
 check da workshop
-S:okcmove,workshop
+S:ok;C:move,workshop
 
 ah check the workshop
-S:okcmove,workshop
+S:ok;C:move,workshop
 
 yup check the workshop
-S:okcmove,workshop
+S:ok;C:move,workshop
 
 inspect workshop
-S:okcmove,workshop
+S:ok;C:move,workshop
 
 oh inspect workshop
-S:okcmove,workshop
+S:ok;C:move,workshop
 
 yup inspect workshop
-S:okcmove,workshop
+S:ok;C:move,workshop
 
 look in workshop
-S:okcmove,workshop
+S:ok;C:move,workshop
 
 oh look in workshop
-S:okcmove,workshop
+S:ok;C:move,workshop
 
 yep look in workshop
-S:okcmove,workshop
+S:ok;C:move,workshop
 
 go check workshop
-S:okcmove,workshop
+S:ok;C:move,workshop
 
 goo check workshop
-S:okcmove,workshop
+S:ok;C:move,workshop
 
 goe check workshop
-S:okcmove,workshop
+S:ok;C:move,workshop
 
 yeah go check workshop
-S:okcmove,workshop
+S:ok;C:move,workshop
 
 ah go check workshop
-S:okcmove,workshop
+S:ok;C:move,workshop
 
 check other room - study
-S:okcmove,study
+S:ok;C:move,study
 
 oh check other room - study
-S:okcmove,study
+S:ok;C:move,study
 
 yup check other room - study
-S:okcmove,study
+S:ok;C:move,study
 
 check the study
-S:okcmove,study
+S:ok;C:move,study
 
 check teh study
-S:okcmove,study
+S:ok;C:move,study
 
 check da study
-S:okcmove,study
+S:ok;C:move,study
 
 oh check the study
-S:okcmove,study
+S:ok;C:move,study
 
 yeah check the study
-S:okcmove,study
+S:ok;C:move,study
 
 inspect study
-S:okcmove,study
+S:ok;C:move,study
 
 ah inspect study
-S:okcmove,study
+S:ok;C:move,study
 
 yep inspect study
-S:okcmove,study
+S:ok;C:move,study
 
 look in study
-S:okcmove,study
+S:ok;C:move,study
 
 yeah look in study
-S:okcmove,study
+S:ok;C:move,study
 
 yep look in study
-S:okcmove,study
+S:ok;C:move,study
 
 go check study
-S:okcmove,study
+S:ok;C:move,study
 
 goo check study
-S:okcmove,study
+S:ok;C:move,study
 
 goe check study
-S:okcmove,study
+S:ok;C:move,study
 
 ah go check study
-S:okcmove,study
+S:ok;C:move,study
 
 yup go check study
-S:okcmove,study
+S:ok;C:move,study
 
 check other room - library
-S:okcmove,library
+S:ok;C:move,library
 
 ah check other room - library
-S:okcmove,library
+S:ok;C:move,library
 
 yeah check other room - library
-S:okcmove,library
+S:ok;C:move,library
 
 check the library
-S:okcmove,library
+S:ok;C:move,library
 
 check teh library
-S:okcmove,library
+S:ok;C:move,library
 
 check da library
-S:okcmove,library
+S:ok;C:move,library
 
 yup check the library
-S:okcmove,library
+S:ok;C:move,library
 
 yep check the library
-S:okcmove,library
+S:ok;C:move,library
 
 inspect library
-S:okcmove,library
+S:ok;C:move,library
 
 yup inspect library
-S:okcmove,library
+S:ok;C:move,library
 
 oh inspect library
-S:okcmove,library
+S:ok;C:move,library
 
 look in library
-S:okcmove,library
+S:ok;C:move,library
 
 oh look in library
-S:okcmove,library
+S:ok;C:move,library
 
 ah look in library
-S:okcmove,library
+S:ok;C:move,library
 
 go check library
-S:okcmove,library
+S:ok;C:move,library
 
 goo check library
-S:okcmove,library
+S:ok;C:move,library
 
 goe check library
-S:okcmove,library
+S:ok;C:move,library
 
 ah go check library
-S:okcmove,library
+S:ok;C:move,library
 
 yep go check library
-S:okcmove,library
+S:ok;C:move,library
 
 check other room - guest room
-S:okcmove,guest room
+S:ok;C:move,guest room
 
 yep check other room - guest room
-S:okcmove,guest room
+S:ok;C:move,guest room
 
 ah check other room - guest room
-S:okcmove,guest room
+S:ok;C:move,guest room
 
 check the guest room
-S:okcmove,guest room
+S:ok;C:move,guest room
 
 check teh guest room
-S:okcmove,guest room
+S:ok;C:move,guest room
 
 check da guest room
-S:okcmove,guest room
+S:ok;C:move,guest room
 
 oh check the guest room
-S:okcmove,guest room
+S:ok;C:move,guest room
 
 yup check the guest room
-S:okcmove,guest room
+S:ok;C:move,guest room
 
 inspect guest room
-S:okcmove,guest room
+S:ok;C:move,guest room
 
 ah inspect guest room
-S:okcmove,guest room
+S:ok;C:move,guest room
 
 yeah inspect guest room
-S:okcmove,guest room
+S:ok;C:move,guest room
 
 look in guest room
-S:okcmove,guest room
+S:ok;C:move,guest room
 
 oh look in guest room
-S:okcmove,guest room
+S:ok;C:move,guest room
 
 yup look in guest room
-S:okcmove,guest room
+S:ok;C:move,guest room
 
 go check guest room
-S:okcmove,guest room
+S:ok;C:move,guest room
 
 goo check guest room
-S:okcmove,guest room
+S:ok;C:move,guest room
 
 goe check guest room
-S:okcmove,guest room
+S:ok;C:move,guest room
 
 yup go check guest room
-S:okcmove,guest room
+S:ok;C:move,guest room
 
 yeah go check guest room
-S:okcmove,guest room
+S:ok;C:move,guest room
 
 check other room - master bedroom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 yep check other room - master bedroom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 oh check other room - master bedroom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 check the master bedroom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 check teh master bedroom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 check da master bedroom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 yep check the master bedroom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 yeah check the master bedroom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 inspect master bedroom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 inspect master bedrom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 inspect master bedrm
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 ah inspect master bedroom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 yup inspect master bedroom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 look in master bedroom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 look in master bedrom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 look in master bedrm
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 oh look in master bedroom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 yeah look in master bedroom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 go check master bedroom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 goo check master bedroom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 goe check master bedroom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 yup go check master bedroom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 oh go check master bedroom
-S:okcmove,master bedroom
+S:ok;C:move,master bedroom
 
 check other room - hallway
-S:okcmove,hallway
+S:ok;C:move,hallway
 
 ah check other room - hallway
-S:okcmove,hallway
+S:ok;C:move,hallway
 
 oh check other room - hallway
-S:okcmove,hallway
+S:ok;C:move,hallway
 
 check the hallway
-S:okcmove,hallway
+S:ok;C:move,hallway
 
 check teh hallway
-S:okcmove,hallway
+S:ok;C:move,hallway
 
 check da hallway
-S:okcmove,hallway
+S:ok;C:move,hallway
 
 ah check the hallway
-S:okcmove,hallway
+S:ok;C:move,hallway
 
 yup check the hallway
-S:okcmove,hallway
+S:ok;C:move,hallway
 
 inspect hallway
-S:okcmove,hallway
+S:ok;C:move,hallway
 
 yep inspect hallway
-S:okcmove,hallway
+S:ok;C:move,hallway
 
 yeah inspect hallway
-S:okcmove,hallway
+S:ok;C:move,hallway
 
 look in hallway
-S:okcmove,hallway
+S:ok;C:move,hallway
 
 yup look in hallway
-S:okcmove,hallway
+S:ok;C:move,hallway
 
 ah look in hallway
-S:okcmove,hallway
+S:ok;C:move,hallway
 
 go check hallway
-S:okcmove,hallway
+S:ok;C:move,hallway
 
 goo check hallway
-S:okcmove,hallway
+S:ok;C:move,hallway
 
 goe check hallway
-S:okcmove,hallway
+S:ok;C:move,hallway
 
 oh go check hallway
-S:okcmove,hallway
+S:ok;C:move,hallway
 
 yep go check hallway
-S:okcmove,hallway
+S:ok;C:move,hallway
 
 check other room - entryway
-S:okcmove,entryway
+S:ok;C:move,entryway
 
 ah check other room - entryway
-S:okcmove,entryway
+S:ok;C:move,entryway
 
 yeah check other room - entryway
-S:okcmove,entryway
+S:ok;C:move,entryway
 
 check the entryway
-S:okcmove,entryway
+S:ok;C:move,entryway
 
 check teh entryway
-S:okcmove,entryway
+S:ok;C:move,entryway
 
 check da entryway
-S:okcmove,entryway
+S:ok;C:move,entryway
 
 yeah check the entryway
-S:okcmove,entryway
+S:ok;C:move,entryway
 
 oh check the entryway
-S:okcmove,entryway
+S:ok;C:move,entryway
 
 inspect entryway
-S:okcmove,entryway
+S:ok;C:move,entryway
 
 yep inspect entryway
-S:okcmove,entryway
+S:ok;C:move,entryway
 
 ah inspect entryway
-S:okcmove,entryway
+S:ok;C:move,entryway
 
 look in entryway
-S:okcmove,entryway
+S:ok;C:move,entryway
 
 yeah look in entryway
-S:okcmove,entryway
+S:ok;C:move,entryway
 
 oh look in entryway
-S:okcmove,entryway
+S:ok;C:move,entryway
 
 go check entryway
-S:okcmove,entryway
+S:ok;C:move,entryway
 
 goo check entryway
-S:okcmove,entryway
+S:ok;C:move,entryway
 
 goe check entryway
-S:okcmove,entryway
+S:ok;C:move,entryway
 
 oh go check entryway
-S:okcmove,entryway
+S:ok;C:move,entryway
 
 yup go check entryway
-S:okcmove,entryway
+S:ok;C:move,entryway
 
 check other room - closet
-S:okcmove,closet
+S:ok;C:move,closet
 
 yeah check other room - closet
-S:okcmove,closet
+S:ok;C:move,closet
 
 yup check other room - closet
-S:okcmove,closet
+S:ok;C:move,closet
 
 check the closet
-S:okcmove,closet
+S:ok;C:move,closet
 
 check teh closet
-S:okcmove,closet
+S:ok;C:move,closet
 
 check da closet
-S:okcmove,closet
+S:ok;C:move,closet
 
 yep check the closet
-S:okcmove,closet
+S:ok;C:move,closet
 
 ah check the closet
-S:okcmove,closet
+S:ok;C:move,closet
 
 inspect closet
-S:okcmove,closet
+S:ok;C:move,closet
 
 yep inspect closet
-S:okcmove,closet
+S:ok;C:move,closet
 
 yup inspect closet
-S:okcmove,closet
+S:ok;C:move,closet
 
 look in closet
-S:okcmove,closet
+S:ok;C:move,closet
 
 yeah look in closet
-S:okcmove,closet
+S:ok;C:move,closet
 
 ah look in closet
-S:okcmove,closet
+S:ok;C:move,closet
 
 go check closet
-S:okcmove,closet
+S:ok;C:move,closet
 
 goo check closet
-S:okcmove,closet
+S:ok;C:move,closet
 
 goe check closet
-S:okcmove,closet
+S:ok;C:move,closet
 
 ah go check closet
-S:okcmove,closet
+S:ok;C:move,closet
 
 oh go check closet
-S:okcmove,closet
+S:ok;C:move,closet
 
 check other room - pantry
-S:okcmove,pantry
+S:ok;C:move,pantry
 
 yeah check other room - pantry
-S:okcmove,pantry
+S:ok;C:move,pantry
 
 yep check other room - pantry
-S:okcmove,pantry
+S:ok;C:move,pantry
 
 check the pantry
-S:okcmove,pantry
+S:ok;C:move,pantry
 
 check teh pantry
-S:okcmove,pantry
+S:ok;C:move,pantry
 
 check da pantry
-S:okcmove,pantry
+S:ok;C:move,pantry
 
 yep check the pantry
-S:okcmove,pantry
+S:ok;C:move,pantry
 
 ah check the pantry
-S:okcmove,pantry
+S:ok;C:move,pantry
 
 inspect pantry
-S:okcmove,pantry
+S:ok;C:move,pantry
 
 oh inspect pantry
-S:okcmove,pantry
+S:ok;C:move,pantry
 
 yeah inspect pantry
-S:okcmove,pantry
+S:ok;C:move,pantry
 
 look in pantry
-S:okcmove,pantry
+S:ok;C:move,pantry
 
 ah look in pantry
-S:okcmove,pantry
+S:ok;C:move,pantry
 
 oh look in pantry
-S:okcmove,pantry
+S:ok;C:move,pantry
 
 go check pantry
-S:okcmove,pantry
+S:ok;C:move,pantry
 
 goo check pantry
-S:okcmove,pantry
+S:ok;C:move,pantry
 
 goe check pantry
-S:okcmove,pantry
+S:ok;C:move,pantry
 
 yup go check pantry
-S:okcmove,pantry
+S:ok;C:move,pantry
 
 oh go check pantry
-S:okcmove,pantry
+S:ok;C:move,pantry
 
 check other room - laundry room
-S:okcmove,laundry room
+S:ok;C:move,laundry room
 
 yeah check other room - laundry room
-S:okcmove,laundry room
+S:ok;C:move,laundry room
 
 oh check other room - laundry room
-S:okcmove,laundry room
+S:ok;C:move,laundry room
 
 check the laundry room
-S:okcmove,laundry room
+S:ok;C:move,laundry room
 
 check teh laundry room
-S:okcmove,laundry room
+S:ok;C:move,laundry room
 
 check da laundry room
-S:okcmove,laundry room
+S:ok;C:move,laundry room
 
 yeah check the laundry room
-S:okcmove,laundry room
+S:ok;C:move,laundry room
 
 oh check the laundry room
-S:okcmove,laundry room
+S:ok;C:move,laundry room
 
 inspect laundry room
-S:okcmove,laundry room
+S:ok;C:move,laundry room
 
 yup inspect laundry room
-S:okcmove,laundry room
+S:ok;C:move,laundry room
 
 ah inspect laundry room
-S:okcmove,laundry room
+S:ok;C:move,laundry room
 
 look in laundry room
-S:okcmove,laundry room
+S:ok;C:move,laundry room
 
 yep look in laundry room
-S:okcmove,laundry room
+S:ok;C:move,laundry room
 
 yup look in laundry room
-S:okcmove,laundry room
+S:ok;C:move,laundry room
 
 go check laundry room
-S:okcmove,laundry room
+S:ok;C:move,laundry room
 
 goo check laundry room
-S:okcmove,laundry room
+S:ok;C:move,laundry room
 
 goe check laundry room
-S:okcmove,laundry room
+S:ok;C:move,laundry room
 
 yup go check laundry room
-S:okcmove,laundry room
+S:ok;C:move,laundry room
 
 ah go check laundry room
-S:okcmove,laundry room
+S:ok;C:move,laundry room
 
 check other room - storage room
-S:okcmove,storage room
+S:ok;C:move,storage room
 
 ah check other room - storage room
-S:okcmove,storage room
+S:ok;C:move,storage room
 
 yep check other room - storage room
-S:okcmove,storage room
+S:ok;C:move,storage room
 
 check the storage room
-S:okcmove,storage room
+S:ok;C:move,storage room
 
 check teh storage room
-S:okcmove,storage room
+S:ok;C:move,storage room
 
 check da storage room
-S:okcmove,storage room
+S:ok;C:move,storage room
 
 oh check the storage room
-S:okcmove,storage room
+S:ok;C:move,storage room
 
 yup check the storage room
-S:okcmove,storage room
+S:ok;C:move,storage room
 
 inspect storage room
-S:okcmove,storage room
+S:ok;C:move,storage room
 
 yep inspect storage room
-S:okcmove,storage room
+S:ok;C:move,storage room
 
 oh inspect storage room
-S:okcmove,storage room
+S:ok;C:move,storage room
 
 look in storage room
-S:okcmove,storage room
+S:ok;C:move,storage room
 
 yep look in storage room
-S:okcmove,storage room
+S:ok;C:move,storage room
 
 ah look in storage room
-S:okcmove,storage room
+S:ok;C:move,storage room
 
 go check storage room
-S:okcmove,storage room
+S:ok;C:move,storage room
 
 goo check storage room
-S:okcmove,storage room
+S:ok;C:move,storage room
 
 goe check storage room
-S:okcmove,storage room
+S:ok;C:move,storage room
 
 yeah go check storage room
-S:okcmove,storage room
+S:ok;C:move,storage room
 
 oh go check storage room
-S:okcmove,storage room
+S:ok;C:move,storage room
 
 go forward
-S:okcmove,forward
+S:ok;C:move,forward
 
 goo forward
-S:okcmove,forward
+S:ok;C:move,forward
 
 goe forward
-S:okcmove,forward
+S:ok;C:move,forward
 
 yup go forward
-S:okcmove,forward
+S:ok;C:move,forward
 
 yeah go forward
-S:okcmove,forward
+S:ok;C:move,forward
 
 move forward
-S:okcmove,forward
+S:ok;C:move,forward
 
 yup move forward
-S:okcmove,forward
+S:ok;C:move,forward
 
 oh move forward
-S:okcmove,forward
+S:ok;C:move,forward
 
 head forward
-S:okcmove,forward
+S:ok;C:move,forward
 
 oh head forward
-S:okcmove,forward
+S:ok;C:move,forward
 
 ah head forward
-S:okcmove,forward
+S:ok;C:move,forward
 
 walk forward
-S:okcmove,forward
+S:ok;C:move,forward
 
 yep walk forward
-S:okcmove,forward
+S:ok;C:move,forward
 
 yup walk forward
-S:okcmove,forward
+S:ok;C:move,forward
 
 go backward
-S:okcmove,backward
+S:ok;C:move,backward
 
 goo backward
-S:okcmove,backward
+S:ok;C:move,backward
 
 goe backward
-S:okcmove,backward
+S:ok;C:move,backward
 
 ah go backward
-S:okcmove,backward
+S:ok;C:move,backward
 
 yep go backward
-S:okcmove,backward
+S:ok;C:move,backward
 
 move backward
-S:okcmove,backward
+S:ok;C:move,backward
 
 yep move backward
-S:okcmove,backward
+S:ok;C:move,backward
 
 yup move backward
-S:okcmove,backward
+S:ok;C:move,backward
 
 head backward
-S:okcmove,backward
+S:ok;C:move,backward
 
 oh head backward
-S:okcmove,backward
+S:ok;C:move,backward
 
 yup head backward
-S:okcmove,backward
+S:ok;C:move,backward
 
 walk backward
-S:okcmove,backward
+S:ok;C:move,backward
 
 oh walk backward
-S:okcmove,backward
+S:ok;C:move,backward
 
 ah walk backward
-S:okcmove,backward
+S:ok;C:move,backward
 
 go left
-S:okcmove,left
+S:ok;C:move,left
 
 goo left
-S:okcmove,left
+S:ok;C:move,left
 
 goe left
-S:okcmove,left
+S:ok;C:move,left
 
 yup go left
-S:okcmove,left
+S:ok;C:move,left
 
 oh go left
-S:okcmove,left
+S:ok;C:move,left
 
 move left
-S:okcmove,left
+S:ok;C:move,left
 
 yep move left
-S:okcmove,left
+S:ok;C:move,left
 
 yup move left
-S:okcmove,left
+S:ok;C:move,left
 
 head left
-S:okcmove,left
+S:ok;C:move,left
 
 yeah head left
-S:okcmove,left
+S:ok;C:move,left
 
 ah head left
-S:okcmove,left
+S:ok;C:move,left
 
 walk left
-S:okcmove,left
+S:ok;C:move,left
 
 yup walk left
-S:okcmove,left
+S:ok;C:move,left
 
 yeah walk left
-S:okcmove,left
+S:ok;C:move,left
 
 go right
-S:okcmove,right
+S:ok;C:move,right
 
 goo right
-S:okcmove,right
+S:ok;C:move,right
 
 goe right
-S:okcmove,right
+S:ok;C:move,right
 
 oh go right
-S:okcmove,right
+S:ok;C:move,right
 
 yup go right
-S:okcmove,right
+S:ok;C:move,right
 
 move right
-S:okcmove,right
+S:ok;C:move,right
 
 yep move right
-S:okcmove,right
+S:ok;C:move,right
 
 oh move right
-S:okcmove,right
+S:ok;C:move,right
 
 head right
-S:okcmove,right
+S:ok;C:move,right
 
 ah head right
-S:okcmove,right
+S:ok;C:move,right
 
 yep head right
-S:okcmove,right
+S:ok;C:move,right
 
 walk right
-S:okcmove,right
+S:ok;C:move,right
 
 oh walk right
-S:okcmove,right
+S:ok;C:move,right
 
 ah walk right
-S:okcmove,right
+S:ok;C:move,right
 
 go upstairs
-S:okcmove,upstairs
+S:ok;C:move,upstairs
 
 goo upstairs
-S:okcmove,upstairs
+S:ok;C:move,upstairs
 
 goe upstairs
-S:okcmove,upstairs
+S:ok;C:move,upstairs
 
 yup go upstairs
-S:okcmove,upstairs
+S:ok;C:move,upstairs
 
 oh go upstairs
-S:okcmove,upstairs
+S:ok;C:move,upstairs
 
 move upstairs
-S:okcmove,upstairs
+S:ok;C:move,upstairs
 
 yeah move upstairs
-S:okcmove,upstairs
+S:ok;C:move,upstairs
 
 ah move upstairs
-S:okcmove,upstairs
+S:ok;C:move,upstairs
 
 head upstairs
-S:okcmove,upstairs
+S:ok;C:move,upstairs
 
 yup head upstairs
-S:okcmove,upstairs
+S:ok;C:move,upstairs
 
 yeah head upstairs
-S:okcmove,upstairs
+S:ok;C:move,upstairs
 
 walk upstairs
-S:okcmove,upstairs
+S:ok;C:move,upstairs
 
 yup walk upstairs
-S:okcmove,upstairs
+S:ok;C:move,upstairs
 
 yeah walk upstairs
-S:okcmove,upstairs
+S:ok;C:move,upstairs
 
 go downstairs
-S:okcmove,downstairs
+S:ok;C:move,downstairs
 
 goo downstairs
-S:okcmove,downstairs
+S:ok;C:move,downstairs
 
 goe downstairs
-S:okcmove,downstairs
+S:ok;C:move,downstairs
 
 yup go downstairs
-S:okcmove,downstairs
+S:ok;C:move,downstairs
 
 oh go downstairs
-S:okcmove,downstairs
+S:ok;C:move,downstairs
 
 move downstairs
-S:okcmove,downstairs
+S:ok;C:move,downstairs
 
 yeah move downstairs
-S:okcmove,downstairs
+S:ok;C:move,downstairs
 
 yep move downstairs
-S:okcmove,downstairs
+S:ok;C:move,downstairs
 
 head downstairs
-S:okcmove,downstairs
+S:ok;C:move,downstairs
 
 yup head downstairs
-S:okcmove,downstairs
+S:ok;C:move,downstairs
 
 yeah head downstairs
-S:okcmove,downstairs
+S:ok;C:move,downstairs
 
 walk downstairs
-S:okcmove,downstairs
+S:ok;C:move,downstairs
 
 yeah walk downstairs
-S:okcmove,downstairs
+S:ok;C:move,downstairs
 
 ah walk downstairs
-S:okcmove,downstairs
+S:ok;C:move,downstairs
 
 go back to kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 goo back to kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 goe back to kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 yep go back to kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 ah go back to kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 go back to bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 goo back to bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 goe back to bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 yeah go back to bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 oh go back to bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 go back to living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 goo back to living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 goe back to living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 yup go back to living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 yeah go back to living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 go back to office
-S:okcmove,office
+S:ok;C:move,office
 
 goo back to office
-S:okcmove,office
+S:ok;C:move,office
 
 goe back to office
-S:okcmove,office
+S:ok;C:move,office
 
 oh go back to office
-S:okcmove,office
+S:ok;C:move,office
 
 yep go back to office
-S:okcmove,office
+S:ok;C:move,office
 
 go back to bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 goo back to bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 goe back to bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 ah go back to bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 yeah go back to bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 go back to garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 goo back to garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 goe back to garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 yup go back to garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 yep go back to garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 go back to dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 goo back to dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 goe back to dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 oh go back to dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 yup go back to dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 go back to basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 goo back to basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 goe back to basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 yeah go back to basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 oh go back to basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 go back to attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 goo back to attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 goe back to attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 yep go back to attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 ah go back to attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 go back to patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 goo back to patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 goe back to patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 ah go back to patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 yup go back to patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 return to kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 return too kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 return tu kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 ah return to kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 yep return to kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 return to bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 return too bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 return tu bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 yeah return to bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 yep return to bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 return to living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 return too living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 return tu living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 oh return to living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 yep return to living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 return to office
-S:okcmove,office
+S:ok;C:move,office
 
 return too office
-S:okcmove,office
+S:ok;C:move,office
 
 return tu office
-S:okcmove,office
+S:ok;C:move,office
 
 yeah return to office
-S:okcmove,office
+S:ok;C:move,office
 
 yep return to office
-S:okcmove,office
+S:ok;C:move,office
 
 return to bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 return too bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 return tu bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 oh return to bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 yup return to bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 return to garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 return too garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 return tu garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 ah return to garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 oh return to garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 return to dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 return too dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 return tu dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 yup return to dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 oh return to dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 return to basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 return too basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 return tu basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 oh return to basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 yup return to basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 return to attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 return too attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 return tu attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 ah return to attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 oh return to attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 return to patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 return too patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 return tu patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 yup return to patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 oh return to patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 come back to kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 come back too kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 come back tu kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 ah come back to kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 yup come back to kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 come back to bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 come back too bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 come back tu bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 oh come back to bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 ah come back to bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 come back to living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 come back too living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 come back tu living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 yeah come back to living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 ah come back to living room
-S:okcmove,living room
+S:ok;C:move,living room
 
 come back to office
-S:okcmove,office
+S:ok;C:move,office
 
 come back too office
-S:okcmove,office
+S:ok;C:move,office
 
 come back tu office
-S:okcmove,office
+S:ok;C:move,office
 
 yep come back to office
-S:okcmove,office
+S:ok;C:move,office
 
 yup come back to office
-S:okcmove,office
+S:ok;C:move,office
 
 come back to bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 come back too bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 come back tu bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 yup come back to bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 yep come back to bathroom
-S:okcmove,bathroom
+S:ok;C:move,bathroom
 
 come back to garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 come back too garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 come back tu garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 yup come back to garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 yeah come back to garage
-S:okcmove,garage
+S:ok;C:move,garage
 
 come back to dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 come back too dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 come back tu dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 yup come back to dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 oh come back to dining room
-S:okcmove,dining room
+S:ok;C:move,dining room
 
 come back to basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 come back too basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 come back tu basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 yeah come back to basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 yep come back to basement
-S:okcmove,basement
+S:ok;C:move,basement
 
 come back to attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 come back too attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 come back tu attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 yup come back to attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 yep come back to attic
-S:okcmove,attic
+S:ok;C:move,attic
 
 come back to patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 come back too patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 come back tu patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 ah come back to patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 yeah come back to patio
-S:okcmove,patio
+S:ok;C:move,patio
 
 retreat to kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 retreat too kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 retreat tu kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 ah retreat to kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 yup retreat to kitchen
-S:okcmove,kitchen
+S:ok;C:move,kitchen
 
 retreat to bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 retreat too bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 retreat tu bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 yup retreat to bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
 ah retreat to bedroom
-S:okcmove,bedroom
+S:ok;C:move,bedroom
 
