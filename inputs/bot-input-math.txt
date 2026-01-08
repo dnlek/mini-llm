@@ -1,358 +1,358 @@
-What is 6-5
+what is 6-5
 T:math,6-5
 
-What is 5*6
+what is 5*6
 T:math,5*6
 
-What's 8*2
+whats 8*2
 T:math,8*2
 
-What's 2*2
+whats 2*2
 T:math,2*2
 
-What's 5*7
+whats 5*7
 T:math,5*7
 
-What is 4-34
+what is 4-34
 T:math,4-34
 
-What's 1-39
+whats 1-39
 T:math,1-39
 
-Work out 36/3
+work out 36/3
 T:math,36/3
 
-What is 4*5
+what is 4*5
 T:math,4*5
 
-Work out 30+62
+work out 30+62
 T:math,30+62
 
-What is 3*2
+what is 3*2
 T:math,3*2
 
-What's 5*2
+whats 5*2
 T:math,5*2
 
-What is 2*2
+what is 2*2
 T:math,2*2
 
-Solve 7*8
+solve 7*8
 T:math,7*8
 
-Calculate 121/11
+calculate 121/11
 T:math,121/11
 
-What is 79+22
+what is 79+22
 T:math,79+22
 
-What is 4*8
+what is 4*8
 T:math,4*8
 
-Work out 10*7
+work out 10*7
 T:math,10*7
 
-Work out 95-92
+work out 95-92
 T:math,95-92
 
-What's 8*8
+whats 8*8
 T:math,8*8
 
-What's 3*2
+whats 3*2
 T:math,3*2
 
-Tell me 100+52
+tell me 100+52
 T:math,100+52
 
-Calculate 12+62
+calculate 12+62
 T:math,12+62
 
-What is 10*4
+what is 10*4
 T:math,10*4
 
-What's 6*7
+whats 6*7
 T:math,6*7
 
-What is 76+26
+what is 76+26
 T:math,76+26
 
-Compute 5*6
+compute 5*6
 T:math,5*6
 
-What's 95+18
+whats 95+18
 T:math,95+18
 
-What's 2*4
+whats 2*4
 T:math,2*4
 
-Calculate 9*4
+calculate 9*4
 T:math,9*4
 
-Tell me 11*7
+tell me 11*7
 T:math,11*7
 
-Compute 62+99
+compute 62+99
 T:math,62+99
 
-Work out 2*10
+work out 2*10
 T:math,2*10
 
 99-50
 T:math,99-50
 
-Tell me 71-1
+tell me 71-1
 T:math,71-1
 
-Compute 86-67
+compute 86-67
 T:math,86-67
 
-Tell me 54/6
+tell me 54/6
 T:math,54/6
 
-What's 6*9
+whats 6*9
 T:math,6*9
 
-Calculate 8*5
+calculate 8*5
 T:math,8*5
 
-What is 5*4
+what is 5*4
 T:math,5*4
 
 3*10
 T:math,3*10
 
-Solve 4*10
+solve 4*10
 T:math,4*10
 
-What's 9/3
+whats 9/3
 T:math,9/3
 
-What's 9*6
+whats 9*6
 T:math,9*6
 
-What iz 4*10
+what iz 4*10
 T:math,4*10
 
-Tell me 120/12
+tell me 120/12
 T:math,120/12
 
-Solve 3*10
+solve 3*10
 T:math,3*10
 
-What's 3*9
+whats 3*9
 T:math,3*9
 
-What is 90/9
+what is 90/9
 T:math,90/9
 
-What is 7*8
+what is 7*8
 T:math,7*8
 
-What is 33+25
+what is 33+25
 T:math,33+25
 
-What is 5*10
+what is 5*10
 T:math,5*10
 
-What's 3*7
+whats 3*7
 T:math,3*7
 
-What's 4*8
+whats 4*8
 T:math,4*8
 
-Calculate 72/8
+calculate 72/8
 T:math,72/8
 
-What's 4*5
+whats 4*5
 T:math,4*5
 
-What is 7-6
+what is 7-6
 T:math,7-6
 
-What's 7+1
+whats 7+1
 T:math,7+1
 
-What's 1-18
+whats 1-18
 T:math,1-18
 
-Solve 80-58
+solve 80-58
 T:math,80-58
 
-What is 9*8
+what is 9*8
 T:math,9*8
 
-What's 5*8
+whats 5*8
 T:math,5*8
 
-Tell me 35/7
+tell me 35/7
 T:math,35/7
 
-What is 12*9
+what is 12*9
 T:math,12*9
 
-What's 3*5
+whats 3*5
 T:math,3*5
 
-Tell me 10*11
+tell me 10*11
 T:math,10*11
 
-What is 2*6
+what is 2*6
 T:math,2*6
 
-What is 21+50
+what is 21+50
 T:math,21+50
 
-What is 9*5
+what is 9*5
 T:math,9*5
 
-What is 10*8
+what is 10*8
 T:math,10*8
 
-What's 2*10
+whats 2*10
 T:math,2*10
 
-What is 6*5
+what is 6*5
 T:math,6*5
 
-Solve 6*5
+solve 6*5
 T:math,6*5
 
-What is 6*8
+what is 6*8
 T:math,6*8
 
-What is 6*4
+what is 6*4
 T:math,6*4
 
-What is 0-49
+what is 0-49
 T:math,0-49
 
-What's 8*10
+whats 8*10
 T:math,8*10
 
-Solve 20+55
+solve 20+55
 T:math,20+55
 
-What's 4*6
+whats 4*6
 T:math,4*6
 
-What is 9*7
+what is 9*7
 T:math,9*7
 
-What's 7-50
+whats 7-50
 T:math,7-50
 
-What's 7*7
+whats 7*7
 T:math,7*7
 
-Work out 6+90
+work out 6+90
 T:math,6+90
 
-Work out 100+87
+work out 100+87
 T:math,100+87
 
-What is 3*6
+what is 3*6
 T:math,3*6
 
 70-10
 T:math,70-10
 
-Solve 61-50
+solve 61-50
 T:math,61-50
 
-What is 6*6
+what is 6*6
 T:math,6*6
 
-What is 5-32
+what is 5-32
 T:math,5-32
 
-What's 6*3
+whats 6*3
 T:math,6*3
 
 53+71
 T:math,53+71
 
-What's 0-30
+whats 0-30
 T:math,0-30
 
-Solve 24-18
+solve 24-18
 T:math,24-18
 
-What iz 6*10
+what iz 6*10
 T:math,6*10
 
-What's 10*3
+whats 10*3
 T:math,10*3
 
-What is 5*3
+what is 5*3
 T:math,5*3
 
-Solve 73+47
+solve 73+47
 T:math,73+47
 
-What is 7*7
+what is 7*7
 T:math,7*7
 
-What is 10*5
+what is 10*5
 T:math,10*5
 
-Solve 5*11
+solve 5*11
 T:math,5*11
 
-Tell me 3*8
+tell me 3*8
 T:math,3*8
 
-Work out 132/12
+work out 132/12
 T:math,132/12
 
-What's 72/12
+whats 72/12
 T:math,72/12
 
-What is 39-20
+what is 39-20
 T:math,39-20
 
-What's 10*4
+whats 10*4
 T:math,10*4
 
-What is 10*9
+what is 10*9
 T:math,10*9
 
-What is 9*4
+what is 9*4
 T:math,9*4
 
-Tell me 11*3
+tell me 11*3
 T:math,11*3
 
-What is 3*8
+what is 3*8
 T:math,3*8
 
-Solve 9*4
+solve 9*4
 T:math,9*4
 
-What's 7*5
+whats 7*5
 T:math,7*5
 
-What is 44+71
+what is 44+71
 T:math,44+71
 
-What's 2-2
+whats 2-2
 T:math,2-2
 
 90-80
 T:math,90-80
 
-Work out 12*5
+work out 12*5
 T:math,12*5
 
-What is 6*3
+what is 6*3
 T:math,6*3
 
-What's 3*10
+whats 3*10
 T:math,3*10
 
-Solve 84-37
+solve 84-37
 T:math,84-37
 
-What is 42-25
+what is 42-25
 T:math,42-25
 
 120/12
@@ -361,601 +361,601 @@ T:math,120/12
 66/11
 T:math,66/11
 
-What's 4*9
+whats 4*9
 T:math,4*9
 
-Work out 82-31
+work out 82-31
 T:math,82-31
 
-What's 9*7
+whats 9*7
 T:math,9*7
 
-Calculate 11*7
+calculate 11*7
 T:math,11*7
 
-Work out 100+91
+work out 100+91
 T:math,100+91
 
-What's 2*5
+whats 2*5
 T:math,2*5
 
-What's 9*5
+whats 9*5
 T:math,9*5
 
-What is 51-32
+what is 51-32
 T:math,51-32
 
-What is 92+77
+what is 92+77
 T:math,92+77
 
-What's 5-43
+whats 5-43
 T:math,5-43
 
-What's 5*5
+whats 5*5
 T:math,5*5
 
-What's 74+67
+whats 74+67
 T:math,74+67
 
-What is 3*5
+what is 3*5
 T:math,3*5
 
-Compute 88+51
+compute 88+51
 T:math,88+51
 
-What's 75-36
+whats 75-36
 T:math,75-36
 
-What's 9*4
+whats 9*4
 T:math,9*4
 
-Calculate 43-11
+calculate 43-11
 T:math,43-11
 
-Tell me 67+54
+tell me 67+54
 T:math,67+54
 
-What is 7*3
+what is 7*3
 T:math,7*3
 
-What is 0-26
+what is 0-26
 T:math,0-26
 
 45-37
 T:math,45-37
 
-What's 6*6
+whats 6*6
 T:math,6*6
 
-Compute 77-38
+compute 77-38
 T:math,77-38
 
-What's 5*10
+whats 5*10
 T:math,5*10
 
-What is 3-24
+what is 3-24
 T:math,3-24
 
-Work out 20/5
+work out 20/5
 T:math,20/5
 
-What is 3*3
+what is 3*3
 T:math,3*3
 
-What's 4*7
+whats 4*7
 T:math,4*7
 
-Solve 49-29
+solve 49-29
 T:math,49-29
 
-Compute 8/2
+compute 8/2
 T:math,8/2
 
-Calculate 24/8
+calculate 24/8
 T:math,24/8
 
-Wut is 0-26
+wut is 0-26
 T:math,0-26
 
-Solve 79+84
+solve 79+84
 T:math,79+84
 
-What is 7-50
+what is 7-50
 T:math,7-50
 
-What is 7*10
+what is 7*10
 T:math,7*10
 
-What is 7*6
+what is 7*6
 T:math,7*6
 
 54-40
 T:math,54-40
 
-Compute 5*5
+compute 5*5
 T:math,5*5
 
-What's 8*5
+whats 8*5
 T:math,8*5
 
-What's 7*8
+whats 7*8
 T:math,7*8
 
-Compute 25+5
+compute 25+5
 T:math,25+5
 
-What is 1-39
+what is 1-39
 T:math,1-39
 
-Calculate 32/8
+calculate 32/8
 T:math,32/8
 
-Compute 18/3
+compute 18/3
 T:math,18/3
 
-What's 3*6
+whats 3*6
 T:math,3*6
 
-Calculate 51-32
+calculate 51-32
 T:math,51-32
 
-Tell me 64-28
+tell me 64-28
 T:math,64-28
 
-Work out 27/9
+work out 27/9
 T:math,27/9
 
-What is 8*2
+what is 8*2
 T:math,8*2
 
-Calculate 9/3
+calculate 9/3
 T:math,9/3
 
-What's 7*4
+whats 7*4
 T:math,7*4
 
-What is 9*6
+what is 9*6
 T:math,9*6
 
-What is 3-5
+what is 3-5
 T:math,3-5
 
-What iz 2*8
+what iz 2*8
 T:math,2*8
 
 96+30
 T:math,96+30
 
-What's 0-49
+whats 0-49
 T:math,0-49
 
-What's 5*9
+whats 5*9
 T:math,5*9
 
-What's 6*2
+whats 6*2
 T:math,6*2
 
-What is 7*9
+what is 7*9
 T:math,7*9
 
-Work out 11+37
+work out 11+37
 T:math,11+37
 
-What's 1-14
+whats 1-14
 T:math,1-14
 
-What is 9*2
+what is 9*2
 T:math,9*2
 
-What's 45+76
+whats 45+76
 T:math,45+76
 
-What's 7*6
+whats 7*6
 T:math,7*6
 
-What's 3*8
+whats 3*8
 T:math,3*8
 
-What's 6*4
+whats 6*4
 T:math,6*4
 
-What's 10*10
+whats 10*10
 T:math,10*10
 
-What's 8*3
+whats 8*3
 T:math,8*3
 
-What's 16/2
+whats 16/2
 T:math,16/2
 
 12+19
 T:math,12+19
 
-What's 95+91
+whats 95+91
 T:math,95+91
 
-What's 10*5
+whats 10*5
 T:math,10*5
 
-Work out 84/12
+work out 84/12
 T:math,84/12
 
-What is 5-29
+what is 5-29
 T:math,5-29
 
-Solve 24-14
+solve 24-14
 T:math,24-14
 
-What's 10*8
+whats 10*8
 T:math,10*8
 
-What is 7*4
+what is 7*4
 T:math,7*4
 
-What is 4*6
+what is 4*6
 T:math,4*6
 
-What is 4*2
+what is 4*2
 T:math,4*2
 
-What's 10*6
+whats 10*6
 T:math,10*6
 
-What is 7*5
+what is 7*5
 T:math,7*5
 
-What is 4*3
+what is 4*3
 T:math,4*3
 
-Solve 63/9
+solve 63/9
 T:math,63/9
 
-Wot is 9-19
+wot is 9-19
 T:math,9-19
 
-Work out 28+66
+work out 28+66
 T:math,28+66
 
-What is 91+96
+what is 91+96
 T:math,91+96
 
-Calculate 20/5
+calculate 20/5
 T:math,20/5
 
-What is 8*6
+what is 8*6
 T:math,8*6
 
-What iz 7-28
+what iz 7-28
 T:math,7-28
 
-Wut is 8*6
+wut is 8*6
 T:math,8*6
 
-Compute 11*12
+compute 11*12
 T:math,11*12
 
-What is 5*2
+what is 5*2
 T:math,5*2
 
-What is 9-19
+what is 9-19
 T:math,9-19
 
-What is 2*7
+what is 2*7
 T:math,2*7
 
-What is 2*5
+what is 2*5
 T:math,2*5
 
-What is 1-16
+what is 1-16
 T:math,1-16
 
-Solve 21+12
+solve 21+12
 T:math,21+12
 
-Work out 66/6
+work out 66/6
 T:math,66/6
 
-What's 7*3
+whats 7*3
 T:math,7*3
 
-What is 2+0
+what is 2+0
 T:math,2+0
 
-What's 2+0
+whats 2+0
 T:math,2+0
 
-Solve 85+67
+solve 85+67
 T:math,85+67
 
-What's 2*9
+whats 2*9
 T:math,2*9
 
-What is 42-21
+what is 42-21
 T:math,42-21
 
-What's 86-28
+whats 86-28
 T:math,86-28
 
-What is 9*3
+what is 9*3
 T:math,9*3
 
-What is 9*10
+what is 9*10
 T:math,9*10
 
-Work out 86+51
+work out 86+51
 T:math,86+51
 
-What's 3*3
+whats 3*3
 T:math,3*3
 
-Solve 25-24
+solve 25-24
 T:math,25-24
 
-What's 6-5
+whats 6-5
 T:math,6-5
 
-Compute 21/3
+compute 21/3
 T:math,21/3
 
-Calculate 18/3
+calculate 18/3
 T:math,18/3
 
-What iz 4*4
+what iz 4*4
 T:math,4*4
 
-What's 9*8
+whats 9*8
 T:math,9*8
 
-Solve 10*11
+solve 10*11
 T:math,10*11
 
 82-15
 T:math,82-15
 
-What's 7*2
+whats 7*2
 T:math,7*2
 
-What's 6*5
+whats 6*5
 T:math,6*5
 
 121/11
 T:math,121/11
 
-What's 69+65
+whats 69+65
 T:math,69+65
 
-What's 3*4
+whats 3*4
 T:math,3*4
 
-Calculate 54/6
+calculate 54/6
 T:math,54/6
 
-What is 95-32
+what is 95-32
 T:math,95-32
 
-Tell me 84+27
+tell me 84+27
 T:math,84+27
 
-What is 8*9
+what is 8*9
 T:math,8*9
 
 23+48
 T:math,23+48
 
-What is 11*2
+what is 11*2
 T:math,11*2
 
-What's 2*7
+whats 2*7
 T:math,2*7
 
-Tell me 12*5
+tell me 12*5
 T:math,12*5
 
 69-2
 T:math,69-2
 
-What is 3*7
+what is 3*7
 T:math,3*7
 
-What is 6*10
+what is 6*10
 T:math,6*10
 
-What's 10*2
+whats 10*2
 T:math,10*2
 
-What's 6*8
+whats 6*8
 T:math,6*8
 
-What is 10*10
+what is 10*10
 T:math,10*10
 
-What's 5*4
+whats 5*4
 T:math,5*4
 
-What's 5-32
+whats 5-32
 T:math,5-32
 
-What is 78+70
+what is 78+70
 T:math,78+70
 
-Work out 34+69
+work out 34+69
 T:math,34+69
 
-Work out 53-25
+work out 53-25
 T:math,53-25
 
 5*6
 T:math,5*6
 
-Solve 10/2
+solve 10/2
 T:math,10/2
 
-Compute 30/6
+compute 30/6
 T:math,30/6
 
-What's 59-26
+whats 59-26
 T:math,59-26
 
-Solve 7*11
+solve 7*11
 T:math,7*11
 
-Solve 49/7
+solve 49/7
 T:math,49/7
 
-What's 9*3
+whats 9*3
 T:math,9*3
 
-What is 2*3
+what is 2*3
 T:math,2*3
 
-What's 4-33
+whats 4-33
 T:math,4-33
 
-Work out 80/10
+work out 80/10
 T:math,80/10
 
-Solve 12+71
+solve 12+71
 T:math,12+71
 
-What is 8*5
+what is 8*5
 T:math,8*5
 
-What's 3-24
+whats 3-24
 T:math,3-24
 
-What's 7*10
+whats 7*10
 T:math,7*10
 
-Work out 144/12
+work out 144/12
 T:math,144/12
 
-Work out 99-2
+work out 99-2
 T:math,99-2
 
-Work out 6*4
+work out 6*4
 T:math,6*4
 
-What is 6*9
+what is 6*9
 T:math,6*9
 
-What's 7-6
+whats 7-6
 T:math,7-6
 
-What is 4*10
+what is 4*10
 T:math,4*10
 
-What is 5*7
+what is 5*7
 T:math,5*7
 
-What is 4*4
+what is 4*4
 T:math,4*4
 
-What's 8-7
+whats 8-7
 T:math,8-7
 
-Calculate 40/4
+calculate 40/4
 T:math,40/4
 
-What is 10*3
+what is 10*3
 T:math,10*3
 
-Work out 93+50
+work out 93+50
 T:math,93+50
 
-What is 3*9
+what is 3*9
 T:math,3*9
 
-What is 1-18
+what is 1-18
 T:math,1-18
 
-What is 5*5
+what is 5*5
 T:math,5*5
 
-What's 5*6
+whats 5*6
 T:math,5*6
 
 110/11
 T:math,110/11
 
-What's 5-29
+whats 5-29
 T:math,5-29
 
-What's 4*2
+whats 4*2
 T:math,4*2
 
-What is 8*11
+what is 8*11
 T:math,8*11
 
-Compute 63/7
+compute 63/7
 T:math,63/7
 
-Work out 14/7
+work out 14/7
 T:math,14/7
 
-Solve 9*11
+solve 9*11
 T:math,9*11
 
-Solve 62-33
+solve 62-33
 T:math,62-33
 
-What is 4-33
+what is 4-33
 T:math,4-33
 
-Compute 55-11
+compute 55-11
 T:math,55-11
 
-Solve 97-62
+solve 97-62
 T:math,97-62
 
-What is 20-7
+what is 20-7
 T:math,20-7
 
-What's 7*9
+whats 7*9
 T:math,7*9
 
-What is 2-2
+what is 2-2
 T:math,2-2
 
-What's 8*9
+whats 8*9
 T:math,8*9
 
-What is 8*3
+what is 8*3
 T:math,8*3
 
-What is 1-14
+what is 1-14
 T:math,1-14
 
-What is 2-43
+what is 2-43
 T:math,2-43
 
-Compute 7*6
+compute 7*6
 T:math,7*6
 
-What's 4-34
+whats 4-34
 T:math,4-34
 
-What is 2*4
+what is 2*4
 T:math,2*4
 
-Solve 84/7
+solve 84/7
 T:math,84/7
 
-What's 9*2
+whats 9*2
 T:math,9*2
 
-What's 49-2
+whats 49-2
 T:math,49-2
 
-What is 6*2
+what is 6*2
 T:math,6*2
 
-Calculate 18/9
+calculate 18/9
 T:math,18/9
 
-Compute 94-2
+compute 94-2
 T:math,94-2
 
-Calculate 3*10
+calculate 3*10
 T:math,3*10
 
 100+23
@@ -964,264 +964,264 @@ T:math,100+23
 11*5
 T:math,11*5
 
-Solve 27/3
+solve 27/3
 T:math,27/3
 
-What is 4*9
+what is 4*9
 T:math,4*9
 
 5*7
 T:math,5*7
 
-What is 5-43
+what is 5-43
 T:math,5-43
 
-What is 10*7
+what is 10*7
 T:math,10*7
 
-What is 2*8
+what is 2*8
 T:math,2*8
 
-What's 53-25
+whats 53-25
 T:math,53-25
 
-What is 8*4
+what is 8*4
 T:math,8*4
 
-What is 110/10
+what is 110/10
 T:math,110/10
 
-What's 1-16
+whats 1-16
 T:math,1-16
 
-What is 8*7
+what is 8*7
 T:math,8*7
 
-What is 7*2
+what is 7*2
 T:math,7*2
 
-What is 47+31
+what is 47+31
 T:math,47+31
 
-Tell me 42/6
+tell me 42/6
 T:math,42/6
 
-What is 7-28
+what is 7-28
 T:math,7-28
 
-What's 53+47
+whats 53+47
 T:math,53+47
 
-What's 8*4
+whats 8*4
 T:math,8*4
 
 35-17
 T:math,35-17
 
-What is 8*10
+what is 8*10
 T:math,8*10
 
-What's 5+1
+whats 5+1
 T:math,5+1
 
-Work out 67+1
+work out 67+1
 T:math,67+1
 
-Calculate 42-2
+calculate 42-2
 T:math,42-2
 
-Tell me 10*6
+tell me 10*6
 T:math,10*6
 
-What's 2-43
+whats 2-43
 T:math,2-43
 
-What is 3*4
+what is 3*4
 T:math,3*4
 
-Tell me 9*7
+tell me 9*7
 T:math,9*7
 
-Tell me 5*8
+tell me 5*8
 T:math,5*8
 
-What is 10*6
+what is 10*6
 T:math,10*6
 
-Tell me 33+40
+tell me 33+40
 T:math,33+40
 
-What's 10*7
+whats 10*7
 T:math,10*7
 
-What is 5*8
+what is 5*8
 T:math,5*8
 
-Compute 3*8
+compute 3*8
 T:math,3*8
 
-What's 8*7
+whats 8*7
 T:math,8*7
 
 12*12
 T:math,12*12
 
-What's 9*10
+whats 9*10
 T:math,9*10
 
-What is 48+11
+what is 48+11
 T:math,48+11
 
-Solve 120/10
+solve 120/10
 T:math,120/10
 
-Solve 9*3
+solve 9*3
 T:math,9*3
 
-What is 5+1
+what is 5+1
 T:math,5+1
 
-Compute 9*5
+compute 9*5
 T:math,9*5
 
-Solve 98-67
+solve 98-67
 T:math,98-67
 
-Calculate 67-1
+calculate 67-1
 T:math,67-1
 
-What's 77+56
+whats 77+56
 T:math,77+56
 
-What is 4-39
+what is 4-39
 T:math,4-39
 
-What is 10*2
+what is 10*2
 T:math,10*2
 
-What is 7+1
+what is 7+1
 T:math,7+1
 
-What's 9*9
+whats 9*9
 T:math,9*9
 
-What's 5*3
+whats 5*3
 T:math,5*3
 
-What is 47-26
+what is 47-26
 T:math,47-26
 
-What is 0-30
+what is 0-30
 T:math,0-30
 
-What is 3*10
+what is 3*10
 T:math,3*10
 
-Solve 55+18
+solve 55+18
 T:math,55+18
 
-What's 4*3
+whats 4*3
 T:math,4*3
 
-What is 20-12
+what is 20-12
 T:math,20-12
 
-Compute 4*12
+compute 4*12
 T:math,4*12
 
-What is 6*7
+what is 6*7
 T:math,6*7
 
-What's 2*3
+whats 2*3
 T:math,2*3
 
-Compute 9+34
+compute 9+34
 T:math,9+34
 
-What is 2*9
+what is 2*9
 T:math,2*9
 
-What is 5*9
+what is 5*9
 T:math,5*9
 
 9*8
 T:math,9*8
 
-Solve 53-47
+solve 53-47
 T:math,53-47
 
-What is 6+1
+what is 6+1
 T:math,6+1
 
-Calculate 48/12
+calculate 48/12
 T:math,48/12
 
-What is 9*9
+what is 9*9
 T:math,9*9
 
-Work out 35-8
+work out 35-8
 T:math,35-8
 
-What is 8-7
+what is 8-7
 T:math,8-7
 
-What's 108/9
+whats 108/9
 T:math,108/9
 
-What is 60-48
+what is 60-48
 T:math,60-48
 
-What's 2*6
+whats 2*6
 T:math,2*6
 
-Solve 54/9
+solve 54/9
 T:math,54/9
 
-Tell me 4/2
+tell me 4/2
 T:math,4/2
 
-What is 2*10
+what is 2*10
 T:math,2*10
 
-Compute 57+2
+compute 57+2
 T:math,57+2
 
-What is 4*7
+what is 4*7
 T:math,4*7
 
-What's 10*9
+whats 10*9
 T:math,10*9
 
-Wat is 3-5
+wat is 3-5
 T:math,3-5
 
-Compute 99-92
+compute 99-92
 T:math,99-92
 
-What is 8*8
+what is 8*8
 T:math,8*8
 
-What's 6+1
+whats 6+1
 T:math,6+1
 
-Work out 4*9
+work out 4*9
 T:math,4*9
 
 63/7
 T:math,63/7
 
-What's 90+21
+whats 90+21
 T:math,90+21
 
 60/10
 T:math,60/10
 
-What's 96-71
+whats 96-71
 T:math,96-71
 
 12*4
 T:math,12*4
 
-What's 4-39
+whats 4-39
 T:math,4-39
 

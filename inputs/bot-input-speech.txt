@@ -1,123 +1,123 @@
-What's goin on
-S:All good
+whats goin on
+S:all good
 
-What's going on
-S:All good
+whats going on
+S:all good
 
-Gud day
-S:Good day
+gud day
+S:good day
 
-Good day
-S:Good day
+good day
+S:good day
 
-See u
-S:See you
+see u
+S:see you
 
-See yu
-S:See you
+see yu
+S:see you
 
-Hi assistant
-S:Hi there
+hi assistant
+S:hi there
 
-Hey assistant
-S:Hi there
+hey assistant
+S:hi there
 
-Afternoon
-S:Good afternoon
+afternoon
+S:good afternoon
 
-Oh afternoon
-S:Good afternoon
+oh afternoon
+S:good afternoon
 
-Later
-S:Later
+later
+S:later
 
-Oh later
-S:Later
+oh later
+S:later
 
-How are you doing
-S:Doing great
+how are you doing
+S:doing great
 
-Hi assistant
-S:Hello
+hi assistant
+S:hello
 
-Ah hi assistant
-S:Hello
+ah hi assistant
+S:hello
 
-Yeah how ar you doing
-S:Doing great
+yeah how ar you doing
+S:doing great
 
-Evening
-S:Good evening
+evening
+S:good evening
 
-Ah evening
-S:Good evening
+ah evening
+S:good evening
 
-Thank u so much
-S:Happy to help
+thank u so much
+S:happy to help
 
-Thank yu so much
-S:Happy to help
+thank yu so much
+S:happy to help
 
-Hii assistant
-S:Hello
+hii assistant
+S:hello
 
-Thanks a lot
-S:You're welcome
+thanks a lot
+S:youre welcome
 
-Oh thanks a lot
-S:You're welcome
+oh thanks a lot
+S:youre welcome
 
-Helo assistant
-S:Hi there
+helo assistant
+S:hi there
 
-Aftnoon
-S:Good afternoon
+aftnoon
+S:good afternoon
 
-Eve
-S:Good evening
+eve
+S:good evening
 
-Thx a lot
-S:You're welcome
+thx a lot
+S:youre welcome
 
-Thanx a lot
-S:You're welcome
+thanx a lot
+S:youre welcome
 
-Morning
-S:Good morning
+morning
+S:good morning
 
-Oh morning
-S:Good morning
+oh morning
+S:good morning
 
-Mornin
-S:Good morning
+mornin
+S:good morning
 
-Ah mornin
-S:Good morning
+ah mornin
+S:good morning
 
-Evning
-S:Good evening
+evning
+S:good evening
 
-Aftrnoon
-S:Good afternoon
+aftrnoon
+S:good afternoon
 
-Morn
-S:Good morning
+morn
+S:good morning
 
-Hai assistant
-S:Hello
+hai assistant
+S:hello
 
-Hlo assistant
-S:Hi there
+hlo assistant
+S:hi there
 
-Howw are you doing
-S:Doing great
+howw are you doing
+S:doing great
 
-Oh how are you doin
-S:Doing great
+oh how are you doin
+S:doing great
 
-Ho are you doing
-S:Doing great
+ho are you doing
+S:doing great
 
-Howw are u doing
-S:Doing great
+howw are u doing
+S:doing great
 

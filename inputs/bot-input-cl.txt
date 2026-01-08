@@ -1,307 +1,304 @@
-Can you summarize the main themes and plot points of the novel War and Peace by Tolstoy?
+can you summarize the main themes and plot points of the novel war and peace by tolstoy?
 CL
 
-Please provide a detailed summary of the key arguments presented in the scientific paper about quantum computing and its applications.
+please provide a detailed summary of the key arguments presented in the scientific paper about quantum computing and its applications.
 CL
 
-Summarize the key points from the 50-page research document on climate change and its economic impacts.
+summarize the key points from the 50-page research document on climate change and its economic impacts.
 CL
 
-Can you give me a comprehensive summary of the history of the Roman Empire from its founding to its fall?
+can you give me a comprehensive summary of the history of the roman empire from its founding to its fall?
 CL
 
-Please summarize the main findings from the latest research on artificial intelligence and machine learning.
+please summarize the main findings from the latest research on artificial intelligence and machine learning.
 CL
 
-Summarize the key events and outcomes of World War II in detail.
+summarize the key events and outcomes of world war ii in detail.
 CL
 
-Please give me a comprehensive summary of the theory of relativity and its implications.
+please give me a comprehensive summary of the theory of relativity and its implications.
 CL
 
-Can you summarize the main concepts from the philosophy of existentialism?
+can you summarize the main concepts from the philosophy of existentialism?
 CL
 
-Please provide a detailed summary of the economic theories of Adam Smith and Karl Marx.
+please provide a detailed summary of the economic theories of adam smith and karl marx.
 CL
 
-Write a poem about the beauty of nature and the changing seasons.
+write a poem about the beauty of nature and the changing seasons.
 CL
 
-Compose a sonnet about love and loss.
+compose a sonnet about love and loss.
 CL
 
-Write a haiku about a peaceful morning.
+write a haiku about a peaceful morning.
 CL
 
-Create a poem about the ocean and its mysteries.
+create a poem about the ocean and its mysteries.
 CL
 
-Write a limerick about a funny situation.
+write a limerick about a funny situation.
 CL
 
-Compose a free verse poem about urban life.
+compose a free verse poem about urban life.
 CL
 
-Write a poem about friendship and loyalty.
+write a poem about friendship and loyalty.
 CL
 
-Create a poem about the stars and the night sky.
+create a poem about the stars and the night sky.
 CL
 
-Write a poem about childhood memories.
+write a poem about childhood memories.
 CL
 
-oh Write a poem about childhood memories.
+oh write a poem about childhood memories.
 CL
 
-Oh Write a poem about childhood memories.
+yeah write a poem about childhood memories.
 CL
 
-yeah Write a poem about childhood memories.
+compose a poem about hope and resilience.
 CL
 
-Compose a poem about hope and resilience.
+write a short story about a time traveler.
 CL
 
-Write a short story about a time traveler.
+create a story about a magical forest.
 CL
 
-Create a story about a magical forest.
+write a story about a robot learning to feel emotions.
 CL
 
-Write a story about a robot learning to feel emotions.
+create a narrative about a journey to a distant planet.
 CL
 
-Create a narrative about a journey to a distant planet.
+write a story about a person discovering they have superpowers.
 CL
 
-Write a story about a person discovering they have superpowers.
+analyze the literary techniques used in shakespeares hamlet and explain their significance.
 CL
 
-Analyze the literary techniques used in Shakespeare's Hamlet and explain their significance.
+compare and contrast the economic systems of capitalism and socialism in detail.
 CL
 
-Compare and contrast the economic systems of capitalism and socialism in detail.
+explain the process of photosynthesis and its importance to life on earth.
 CL
 
-Explain the process of photosynthesis and its importance to life on Earth.
+analyze the causes and effects of the industrial revolution.
 CL
 
-Analyze the causes and effects of the Industrial Revolution.
+compare the philosophical views of plato and aristotle.
 CL
 
-Compare the philosophical views of Plato and Aristotle.
+explain how neural networks work and their applications in modern ai.
 CL
 
-Explain how neural networks work and their applications in modern AI.
+analyze the social and political impacts of the internet on society.
 CL
 
-Analyze the social and political impacts of the internet on society.
+compare the healthcare systems of different countries around the world.
 CL
 
-Compare the healthcare systems of different countries around the world.
+explain the theory of evolution and provide evidence supporting it.
 CL
 
-Explain the theory of evolution and provide evidence supporting it.
+analyze the causes of the great depression and its global impacts.
 CL
 
-Analyze the causes of the Great Depression and its global impacts.
+write a comprehensive essay about the impact of social media on mental health.
 CL
 
-Write a comprehensive essay about the impact of social media on mental health.
+create a detailed guide on how to start a small business from scratch.
 CL
 
-Create a detailed guide on how to start a small business from scratch.
+write a thorough analysis of the pros and cons of renewable energy sources.
 CL
 
-Write a thorough analysis of the pros and cons of renewable energy sources.
+create a comprehensive guide to learning a new language effectively.
 CL
 
-Create a comprehensive guide to learning a new language effectively.
+write a detailed explanation of how the human brain processes information.
 CL
 
-Write a detailed explanation of how the human brain processes information.
+create a comprehensive guide to healthy eating and nutrition.
 CL
 
-Create a comprehensive guide to healthy eating and nutrition.
+write a detailed analysis of the history and evolution of computer programming.
 CL
 
-Write a detailed analysis of the history and evolution of computer programming.
+create a comprehensive guide to investing in the stock market for beginners.
 CL
 
-Create a comprehensive guide to investing in the stock market for beginners.
+write a detailed explanation of quantum mechanics and its applications.
 CL
 
-Write a detailed explanation of quantum mechanics and its applications.
+create a comprehensive guide to sustainable living practices.
 CL
 
-Create a comprehensive guide to sustainable living practices.
+explain in detail how black holes form and what happens inside them.
 CL
 
-Explain in detail how black holes form and what happens inside them.
+provide a comprehensive explanation of the water cycle and its importance.
 CL
 
-Provide a comprehensive explanation of the water cycle and its importance.
+explain the process of dna replication and protein synthesis.
 CL
 
-Explain the process of DNA replication and protein synthesis.
+provide a detailed explanation of how vaccines work and why they are important.
 CL
 
-Provide a detailed explanation of how vaccines work and why they are important.
+explain the theory of plate tectonics and how it shapes the earth.
 CL
 
-Explain the theory of plate tectonics and how it shapes the Earth.
+provide a comprehensive explanation of the human immune system.
 CL
 
-Provide a comprehensive explanation of the human immune system.
+explain how the stock market works and what factors influence stock prices.
 CL
 
-Explain how the stock market works and what factors influence stock prices.
+provide a detailed explanation of the greenhouse effect and climate change.
 CL
 
-Provide a detailed explanation of the greenhouse effect and climate change.
+explain the process of cellular respiration and its importance.
 CL
 
-Explain the process of cellular respiration and its importance.
+provide a comprehensive explanation of the history of the internet.
 CL
 
-Provide a comprehensive explanation of the history of the internet.
+what are the ethical implications of artificial intelligence in healthcare?
 CL
 
-What are the ethical implications of artificial intelligence in healthcare?
+how does quantum entanglement work and what are its potential applications?
 CL
 
-How does quantum entanglement work and what are its potential applications?
+what are the main causes of income inequality and how can it be addressed?
 CL
 
-What are the main causes of income inequality and how can it be addressed?
+how do different cultures around the world approach education and learning?
 CL
 
-How do different cultures around the world approach education and learning?
+what is the relationship between mental health and physical health?
 CL
 
-What is the relationship between mental health and physical health?
+how do ecosystems maintain balance and what happens when they are disrupted?
 CL
 
-How do ecosystems maintain balance and what happens when they are disrupted?
+what are the main theories about the origin of the universe?
 CL
 
-What are the main theories about the origin of the universe?
+how do different political systems function and what are their strengths and weaknesses?
 CL
 
-How do different political systems function and what are their strengths and weaknesses?
+what is the role of art and culture in shaping society?
 CL
 
-What is the role of art and culture in shaping society?
+how do different economic policies affect a countrys development?
 CL
 
-How do different economic policies affect a country's development?
+can you explain the entire history of human civilization from ancient times to the present day?
 CL
 
-Can you explain the entire history of human civilization from ancient times to the present day?
+please provide a comprehensive overview of all major scientific discoveries of the 20th century.
 CL
 
-Please provide a comprehensive overview of all major scientific discoveries of the 20th century.
+can you explain all the major world religions and their core beliefs?
 CL
 
-Can you explain all the major world religions and their core beliefs?
+please provide a detailed explanation of all the planets in our solar system.
 CL
 
-Please provide a detailed explanation of all the planets in our solar system.
+can you explain the entire process of how a computer works from hardware to software?
 CL
 
-Can you explain the entire process of how a computer works from hardware to software?
+please provide a comprehensive guide to all major art movements throughout history.
 CL
 
-Please provide a comprehensive guide to all major art movements throughout history.
+can you explain all the major theories in psychology and their applications?
 CL
 
-Can you explain all the major theories in psychology and their applications?
+please provide a detailed overview of all major wars in human history.
 CL
 
-Please provide a detailed overview of all major wars in human history.
+can you explain all the major economic theories and their impacts?
 CL
 
-Can you explain all the major economic theories and their impacts?
+please provide a comprehensive guide to all major programming languages and their uses.
 CL
 
-Please provide a comprehensive guide to all major programming languages and their uses.
+explain in detail how a compiler works and translates code into machine language.
 CL
 
-Explain in detail how a compiler works and translates code into machine language.
+provide a comprehensive explanation of how encryption and cryptography work.
 CL
 
-Provide a comprehensive explanation of how encryption and cryptography work.
+explain in detail how search engines index and rank web pages.
 CL
 
-Explain in detail how search engines index and rank web pages.
+provide a comprehensive explanation of how blockchain technology works.
 CL
 
-Provide a comprehensive explanation of how blockchain technology works.
+explain in detail how machine learning algorithms learn from data.
 CL
 
-Explain in detail how machine learning algorithms learn from data.
+provide a comprehensive explanation of how computer graphics rendering works.
 CL
 
-Provide a comprehensive explanation of how computer graphics rendering works.
+explain in detail how databases store and retrieve information efficiently.
 CL
 
-Explain in detail how databases store and retrieve information efficiently.
+provide a comprehensive explanation of how operating systems manage resources.
 CL
 
-Provide a comprehensive explanation of how operating systems manage resources.
+explain in detail how networks route data packets across the internet.
 CL
 
-Explain in detail how networks route data packets across the internet.
+provide a comprehensive explanation of how cloud computing infrastructure works.
 CL
 
-Provide a comprehensive explanation of how cloud computing infrastructure works.
+create a comprehensive lesson plan for teaching algebra to high school students.
 CL
 
-Create a comprehensive lesson plan for teaching algebra to high school students.
+write a detailed curriculum for a course on world history.
 CL
 
-Write a detailed curriculum for a course on world history.
+create a comprehensive study guide for understanding calculus.
 CL
 
-Create a comprehensive study guide for understanding calculus.
+write a detailed guide for learning to play a musical instrument.
 CL
 
-Write a detailed guide for learning to play a musical instrument.
+create a comprehensive tutorial on digital photography techniques.
 CL
 
-Create a comprehensive tutorial on digital photography techniques.
+write a detailed guide for understanding human anatomy and physiology.
 CL
 
-Write a detailed guide for understanding human anatomy and physiology.
+create a comprehensive course outline for learning computer science fundamentals.
 CL
 
-Create a comprehensive course outline for learning computer science fundamentals.
+write a detailed guide for understanding financial markets and investing.
 CL
 
-Write a detailed guide for understanding financial markets and investing.
+create a comprehensive tutorial on web development and design.
 CL
 
-Create a comprehensive tutorial on web development and design.
+write a detailed guide for understanding chemistry and chemical reactions.
 CL
 
-Write a detailed guide for understanding chemistry and chemical reactions.
+write a detailed analysis of the causes and consequences of the french revolution.
 CL
 
-Write a detailed analysis of the causes and consequences of the French Revolution.
+explain the complete process of how the human body digests food.
 CL
 
-Explain the complete process of how the human body digests food.
+create a comprehensive guide to understanding and managing personal finances.
 CL
 
-Create a comprehensive guide to understanding and managing personal finances.
+write a detailed explanation of how weather patterns form and change.
 CL
 
-Write a detailed explanation of how weather patterns form and change.
-CL
-
-Provide a comprehensive overview of the history of mathematics.
+provide a comprehensive overview of the history of mathematics.
 CL
 
 whats the weather tomorrow and whats the date and what time is it and whats 5 plus 3
@@ -343,13 +340,13 @@ CL
 oh whats weather date time and math please
 CL
 
-if I have 10 dollars and spend 2 then get 5 more and spend 3 more how much do I have and whats the time
+if i have 10 dollars and spend 2 then get 5 more and spend 3 more how much do i have and whats the time
 CL
 
 if mary is 5 and john is 3 years older and sarah is 2 years older than john how old are they all and whats the date
 CL
 
-if I walk 2 miles then 3 miles then 4 miles how far total and whats the weather
+if i walk 2 miles then 3 miles then 4 miles how far total and whats the weather
 CL
 
 whats the weather today and tomorrow and whats the date and whats the time
