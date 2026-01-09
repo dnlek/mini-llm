@@ -16,6 +16,13 @@ from dsl import DSLDecoder, DSLEncoder
 from tools import execute_tool
 from history import HybridMemorySystem
 
+# Try to import rating module (optional)
+try:
+    from rate_inputs import rate_all_files
+    RATING_AVAILABLE = True
+except ImportError:
+    RATING_AVAILABLE = False
+
 # Try to import quantization (available in PyTorch 1.3+)
 try:
     from torch.quantization import quantize_dynamic
@@ -35,19 +42,19 @@ batch_size = 256
 block_size = 256
 max_iters = 10000
 eval_interval = 100
-learning_rate = 1.5e-5  # Reduced from 1e-4 to combat overfitting (smaller steps = less memorization)
+learning_rate = 2e-5  # Reduced from 1e-4 to combat overfitting (smaller steps = less memorization)
 min_learning_rate = 5e-7  # Minimum learning rate for decay
-warmup_iters = 1000  # Warmup iterations before decay starts
-label_smoothing = 0.1
+warmup_iters = 500  # Warmup iterations before decay starts
+label_smoothing = 0.05
 decay_style = 'cosine'  # 'cosine' or 'linear'
 eval_iters = 50
 n_embd = 256
 n_head = 4
 n_layer = 4
-dropout = 0.4  # Increased from 0.2 to reduce overfitting
+dropout = 0.35  # Increased from 0.2 to reduce overfitting
 early_stop_patience = 15  # Stop training if val loss doesn't improve for N evaluations
 early_stop_min_delta = 0.0005  # Minimum change to qualify as an improvement
-weight_decay = 0.05
+weight_decay = 0.03
 
 device = 'cpu'
 if torch.cuda.is_available():
@@ -164,6 +171,29 @@ print(f"Vocabulary size: {vocab_size}, Pad token ID: {pad_token_id}")
 
 def load_all_input_files(inputs_dir='inputs'):
     """Load and parse question/answer pairs from input files, grouped by source file"""
+    # Rate input files before loading (if rating module is available)
+    if RATING_AVAILABLE:
+        print("\n" + "="*70)
+        print("RATING INPUT FILES BEFORE TRAINING")
+        print("="*70)
+        try:
+            rating_summary = rate_all_files(inputs_dir, verbose=True)
+            if 'error' not in rating_summary:
+                avg_score = rating_summary.get('avg_score', 0)
+                min_score = rating_summary.get('min_score', 100)
+                if avg_score < 60:
+                    print(f"\n⚠️  WARNING: Average quality score is {avg_score:.1f}/100 (below 60)")
+                    print("   Consider reviewing and improving input files before training.")
+                elif min_score < 40:
+                    print(f"\n⚠️  WARNING: Some files have very low quality scores (min: {min_score:.1f}/100)")
+                    print("   Consider reviewing and improving low-scoring files before training.")
+                else:
+                    print(f"\n✓ Input files quality check passed (avg: {avg_score:.1f}/100)")
+        except Exception as e:
+            print(f"\n⚠️  Warning: Could not rate input files: {e}")
+            print("   Continuing with data loading...")
+        print("="*70 + "\n")
+    
     input_files = get_input_files(inputs_dir)
     
     if not input_files:
@@ -1238,6 +1268,9 @@ def dispatch(model, prompt="", max_new_tokens=200, max_recursions=5, recursion_d
                 # Replace <date> placeholder with previous tool result
                 if '<date>' in tool_args and results:
                     tool_args = tool_args.replace('<date>', results[-1])
+                
+                if '<res>' in tool_args and results:
+                    tool_args = tool_args.replace('<res>', results[-1])
                 
                 tool_result = execute_tool(tool_name, tool_args)
                 
