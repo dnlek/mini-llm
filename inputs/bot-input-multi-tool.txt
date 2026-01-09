@@ -310,7 +310,6 @@ T:date,next monday;T:wthr,<date>
 whats the weather in 5 days
 T:date,+5;T:wthr,<date>
 
-# Parallel independent tools (math + time/date)
 whats 15 plus 20 and what time is it
 T:math,15+20;T:time
 
@@ -329,7 +328,6 @@ T:math,12*3;T:time
 whats 25 plus 25 and whats the date
 T:math,25+25;T:date
 
-# Parallel independent tools (weather + time/date)
 whats the weather today and what time is it
 T:wthr;T:time
 
@@ -339,7 +337,6 @@ T:wthr;T:date
 whats the weather today and whats the date
 T:wthr;T:date
 
-# Sequential chains (date → weather → response)
 whats the weather tomorrow and what time is it
 T:date,tomorrow;T:wthr,<date>;T:time
 
@@ -349,7 +346,6 @@ T:date,+3;T:wthr,<date>;T:date
 whats the weather tomorrow and whats the date and what time is it
 T:date,tomorrow;T:wthr,<date>;T:date;T:time
 
-# Math + weather combinations
 whats 10 times 5 and whats the weather
 T:math,10*5;T:wthr
 
@@ -362,7 +358,6 @@ T:math,30/2;T:wthr
 whats 15 times 2 and whats the weather tomorrow
 T:math,15*2;T:date,tomorrow;T:wthr,<date>
 
-# Math + date combinations
 whats 5 times 4 and whats the date tomorrow
 T:math,5*4;T:date,tomorrow
 
@@ -372,7 +367,6 @@ T:math,100-25;T:date
 whats 8 times 6 and whats tomorrows date
 T:math,8*6;T:date,tomorrow
 
-# Three-tool chains (math + date + weather)
 whats 10 times 3 and whats the weather tomorrow
 T:math,10*3;T:date,tomorrow;T:wthr,<date>
 
@@ -382,14 +376,12 @@ T:math,20+5;T:date,+2;T:wthr,<date>
 whats 15 times 2 and whats the weather tomorrow and what time is it
 T:math,15*2;T:date,tomorrow;T:wthr,<date>;T:time
 
-# Three-tool chains (date + weather + time)
 whats the weather tomorrow and what time is it and whats the date
 T:date,tomorrow;T:wthr,<date>;T:time;T:date
 
 whats the weather in 3 days and whats the date and what time is it
 T:date,+3;T:wthr,<date>;T:date;T:time
 
-# Math + multiple tools
 whats 12 plus 8 and whats the weather and what time is it
 T:math,12+8;T:wthr;T:time
 
@@ -399,7 +391,6 @@ T:math,25/5;T:date;T:time
 whats 6 times 7 and whats the weather and whats the date
 T:math,6*7;T:wthr;T:date
 
-# Complex sequential chains
 whats the date tomorrow and whats the weather for that date
 T:date,tomorrow;T:wthr,<date>
 
@@ -409,14 +400,12 @@ T:date,+14;T:wthr,<date>
 whats tomorrows date and whats the weather and what time is it
 T:date,tomorrow;T:wthr,<date>;T:time
 
-# Parallel math operations
 whats 5 times 3 and whats 10 plus 2
 T:math,5*3;T:math,10+2
 
 whats 20 divided by 4 and whats 15 minus 5
 T:math,20/4;T:math,15-5
 
-# Date + time combinations
 whats tomorrows date and what time is it
 T:date,tomorrow;T:time
 
@@ -426,18 +415,15 @@ T:date,+3;T:time
 whats yesterdays date and what time is it
 T:date,yesterday;T:time
 
-# Weather + math combinations
 whats the weather and whats 10 times 5
 T:wthr;T:math,10*5
 
 whats the weather today and whats 2 plus 2
 T:wthr;T:math,2+2
 
-# Four-tool chains (if needed)
 whats 10 times 2 and whats the weather tomorrow and whats the date and what time is it
 T:math,10*2;T:date,tomorrow;T:wthr,<date>;T:date;T:time
 
-# Using <res> placeholder (for consistency with weather file)
 whats the weather tomorrow
 T:date,tomorrow;T:wthr,<res>
 
